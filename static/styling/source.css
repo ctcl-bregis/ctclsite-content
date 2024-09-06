@@ -1,0 +1,2587 @@
+
+@font-face {
+    font-family: "bebasneue";
+    src: url(/static/fonts/BebasNeue-Regular.ttf) format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "hack";
+    src: url(/static/fonts/hack/Hack-Bold.ttf) format("truetype");
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "hack";
+    src: url(/static/fonts/hack/Hack-BoldItalic.ttf) format("truetype");
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "hack";
+    src: url(/static/fonts/hack/Hack-Italic.ttf) format("truetype");
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "hack";
+    src: url(/static/fonts/hack/Hack-Regular.ttf) format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "heuristica";
+    src: url(/static/fonts/heuristica/Heuristica-Bold.ttf) format("truetype");
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "heuristica";
+    src: url(/static/fonts/heuristica/Heuristica-BoldItalic.ttf) format("truetype");
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "heuristica";
+    src: url(/static/fonts/heuristica/Heuristica-Italic.ttf) format("truetype");
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "heuristica";
+    src: url(/static/fonts/heuristica/Heuristica-Regular.ttf) format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "pix12x12";
+    src: url(/static/fonts/pixel/Pixel-12x12-condensed.ttf) format("truetype");
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "play";
+    src: url(/static/fonts/play/Play-Bold.ttf) format("truetype");
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "play";
+    src: url(/static/fonts/play/Play-Regular.ttf) format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* Common font values */
+.content h1, header h1 {
+    font-size: 36pt;
+}
+
+.content h1 {
+    margin: 0;
+    margin-top: 12pt;
+    margin-bottom: 12pt;
+}
+
+section h2, .content h2 {
+    font-weight: bold;
+    font-size: 24pt;
+}
+
+.content h2 {
+    margin: 0;
+    margin-top: 12pt;
+    margin-bottom: 12pt;
+}
+
+.pagebutton-title, .titlebutton, .content h3 {
+    font-weight: bold;
+    font-size: 20pt;
+    margin: 0;
+    margin-top: 12pt;
+    margin-bottom: 12pt;
+}
+
+.content h4  {
+    font-weight: bold;
+    font-size: 18pt;
+    margin: 0;
+    margin-top: 12pt;
+    margin-bottom: 12pt;
+}
+
+.content h5 {
+    font-weight: bold;
+    font-size: 16pt;
+    margin: 0;
+    margin-top: 12pt;
+    margin-bottom: 12pt;
+}
+
+.content h6 {
+    font-weight: bold;
+    font-size: 36pt;
+    margin: 0;
+    margin-top: 12pt;
+    margin-bottom: 12pt;
+}
+
+.content p strong, .content ul li strong, .content table tr th {
+    font-weight: bold;
+    font-size: 11pt;
+}
+
+.pagebutton-desc, .pagebutton-date, footer p {
+    font-weight: normal;
+    font-size: 11pt;
+}
+
+nav ul li a {
+    font-weight: bold;
+    font-size: 14pt;
+}
+
+.content p code, .content p code {
+    font-weight: normal;
+    font-size: 11pt;
+}
+
+.content p, figure figcaption, .content ul li, td, th {
+    font-weight: normal;
+    font-size: 11pt;
+}
+
+/* Base Tags */
+body {
+    background-color: #000000;
+    color: #ffffff;
+    margin: 0;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+}
+
+footer p {
+    padding: 3px;
+    margin-top: 8pt;
+    margin-bottom: 8pt;
+}
+
+hr {
+    width: 100%;
+    border-left: none;
+    border-right: none;
+    border-bottom-style: solid;
+    border-top-style: solid;
+}
+
+/* Figure images */
+figure {
+    margin: 8pt;
+    margin-right: 75%;
+    margin-left: 0;
+    clear: left;
+    padding: 4pt;
+    width: 50%;
+    max-width: 360pt;
+    background-color: #101010;
+    border-style: solid;
+    border-width: 1pt;
+    border-color: #999999;
+    align-items: center;
+}
+
+figure img {
+    width: -webkit-fill-available;
+    max-width: 100%;
+}
+
+figure video {
+    width: -webkit-fill-available;
+    max-width: 100%;
+}
+
+header h1 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    overflow-wrap: break-word;
+    margin: 6px;
+}
+
+/* Navbar */
+nav ul {
+    list-style-type: none;
+    overflow: hidden;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    color: #000000;
+}
+
+nav ul li {
+    list-style: none;
+    float: left;
+    text-decoration: none;
+}
+
+nav ul li a {
+    border-width: 2px;
+    border-style: solid;
+    padding: 4px;
+    display: block;
+    text-decoration-line: none;
+}
+
+/* Content in sections and content pages */
+
+.content table {
+    border-style: solid;
+    border-width: 1px;
+    border-color: #ffffff;
+    -webkit-border-horizontal-spacing: 0;
+    -webkit-border-vertical-spacing: 0;
+}
+
+.content table tr th, .content table tr td {
+    border-style: solid;
+    border-width: 1px;
+    border-color: #ffffff;
+    padding: 2px;
+    text-align: left;
+    vertical-align: middle;
+}
+
+/* Styling common to sections */
+section {
+    position: relative;
+    width: auto;
+    overflow: hidden;
+    border-width: 2px;
+    border-style: solid;
+    margin: 8pt;
+    background: rgba(0,0,0,.6);
+}
+
+.section-fitscreen {
+    min-height: 100vh;
+}
+
+/* Section classes for linklist-style pages */
+.titlebutton {
+    display: block;
+    border-style: solid;
+    border-width: 2px;
+    text-decoration: none;
+    height: fit-content;
+    border-right: none;
+    padding: 0pt;
+    color: #000000;
+    text-align: center;
+}
+
+.pagebutton {
+    height: 128pt;
+    max-height: 128pt;
+    border-style: solid;
+    border-width: 2px;
+    text-decoration: none;
+    position: relative;
+    display: grid;
+    grid-template-columns: min-content 1fr;
+    grid-template-rows: min-content 1fr min-content;
+    grid-template-areas:
+      'image title'
+      'image desc '
+      'image date ';
+    overflow: hidden;
+    margin: 8pt;
+}
+
+.pagebutton-title {
+    width: fit-content; 
+    height: fit-content;
+    border-right: none;
+    margin: 0;
+    padding: 4px;
+    color: #000000;
+    grid-area: title;
+    display: flex;
+    flex-direction: row;
+}
+
+.pagebutton-desc {
+    color: #ffffff;
+    margin: 8pt;
+    grid-area: desc;
+    background-clip: text;
+    -webkit-background-clip: text;
+}
+
+.pagebutton-img {
+    height: inherit;
+    width: auto;
+    background-size: cover;
+    background-position: right;
+    grid-area: image;
+    border-right-style: solid;
+    border-right-width: 2px;
+}
+
+.pagebutton-date {
+    color: #ffffff;
+    margin: 8pt;
+    grid-area: date;
+    margin-top: auto;
+}
+
+.docpagelist {
+    padding: 0;
+    width: 50%;
+    background-color: #101010;
+    border-style: solid;
+    border-width: 1pt;
+    border-color: #999999;
+    align-items: center;
+}
+
+p.docpagelisttitle {
+    text-align: center;
+    font-weight: bold;
+    font-size: 16pt;
+    margin: 0;
+}
+
+.docpagelist a {
+    text-decoration: none;
+}
+
+.docpagebutton {
+    border-style: solid;
+    border-width: 1px;
+    margin: 3pt;
+}
+
+p.docpagebuttontitle {
+    font-size: 12pt;
+    font-weight: bold;
+    margin: 0;
+    padding: 3pt;
+}
+
+.docpagebuttondesc {
+    margin: 6pt;
+}
+
+pre.fileviewer {
+    overflow: scroll;
+    overflow-wrap: break-word;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #808080;
+    background-color: #202020;
+    margin: 8pt;
+}
+
+img.fileviewer {
+    border-style: solid;
+    border-width: 1px;
+    border-color: #808080;
+    background-color: #202020;
+    margin: 8pt;
+    width: 100%;
+}
+
+
+/* Font use definitions */
+
+.content {
+    margin: 8pt;
+}
+
+.content h1, header h1 {
+    font-family: "play";
+}
+
+.pagebutton-title, section h2, .content h2 {
+    font-family: "play";
+}
+
+.content h3 {
+    font-family: "play";
+}
+
+.content h4  {
+    font-family: "play";
+}
+
+.content h5 {
+    font-family: "play";
+}
+
+.content h6 {
+    font-family: "play";
+}
+
+.content p strong, .content ul li strong, .content table tr th {
+    font-family: "play";
+}
+
+.pagebutton-desc, .pagebutton-date, footer p {
+    font-family: "play";
+}
+
+nav ul li a {
+    font-family: "play";
+}
+
+.content p code, .content p code {
+    font-family: "hack";
+}
+
+.content p, figure figcaption, .content ul li, td, th {
+    font-family: "play";
+}
+
+section h2 {
+    width: fit-content; 
+    height: fit-content;
+    border-right: none;
+    margin: 0;
+    padding: 4px;
+}
+
+.content ul {
+    list-style-type: square;
+     padding-inline-start: 16pt;
+}
+
+
+a {
+    color: #ff9900;
+}
+
+
+hr {
+    color: #ff9900;
+    border-color: #ff9900;
+    fill: #ff9900;
+}
+
+
+nav ul {
+    background-color: #ff9900;
+}
+
+nav ul li a {
+    border-color: #ff9900;
+    background-color: #ff9900;
+    color: #000000;
+
+    &:hover {
+        transition: 0.1s linear;
+        background-color: #000000;
+        color: #ff9900;
+    }
+}
+
+
+.vidbtn-play {
+    background-color: #ff9900;
+}
+
+.vidbtn-pause {
+    background-color: #ff9900;
+}
+
+::-moz-selection {
+    background-color: #ff9900;
+    color: #000000;
+}
+
+::selection {
+    background-color: #ff9900;
+    color: #000000;
+}
+
+
+@supports selector(::-webkit-scrollbar) {
+    ::-webkit-scrollbar {
+        width: 16px;
+        height: 16px;
+    }
+    
+    ::-webkit-scrollbar-corner, ::-webkit-scrollbar-track {
+        background-color: #000000;
+    }
+    
+    ::-webkit-scrollbar-thumb {
+        background-color: #ff9900;
+        background-clip: padding-box;
+        border: 2px solid transparent;
+    }
+    
+    ::-webkit-scrollbar-thumb:hover {
+        background-color: #ff9900;
+    }
+    
+    ::-webkit-scrollbar-thumb:active {
+        background-color: #ff9900;
+    }
+    
+    ::-webkit-scrollbar-button:single-button {
+        background-color: #000000;
+
+        display: block;
+        background-size: 10px;
+        background-repeat: no-repeat;
+    }
+    
+    ::-webkit-scrollbar-button:single-button:vertical:decrement {
+        height: 12px;
+        width: 16px;
+        background-position: center 4px;
+        background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='100' height='100' fill='" + #ff9900rgb + "'><polygon points='50,00 0,50 100,50'/></svg>");
+    }
+    
+    ::-webkit-scrollbar-button:single-button:vertical:decrement:hover {
+        background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='100' height='100' fill='" + #ff9900rgb + "'><polygon points='50,00 0,50 100,50'/></svg>");
+    }
+    
+    ::-webkit-scrollbar-button:single-button:vertical:decrement:active {
+        background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='100' height='100' fill='" + #ff9900rgb + "'><polygon points='50,00 0,50 100,50'/></svg>");
+    }
+    
+    ::-webkit-scrollbar-button:single-button:vertical:increment {
+        height: 12px;
+        width: 16px;
+        background-position: center 2px;
+        background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='100' height='100' fill='" + #ff9900rgb + "'><polygon points='0,0 100,0 50,50'/></svg>");
+    }
+    
+    ::-webkit-scrollbar-button:single-button:vertical:increment:hover {
+        background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='100' height='100' fill='" + #ff9900rgb + "'><polygon points='0,0 100,0 50,50'/></svg>");
+    }
+    
+    ::-webkit-scrollbar-button:single-button:vertical:increment:active {
+        background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='100' height='100' fill='" + #ff9900rgb + "'><polygon points='0,0 100,0 50,50'/></svg>");
+    }
+    
+    ::-webkit-scrollbar-button:single-button:horizontal:decrement {
+        height: 12px;
+        width: 12px;
+        background-position: 3px 3px;
+        background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='100' height='100'><polygon points='0,50 50,100 50,0'/></svg>");
+        background-color: #000000;
+    }
+    
+    ::-webkit-scrollbar-button:single-button:horizontal:decrement:hover {
+        background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='100' height='100'><polygon points='0,50 50,100 50,0'/></svg>");
+        background-color: #000000;
+    }
+    
+    ::-webkit-scrollbar-button:single-button:horizontal:decrement:active {
+        background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='100' height='100'><polygon points='0,50 50,100 50,0'/></svg>");
+        background-color: #000000;
+    }
+    
+    ::-webkit-scrollbar-button:single-button:horizontal:increment {
+        height: 12px;
+        width: 12px;
+        background-position: 3px 3px;
+        background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='100' height='100'><polygon points='0,0 0,100 50,50'/></svg>");
+        background-color: #000000;
+    }
+    
+    ::-webkit-scrollbar-button:single-button:horizontal:increment:hover {
+        background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='100' height='100'><polygon points='0,0 0,100 50,50'/></svg>");
+        background-color: #000000;
+    }
+    
+    ::-webkit-scrollbar-button:single-button:horizontal:increment:active {
+        background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='100' height='100'><polygon points='0,0 0,100 50,50'/></svg>");
+        background-color: #000000;
+    }
+}
+
+
+@supports (scrollbar-color: auto) {
+    html {
+      scrollbar-color: #ff9900 #000000;
+      scrollbar-width: 16px;
+    }
+}
+
+
+
+
+.section-99gray, .pagebutton.section-99gray {
+    border-color: #999999;
+    box-shadow: 
+        0.5px 0.5px rgb(91, 91, 91),
+    
+        1px 1px rgb(91, 91, 91),
+    
+        1.5px 1.5px rgb(91, 91, 91),
+    
+        2px 2px rgb(91, 91, 91);
+    
+    transform: translate(-2px, -2px);
+}
+.pagebutton:hover, .pagebutton:focus, .pagebutton:active {
+    box-shadow: none;
+    transform: translate(0px, 0px);
+}
+
+
+.section-99gray h2 {
+    color: #000000;
+    background-color: #999999;
+    font-family: play;
+}
+
+.pagebutton.section-99gray .pagebutton-title {
+    color: #000000;
+    background-color: #999999;
+    font-family: play;
+}
+
+.pagebutton.section-99gray .pagebutton-desc, .pagebutton.section-99gray .pagebutton-date {
+    color: #ffffff;
+    background: none;
+    font-family: play;
+}
+
+.pagebutton.section-99gray .pagebutton-img {
+    border-color: #999999
+}
+
+
+.section-99gray a {
+    color: #999999;
+}
+
+
+.section-99gray ::selection {
+    color: #000000;
+    background-color: #999999;
+}
+.section-99gray ::-moz-selection {
+    color: #000000;
+    background-color: #999999;
+}
+.pagebutton.section-99gray ::selection {
+    color: #000000;
+    background-color: #999999;
+}
+.pagebutton.section-99gray ::-moz-selection {
+    color: #000000;
+    background-color: #999999;
+}
+
+
+.category-99gray {
+    padding: 2pt;
+    padding-left: 4pt;
+    padding-right: 4pt;
+    color: #000000;
+    background-color: #999999;
+}
+
+
+
+.section-99green, .pagebutton.section-99green {
+    border-color: #009900;
+    box-shadow: 
+        0.5px 0.5px rgb(0, 91, 0),
+    
+        1px 1px rgb(0, 91, 0),
+    
+        1.5px 1.5px rgb(0, 91, 0),
+    
+        2px 2px rgb(0, 91, 0);
+    
+    transform: translate(-2px, -2px);
+}
+.pagebutton:hover, .pagebutton:focus, .pagebutton:active {
+    box-shadow: none;
+    transform: translate(0px, 0px);
+}
+
+
+.section-99green h2 {
+    color: #000000;
+    background-color: #009900;
+    font-family: play;
+}
+
+.pagebutton.section-99green .pagebutton-title {
+    color: #000000;
+    background-color: #009900;
+    font-family: play;
+}
+
+.pagebutton.section-99green .pagebutton-desc, .pagebutton.section-99green .pagebutton-date {
+    color: #ffffff;
+    background: none;
+    font-family: play;
+}
+
+.pagebutton.section-99green .pagebutton-img {
+    border-color: #009900
+}
+
+
+.section-99green a {
+    color: #009900;
+}
+
+
+.section-99green ::selection {
+    color: #000000;
+    background-color: #009900;
+}
+.section-99green ::-moz-selection {
+    color: #000000;
+    background-color: #009900;
+}
+.pagebutton.section-99green ::selection {
+    color: #000000;
+    background-color: #009900;
+}
+.pagebutton.section-99green ::-moz-selection {
+    color: #000000;
+    background-color: #009900;
+}
+
+
+.category-99green {
+    padding: 2pt;
+    padding-left: 4pt;
+    padding-right: 4pt;
+    color: #000000;
+    background-color: #009900;
+}
+
+
+
+.section-99red, .pagebutton.section-99red {
+    border-color: #990000;
+    box-shadow: 
+        0.5px 0.5px rgb(91, 0, 0),
+    
+        1px 1px rgb(91, 0, 0),
+    
+        1.5px 1.5px rgb(91, 0, 0),
+    
+        2px 2px rgb(91, 0, 0);
+    
+    transform: translate(-2px, -2px);
+}
+.pagebutton:hover, .pagebutton:focus, .pagebutton:active {
+    box-shadow: none;
+    transform: translate(0px, 0px);
+}
+
+
+.section-99red h2 {
+    color: #ffffff;
+    background-color: #990000;
+    font-family: play;
+}
+
+.pagebutton.section-99red .pagebutton-title {
+    color: #ffffff;
+    background-color: #990000;
+    font-family: play;
+}
+
+.pagebutton.section-99red .pagebutton-desc, .pagebutton.section-99red .pagebutton-date {
+    color: #ffffff;
+    background: none;
+    font-family: play;
+}
+
+.pagebutton.section-99red .pagebutton-img {
+    border-color: #990000
+}
+
+
+.section-99red a {
+    color: #990000;
+}
+
+
+.section-99red ::selection {
+    color: #ffffff;
+    background-color: #990000;
+}
+.section-99red ::-moz-selection {
+    color: #ffffff;
+    background-color: #990000;
+}
+.pagebutton.section-99red ::selection {
+    color: #ffffff;
+    background-color: #990000;
+}
+.pagebutton.section-99red ::-moz-selection {
+    color: #ffffff;
+    background-color: #990000;
+}
+
+
+.category-99red {
+    padding: 2pt;
+    padding-left: 4pt;
+    padding-right: 4pt;
+    color: #ffffff;
+    background-color: #990000;
+}
+
+
+
+.section-bcctc, .pagebutton.section-bcctc {
+    border-color: #d900ff;
+    box-shadow: 
+        0.5px 0.5px rgb(130, 0, 153),
+    
+        1px 1px rgb(130, 0, 153),
+    
+        1.5px 1.5px rgb(130, 0, 153),
+    
+        2px 2px rgb(130, 0, 153);
+    
+    transform: translate(-2px, -2px);
+}
+.pagebutton:hover, .pagebutton:focus, .pagebutton:active {
+    box-shadow: none;
+    transform: translate(0px, 0px);
+}
+
+
+.section-bcctc h2 {
+    color: #ffffff;
+    background-color: #d900ff;
+    font-family: bebasneue;
+}
+
+.pagebutton.section-bcctc .pagebutton-title {
+    color: #ffffff;
+    background-color: #d900ff;
+    font-family: bebasneue;
+}
+
+.pagebutton.section-bcctc .pagebutton-desc, .pagebutton.section-bcctc .pagebutton-date {
+    color: #ffffff;
+    background: none;
+    font-family: bebasneue;
+}
+
+.pagebutton.section-bcctc .pagebutton-img {
+    border-color: #d900ff
+}
+
+
+.section-bcctc a {
+    color: #d900ff;
+}
+
+
+.section-bcctc ::selection {
+    color: #ffffff;
+    background-color: #d900ff;
+}
+.section-bcctc ::-moz-selection {
+    color: #ffffff;
+    background-color: #d900ff;
+}
+.pagebutton.section-bcctc ::selection {
+    color: #ffffff;
+    background-color: #d900ff;
+}
+.pagebutton.section-bcctc ::-moz-selection {
+    color: #ffffff;
+    background-color: #d900ff;
+}
+
+
+.category-bcctc {
+    padding: 2pt;
+    padding-left: 4pt;
+    padding-right: 4pt;
+    color: #ffffff;
+    background-color: #d900ff;
+}
+
+
+
+.section-blue, .pagebutton.section-blue {
+    border-color: #0000ff;
+    box-shadow: 
+        0.5px 0.5px rgb(0, 0, 153),
+    
+        1px 1px rgb(0, 0, 153),
+    
+        1.5px 1.5px rgb(0, 0, 153),
+    
+        2px 2px rgb(0, 0, 153);
+    
+    transform: translate(-2px, -2px);
+}
+.pagebutton:hover, .pagebutton:focus, .pagebutton:active {
+    box-shadow: none;
+    transform: translate(0px, 0px);
+}
+
+
+.section-blue h2 {
+    color: #000000;
+    background-color: #0000ff;
+    font-family: play;
+}
+
+.pagebutton.section-blue .pagebutton-title {
+    color: #000000;
+    background-color: #0000ff;
+    font-family: play;
+}
+
+.pagebutton.section-blue .pagebutton-desc, .pagebutton.section-blue .pagebutton-date {
+    color: #ffffff;
+    background: none;
+    font-family: play;
+}
+
+.pagebutton.section-blue .pagebutton-img {
+    border-color: #0000ff
+}
+
+
+.section-blue a {
+    color: #0000ff;
+}
+
+
+.section-blue ::selection {
+    color: #000000;
+    background-color: #0000ff;
+}
+.section-blue ::-moz-selection {
+    color: #000000;
+    background-color: #0000ff;
+}
+.pagebutton.section-blue ::selection {
+    color: #000000;
+    background-color: #0000ff;
+}
+.pagebutton.section-blue ::-moz-selection {
+    color: #000000;
+    background-color: #0000ff;
+}
+
+
+.category-blue {
+    padding: 2pt;
+    padding-left: 4pt;
+    padding-right: 4pt;
+    color: #000000;
+    background-color: #0000ff;
+}
+
+
+
+.section-ddr, .pagebutton.section-ddr {
+    border-color: #000099;
+    box-shadow: 
+        0.5px 0.5px rgb(0, 0, 91),
+    
+        1px 1px rgb(0, 0, 91),
+    
+        1.5px 1.5px rgb(0, 0, 91),
+    
+        2px 2px rgb(0, 0, 91);
+    
+    transform: translate(-2px, -2px);
+}
+.pagebutton:hover, .pagebutton:focus, .pagebutton:active {
+    box-shadow: none;
+    transform: translate(0px, 0px);
+}
+
+
+.section-ddr h2 {
+    color: #000000;
+    background-color: #000099;
+    font-family: play;
+}
+
+.pagebutton.section-ddr .pagebutton-title {
+    color: #000000;
+    background-color: #000099;
+    font-family: play;
+}
+
+.pagebutton.section-ddr .pagebutton-desc, .pagebutton.section-ddr .pagebutton-date {
+    color: #ffffff;
+    background: none;
+    font-family: play;
+}
+
+.pagebutton.section-ddr .pagebutton-img {
+    border-color: #000099
+}
+
+
+.section-ddr a {
+    color: #000099;
+}
+
+
+.section-ddr ::selection {
+    color: #000000;
+    background-color: #000099;
+}
+.section-ddr ::-moz-selection {
+    color: #000000;
+    background-color: #000099;
+}
+.pagebutton.section-ddr ::selection {
+    color: #000000;
+    background-color: #000099;
+}
+.pagebutton.section-ddr ::-moz-selection {
+    color: #000000;
+    background-color: #000099;
+}
+
+
+.category-ddr {
+    padding: 2pt;
+    padding-left: 4pt;
+    padding-right: 4pt;
+    color: #000000;
+    background-color: #000099;
+}
+
+
+
+.section-ddr2, .pagebutton.section-ddr2 {
+    border-color: #999900;
+    box-shadow: 
+        0.5px 0.5px rgb(91, 91, 0),
+    
+        1px 1px rgb(91, 91, 0),
+    
+        1.5px 1.5px rgb(91, 91, 0),
+    
+        2px 2px rgb(91, 91, 0);
+    
+    transform: translate(-2px, -2px);
+}
+.pagebutton:hover, .pagebutton:focus, .pagebutton:active {
+    box-shadow: none;
+    transform: translate(0px, 0px);
+}
+
+
+.section-ddr2 h2 {
+    color: #000000;
+    background-color: #999900;
+    font-family: play;
+}
+
+.pagebutton.section-ddr2 .pagebutton-title {
+    color: #000000;
+    background-color: #999900;
+    font-family: play;
+}
+
+.pagebutton.section-ddr2 .pagebutton-desc, .pagebutton.section-ddr2 .pagebutton-date {
+    color: #ffffff;
+    background: none;
+    font-family: play;
+}
+
+.pagebutton.section-ddr2 .pagebutton-img {
+    border-color: #999900
+}
+
+
+.section-ddr2 a {
+    color: #999900;
+}
+
+
+.section-ddr2 ::selection {
+    color: #000000;
+    background-color: #999900;
+}
+.section-ddr2 ::-moz-selection {
+    color: #000000;
+    background-color: #999900;
+}
+.pagebutton.section-ddr2 ::selection {
+    color: #000000;
+    background-color: #999900;
+}
+.pagebutton.section-ddr2 ::-moz-selection {
+    color: #000000;
+    background-color: #999900;
+}
+
+
+.category-ddr2 {
+    padding: 2pt;
+    padding-left: 4pt;
+    padding-right: 4pt;
+    color: #000000;
+    background-color: #999900;
+}
+
+
+
+.section-ddr3, .pagebutton.section-ddr3 {
+    border-color: #990000;
+    box-shadow: 
+        0.5px 0.5px rgb(91, 0, 0),
+    
+        1px 1px rgb(91, 0, 0),
+    
+        1.5px 1.5px rgb(91, 0, 0),
+    
+        2px 2px rgb(91, 0, 0);
+    
+    transform: translate(-2px, -2px);
+}
+.pagebutton:hover, .pagebutton:focus, .pagebutton:active {
+    box-shadow: none;
+    transform: translate(0px, 0px);
+}
+
+
+.section-ddr3 h2 {
+    color: #000000;
+    background-color: #990000;
+    font-family: play;
+}
+
+.pagebutton.section-ddr3 .pagebutton-title {
+    color: #000000;
+    background-color: #990000;
+    font-family: play;
+}
+
+.pagebutton.section-ddr3 .pagebutton-desc, .pagebutton.section-ddr3 .pagebutton-date {
+    color: #ffffff;
+    background: none;
+    font-family: play;
+}
+
+.pagebutton.section-ddr3 .pagebutton-img {
+    border-color: #990000
+}
+
+
+.section-ddr3 a {
+    color: #990000;
+}
+
+
+.section-ddr3 ::selection {
+    color: #000000;
+    background-color: #990000;
+}
+.section-ddr3 ::-moz-selection {
+    color: #000000;
+    background-color: #990000;
+}
+.pagebutton.section-ddr3 ::selection {
+    color: #000000;
+    background-color: #990000;
+}
+.pagebutton.section-ddr3 ::-moz-selection {
+    color: #000000;
+    background-color: #990000;
+}
+
+
+.category-ddr3 {
+    padding: 2pt;
+    padding-left: 4pt;
+    padding-right: 4pt;
+    color: #000000;
+    background-color: #990000;
+}
+
+
+
+.section-ddr4, .pagebutton.section-ddr4 {
+    border-color: #009999;
+    box-shadow: 
+        0.5px 0.5px rgb(0, 91, 91),
+    
+        1px 1px rgb(0, 91, 91),
+    
+        1.5px 1.5px rgb(0, 91, 91),
+    
+        2px 2px rgb(0, 91, 91);
+    
+    transform: translate(-2px, -2px);
+}
+.pagebutton:hover, .pagebutton:focus, .pagebutton:active {
+    box-shadow: none;
+    transform: translate(0px, 0px);
+}
+
+
+.section-ddr4 h2 {
+    color: #000000;
+    background-color: #009999;
+    font-family: play;
+}
+
+.pagebutton.section-ddr4 .pagebutton-title {
+    color: #000000;
+    background-color: #009999;
+    font-family: play;
+}
+
+.pagebutton.section-ddr4 .pagebutton-desc, .pagebutton.section-ddr4 .pagebutton-date {
+    color: #ffffff;
+    background: none;
+    font-family: play;
+}
+
+.pagebutton.section-ddr4 .pagebutton-img {
+    border-color: #009999
+}
+
+
+.section-ddr4 a {
+    color: #009999;
+}
+
+
+.section-ddr4 ::selection {
+    color: #000000;
+    background-color: #009999;
+}
+.section-ddr4 ::-moz-selection {
+    color: #000000;
+    background-color: #009999;
+}
+.pagebutton.section-ddr4 ::selection {
+    color: #000000;
+    background-color: #009999;
+}
+.pagebutton.section-ddr4 ::-moz-selection {
+    color: #000000;
+    background-color: #009999;
+}
+
+
+.category-ddr4 {
+    padding: 2pt;
+    padding-left: 4pt;
+    padding-right: 4pt;
+    color: #000000;
+    background-color: #009999;
+}
+
+
+
+.section-ddr5, .pagebutton.section-ddr5 {
+    border-color: #990099;
+    box-shadow: 
+        0.5px 0.5px rgb(91, 0, 91),
+    
+        1px 1px rgb(91, 0, 91),
+    
+        1.5px 1.5px rgb(91, 0, 91),
+    
+        2px 2px rgb(91, 0, 91);
+    
+    transform: translate(-2px, -2px);
+}
+.pagebutton:hover, .pagebutton:focus, .pagebutton:active {
+    box-shadow: none;
+    transform: translate(0px, 0px);
+}
+
+
+.section-ddr5 h2 {
+    color: #000000;
+    background-color: #990099;
+    font-family: play;
+}
+
+.pagebutton.section-ddr5 .pagebutton-title {
+    color: #000000;
+    background-color: #990099;
+    font-family: play;
+}
+
+.pagebutton.section-ddr5 .pagebutton-desc, .pagebutton.section-ddr5 .pagebutton-date {
+    color: #ffffff;
+    background: none;
+    font-family: play;
+}
+
+.pagebutton.section-ddr5 .pagebutton-img {
+    border-color: #990099
+}
+
+
+.section-ddr5 a {
+    color: #990099;
+}
+
+
+.section-ddr5 ::selection {
+    color: #000000;
+    background-color: #990099;
+}
+.section-ddr5 ::-moz-selection {
+    color: #000000;
+    background-color: #990099;
+}
+.pagebutton.section-ddr5 ::selection {
+    color: #000000;
+    background-color: #990099;
+}
+.pagebutton.section-ddr5 ::-moz-selection {
+    color: #000000;
+    background-color: #990099;
+}
+
+
+.category-ddr5 {
+    padding: 2pt;
+    padding-left: 4pt;
+    padding-right: 4pt;
+    color: #000000;
+    background-color: #990099;
+}
+
+
+
+.section-discord, .pagebutton.section-discord {
+    border-color: #707bf4;
+    box-shadow: 
+        0.5px 0.5px rgb(67, 73, 146),
+    
+        1px 1px rgb(67, 73, 146),
+    
+        1.5px 1.5px rgb(67, 73, 146),
+    
+        2px 2px rgb(67, 73, 146);
+    
+    transform: translate(-2px, -2px);
+}
+.pagebutton:hover, .pagebutton:focus, .pagebutton:active {
+    box-shadow: none;
+    transform: translate(0px, 0px);
+}
+
+
+.section-discord h2 {
+    color: #ffffff;
+    background-color: #707bf4;
+    font-family: play;
+}
+
+.pagebutton.section-discord .pagebutton-title {
+    color: #ffffff;
+    background-color: #707bf4;
+    font-family: play;
+}
+
+.pagebutton.section-discord .pagebutton-desc, .pagebutton.section-discord .pagebutton-date {
+    color: #ffffff;
+    background: none;
+    font-family: play;
+}
+
+.pagebutton.section-discord .pagebutton-img {
+    border-color: #707bf4
+}
+
+
+.section-discord a {
+    color: #707bf4;
+}
+
+
+.section-discord ::selection {
+    color: #ffffff;
+    background-color: #707bf4;
+}
+.section-discord ::-moz-selection {
+    color: #ffffff;
+    background-color: #707bf4;
+}
+.pagebutton.section-discord ::selection {
+    color: #ffffff;
+    background-color: #707bf4;
+}
+.pagebutton.section-discord ::-moz-selection {
+    color: #ffffff;
+    background-color: #707bf4;
+}
+
+
+.category-discord {
+    padding: 2pt;
+    padding-left: 4pt;
+    padding-right: 4pt;
+    color: #ffffff;
+    background-color: #707bf4;
+}
+
+
+
+.section-flipper, .pagebutton.section-flipper {
+    border-color: #ff8200;
+    box-shadow: 
+        0.5px 0.5px rgb(153, 78, 0),
+    
+        1px 1px rgb(153, 78, 0),
+    
+        1.5px 1.5px rgb(153, 78, 0),
+    
+        2px 2px rgb(153, 78, 0);
+    
+    transform: translate(-2px, -2px);
+}
+.pagebutton:hover, .pagebutton:focus, .pagebutton:active {
+    box-shadow: none;
+    transform: translate(0px, 0px);
+}
+
+
+.section-flipper h2 {
+    color: #000000;
+    background-color: #ff8200;
+    font-family: play;
+}
+
+.pagebutton.section-flipper .pagebutton-title {
+    color: #000000;
+    background-color: #ff8200;
+    font-family: play;
+}
+
+.pagebutton.section-flipper .pagebutton-desc, .pagebutton.section-flipper .pagebutton-date {
+    color: #ffffff;
+    background: none;
+    font-family: play;
+}
+
+.pagebutton.section-flipper .pagebutton-img {
+    border-color: #ff8200
+}
+
+
+.section-flipper a {
+    color: #ff8200;
+}
+
+
+.section-flipper ::selection {
+    color: #000000;
+    background-color: #ff8200;
+}
+.section-flipper ::-moz-selection {
+    color: #000000;
+    background-color: #ff8200;
+}
+.pagebutton.section-flipper ::selection {
+    color: #000000;
+    background-color: #ff8200;
+}
+.pagebutton.section-flipper ::-moz-selection {
+    color: #000000;
+    background-color: #ff8200;
+}
+
+
+.category-flipper {
+    padding: 2pt;
+    padding-left: 4pt;
+    padding-right: 4pt;
+    color: #000000;
+    background-color: #ff8200;
+}
+
+
+
+.section-gold, .pagebutton.section-gold {
+    border-color: #f0d000;
+    box-shadow: 
+        0.5px 0.5px rgb(144, 124, 0),
+    
+        1px 1px rgb(144, 124, 0),
+    
+        1.5px 1.5px rgb(144, 124, 0),
+    
+        2px 2px rgb(144, 124, 0);
+    
+    transform: translate(-2px, -2px);
+}
+.pagebutton:hover, .pagebutton:focus, .pagebutton:active {
+    box-shadow: none;
+    transform: translate(0px, 0px);
+}
+
+
+.section-gold h2 {
+    color: #000000;
+    background-color: #f0d000;
+    font-family: play;
+}
+
+.pagebutton.section-gold .pagebutton-title {
+    color: #000000;
+    background-color: #f0d000;
+    font-family: play;
+}
+
+.pagebutton.section-gold .pagebutton-desc, .pagebutton.section-gold .pagebutton-date {
+    color: #ffffff;
+    background: none;
+    font-family: play;
+}
+
+.pagebutton.section-gold .pagebutton-img {
+    border-color: #f0d000
+}
+
+
+.section-gold a {
+    color: #f0d000;
+}
+
+
+.section-gold ::selection {
+    color: #000000;
+    background-color: #f0d000;
+}
+.section-gold ::-moz-selection {
+    color: #000000;
+    background-color: #f0d000;
+}
+.pagebutton.section-gold ::selection {
+    color: #000000;
+    background-color: #f0d000;
+}
+.pagebutton.section-gold ::-moz-selection {
+    color: #000000;
+    background-color: #f0d000;
+}
+
+
+.category-gold {
+    padding: 2pt;
+    padding-left: 4pt;
+    padding-right: 4pt;
+    color: #000000;
+    background-color: #f0d000;
+}
+
+
+
+.section-green, .pagebutton.section-green {
+    border-color: #00ff00;
+    box-shadow: 
+        0.5px 0.5px rgb(0, 153, 0),
+    
+        1px 1px rgb(0, 153, 0),
+    
+        1.5px 1.5px rgb(0, 153, 0),
+    
+        2px 2px rgb(0, 153, 0);
+    
+    transform: translate(-2px, -2px);
+}
+.pagebutton:hover, .pagebutton:focus, .pagebutton:active {
+    box-shadow: none;
+    transform: translate(0px, 0px);
+}
+
+
+.section-green h2 {
+    color: #000000;
+    background-color: #00ff00;
+    font-family: play;
+}
+
+.pagebutton.section-green .pagebutton-title {
+    color: #000000;
+    background-color: #00ff00;
+    font-family: play;
+}
+
+.pagebutton.section-green .pagebutton-desc, .pagebutton.section-green .pagebutton-date {
+    color: #ffffff;
+    background: none;
+    font-family: play;
+}
+
+.pagebutton.section-green .pagebutton-img {
+    border-color: #00ff00
+}
+
+
+.section-green a {
+    color: #00ff00;
+}
+
+
+.section-green ::selection {
+    color: #000000;
+    background-color: #00ff00;
+}
+.section-green ::-moz-selection {
+    color: #000000;
+    background-color: #00ff00;
+}
+.pagebutton.section-green ::selection {
+    color: #000000;
+    background-color: #00ff00;
+}
+.pagebutton.section-green ::-moz-selection {
+    color: #000000;
+    background-color: #00ff00;
+}
+
+
+.category-green {
+    padding: 2pt;
+    padding-left: 4pt;
+    padding-right: 4pt;
+    color: #000000;
+    background-color: #00ff00;
+}
+
+
+
+.section-insta, .pagebutton.section-insta {
+    border-color: #f400a7;
+    box-shadow: 
+        0.5px 0.5px rgb(146, 0, 100),
+    
+        1px 1px rgb(146, 0, 100),
+    
+        1.5px 1.5px rgb(146, 0, 100),
+    
+        2px 2px rgb(146, 0, 100);
+    
+    transform: translate(-2px, -2px);
+}
+.pagebutton:hover, .pagebutton:focus, .pagebutton:active {
+    box-shadow: none;
+    transform: translate(0px, 0px);
+}
+
+
+.section-insta h2 {
+    color: #ffffff;
+    background-color: #f400a7;
+    font-family: play;
+}
+
+.pagebutton.section-insta .pagebutton-title {
+    color: #ffffff;
+    background-color: #f400a7;
+    font-family: play;
+}
+
+.pagebutton.section-insta .pagebutton-desc, .pagebutton.section-insta .pagebutton-date {
+    color: #ffffff;
+    background: none;
+    font-family: play;
+}
+
+.pagebutton.section-insta .pagebutton-img {
+    border-color: #f400a7
+}
+
+
+.section-insta a {
+    color: #f400a7;
+}
+
+
+.section-insta ::selection {
+    color: #ffffff;
+    background-color: #f400a7;
+}
+.section-insta ::-moz-selection {
+    color: #ffffff;
+    background-color: #f400a7;
+}
+.pagebutton.section-insta ::selection {
+    color: #ffffff;
+    background-color: #f400a7;
+}
+.pagebutton.section-insta ::-moz-selection {
+    color: #ffffff;
+    background-color: #f400a7;
+}
+
+
+.category-insta {
+    padding: 2pt;
+    padding-left: 4pt;
+    padding-right: 4pt;
+    color: #ffffff;
+    background-color: #f400a7;
+}
+
+
+
+.section-mct2, .pagebutton.section-mct2 {
+    border-color: #ffffff;
+    box-shadow: 
+        0.5px 0.5px rgb(153, 153, 153),
+    
+        1px 1px rgb(153, 153, 153),
+    
+        1.5px 1.5px rgb(153, 153, 153),
+    
+        2px 2px rgb(153, 153, 153);
+    
+    transform: translate(-2px, -2px);
+}
+.pagebutton:hover, .pagebutton:focus, .pagebutton:active {
+    box-shadow: none;
+    transform: translate(0px, 0px);
+}
+
+
+.section-mct2 h2 {
+    color: #000000;
+    background-color: #ffffff;
+    font-family: heuristica;
+}
+
+.pagebutton.section-mct2 .pagebutton-title {
+    color: #000000;
+    background-color: #ffffff;
+    font-family: heuristica;
+}
+
+.pagebutton.section-mct2 .pagebutton-desc, .pagebutton.section-mct2 .pagebutton-date {
+    color: #ffffff;
+    background: none;
+    font-family: heuristica;
+}
+
+.pagebutton.section-mct2 .pagebutton-img {
+    border-color: #ffffff
+}
+
+
+.section-mct2 a {
+    color: #ffffff;
+}
+
+
+.section-mct2 ::selection {
+    color: #000000;
+    background-color: #ffffff;
+}
+.section-mct2 ::-moz-selection {
+    color: #000000;
+    background-color: #ffffff;
+}
+.pagebutton.section-mct2 ::selection {
+    color: #000000;
+    background-color: #ffffff;
+}
+.pagebutton.section-mct2 ::-moz-selection {
+    color: #000000;
+    background-color: #ffffff;
+}
+
+
+.category-mct2 {
+    padding: 2pt;
+    padding-left: 4pt;
+    padding-right: 4pt;
+    color: #000000;
+    background-color: #ffffff;
+}
+
+
+
+.section-mediacow, .pagebutton.section-mediacow {
+    border-color: #996633;
+    box-shadow: 
+        0.5px 0.5px rgb(91, 61, 30),
+    
+        1px 1px rgb(91, 61, 30),
+    
+        1.5px 1.5px rgb(91, 61, 30),
+    
+        2px 2px rgb(91, 61, 30);
+    
+    transform: translate(-2px, -2px);
+}
+.pagebutton:hover, .pagebutton:focus, .pagebutton:active {
+    box-shadow: none;
+    transform: translate(0px, 0px);
+}
+
+
+.section-mediacow h2 {
+    color: #000000;
+    background-color: #996633;
+    font-family: play;
+}
+
+.pagebutton.section-mediacow .pagebutton-title {
+    color: #000000;
+    background-color: #996633;
+    font-family: play;
+}
+
+.pagebutton.section-mediacow .pagebutton-desc, .pagebutton.section-mediacow .pagebutton-date {
+    color: #ffffff;
+    background: none;
+    font-family: play;
+}
+
+.pagebutton.section-mediacow .pagebutton-img {
+    border-color: #996633
+}
+
+
+.section-mediacow a {
+    color: #996633;
+}
+
+
+.section-mediacow ::selection {
+    color: #000000;
+    background-color: #996633;
+}
+.section-mediacow ::-moz-selection {
+    color: #000000;
+    background-color: #996633;
+}
+.pagebutton.section-mediacow ::selection {
+    color: #000000;
+    background-color: #996633;
+}
+.pagebutton.section-mediacow ::-moz-selection {
+    color: #000000;
+    background-color: #996633;
+}
+
+
+.category-mediacow {
+    padding: 2pt;
+    padding-left: 4pt;
+    padding-right: 4pt;
+    color: #000000;
+    background-color: #996633;
+}
+
+
+
+.section-nanblue, .pagebutton.section-nanblue {
+    border-color: #00b7d5;
+    box-shadow: 
+        0.5px 0.5px rgb(0, 109, 127),
+    
+        1px 1px rgb(0, 109, 127),
+    
+        1.5px 1.5px rgb(0, 109, 127),
+    
+        2px 2px rgb(0, 109, 127);
+    
+    transform: translate(-2px, -2px);
+}
+.pagebutton:hover, .pagebutton:focus, .pagebutton:active {
+    box-shadow: none;
+    transform: translate(0px, 0px);
+}
+
+
+.section-nanblue h2 {
+    color: #000000;
+    background-color: #00b7d5;
+    font-family: play;
+}
+
+.pagebutton.section-nanblue .pagebutton-title {
+    color: #000000;
+    background-color: #00b7d5;
+    font-family: play;
+}
+
+.pagebutton.section-nanblue .pagebutton-desc, .pagebutton.section-nanblue .pagebutton-date {
+    color: #ffffff;
+    background: none;
+    font-family: play;
+}
+
+.pagebutton.section-nanblue .pagebutton-img {
+    border-color: #00b7d5
+}
+
+
+.section-nanblue a {
+    color: #00b7d5;
+}
+
+
+.section-nanblue ::selection {
+    color: #000000;
+    background-color: #00b7d5;
+}
+.section-nanblue ::-moz-selection {
+    color: #000000;
+    background-color: #00b7d5;
+}
+.pagebutton.section-nanblue ::selection {
+    color: #000000;
+    background-color: #00b7d5;
+}
+.pagebutton.section-nanblue ::-moz-selection {
+    color: #000000;
+    background-color: #00b7d5;
+}
+
+
+.category-nanblue {
+    padding: 2pt;
+    padding-left: 4pt;
+    padding-right: 4pt;
+    color: #000000;
+    background-color: #00b7d5;
+}
+
+
+
+.section-netkart, .pagebutton.section-netkart {
+    border-color: #006633;
+    box-shadow: 
+        0.5px 0.5px rgb(0, 61, 30),
+    
+        1px 1px rgb(0, 61, 30),
+    
+        1.5px 1.5px rgb(0, 61, 30),
+    
+        2px 2px rgb(0, 61, 30);
+    
+    transform: translate(-2px, -2px);
+}
+.pagebutton:hover, .pagebutton:focus, .pagebutton:active {
+    box-shadow: none;
+    transform: translate(0px, 0px);
+}
+
+
+.section-netkart h2 {
+    color: #ffffff;
+    background-color: #006633;
+    font-family: play;
+}
+
+.pagebutton.section-netkart .pagebutton-title {
+    color: #ffffff;
+    background-color: #006633;
+    font-family: play;
+}
+
+.pagebutton.section-netkart .pagebutton-desc, .pagebutton.section-netkart .pagebutton-date {
+    color: #ffffff;
+    background: none;
+    font-family: play;
+}
+
+.pagebutton.section-netkart .pagebutton-img {
+    border-color: #006633
+}
+
+
+.section-netkart a {
+    color: #006633;
+}
+
+
+.section-netkart ::selection {
+    color: #ffffff;
+    background-color: #006633;
+}
+.section-netkart ::-moz-selection {
+    color: #ffffff;
+    background-color: #006633;
+}
+.pagebutton.section-netkart ::selection {
+    color: #ffffff;
+    background-color: #006633;
+}
+.pagebutton.section-netkart ::-moz-selection {
+    color: #ffffff;
+    background-color: #006633;
+}
+
+
+.category-netkart {
+    padding: 2pt;
+    padding-left: 4pt;
+    padding-right: 4pt;
+    color: #ffffff;
+    background-color: #006633;
+}
+
+
+
+.section-orange, .pagebutton.section-orange {
+    border-color: #ff6600;
+    box-shadow: 
+        0.5px 0.5px rgb(153, 61, 0),
+    
+        1px 1px rgb(153, 61, 0),
+    
+        1.5px 1.5px rgb(153, 61, 0),
+    
+        2px 2px rgb(153, 61, 0);
+    
+    transform: translate(-2px, -2px);
+}
+.pagebutton:hover, .pagebutton:focus, .pagebutton:active {
+    box-shadow: none;
+    transform: translate(0px, 0px);
+}
+
+
+.section-orange h2 {
+    color: #000000;
+    background-color: #ff6600;
+    font-family: play;
+}
+
+.pagebutton.section-orange .pagebutton-title {
+    color: #000000;
+    background-color: #ff6600;
+    font-family: play;
+}
+
+.pagebutton.section-orange .pagebutton-desc, .pagebutton.section-orange .pagebutton-date {
+    color: #ffffff;
+    background: none;
+    font-family: play;
+}
+
+.pagebutton.section-orange .pagebutton-img {
+    border-color: #ff6600
+}
+
+
+.section-orange a {
+    color: #ff6600;
+}
+
+
+.section-orange ::selection {
+    color: #000000;
+    background-color: #ff6600;
+}
+.section-orange ::-moz-selection {
+    color: #000000;
+    background-color: #ff6600;
+}
+.pagebutton.section-orange ::selection {
+    color: #000000;
+    background-color: #ff6600;
+}
+.pagebutton.section-orange ::-moz-selection {
+    color: #000000;
+    background-color: #ff6600;
+}
+
+
+.category-orange {
+    padding: 2pt;
+    padding-left: 4pt;
+    padding-right: 4pt;
+    color: #000000;
+    background-color: #ff6600;
+}
+
+
+
+.section-qipurple, .pagebutton.section-qipurple {
+    border-color: #520c82;
+    box-shadow: 
+        0.5px 0.5px rgb(49, 7, 78),
+    
+        1px 1px rgb(49, 7, 78),
+    
+        1.5px 1.5px rgb(49, 7, 78),
+    
+        2px 2px rgb(49, 7, 78);
+    
+    transform: translate(-2px, -2px);
+}
+.pagebutton:hover, .pagebutton:focus, .pagebutton:active {
+    box-shadow: none;
+    transform: translate(0px, 0px);
+}
+
+
+.section-qipurple h2 {
+    color: #ffffff;
+    background-color: #520c82;
+    font-family: play;
+}
+
+.pagebutton.section-qipurple .pagebutton-title {
+    color: #ffffff;
+    background-color: #520c82;
+    font-family: play;
+}
+
+.pagebutton.section-qipurple .pagebutton-desc, .pagebutton.section-qipurple .pagebutton-date {
+    color: #ffffff;
+    background: none;
+    font-family: play;
+}
+
+.pagebutton.section-qipurple .pagebutton-img {
+    border-color: #520c82
+}
+
+
+.section-qipurple a {
+    color: #520c82;
+}
+
+
+.section-qipurple ::selection {
+    color: #ffffff;
+    background-color: #520c82;
+}
+.section-qipurple ::-moz-selection {
+    color: #ffffff;
+    background-color: #520c82;
+}
+.pagebutton.section-qipurple ::selection {
+    color: #ffffff;
+    background-color: #520c82;
+}
+.pagebutton.section-qipurple ::-moz-selection {
+    color: #ffffff;
+    background-color: #520c82;
+}
+
+
+.category-qipurple {
+    padding: 2pt;
+    padding-left: 4pt;
+    padding-right: 4pt;
+    color: #ffffff;
+    background-color: #520c82;
+}
+
+
+
+.section-red, .pagebutton.section-red {
+    border-color: #ff0000;
+    box-shadow: 
+        0.5px 0.5px rgb(153, 0, 0),
+    
+        1px 1px rgb(153, 0, 0),
+    
+        1.5px 1.5px rgb(153, 0, 0),
+    
+        2px 2px rgb(153, 0, 0);
+    
+    transform: translate(-2px, -2px);
+}
+.pagebutton:hover, .pagebutton:focus, .pagebutton:active {
+    box-shadow: none;
+    transform: translate(0px, 0px);
+}
+
+
+.section-red h2 {
+    color: #000000;
+    background-color: #ff0000;
+    font-family: play;
+}
+
+.pagebutton.section-red .pagebutton-title {
+    color: #000000;
+    background-color: #ff0000;
+    font-family: play;
+}
+
+.pagebutton.section-red .pagebutton-desc, .pagebutton.section-red .pagebutton-date {
+    color: #ffffff;
+    background: none;
+    font-family: play;
+}
+
+.pagebutton.section-red .pagebutton-img {
+    border-color: #ff0000
+}
+
+
+.section-red a {
+    color: #ff0000;
+}
+
+
+.section-red ::selection {
+    color: #000000;
+    background-color: #ff0000;
+}
+.section-red ::-moz-selection {
+    color: #000000;
+    background-color: #ff0000;
+}
+.pagebutton.section-red ::selection {
+    color: #000000;
+    background-color: #ff0000;
+}
+.pagebutton.section-red ::-moz-selection {
+    color: #000000;
+    background-color: #ff0000;
+}
+
+
+.category-red {
+    padding: 2pt;
+    padding-left: 4pt;
+    padding-right: 4pt;
+    color: #000000;
+    background-color: #ff0000;
+}
+
+
+
+.section-sdram, .pagebutton.section-sdram {
+    border-color: #996600;
+    box-shadow: 
+        0.5px 0.5px rgb(91, 61, 0),
+    
+        1px 1px rgb(91, 61, 0),
+    
+        1.5px 1.5px rgb(91, 61, 0),
+    
+        2px 2px rgb(91, 61, 0);
+    
+    transform: translate(-2px, -2px);
+}
+.pagebutton:hover, .pagebutton:focus, .pagebutton:active {
+    box-shadow: none;
+    transform: translate(0px, 0px);
+}
+
+
+.section-sdram h2 {
+    color: #000000;
+    background-color: #996600;
+    font-family: play;
+}
+
+.pagebutton.section-sdram .pagebutton-title {
+    color: #000000;
+    background-color: #996600;
+    font-family: play;
+}
+
+.pagebutton.section-sdram .pagebutton-desc, .pagebutton.section-sdram .pagebutton-date {
+    color: #ffffff;
+    background: none;
+    font-family: play;
+}
+
+.pagebutton.section-sdram .pagebutton-img {
+    border-color: #996600
+}
+
+
+.section-sdram a {
+    color: #996600;
+}
+
+
+.section-sdram ::selection {
+    color: #000000;
+    background-color: #996600;
+}
+.section-sdram ::-moz-selection {
+    color: #000000;
+    background-color: #996600;
+}
+.pagebutton.section-sdram ::selection {
+    color: #000000;
+    background-color: #996600;
+}
+.pagebutton.section-sdram ::-moz-selection {
+    color: #000000;
+    background-color: #996600;
+}
+
+
+.category-sdram {
+    padding: 2pt;
+    padding-left: 4pt;
+    padding-right: 4pt;
+    color: #000000;
+    background-color: #996600;
+}
+
+
+
+.section-smyellow, .pagebutton.section-smyellow {
+    border-color: #e29e1c;
+    box-shadow: 
+        0.5px 0.5px rgb(135, 94, 16),
+    
+        1px 1px rgb(135, 94, 16),
+    
+        1.5px 1.5px rgb(135, 94, 16),
+    
+        2px 2px rgb(135, 94, 16);
+    
+    transform: translate(-2px, -2px);
+}
+.pagebutton:hover, .pagebutton:focus, .pagebutton:active {
+    box-shadow: none;
+    transform: translate(0px, 0px);
+}
+
+
+.section-smyellow h2 {
+    color: #000000;
+    background-color: #e29e1c;
+    font-family: play;
+}
+
+.pagebutton.section-smyellow .pagebutton-title {
+    color: #000000;
+    background-color: #e29e1c;
+    font-family: play;
+}
+
+.pagebutton.section-smyellow .pagebutton-desc, .pagebutton.section-smyellow .pagebutton-date {
+    color: #ffffff;
+    background: none;
+    font-family: play;
+}
+
+.pagebutton.section-smyellow .pagebutton-img {
+    border-color: #e29e1c
+}
+
+
+.section-smyellow a {
+    color: #e29e1c;
+}
+
+
+.section-smyellow ::selection {
+    color: #000000;
+    background-color: #e29e1c;
+}
+.section-smyellow ::-moz-selection {
+    color: #000000;
+    background-color: #e29e1c;
+}
+.pagebutton.section-smyellow ::selection {
+    color: #000000;
+    background-color: #e29e1c;
+}
+.pagebutton.section-smyellow ::-moz-selection {
+    color: #000000;
+    background-color: #e29e1c;
+}
+
+
+.category-smyellow {
+    padding: 2pt;
+    padding-left: 4pt;
+    padding-right: 4pt;
+    color: #000000;
+    background-color: #e29e1c;
+}
+
+
+
+.section-source, .pagebutton.section-source {
+    border-color: #ff9900;
+    box-shadow: 
+        0.5px 0.5px rgb(153, 91, 0),
+    
+        1px 1px rgb(153, 91, 0),
+    
+        1.5px 1.5px rgb(153, 91, 0),
+    
+        2px 2px rgb(153, 91, 0);
+    
+    transform: translate(-2px, -2px);
+}
+.pagebutton:hover, .pagebutton:focus, .pagebutton:active {
+    box-shadow: none;
+    transform: translate(0px, 0px);
+}
+
+
+.section-source h2 {
+    color: #000000;
+    background-color: #ff9900;
+    font-family: play;
+}
+
+.pagebutton.section-source .pagebutton-title {
+    color: #000000;
+    background-color: #ff9900;
+    font-family: play;
+}
+
+.pagebutton.section-source .pagebutton-desc, .pagebutton.section-source .pagebutton-date {
+    color: #ffffff;
+    background: none;
+    font-family: play;
+}
+
+.pagebutton.section-source .pagebutton-img {
+    border-color: #ff9900
+}
+
+
+.section-source a {
+    color: #ff9900;
+}
+
+
+.section-source ::selection {
+    color: #000000;
+    background-color: #ff9900;
+}
+.section-source ::-moz-selection {
+    color: #000000;
+    background-color: #ff9900;
+}
+.pagebutton.section-source ::selection {
+    color: #000000;
+    background-color: #ff9900;
+}
+.pagebutton.section-source ::-moz-selection {
+    color: #000000;
+    background-color: #ff9900;
+}
+
+
+.category-source {
+    padding: 2pt;
+    padding-left: 4pt;
+    padding-right: 4pt;
+    color: #000000;
+    background-color: #ff9900;
+}
+
+
+
+.section-white, .pagebutton.section-white {
+    border-color: #ffffff;
+    box-shadow: 
+        0.5px 0.5px rgb(153, 153, 153),
+    
+        1px 1px rgb(153, 153, 153),
+    
+        1.5px 1.5px rgb(153, 153, 153),
+    
+        2px 2px rgb(153, 153, 153);
+    
+    transform: translate(-2px, -2px);
+}
+.pagebutton:hover, .pagebutton:focus, .pagebutton:active {
+    box-shadow: none;
+    transform: translate(0px, 0px);
+}
+
+
+.section-white h2 {
+    color: #000000;
+    background-color: #ffffff;
+    font-family: play;
+}
+
+.pagebutton.section-white .pagebutton-title {
+    color: #000000;
+    background-color: #ffffff;
+    font-family: play;
+}
+
+.pagebutton.section-white .pagebutton-desc, .pagebutton.section-white .pagebutton-date {
+    color: #ffffff;
+    background: none;
+    font-family: play;
+}
+
+.pagebutton.section-white .pagebutton-img {
+    border-color: #ffffff
+}
+
+
+.section-white a {
+    color: #ffffff;
+}
+
+
+.section-white ::selection {
+    color: #000000;
+    background-color: #ffffff;
+}
+.section-white ::-moz-selection {
+    color: #000000;
+    background-color: #ffffff;
+}
+.pagebutton.section-white ::selection {
+    color: #000000;
+    background-color: #ffffff;
+}
+.pagebutton.section-white ::-moz-selection {
+    color: #000000;
+    background-color: #ffffff;
+}
+
+
+.category-white {
+    padding: 2pt;
+    padding-left: 4pt;
+    padding-right: 4pt;
+    color: #000000;
+    background-color: #ffffff;
+}
+
+
+.docpagebutton {
+    border-color: #ff9900;
+}
+
+.docpagebuttontitle {
+    background-color: #ff9900;
+    color: #000000;
+}
