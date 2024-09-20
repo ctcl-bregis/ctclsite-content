@@ -1,0 +1,34 @@
+{ 
+    "name": "hack",
+    "dispname": "Hack",
+    "styles": {
+        "regular": {
+            "style": "normal",
+            "weight": "normal",
+            "formats": {
+                "truetype": "Hack-Regular.ttf"
+            }
+        },
+        "bold": {
+            "style": "normal",
+            "weight": "bold",
+            "formats": {
+                "truetype": "Hack-Bold.ttf"
+            }
+        },
+        "italic": {
+            "style": "italic",
+            "weight": "normal",
+            "formats": {
+                "truetype": "Hack-Italic.ttf"
+            }
+        },
+        "bolditalic": {
+            "style": "italic",
+            "weight": "bold",
+            "formats": {
+                "truetype": "Hack-BoldItalic.ttf"
+            }
+        }
+    }
+}

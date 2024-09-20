@@ -1,0 +1,24 @@
+{
+    "title": "Week 24, 2024",
+    "theme": "gold",
+    "startdate": "June 17, 2024",
+    "enddate": "",
+    "desc": "The twenty-fourth week of 2024",
+    "icon": "/static/pages/blog/wk24_2024/blog27_icon.webp",
+    "icontitle": "Bl\u00e5haj",
+    "keywords": [],
+    "cat": "update",
+    "favicon": "",
+    "headerids": true,
+    "shownavbar": true,
+    "content": {
+        "content": {
+            "type": "content",
+            "boxed": false,
+            "title": "",
+            "theme": "",
+            "fitscreen": false,
+            "content": "week_24_2024.md"
+        }
+    }
+}

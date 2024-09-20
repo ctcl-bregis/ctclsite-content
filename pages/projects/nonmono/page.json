@@ -1,0 +1,24 @@
+{
+    "title": "nonmonolithic",
+    "theme": "99gray",
+    "startdate": "2023",
+    "enddate": "2024",
+    "desc": "",
+    "icon": "",
+    "icontitle": "",
+    "keywords": [],
+    "cat": "",
+    "favicon": "",
+    "headerids": true,
+    "shownavbar": true,
+    "content": {
+        "content": {
+            "type": "content",
+            "boxed": false,
+            "title": "",
+            "theme": "",
+            "fitscreen": false,
+            "content": "nonmono.md"
+        }
+    }
+}

@@ -1,0 +1,24 @@
+{
+    "title": "MediaCow Touch 2 - Part 8",
+    "theme": "mct2",
+    "startdate": "August 22, 2024",
+    "enddate": "",
+    "desc": "Quick update",
+    "icon": "/static/pages/blog/mct2_p8/mct2_p8_icon.webp",
+    "icontitle": "Power all the things",
+    "keywords": [],
+    "cat": "hardware",
+    "favicon": "",
+    "headerids": true,
+    "shownavbar": true,
+    "content": {
+        "content": {
+            "type": "content",
+            "boxed": false,
+            "title": "",
+            "theme": "",
+            "fitscreen": false,
+            "content": "mct2_p8.md"
+        }
+    }
+}

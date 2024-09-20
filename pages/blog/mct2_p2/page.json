@@ -1,0 +1,24 @@
+{
+    "title": "MediaCow Touch 2 - Part 2",
+    "theme": "mct2",
+    "startdate": "July 22, 2024",
+    "enddate": "",
+    "desc": "What I have been trying to get done so far...",
+    "icon": "/static/pages/blog/mct2_p2/mct2_p2_icon.webp",
+    "icontitle": "Dual-Role Difficulty",
+    "keywords": [],
+    "cat": "hardware",
+    "favicon": "",
+    "headerids": true,
+    "shownavbar": true,
+    "content": {
+        "content": {
+            "type": "content",
+            "boxed": false,
+            "title": "",
+            "theme": "",
+            "fitscreen": false,
+            "content": "mct2_p2.md"
+        }
+    }
+}

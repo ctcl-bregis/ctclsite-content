@@ -1,0 +1,74 @@
+{% include "fonts.lisc" -%}
+body {
+    margin: 0;
+    background-color: #000000;
+    color: #ffffff;
+    font-family: {{ theme.defaultfont }};
+}
+
+{% for i in range(start = 1, end = 6) -%}
+{% set h = "h" -%}
+{% set hsize = h ~ i -%}
+h{{ i }} {
+    font-size: {{ fontsizes[hsize] }}pt;
+}
+{% endfor -%}
+
+a {
+    color: {{ theme.color }}
+}
+
+h1 {
+    text-align: center;
+    margin: 0;
+}
+
+hr {
+    border-color: {{ theme.color }};
+    width: 100%;
+    border-left: none;
+    border-right: none;
+    border-bottom-style: solid;
+    border-top-style: solid;
+}
+
+section {
+    display: grid;
+    {# default values #}
+    margin-right: {{ sectionmargin }}pt;
+    margin-left: {{ sectionshadowlength }}pt;
+    margin-bottom: {{ sectionshadowlength }}pt;
+    margin-top: {{ sectionshadowlength }}pt;
+}
+
+section.fitscreen {
+    height: 100vh;
+}
+
+section p, section h2, section h3, section h4, section h5, section h6, section figure, section code, section ul {
+    margin: {{ sectionmargin }}pt;
+}
+
+ul {
+    padding-inline-start: 16pt;
+    list-style: square;
+}
+
+.sectiontitle {
+    width: fit-content;
+    margin-right: 0;
+    margin-left: 0;
+    {# add to margin-bottom to compensate for the lack of margin-top on pagebuttons #}
+    margin-bottom: {{ 2 + sectionmargin }}pt;
+    margin-top: 0pt;
+    padding: 4pt;
+} 
+
+footer {
+    text-align: center;
+}
+
+{% include "pagebutton.lisc" %}
+{% include "sectionthemes.lisc" %}
+
+

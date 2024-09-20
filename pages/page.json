@@ -1,0 +1,48 @@
+{
+    "type": "sections",
+    "title": "Welcome",
+    "theme": "gold",
+    "startdate": "",
+    "enddate": "",
+    "desc": "The home page of the website",
+    "icon": "",
+    "icontitle": "",
+    "keywords": [],
+    "cat": "",
+    "favicon": "",
+    "content": {
+        "about": {
+            "type": "content",
+            "title": "About",
+            "content": "about.md",
+            "theme": "gold",
+            "boxed": true,
+            "fitscreen": false
+        },
+        "workexp": {
+            "type": "content",
+            "title": "Work Experience",
+            "content": "workexp.md",
+            "theme": "gold",
+            "boxed": true,
+            "fitscreen": false
+        },
+        "education": {
+            "type": "content",
+            "title": "Education",
+            "content": "education.md",
+            "theme": "gold",
+            "boxed": true,
+            "fitscreen": false
+        },
+        "contact": {
+            "type": "content",
+            "title": "Contact",
+            "content": "contact.md",
+            "theme": "gold",
+            "boxed": true,
+            "fitscreen": false
+        }
+
+    }
+}

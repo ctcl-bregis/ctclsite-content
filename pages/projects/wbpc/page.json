@@ -1,0 +1,80 @@
+{
+    "title": "WBPC",
+    "theme": "gold",
+    "startdate": "2020",
+    "enddate": "",
+    "desc": "Various workstation desktop computer systems that I use",
+    "icon": "",
+    "icontitle": "",
+    "keywords": [],
+    "cat": "",
+    "favicon": "",
+    "headerids": true,
+    "shownavbar": true,
+    "content": {
+        "pc_pbt": {
+            "type": "content",
+            "boxed": true,
+            "title": "Polybutylene Terephthalate",
+            "theme": "red",
+            "fitscreen": false,
+            "content": "pc_pbt.md"
+        },
+        "pc_pc": {
+            "type": "content",
+            "boxed": true,
+            "title": "Polycarbonate",
+            "theme": "smyellow",
+            "fitscreen": false,
+            "content": "pc_pc.md"
+        },
+        "pc_pe": {
+            "type": "content",
+            "boxed": true,
+            "title": "Polyethylene",
+            "theme": "99green",
+            "fitscreen": false,
+            "content": "pc_pe.md"
+        },
+        "pc_pet": {
+            "type": "content",
+            "boxed": true,
+            "title": "Polyethylene Terephthalate",
+            "theme": "qipurple",
+            "fitscreen": false,
+            "content": "pc_pet.md"
+        },
+        "pc_pet2": {
+            "type": "content",
+            "boxed": true,
+            "title": "Polyethylene Terephthalate v2",
+            "theme": "qipurple",
+            "fitscreen": false,
+            "content": "pc_pet2.md"
+        },
+        "pc_pmma": {
+            "type": "content",
+            "boxed": true,
+            "title": "Polymethylmethylacrylate",
+            "theme": "gold",
+            "fitscreen": false,
+            "content": "pc_pmma.md"
+        },
+        "pc_pp": {
+            "type": "content",
+            "boxed": true,
+            "title": "Polypropylene",
+            "theme": "99red",
+            "fitscreen": false,
+            "content": "pc_pp.md"
+        },
+        "pc_pp2": {
+            "type": "content",
+            "boxed": true,
+            "title": "Polypropylene v2",
+            "theme": "99red",
+            "fitscreen": false,
+            "content": "pc_pp2.md"
+        }
+    }
+}

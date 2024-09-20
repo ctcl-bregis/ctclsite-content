@@ -1,0 +1,24 @@
+{
+    "title": "Week 29, 2024",
+    "theme": "gold",
+    "startdate": "July 22, 2024",
+    "enddate": "",
+    "desc": "The twenty-ninth week of 2024",
+    "icon": "/static/pages/blog/wk29_2024/wk292024_icon.webp",
+    "icontitle": "'To keep those luscious locks as gorgeous as ever'",
+    "keywords": [],
+    "cat": "update",
+    "favicon": "",
+    "headerids": true,
+    "shownavbar": true,
+    "content": {
+        "content": {
+            "type": "content",
+            "boxed": false,
+            "title": "",
+            "theme": "",
+            "fitscreen": false,
+            "content": "week_29_2024.md"
+        }
+    }
+}

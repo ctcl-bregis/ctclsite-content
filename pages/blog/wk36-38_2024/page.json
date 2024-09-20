@@ -1,0 +1,24 @@
+{
+    "title": "Week 36-38, 2024",
+    "theme": "gold",
+    "startdate": "September 23, 2024",
+    "enddate": "",
+    "desc": "Weeks 36 to 38 of 2024",
+    "icon": "/static/pages/blog/wk36-38_2024/wk36-382024_icon.webp",
+    "icontitle": "Femboyinator",
+    "keywords": [],
+    "cat": "update",
+    "favicon": "",
+    "headerids": true,
+    "shownavbar": true,
+    "content": {
+        "content": {
+            "type": "content",
+            "boxed": false,
+            "title": "",
+            "theme": "",
+            "fitscreen": false,
+            "content": "week_36-38_2024.md"
+        }
+    }
+}

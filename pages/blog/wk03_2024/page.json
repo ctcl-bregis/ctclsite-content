@@ -1,0 +1,24 @@
+{
+    "title": "Week 3, 2024",
+    "theme": "gold",
+    "startdate": "January 21, 2024",
+    "enddate": "",
+    "desc": "The third week of 2024",
+    "icon": "/static/pages/blog/wk03_2024/blog5_icon.webp",
+    "icontitle": "A familiar hallway",
+    "keywords": [],
+    "cat": "update",
+    "favicon": "",
+    "headerids": true,
+    "shownavbar": true,
+    "content": {
+        "content": {
+            "type": "content",
+            "boxed": false,
+            "title": "",
+            "theme": "",
+            "fitscreen": false,
+            "content": "week_3_2024.md"
+        }
+    }
+}

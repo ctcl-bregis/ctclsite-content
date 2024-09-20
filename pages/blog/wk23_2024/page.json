@@ -1,0 +1,24 @@
+{
+    "title": "Week 23, 2024",
+    "theme": "gold",
+    "startdate": "June 10, 2024",
+    "enddate": "",
+    "desc": "The twenty-third week of 2024",
+    "icon": "/static/pages/blog/wk23_2024/blog26_icon.webp",
+    "icontitle": "push button receive bacon",
+    "keywords": [],
+    "cat": "update",
+    "favicon": "",
+    "headerids": true,
+    "shownavbar": true,
+    "content": {
+        "content": {
+            "type": "content",
+            "boxed": false,
+            "title": "",
+            "theme": "",
+            "fitscreen": false,
+            "content": "week_23_2024.md"
+        }
+    }
+}

@@ -1,0 +1,27 @@
+## Introduction
+Like many laptop and Chromebook devices, MediaCow Touch 2 includes an embedded controller; a separate microcontroller/microprocessor that manages various devices.
+
+Originally, there was two microcontrollers named "IOEC" and "PMEC" up to some time in late July 2024 where the functionality of the two were merged into a single microcontroller, named "SMEC". Up to September 11, 2024, the microcontroller used was the STMicroelectronics STM32L496. Starting September 11, 2024, the device used as the embedded controller is the [Sunplus Technology/Tibbo Technology SP7021](https://www.sunplus.com/products/plus1.asp).
+
+I was initially hesitant to switch to the SP7021 as it is immensely more complex to implement than the STM32L496 as I am already nearing the deadline.
+
+### Hardware Introduction
+MediaCow Touch 2 is unique in its device class in which it uses a dedicated System on Chip for its embedded controller.
+
+As mentioned before, MediaCow Touch 2 makes use of the SP7021 System in Package. I have had interest in the SP7021 since 2020 and I saw MediaCow Touch 2 as a possible application for it.
+
+
+
+## Functions
+Note: The term "system" refers to the System on Module and the operating system that runs on it
+
+A quick overview of the functions of SMEC:
+
+- Read battery state and report State of Charge and other data to the system
+- Read button presses and switch states from the side-mounted keypad
+- Drive side-mounted LCD display
+- Audio subsystem
+  - Processing of audio data from microphones
+  - Processing of audio data from the system
+  - Audio playback independent of the system
+- 

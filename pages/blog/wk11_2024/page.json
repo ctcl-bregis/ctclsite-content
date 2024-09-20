@@ -1,0 +1,24 @@
+{
+    "title": "Week 11, 2024",
+    "theme": "gold",
+    "startdate": "March 17, 2024",
+    "enddate": "",
+    "desc": "The eleventh week of 2024",
+    "icon": "/static/pages/blog/wk11_2024/blog14_icon.webp",
+    "icontitle": "What can I do for you, my effeminate fellow",
+    "keywords": [],
+    "cat": "update",
+    "favicon": "",
+    "headerids": true,
+    "shownavbar": true,
+    "content": {
+        "content": {
+            "type": "content",
+            "boxed": false,
+            "title": "",
+            "theme": "",
+            "fitscreen": false,
+            "content": "week_11_2024.md"
+        }
+    }
+}

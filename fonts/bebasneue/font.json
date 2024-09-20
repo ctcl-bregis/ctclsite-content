@@ -1,0 +1,13 @@
+{ 
+    "name": "bebasneue",
+    "dispname": "Bebas Neue",
+    "styles": {
+        "regular": {
+            "style": "normal",
+            "weight": "normal",
+            "formats": {
+                "truetype": "BebasNeue-Regular.ttf"
+            }
+        }
+    }
+}

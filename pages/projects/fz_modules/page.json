@@ -1,0 +1,40 @@
+{
+    "title": "Flipper Zero Modules",
+    "theme": "flipper",
+    "startdate": "2024",
+    "enddate": "",
+    "desc": "Custom expansion modules for the Flipper Zero device",
+    "icon": "",
+    "icontitle": "",
+    "keywords": [],
+    "cat": "",
+    "favicon": "",
+    "headerids": true,
+    "shownavbar": true,
+    "content": {
+        "intro": {
+            "type": "content",
+            "boxed": false,
+            "title": "",
+            "theme": "",
+            "fitscreen": false,
+            "content": "fz_intro.md"
+        },
+        "audio": {
+            "type": "content",
+            "boxed": true,
+            "title": "Audio Module",
+            "theme": "flipper",
+            "fitscreen": false,
+            "content": "fz_audio.md"
+        },
+        "mathpad": {
+            "type": "content",
+            "boxed": true,
+            "title": "Mathpad Module",
+            "theme": "flipper",
+            "fitscreen": false,
+            "content": "fz_mathpad.md"
+        }
+    }
+}

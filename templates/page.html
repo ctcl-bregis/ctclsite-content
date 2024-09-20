@@ -1,0 +1,8 @@
+{% include "header.html" %}
+{% for id, section in rendered %}
+    <section id="{{ id }}" class="{% if section.boxed %}section-{{ section.theme }}{% endif %}{% if section.fitscreen %}fitscreen{% endif %}">
+    {% if section.boxed %}<h2 class="sectiontitle">{{ section.title }}</h2>{% endif %}
+    {{ section.rendered|safe }}
+    </section>
+{% endfor %}
+{% include "footer.html" %}

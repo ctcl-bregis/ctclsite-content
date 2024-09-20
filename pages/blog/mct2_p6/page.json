@@ -1,0 +1,24 @@
+{
+    "title": "MediaCow Touch 2 - Part 6",
+    "theme": "mct2",
+    "startdate": "August 14, 2024",
+    "enddate": "",
+    "desc": "Must not give up",
+    "icon": "/static/pages/blog/mct2_p6/mct2_p6_icon.webp",
+    "icontitle": "In the air",
+    "keywords": [],
+    "cat": "hardware",
+    "favicon": "",
+    "headerids": true,
+    "shownavbar": true,
+    "content": {
+        "content": {
+            "type": "content",
+            "boxed": false,
+            "title": "",
+            "theme": "",
+            "fitscreen": false,
+            "content": "mct2_p6.md"
+        }
+    }
+}

@@ -1,0 +1,24 @@
+{
+    "title": "Week 35, 2024",
+    "theme": "gold",
+    "startdate": "September 2, 2024",
+    "enddate": "",
+    "desc": "The thirty-fifth week of 2024",
+    "icon": "/static/pages/blog/wk35_2024/wk352024_icon.webp",
+    "icontitle": "Dolphin Gunther",
+    "keywords": [],
+    "cat": "update",
+    "favicon": "",
+    "headerids": true,
+    "shownavbar": true,
+    "content": {
+        "content": {
+            "type": "content",
+            "boxed": false,
+            "title": "",
+            "theme": "",
+            "fitscreen": false,
+            "content": "week_35_2024.md"
+        }
+    }
+}

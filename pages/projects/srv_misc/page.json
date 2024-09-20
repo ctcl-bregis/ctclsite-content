@@ -1,0 +1,40 @@
+{
+    "title": "Misc. Servers",
+    "theme": "gold",
+    "startdate": "",
+    "enddate": "",
+    "desc": "Other servers used for various purposes",
+    "icon": "",
+    "icontitle": "",
+    "keywords": [],
+    "cat": "",
+    "favicon": "",
+    "headerids": true,
+    "shownavbar": true,
+    "content": {
+        "srv_dxm": {
+            "type": "content",
+            "boxed": true,
+            "title": "ROUTER - Dextromethorphan",
+            "theme": "green",
+            "fitscreen": false,
+            "content": "srv_dxm.md"
+        },
+        "srv_prm": {
+            "type": "content",
+            "boxed": true,
+            "title": "WBSD - Promethazine",
+            "theme": "green",
+            "fitscreen": false,
+            "content": "srv_prm.md"
+        },
+        "srv_vc": {
+            "type": "content",
+            "boxed": true,
+            "title": "PRSV - Vinyl Chloride",
+            "theme": "nanblue",
+            "fitscreen": false,
+            "content": "srv_vc.md"
+        }
+    }
+}

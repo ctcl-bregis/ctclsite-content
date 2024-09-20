@@ -1,0 +1,24 @@
+{
+    "title": "Week 26, 2024",
+    "theme": "gold",
+    "startdate": "July 1, 2024",
+    "enddate": "",
+    "desc": "The twenty-sixth week of 2024",
+    "icon": "/static/pages/blog/wk26_2024/wk262024_icon.webp",
+    "icontitle": "RINSE OUT",
+    "keywords": [],
+    "cat": "update",
+    "favicon": "",
+    "headerids": true,
+    "shownavbar": true,
+    "content": {
+        "content": {
+            "type": "content",
+            "boxed": false,
+            "title": "",
+            "theme": "",
+            "fitscreen": false,
+            "content": "week_26_2024.md"
+        }
+    }
+}

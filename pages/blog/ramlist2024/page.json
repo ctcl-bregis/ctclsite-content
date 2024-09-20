@@ -1,0 +1,24 @@
+{
+    "title": "A message about RAMList",
+    "theme": "99green",
+    "startdate": "February 18, 2024",
+    "enddate": "",
+    "desc": "The status and plans for the RAMList section of the website.",
+    "icon": "/static/pages/blog/ramlist2024/blog10_icon.webp",
+    "icontitle": "Nanya business",
+    "keywords": [],
+    "cat": "software",
+    "favicon": "",
+    "headerids": true,
+    "shownavbar": true,
+    "content": {
+        "content": {
+            "type": "content",
+            "boxed": false,
+            "title": "",
+            "theme": "",
+            "fitscreen": false,
+            "content": "ramlist2024.md"
+        }
+    }
+}

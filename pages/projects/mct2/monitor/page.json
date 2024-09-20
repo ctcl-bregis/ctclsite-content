@@ -1,0 +1,24 @@
+{
+    "title": "MonitorCow",
+    "theme": "mct2",
+    "startdate": "",
+    "enddate": "",
+    "desc": "Optional external monitor accessory",
+    "icon": "",
+    "icontitle": "",
+    "keywords": [],
+    "cat": "",
+    "favicon": "",
+    "headerids": true,
+    "shownavbar": true,
+    "content": {
+        "content": {
+            "type": "content",
+            "boxed": false,
+            "title": "",
+            "theme": "",
+            "fitscreen": false,
+            "content": "monitor.md"
+        }
+    }
+}

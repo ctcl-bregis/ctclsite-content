@@ -1,0 +1,24 @@
+{
+    "title": "MediaCow Touch 2 - Part 7",
+    "theme": "mct2",
+    "startdate": "August 20, 2024",
+    "enddate": "",
+    "desc": "The end is near",
+    "icon": "/static/pages/blog/mct2_p7/mct2_p7_icon.webp",
+    "icontitle": "nowhere, virginia",
+    "keywords": [],
+    "cat": "hardware",
+    "favicon": "",
+    "headerids": true,
+    "shownavbar": true,
+    "content": {
+        "content": {
+            "type": "content",
+            "boxed": false,
+            "title": "",
+            "theme": "",
+            "fitscreen": false,
+            "content": "mct2_p7.md"
+        }
+    }
+}

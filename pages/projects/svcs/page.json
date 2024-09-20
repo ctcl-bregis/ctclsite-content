@@ -1,0 +1,48 @@
+{
+    "title": "SVCS",
+    "theme": "gold",
+    "startdate": "2020",
+    "enddate": "",
+    "desc": "Server hardware used for hosting various services",
+    "icon": "",
+    "icontitle": "",
+    "keywords": [],
+    "cat": "",
+    "favicon": "",
+    "headerids": true,
+    "shownavbar": true,
+    "content": {
+        "content": {
+            "type": "content",
+            "boxed": false,
+            "title": "",
+            "theme": "",
+            "fitscreen": false,
+            "content": "svcs_intro.md"
+        },
+        "svcs_lva": {
+            "type": "content",
+            "boxed": true,
+            "title": "",
+            "theme": "",
+            "fitscreen": false,
+            "content": "svcs_lva.md"
+        },
+        "svcs_ldx": {
+            "type": "content",
+            "boxed": true,
+            "title": "",
+            "theme": "",
+            "fitscreen": false,
+            "content": "svcs_ldx.md"
+        },
+        "svcs_dxa": {
+            "type": "content",
+            "boxed": true,
+            "title": "",
+            "theme": "",
+            "fitscreen": false,
+            "content": "svcs_dxa.md"
+        }
+    }
+}

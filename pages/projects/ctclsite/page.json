@@ -1,0 +1,24 @@
+{
+    "title": "The Website",
+    "theme": "gold",
+    "startdate": "2020",
+    "enddate": "Present",
+    "desc": "About the website itself",
+    "icon": "",
+    "icontitle": "",
+    "keywords": [],
+    "cat": "",
+    "favicon": "",
+    "headerids": true,
+    "shownavbar": true,
+    "content": {
+        "content": {
+            "type": "content",
+            "boxed": false,
+            "title": "",
+            "theme": "",
+            "fitscreen": false,
+            "content": "ctclsite.md"
+        }
+    }
+}

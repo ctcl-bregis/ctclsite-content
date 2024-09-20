@@ -1,0 +1,24 @@
+{
+    "title": "MediaCow Micro series",
+    "theme": "gold",
+    "startdate": "2021",
+    "enddate": "Present",
+    "desc": "Small portable media player series",
+    "icon": "",
+    "icontitle": "",
+    "keywords": [],
+    "cat": "",
+    "favicon": "",
+    "headerids": true,
+    "shownavbar": true,
+    "content": {
+        "content": {
+            "type": "content",
+            "boxed": false,
+            "title": "",
+            "theme": "",
+            "fitscreen": false,
+            "content": "mcm.md"
+        }
+    }
+}

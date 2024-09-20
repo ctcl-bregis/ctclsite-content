@@ -1,0 +1,24 @@
+{
+    "title": "AI Usage Policy",
+    "theme": "gold",
+    "startdate": "",
+    "enddate": "",
+    "desc": "How generative AI is used in development",
+    "icon": "",
+    "icontitle": "",
+    "keywords": [],
+    "cat": "",
+    "favicon": "",
+    "headerids": true,
+    "shownavbar": true,
+    "content": {
+        "content": {
+            "type": "content",
+            "boxed": false,
+            "title": "",
+            "theme": "",
+            "fitscreen": false,
+            "content": "ai.md"
+        }
+    }
+}

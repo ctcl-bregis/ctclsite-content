@@ -1,0 +1,7 @@
+<nav>
+    <ul>
+        {% for entry in navbar -%}
+        <li><a href={{ entry.link }}>{{ entry.title }}</a></li>
+        {% endfor -%}
+    </ul>
+</nav>

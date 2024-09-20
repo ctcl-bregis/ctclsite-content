@@ -1,0 +1,33 @@
+{
+    "title": "Brightpoint Community College Technology Club",
+    "theme": "bcctc",
+    "startdate": "",
+    "enddate": "",
+    "desc": "Links to club information and more",
+    "icon": "",
+    "icontitle": "",
+    "keywords": [],
+    "cat": "",
+    "favicon": "",
+    "content": {
+        "links": {
+            "type": "linklist",
+			"boxed": false,
+			"title": "",
+			"theme": "",
+			"fitscreen": true,
+            "links": [
+                {
+                    "type": "titleonlycustom",
+                    "title": "Discord",
+                    "theme": "discord",
+                    "link": "https://discord.com/invite/YWPtsMGCn4"
+                }
+            ]
+        }
+    },
+    "uservars": {
+        "navbar": false,
+        "showfooter": false
+    }
+}

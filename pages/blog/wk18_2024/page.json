@@ -1,0 +1,24 @@
+{
+    "title": "Week 18, 2024",
+    "theme": "gold",
+    "startdate": "May 6, 2024",
+    "enddate": "",
+    "desc": "The eighteenth week of 2024",
+    "icon": "/static/pages/blog/wk18_2024/blog21_icon.webp",
+    "icontitle": ":put_litter_in_its_place:",
+    "keywords": [],
+    "cat": "update",
+    "favicon": "",
+    "headerids": true,
+    "shownavbar": true,
+    "content": {
+        "content": {
+            "type": "content",
+            "boxed": false,
+            "title": "",
+            "theme": "",
+            "fitscreen": false,
+            "content": "week_18_2024.md"
+        }
+    }
+}

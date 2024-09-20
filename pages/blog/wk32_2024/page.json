@@ -1,0 +1,24 @@
+{
+    "title": "Week 32, 2024",
+    "theme": "gold",
+    "startdate": "August 12, 2024",
+    "enddate": "",
+    "desc": "The thirty-second week of 2024",
+    "icon": "/static/pages/blog/wk32_2024/wk322024_icon.webp",
+    "icontitle": "Reconstruction",
+    "keywords": [],
+    "cat": "update",
+    "favicon": "",
+    "headerids": true,
+    "shownavbar": true,
+    "content": {
+        "content": {
+            "type": "content",
+            "boxed": false,
+            "title": "",
+            "theme": "",
+            "fitscreen": false,
+            "content": "week_32_2024.md"
+        }
+    }
+}

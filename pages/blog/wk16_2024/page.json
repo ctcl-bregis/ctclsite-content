@@ -1,0 +1,24 @@
+{
+    "title": "Week 16, 2024",
+    "theme": "gold",
+    "startdate": "April 22, 2024",
+    "enddate": "",
+    "desc": "The sixteenth week of 2024",
+    "icon": "/static/pages/blog/wk16_2024/blog19_icon.webp",
+    "icontitle": "Eclipsed",
+    "keywords": [],
+    "cat": "update",
+    "favicon": "",
+    "headerids": true,
+    "shownavbar": true,
+    "content": {
+        "content": {
+            "type": "content",
+            "boxed": false,
+            "title": "",
+            "theme": "",
+            "fitscreen": false,
+            "content": "week_16_2024.md"
+        }
+    }
+}

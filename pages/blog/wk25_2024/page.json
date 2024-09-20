@@ -1,0 +1,24 @@
+{
+    "title": "Week 25, 2024",
+    "theme": "gold",
+    "startdate": "June 24, 2024",
+    "enddate": "",
+    "desc": "The twenty-fifth week of 2024",
+    "icon": "/static/pages/blog/wk25_2024/blog28_icon.webp",
+    "icontitle": "Key to the GPU",
+    "keywords": [],
+    "cat": "update",
+    "favicon": "",
+    "headerids": true,
+    "shownavbar": true,
+    "content": {
+        "content": {
+            "type": "content",
+            "boxed": false,
+            "title": "",
+            "theme": "",
+            "fitscreen": false,
+            "content": "week_25_2024.md"
+        }
+    }
+}

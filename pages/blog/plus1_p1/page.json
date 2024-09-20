@@ -1,0 +1,24 @@
+{
+    "title": "SP7021 Part 1",
+    "theme": "gold",
+    "startdate": "July 11, 2023",
+    "enddate": "",
+    "desc": "My work with the SP7021 SIP",
+    "icon": "",
+    "icontitle": "",
+    "keywords": [],
+    "cat": "hardware",
+    "favicon": "",
+    "headerids": true,
+    "shownavbar": true,
+    "content": {
+        "content": {
+            "type": "content",
+            "boxed": false,
+            "title": "",
+            "theme": "",
+            "fitscreen": false,
+            "content": "sp7021_p1.md"
+        }
+    }
+}

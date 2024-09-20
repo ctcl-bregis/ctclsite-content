@@ -1,0 +1,24 @@
+{
+    "title": "Week 28, 2024",
+    "theme": "gold",
+    "startdate": "July 15, 2024",
+    "enddate": "",
+    "desc": "The twenty-eighth week of 2024",
+    "icon": "/static/pages/blog/wk28_2024/wk282024_icon.webp",
+    "icontitle": "Going to have to redraw most of this at some point...",
+    "keywords": [],
+    "cat": "update",
+    "favicon": "",
+    "headerids": true,
+    "shownavbar": true,
+    "content": {
+        "content": {
+            "type": "content",
+            "boxed": false,
+            "title": "",
+            "theme": "",
+            "fitscreen": false,
+            "content": "week_28_2024.md"
+        }
+    }
+}

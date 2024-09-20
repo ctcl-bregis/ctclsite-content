@@ -1,0 +1,24 @@
+{
+    "title": "Cameras",
+    "theme": "mct2",
+    "startdate": "",
+    "enddate": "",
+    "desc": "About the front-facing and back-facing cameras",
+    "icon": "",
+    "icontitle": "",
+    "keywords": [],
+    "cat": "",
+    "favicon": "",
+    "headerids": true,
+    "shownavbar": true,
+    "content": {
+        "content": {
+            "type": "content",
+            "boxed": false,
+            "title": "",
+            "theme": "",
+            "fitscreen": false,
+            "content": "cameras.md"
+        }
+    }
+}

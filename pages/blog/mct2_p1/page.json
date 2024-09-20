@@ -1,0 +1,24 @@
+{
+    "title": "MediaCow Touch 2 - Part 1",
+    "theme": "mct2",
+    "startdate": "July 14, 2024",
+    "enddate": "",
+    "desc": "What has been done so far",
+    "icon": "/static/pages/blog/mct2_p1/mct2_p1_icon.webp",
+    "icontitle": "All coming together",
+    "keywords": [],
+    "cat": "hardware",
+    "favicon": "",
+    "headerids": true,
+    "shownavbar": true,
+    "content": {
+        "content": {
+            "type": "content",
+            "boxed": false,
+            "title": "",
+            "theme": "",
+            "fitscreen": false,
+            "content": "mct2_p1.md"
+        }
+    }
+}

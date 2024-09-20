@@ -1,0 +1,24 @@
+{
+    "title": "Week 2, 2024",
+    "theme": "gold",
+    "startdate": "January 14, 2024",
+    "enddate": "",
+    "desc": "The second week of 2024",
+    "icon": "/static/pages/blog/wk02_2024/blog4_icon.webp",
+    "icontitle": "Backrooms vacation",
+    "keywords": [],
+    "cat": "update",
+    "favicon": "",
+    "headerids": true,
+    "shownavbar": true,
+    "content": {
+        "content": {
+            "type": "content",
+            "boxed": false,
+            "title": "",
+            "theme": "",
+            "fitscreen": false,
+            "content": "week_2_2024.md"
+        }
+    }
+}

@@ -1,0 +1,24 @@
+{
+    "title": "Embedded Controller",
+    "theme": "mct2",
+    "startdate": "",
+    "enddate": "",
+    "desc": "About the embedded controller, SMEC",
+    "icon": "",
+    "icontitle": "",
+    "keywords": [],
+    "cat": "",
+    "favicon": "",
+    "headerids": true,
+    "shownavbar": true,
+    "content": {
+        "content": {
+            "type": "content",
+            "boxed": false,
+            "title": "",
+            "theme": "",
+            "fitscreen": false,
+            "content": "ec.md"
+        }
+    }
+}

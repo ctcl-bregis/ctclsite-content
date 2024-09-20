@@ -1,0 +1,24 @@
+{
+    "title": "ToDoKiosk",
+    "theme": "white",
+    "startdate": "2023",
+    "enddate": "Present",
+    "desc": "CalDAV tasks frontend",
+    "icon": "",
+    "icontitle": "",
+    "keywords": [],
+    "cat": "",
+    "favicon": "",
+    "headerids": true,
+    "shownavbar": true,
+    "content": {
+        "content": {
+            "type": "content",
+            "boxed": false,
+            "title": "",
+            "theme": "",
+            "fitscreen": false,
+            "content": "todokiosk.md"
+        }
+    }
+}

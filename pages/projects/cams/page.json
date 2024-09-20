@@ -1,0 +1,24 @@
+{
+    "title": "CAMS",
+    "theme": "99green",
+    "startdate": "2021",
+    "enddate": "Present",
+    "desc": "CAMS Asset Management System - Highly configurable asset management system",
+    "icon": "",
+    "icontitle": "",
+    "keywords": [],
+    "cat": "",
+    "favicon": "",
+    "headerids": true,
+    "shownavbar": true,
+    "content": {
+        "content": {
+            "type": "content",
+            "boxed": false,
+            "title": "",
+            "theme": "",
+            "fitscreen": false,
+            "content": "cams.md"
+        }
+    }
+}

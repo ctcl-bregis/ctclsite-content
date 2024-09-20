@@ -1,0 +1,24 @@
+{
+    "title": "Week 31, 2024",
+    "theme": "gold",
+    "startdate": "August 5, 2024",
+    "enddate": "",
+    "desc": "The thirty-first week of 2024",
+    "icon": "/static/pages/blog/wk31_2024/wk312024_icon.webp",
+    "icontitle": "Cybertruckery",
+    "keywords": [],
+    "cat": "update",
+    "favicon": "",
+    "headerids": true,
+    "shownavbar": true,
+    "content": {
+        "content": {
+            "type": "content",
+            "boxed": false,
+            "title": "",
+            "theme": "",
+            "fitscreen": false,
+            "content": "week_31_2024.md"
+        }
+    }
+}

@@ -1,0 +1,24 @@
+{
+    "title": "System BIOS",
+    "theme": "mct2",
+    "startdate": "",
+    "enddate": "",
+    "desc": "Details of the custom firmware, BIOS, used with the LattePanda Mu System on Module",
+    "icon": "",
+    "icontitle": "",
+    "keywords": [],
+    "cat": "",
+    "favicon": "",
+    "headerids": true,
+    "shownavbar": true,
+    "content": {
+        "content": {
+            "type": "content",
+            "boxed": false,
+            "title": "",
+            "theme": "",
+            "fitscreen": false,
+            "content": "bios.md"
+        }
+    }
+}

@@ -1,0 +1,24 @@
+{
+    "title": "Week 21, 2024",
+    "theme": "gold",
+    "startdate": "May 27, 2024",
+    "enddate": "",
+    "desc": "The twenty-first week of 2024",
+    "icon": "/static/pages/blog/wk21_2024/blog24_icon.webp",
+    "icontitle": "Wild goose chase",
+    "keywords": [],
+    "cat": "update",
+    "favicon": "",
+    "headerids": true,
+    "shownavbar": true,
+    "content": {
+        "content": {
+            "type": "content",
+            "boxed": false,
+            "title": "",
+            "theme": "",
+            "fitscreen": false,
+            "content": "week_21_2024.md"
+        }
+    }
+}

@@ -1,0 +1,24 @@
+{
+    "title": "Week 8, 2024",
+    "theme": "gold",
+    "startdate": "February 25, 2024",
+    "enddate": "",
+    "desc": "The eighth week of 2024",
+    "icon": "/static/pages/blog/wk08_2024/blog11_icon.webp",
+    "icontitle": "In the datacenter, where I belong",
+    "keywords": [],
+    "cat": "update",
+    "favicon": "",
+    "headerids": true,
+    "shownavbar": true,
+    "content": {
+        "content": {
+            "type": "content",
+            "boxed": false,
+            "title": "",
+            "theme": "",
+            "fitscreen": false,
+            "content": "week_8_2024.md"
+        }
+    }
+}

@@ -1,0 +1,24 @@
+{
+    "title": "Week 30, 2024",
+    "theme": "gold",
+    "startdate": "July 29, 2024",
+    "enddate": "",
+    "desc": "The thirtieth week of 2024",
+    "icon": "/static/pages/blog/wk30_2024/wk302024_icon.webp",
+    "icontitle": "Instance.AddBehaviour<ExplosiveBehaviour>();",
+    "keywords": [],
+    "cat": "update",
+    "favicon": "",
+    "headerids": true,
+    "shownavbar": true,
+    "content": {
+        "content": {
+            "type": "content",
+            "boxed": false,
+            "title": "",
+            "theme": "",
+            "fitscreen": false,
+            "content": "week_30_2024.md"
+        }
+    }
+}

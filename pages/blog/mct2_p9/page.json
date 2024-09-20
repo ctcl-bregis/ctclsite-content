@@ -1,0 +1,24 @@
+{
+    "title": "MediaCow Touch 2 - Part 9",
+    "theme": "mct2",
+    "startdate": "September 23, 2024",
+    "enddate": "",
+    "desc": "Not the end",
+    "icon": "/static/pages/blog/mct2_p9/mct2_p9_icon.webp",
+    "icontitle": "Here comes the sun",
+    "keywords": [],
+    "cat": "hardware",
+    "favicon": "",
+    "headerids": true,
+    "shownavbar": true,
+    "content": {
+        "content": {
+            "type": "content",
+            "boxed": false,
+            "title": "",
+            "theme": "",
+            "fitscreen": false,
+            "content": "mct2_p9.md"
+        }
+    }
+}

@@ -1,0 +1,24 @@
+{
+    "title": "Week 10, 2024",
+    "theme": "gold",
+    "startdate": "March 10, 2024",
+    "enddate": "",
+    "desc": "The tenth week of 2024",
+    "icon": "/static/pages/blog/wk10_2024/blog13_icon.webp",
+    "icontitle": "Continuously Variable",
+    "keywords": [],
+    "cat": "update",
+    "favicon": "",
+    "headerids": true,
+    "shownavbar": true,
+    "content": {
+        "content": {
+            "type": "content",
+            "boxed": false,
+            "title": "",
+            "theme": "",
+            "fitscreen": false,
+            "content": "week_10_2024.md"
+        }
+    }
+}

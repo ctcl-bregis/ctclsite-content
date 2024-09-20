@@ -1,0 +1,24 @@
+{
+    "title": "Personal History",
+    "theme": "gold",
+    "startdate": "",
+    "enddate": "",
+    "desc": "Personal history",
+    "icon": "",
+    "icontitle": "",
+    "keywords": [],
+    "cat": "",
+    "favicon": "",
+    "headerids": true,
+    "shownavbar": true,
+    "content": {
+        "content": {
+            "type": "content",
+            "boxed": false,
+            "title": "",
+            "theme": "",
+            "fitscreen": false,
+            "content": "history.md"
+        }
+    }
+}

@@ -1,0 +1,24 @@
+{
+    "title": "Week 36, 2024",
+    "theme": "gold",
+    "startdate": "September 9, 2024",
+    "enddate": "",
+    "desc": "The thirty-sixth week of 2024",
+    "icon": "/static/pages/blog/wk36_2024/wk362024_icon.webp",
+    "icontitle": "Here comes the sun",
+    "keywords": [],
+    "cat": "update",
+    "favicon": "",
+    "headerids": true,
+    "shownavbar": true,
+    "content": {
+        "content": {
+            "type": "content",
+            "boxed": false,
+            "title": "",
+            "theme": "",
+            "fitscreen": false,
+            "content": "week_36_2024.md"
+        }
+    }
+}

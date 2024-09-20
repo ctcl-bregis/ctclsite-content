@@ -1,0 +1,24 @@
+{
+    "title": "Week 7, 2024",
+    "theme": "gold",
+    "startdate": "February 18, 2024",
+    "enddate": "",
+    "desc": "The seventh week of 2024",
+    "icon": "/static/pages/blog/wk07_2024/blog9_icon.webp",
+    "icontitle": "Solid as steel",
+    "keywords": [],
+    "cat": "update",
+    "favicon": "",
+    "headerids": true,
+    "shownavbar": true,
+    "content": {
+        "content": {
+            "type": "content",
+            "boxed": false,
+            "title": "",
+            "theme": "",
+            "fitscreen": false,
+            "content": "week_7_2024.md"
+        }
+    }
+}

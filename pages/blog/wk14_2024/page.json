@@ -1,0 +1,24 @@
+{
+    "title": "Week 14, 2024",
+    "theme": "gold",
+    "startdate": "April 8, 2024",
+    "enddate": "",
+    "desc": "The fourteenth week of 2024",
+    "icon": "/static/pages/blog/wk14_2024/blog17_icon.webp",
+    "icontitle": "Key to the atrium",
+    "keywords": [],
+    "cat": "update",
+    "favicon": "",
+    "headerids": true,
+    "shownavbar": true,
+    "content": {
+        "content": {
+            "type": "content",
+            "boxed": false,
+            "title": "",
+            "theme": "",
+            "fitscreen": false,
+            "content": "week_14_2024.md"
+        }
+    }
+}

@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        {% include "_meta.html" %}
+        <link rel="stylesheet" href="{{ theme.rendered|safe }}">
+        {# <link rel="stylesheet" media="print" href="/static/print.css"> #}
+        <link rel="icon" href="{{ favicon|safe }}" type="image/x-icon" sizes="any">
+        {% if scripts %}
+        <script type="module" src="/static/common.js"></script>
+        <script type="module" src="/static/clientinfo.js"></script>
+        {% endif -%}
+    </head>
+    <body>
+        <header>
+            {% if navbar -%}
+            {% include "_navbar.html" -%}
+            {% endif -%}
+            <h1>{{ title }}</h1>
+        </header>
+        <hr>

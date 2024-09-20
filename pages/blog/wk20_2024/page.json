@@ -1,0 +1,24 @@
+{
+    "title": "Week 20, 2024",
+    "theme": "gold",
+    "startdate": "May 20, 2024",
+    "enddate": "",
+    "desc": "The twentieth week of 2024",
+    "icon": "/static/pages/blog/wk20_2024/blog23_icon.webp",
+    "icontitle": "Southern",
+    "keywords": [],
+    "cat": "update",
+    "favicon": "",
+    "headerids": true,
+    "shownavbar": true,
+    "content": {
+        "content": {
+            "type": "content",
+            "boxed": false,
+            "title": "",
+            "theme": "",
+            "fitscreen": false,
+            "content": "week_20_2024.md"
+        }
+    }
+}

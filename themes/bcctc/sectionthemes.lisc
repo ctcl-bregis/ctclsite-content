@@ -1,0 +1,58 @@
+{% for name, data in themes -%}
+{% set sectionshadowcount = sectionshadowlength * sectionshadowresolution -%}
+.section-{{ name }}, .pagebutton.section-{{name}} {
+    border-style: solid;
+    border-width: 2pt;
+    border-color: {{ data.color }};
+}
+.section-{{ name }}.titlebutton {
+    border: none;
+}
+
+{# Text -#}
+.section-{{ name }} {
+    color: {{ data.fgcolor }};
+    background-color: {{ data.color }};
+}
+.pagebutton.section-{{ name }} .pagebutton-title {
+    color: {{ data.fgcolor }};
+    background-color: {{ data.color }};
+}
+.pagebutton.section-{{ name }} .pagebutton-desc, .pagebutton.section-{{ name }} .pagebutton-date {
+    color: #ffffff;
+    background: none;
+    font-family: {{ data.defaultfont }};
+}
+.pagebutton.section-{{ name }} .pagebutton-img {
+    border-color: {{ data.color }}
+}
+{# Link color -#}
+.section-{{ name }} a {
+    color: {{ data.color }};
+}
+{# Selection colors -#}
+.section-{{ name }} ::selection {
+    color: {{ data.fgcolor }};
+    background-color: {{ data.color }};
+}
+.section-{{ name }} ::-moz-selection {
+    color: {{ data.fgcolor }};
+    background-color: {{ data.color }};
+}
+.pagebutton.section-{{ name }} ::selection {
+    color: {{ data.fgcolor }};
+    background-color: {{ data.color }};
+}
+.pagebutton.section-{{ name }} ::-moz-selection {
+    color: {{ data.fgcolor }};
+    background-color: {{ data.color }};
+}
+{# Category box -#}
+.category-{{ name }} {
+    padding: 2pt;
+    padding-left: 4pt;
+    padding-right: 4pt;
+    color: {{ data.fgcolor }};
+    background-color: {{ data.color }};
+}
+{% endfor -%}

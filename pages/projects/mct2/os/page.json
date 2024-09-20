@@ -1,0 +1,24 @@
+{
+    "title": "Operating System",
+    "theme": "mct2",
+    "startdate": "",
+    "enddate": "",
+    "desc": "Operating System to be used on the device",
+    "icon": "",
+    "icontitle": "",
+    "keywords": [],
+    "cat": "",
+    "favicon": "",
+    "headerids": true,
+    "shownavbar": true,
+    "content": {
+        "content": {
+            "type": "content",
+            "boxed": false,
+            "title": "",
+            "theme": "",
+            "fitscreen": false,
+            "content": "os.md"
+        }
+    }
+}

@@ -1,0 +1,139 @@
+{
+    "title": "Projects",
+    "theme": "gold",
+    "startdate": "",
+    "enddate": "",
+    "desc": "Services that I offer",
+    "icon": "",
+    "icontitle": "",
+    "keywords": [],
+    "cat": "",
+    "favicon": "",
+    "content": {
+        "software": {
+            "type": "linklist",
+			"boxed": true,
+			"title": "Software",
+			"theme": "gold",
+			"fitscreen": false,
+            "links": [
+                {
+                    "type": "full",
+                    "page": "/projects/cams/"
+                },
+                {
+                    "type": "full",
+                    "page": "/projects/contactlist/"
+                },
+                {
+                    "type": "full",
+                    "page": "/projects/ctclsite/"
+                },
+                {
+                    "type": "full",
+                    "page": "/projects/fz_cfw/"
+                },
+                {
+                    "type": "full",
+                    "page": "/projects/todokiosk/"
+                }
+            ]
+        },
+        "hardware": {
+            "type": "linklist",
+            "boxed": true,
+			"title": "Hardware Design",
+			"theme": "gold",
+			"fitscreen": false,
+            "links": [
+                {
+                    "type": "full",
+                    "page": "/projects/mct2/"
+                },
+                {
+                    "type": "full",
+                    "page": "/projects/mct1/"
+                },
+                {
+                    "type": "full",
+                    "page": "/projects/mctm/"
+                },
+                {
+                    "type": "full",
+                    "page": "/projects/mcm/"
+                },
+                {
+                    "type": "full",
+                    "page": "/projects/mc/"
+                },
+                {
+                    "type": "full",
+                    "page": "/projects/mathpad/"
+                },
+                {
+                    "type": "full",
+                    "page": "/projects/fz_modules/"
+                }
+            ]
+        },
+        "pchardware": {
+            "type": "linklist",
+            "boxed": true,
+			"title": "PC Hardware",
+			"theme": "gold",
+			"fitscreen": false,
+            "links": [
+                {
+                    "type": "full",
+                    "page": "/projects/wbpc/"
+                },
+                {
+                    "type": "full",
+                    "page": "/projects/pc_misc/"
+                },
+                {
+                    "type": "full",
+                    "page": "/projects/srv_misc/"
+                }
+            ]
+        },
+        "creative": {
+            "type": "linklist",
+            "boxed": true,
+			"title": "Creative",
+			"theme": "gold",
+			"fitscreen": false,
+            "links": [
+                {
+                    "type": "full",
+                    "page": "/projects/nonmono/"
+                },
+                {
+                    "type": "full",
+                    "page": "/projects/pixel_fonts/"
+                },
+                {
+                    "type": "full",
+                    "page": "/projects/portal2/"
+                }
+            ]
+        },
+        "misc": {
+            "type": "linklist",
+            "boxed": true,
+			"title": "Misc. Pages",
+			"theme": "gold",
+			"fitscreen": false,
+            "links": [
+                {
+                    "type": "full",
+                    "page": "/projects/styling/"
+                },
+                {
+                    "type": "full",
+                    "page": "/projects/codenames/"
+                }
+            ]
+        }
+    }
+}

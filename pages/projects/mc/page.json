@@ -1,0 +1,24 @@
+{
+    "title": "MediaCow",
+    "theme": "gold",
+    "startdate": "2018",
+    "enddate": "Present",
+    "desc": "About the device series",
+    "icon": "",
+    "icontitle": "",
+    "keywords": [],
+    "cat": "",
+    "favicon": "mediacow",
+    "headerids": true,
+    "shownavbar": true,
+    "content": {
+        "content": {
+            "type": "content",
+            "boxed": false,
+            "title": "",
+            "theme": "",
+            "fitscreen": false,
+            "content": "mc.md"
+        }
+    }
+}

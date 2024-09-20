@@ -1,0 +1,24 @@
+{
+    "title": "Week 5, 2024",
+    "theme": "gold",
+    "startdate": "February 4, 2024",
+    "enddate": "",
+    "desc": "The fifth week of 2024",
+    "icon": "/static/pages/blog/wk05_2024/blog7_icon.webp",
+    "icontitle": "MediaCow Touch in 2024",
+    "keywords": [],
+    "cat": "update",
+    "favicon": "",
+    "headerids": true,
+    "shownavbar": true,
+    "content": {
+        "content": {
+            "type": "content",
+            "boxed": false,
+            "title": "",
+            "theme": "",
+            "fitscreen": false,
+            "content": "week_5_2024.md"
+        }
+    }
+}

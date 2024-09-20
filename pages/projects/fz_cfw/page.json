@@ -1,0 +1,24 @@
+{
+    "title": "Flipper Zero Custom Firmware Fork",
+    "theme": "flipper",
+    "startdate": "2024",
+    "enddate": "",
+    "desc": "Custom firmware for the Flipper Zero",
+    "icon": "",
+    "icontitle": "",
+    "keywords": [],
+    "cat": "",
+    "favicon": "",
+    "headerids": true,
+    "shownavbar": true,
+    "content": {
+        "content": {
+            "type": "content",
+            "boxed": false,
+            "title": "",
+            "theme": "",
+            "fitscreen": false,
+            "content": "fz_cfw.md"
+        }
+    }
+}

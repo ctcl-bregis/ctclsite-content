@@ -1,0 +1,24 @@
+{
+    "title": "Rust-specific Code Style",
+    "theme": "gold",
+    "startdate": "",
+    "enddate": "",
+    "desc": "Code styling specific to Rust",
+    "icon": "",
+    "icontitle": "",
+    "keywords": [],
+    "cat": "",
+    "favicon": "",
+    "headerids": true,
+    "shownavbar": true,
+    "content": {
+        "content": {
+            "type": "content",
+            "boxed": false,
+            "title": "",
+            "theme": "",
+            "fitscreen": false,
+            "content": "rust.md"
+        }
+    }
+}

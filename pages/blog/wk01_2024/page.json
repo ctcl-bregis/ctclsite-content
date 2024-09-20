@@ -1,0 +1,24 @@
+{
+    "title": "Week 1, 2024",
+    "theme": "gold",
+    "startdate": "January 7, 2024",
+    "enddate": "",
+    "desc": "The first week of 2024",
+    "icon": "/static/pages/blog/wk01_2024/blog3_icon.webp",
+    "icontitle": "Professional Minecraft player",
+    "keywords": [],
+    "cat": "update",
+    "favicon": "",
+    "headerids": true,
+    "shownavbar": true,
+    "content": {
+        "content": {
+            "type": "content",
+            "boxed": false,
+            "title": "",
+            "theme": "",
+            "fitscreen": false,
+            "content": "week_1_2024.md"
+        }
+    }
+}

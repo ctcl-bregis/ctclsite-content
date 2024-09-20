@@ -1,0 +1,24 @@
+{
+    "title": "NetKart",
+    "theme": "netkart",
+    "startdate": "2019",
+    "enddate": "Present",
+    "desc": "Go-kart modfication project",
+    "icon": "",
+    "icontitle": "",
+    "keywords": [],
+    "cat": "",
+    "favicon": "",
+    "headerids": true,
+    "shownavbar": true,
+    "content": {
+        "content": {
+            "type": "content",
+            "boxed": false,
+            "title": "",
+            "theme": "",
+            "fitscreen": false,
+            "content": "netkart.md"
+        }
+    }
+}

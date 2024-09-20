@@ -1,0 +1,24 @@
+{
+    "title": "MediaCow Touch 2 - Part 4",
+    "theme": "mct2",
+    "startdate": "July 31, 2024",
+    "enddate": "",
+    "desc": "Too many ideas, too little time",
+    "icon": "/static/pages/blog/mct2_p4/mct2_p4_icon_alt.webp",
+    "icontitle": "From Chromebooks to Cars",
+    "keywords": [],
+    "cat": "hardware",
+    "favicon": "",
+    "headerids": true,
+    "shownavbar": true,
+    "content": {
+        "content": {
+            "type": "content",
+            "boxed": false,
+            "title": "",
+            "theme": "",
+            "fitscreen": false,
+            "content": "mct2_p4.md"
+        }
+    }
+}

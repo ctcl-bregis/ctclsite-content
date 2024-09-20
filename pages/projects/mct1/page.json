@@ -1,0 +1,24 @@
+{
+    "title": "MediaCow Touch",
+    "theme": "gold",
+    "startdate": "2020",
+    "enddate": "",
+    "desc": "The original MediaCow Touch built in 2020",
+    "icon": "",
+    "icontitle": "",
+    "keywords": [],
+    "cat": "",
+    "favicon": "",
+    "headerids": true,
+    "shownavbar": true,
+    "content": {
+        "content": {
+            "type": "content",
+            "boxed": false,
+            "title": "",
+            "theme": "",
+            "fitscreen": false,
+            "content": "mct1.md"
+        }
+    }
+}

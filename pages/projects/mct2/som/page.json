@@ -1,0 +1,24 @@
+{
+    "title": "System on Module",
+    "theme": "mct2",
+    "startdate": "",
+    "enddate": "",
+    "desc": "",
+    "icon": "",
+    "icontitle": "",
+    "keywords": [],
+    "cat": "",
+    "favicon": "",
+    "headerids": true,
+    "shownavbar": true,
+    "content": {
+        "content": {
+            "type": "content",
+            "boxed": false,
+            "title": "",
+            "theme": "",
+            "fitscreen": false,
+            "content": "som.md"
+        }
+    }
+}

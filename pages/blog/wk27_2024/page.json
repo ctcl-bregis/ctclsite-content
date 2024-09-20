@@ -1,0 +1,24 @@
+{
+    "title": "Week 27, 2024",
+    "theme": "gold",
+    "startdate": "July 8, 2024",
+    "enddate": "",
+    "desc": "The twenty-seventh week of 2024",
+    "icon": "/static/pages/blog/wk27_2024/wk272024_icon.webp",
+    "icontitle": "Small but Powerful",
+    "keywords": [],
+    "cat": "update",
+    "favicon": "",
+    "headerids": true,
+    "shownavbar": true,
+    "content": {
+        "content": {
+            "type": "content",
+            "boxed": false,
+            "title": "",
+            "theme": "",
+            "fitscreen": false,
+            "content": "week_27_2024.md"
+        }
+    }
+}

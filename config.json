@@ -1,11 +1,18 @@
 {
-    "bindip": "127.0.0.1",
+    "bindip": "0.0.0.0",
     "bindport": 8000,
     "sitedomain": "ctcl.lgbt",
+    "fontdir": "ctclsite-config/fonts/",
+    "jsdir": "ctclsite-config/js/",
     "pagedir": "ctclsite-config/pages/",
+    "staticdir": "ctclsite-config/static/",
     "themedir": "ctclsite-config/themes/",
+    "templatedir": "ctclsite-config/templates/",
     "cpus": 1,
     "defaulttheme": "gold",
+    "memcache": "memcache://127.0.0.1:11211?timeout=10&tcp_nodelay=true",
+    "enablememcache": false,
+    "minimizehtml": false,
     "filetypes": {
         "bin": "binary",
         "bmp": "image",
@@ -18,13 +25,16 @@
         "img": "binary",
         "iso": "binary",
         "jpg": "image",
-        "lisc": "text",
+        "lisc": "config",
+        "css": "config",
+        "json": "config",
         "pdf": "pdf",
         "png": "image",
         "rs": "text",
         "s": "text",
         "sh": "text",
         "txt": "text",
+        "webm": "video",
         "webp": "image"
     },
     "redirects": {
@@ -104,5 +114,29 @@
             "title": "Projects",
             "link": "/projects/"
         }
-    ]
+    ],
+    "themevars": {
+        "sectionshadowlength": 2,
+        "sectionshadowresolution": 2,
+        "fontsizes": {
+            "h1": 36,
+            "h2": 24,
+            "h3": 20,
+            "h4": 18,
+            "h5": 16,
+            "h6": 14,
+            "nav": 14,
+            "body": 11,
+            "pagebuttontitle": 16
+        },
+        "sectionborder": 2,
+        "sectionmargin": 6,
+        "pagebuttonheight": 128,
+        "titlebuttonheight": 32,
+        "paragraphmargin": "4pt"
+    },
+    "uservars": {
+        "showfooter": true,
+        "showhr": true
+    }
 }

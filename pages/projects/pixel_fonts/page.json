@@ -1,0 +1,24 @@
+{
+    "title": "Pixel Fonts",
+    "theme": "gold",
+    "startdate": "2024",
+    "enddate": "",
+    "desc": "Series of low-resolution bitmap fonts",
+    "icon": "",
+    "icontitle": "",
+    "keywords": [],
+    "cat": "",
+    "favicon": "",
+    "headerids": true,
+    "shownavbar": true,
+    "content": {
+        "content": {
+            "type": "content",
+            "boxed": false,
+            "title": "",
+            "theme": "",
+            "fitscreen": false,
+            "content": "pixel_fonts.md"
+        }
+    }
+}

@@ -1,0 +1,24 @@
+{
+    "title": "2023 In Review",
+    "theme": "gold",
+    "startdate": "December 22, 2023",
+    "enddate": "",
+    "desc": "Overview of my experience during 2023 and yet another new version of the website",
+    "icon": "",
+    "icontitle": "",
+    "keywords": [],
+    "cat": "update",
+    "favicon": "",
+    "headerids": true,
+    "shownavbar": true,
+    "content": {
+        "content": {
+            "type": "content",
+            "boxed": false,
+            "title": "",
+            "theme": "",
+            "fitscreen": false,
+            "content": "2023review.md"
+        }
+    }
+}

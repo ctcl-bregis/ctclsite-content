@@ -1,0 +1,24 @@
+{
+    "title": "MediaCow Touch 2 - Part 5",
+    "theme": "mct2",
+    "startdate": "August 5, 2024",
+    "enddate": "",
+    "desc": "You know the drill",
+    "icon": "/static/pages/blog/mct2_p5/mct2_p5_icon.webp",
+    "icontitle": "Push Every Button",
+    "keywords": [],
+    "cat": "hardware",
+    "favicon": "",
+    "headerids": true,
+    "shownavbar": true,
+    "content": {
+        "content": {
+            "type": "content",
+            "boxed": false,
+            "title": "",
+            "theme": "",
+            "fitscreen": false,
+            "content": "mct2_p5.md"
+        }
+    }
+}

@@ -1,0 +1,76 @@
+.pagebutton-title {
+    font-weight: bold;
+    font-size: {{ fontsizes.pagebuttontitle }}pt;
+    margin: 0;
+    margin-top: 12pt;
+    margin-bottom: 12pt;
+        width: fit-content; 
+    height: fit-content;
+    border-right: none;
+    margin: 0;
+    padding: 4px;
+    grid-area: title;
+    display: flex;
+    flex-direction: row;
+}
+
+.pagebutton-desc, .pagebutton-date, footer p {
+    font-weight: normal;
+    font-size: {{ fontsizes.body }};
+}
+
+.pagebutton {
+    height: {{ pagebuttonheight }}px;
+    max-height: {{ pagebuttonheight }}px;
+    border-style: solid;
+    border-width: {{ sectionborder }}px;
+    text-decoration: none;
+    position: relative;
+    display: grid;
+    grid-template-columns: min-content 1fr;
+    grid-template-rows: min-content 1fr min-content;
+    grid-template-areas:
+      'image title'
+      'image desc '
+      'image date ';
+    overflow: hidden;
+}
+
+.pagebutton-desc {
+    color: #ffffff;
+    margin: {{ sectionmargin }}px;
+    grid-area: desc;
+    background-clip: text;
+    -webkit-background-clip: text;
+}
+
+.pagebutton-img {
+    height: inherit;
+    width: auto;
+    background-size: cover;
+    background-position: right;
+    grid-area: image;
+    border-right-style: solid;
+    border-right-width: {{ sectionborder }}px;
+}
+
+.pagebutton-date {
+    color: #ffffff;
+    margin: {{ sectionmargin }}px;
+    grid-area: date;
+    margin-top: auto;
+}
+
+.titlebutton {
+    height: {{ titlebuttonheight }}pt;
+    max-height: {{ titlebuttonheight }}pt;
+    align-items: center;
+}
+
+.titlebutton {
+    display: grid;
+    font-size: {{ fontsizes.pagebuttontitle }}pt;
+    text-align: center;
+    font-family: {{ theme.defaultfont }};
+    text-decoration: none;
+}

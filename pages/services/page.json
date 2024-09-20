@@ -1,0 +1,46 @@
+{
+    "title": "Services",
+    "theme": "gold",
+    "startdate": "",
+    "enddate": "",
+    "desc": "Services that I offer",
+    "icon": "",
+    "icontitle": "",
+    "keywords": [],
+    "cat": "",
+    "favicon": "",
+    "content": {
+        "techsupport": {
+            "type": "content",
+            "title": "Technical Support",
+            "content": "techsupport.md",
+            "theme": "gold",
+            "boxed": true,
+            "fitscreen": false
+        },
+        "software": {
+            "type": "content",
+            "title": "Software Development",
+            "content": "software.md",
+            "theme": "gold",
+            "boxed": true,
+            "fitscreen": false
+        },
+        "insurance": {
+            "type": "content",
+            "title": "Building Consulting",
+            "content": "insurance.md",
+            "theme": "gold",
+            "boxed": true,
+            "fitscreen": false
+        },
+        "contact": {
+            "type": "content",
+            "title": "Contact",
+            "content": "contact.md",
+            "theme": "gold",
+            "boxed": true,
+            "fitscreen": false
+        }
+    }
+}

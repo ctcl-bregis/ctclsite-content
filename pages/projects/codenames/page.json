@@ -1,0 +1,24 @@
+{
+    "title": "Codename Guide",
+    "theme": "gold",
+    "startdate": "",
+    "enddate": "",
+    "desc": "How codenames are chosen for projects",
+    "icon": "",
+    "icontitle": "",
+    "keywords": [],
+    "cat": "",
+    "favicon": "",
+    "headerids": true,
+    "shownavbar": true,
+    "content": {
+        "content": {
+            "type": "content",
+            "boxed": false,
+            "title": "",
+            "theme": "",
+            "fitscreen": false,
+            "content": "codenames.md"
+        }
+    }
+}

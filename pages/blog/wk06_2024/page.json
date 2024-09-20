@@ -1,0 +1,24 @@
+{
+    "title": "Week 6, 2024",
+    "theme": "gold",
+    "startdate": "February 11, 2024",
+    "enddate": "",
+    "desc": "The sixth week of 2024",
+    "icon": "/static/pages/blog/wk06_2024/blog8_icon.webp",
+    "icontitle": "i forgor \ud83d\udc80",
+    "keywords": [],
+    "cat": "update",
+    "favicon": "",
+    "headerids": true,
+    "shownavbar": true,
+    "content": {
+        "content": {
+            "type": "content",
+            "boxed": false,
+            "title": "",
+            "theme": "",
+            "fitscreen": false,
+            "content": "week_6_2024.md"
+        }
+    }
+}

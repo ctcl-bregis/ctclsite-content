@@ -1,0 +1,24 @@
+{
+    "title": "Credits",
+    "theme": "mct2",
+    "startdate": "",
+    "enddate": "",
+    "desc": "Who and what made MediaCow Touch 2 Possible",
+    "icon": "",
+    "icontitle": "",
+    "keywords": [],
+    "cat": "",
+    "favicon": "",
+    "headerids": true,
+    "shownavbar": true,
+    "content": {
+        "content": {
+            "type": "content",
+            "boxed": false,
+            "title": "",
+            "theme": "",
+            "fitscreen": false,
+            "content": "credits.md"
+        }
+    }
+}

@@ -1,0 +1,24 @@
+{
+    "title": "Week 34, 2024",
+    "theme": "gold",
+    "startdate": "August 26, 2024",
+    "enddate": "",
+    "desc": "The thirty-fourth week of 2024",
+    "icon": "/static/pages/blog/wk34_2024/wk342024_icon.webp",
+    "icontitle": "Smelts 32 items",
+    "keywords": [],
+    "cat": "update",
+    "favicon": "",
+    "headerids": true,
+    "shownavbar": true,
+    "content": {
+        "content": {
+            "type": "content",
+            "boxed": false,
+            "title": "",
+            "theme": "",
+            "fitscreen": false,
+            "content": "week_34_2024.md"
+        }
+    }
+}
