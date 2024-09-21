@@ -17,7 +17,7 @@
     transform: translate(0px, 0px);
 }
 {# Text -#}
-.section-{{ name }} {
+.section-{{ name }} .sectiontitle {
     color: {{ data.fgcolor }};
     background-color: {{ data.color }};
     font-family: {{ data.defaultfont }};

@@ -1,3 +1,6 @@
+# ctclsite-rust - CTCL 2020-2024
+# Single-use script kept for reference
+
 import os, json
         
 themes = {

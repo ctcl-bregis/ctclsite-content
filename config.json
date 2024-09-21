@@ -8,10 +8,11 @@
     "staticdir": "ctclsite-config/static/",
     "themedir": "ctclsite-config/themes/",
     "templatedir": "ctclsite-config/templates/",
+    "logsqlpath": "ctclsite-config/log/table.sql",
     "cpus": 1,
     "defaulttheme": "gold",
     "memcache": "memcache://127.0.0.1:11211?timeout=10&tcp_nodelay=true",
-    "enablememcache": false,
+    "enablememcache": true,
     "minimizehtml": false,
     "filetypes": {
         "bin": "binary",
