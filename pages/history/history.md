@@ -125,7 +125,7 @@ In June 2024, I have been approved for receiving a LattePanda Mu and its "Lite" 
 The deadline I stated was September 1, 2024 which gives me just two months to design the device. Though, by then, I would have been four days into the Fall 2024 semester. My personal deadline for the hardware design of MediaCow Touch 2 is August 26, 2024 which is when classes actually start.
 
 #### July-August 2024
-MediaCow Touch 2 gave constant pressure.
+MediaCow Touch 2 gave constant pressure during this time period.
 
 #### September 2024
 On August 26, 2024, I started my *third* attempt at community college.

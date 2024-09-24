@@ -1,6 +1,4 @@
-SP7021-SBC "Bear Creek Lake" is a single board computer that makes use of the Sunplus SP7021 SiP. 
-
-It is an upcoming project that ideas appeared for on September 9, 2024 after request on Discord. 
+SP7021-SBC "Bear Creek Lake" is a single board computer that makes use of the Sunplus SP7021 SiP. It is an upcoming project that ideas appeared for on September 9, 2024 after request on Discord. 
 
 Initial prototypes are expected to be less than US$80 for resale with the target resale price of US$45; the same as the Raspberry Pi 4 Model B 2GB as of September 10, 2024.
 

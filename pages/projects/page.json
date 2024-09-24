@@ -73,6 +73,10 @@
                 {
                     "type": "full",
                     "page": "/projects/fz_modules/"
+                },
+                {
+                    "type": "full",
+                    "page": "/projects/micromemory/"
                 }
             ]
         },

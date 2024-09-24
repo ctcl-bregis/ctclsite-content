@@ -31,7 +31,7 @@ Along with the addition of a CVT, a gearbox for shifting into reverse, neutral a
 The frame will also go under significant modification. For extra strength and rigidity, the frame will be welded together as the frame was held together with nuts and bolts. This should help with vibration while having the vehicle more safe to drive. On April 2, 2024, we have started to work on the frame.
 
 ## Phase 3
-Phase 3 is when I actually start computerizing the go kart.
+Phase 3 is when I start the computerization.
 
 ### Dashboard
 Inspired by the Tesla MCU hardware, an AMD Ryzen system may be used for the dashboard infotainment system.

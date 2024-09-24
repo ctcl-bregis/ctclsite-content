@@ -71,5 +71,31 @@ footer {
     text-align: center;
 }
 
+.breadcrumbs {
+    font-size: {{ fontsizes.breadcrumbs }}pt;
+    margin: 4pt;
+    padding: 4pt;
+    width: max-content;
+    border-style: solid;
+    border-width: 1pt;
+    border-color: #999999;
+}
+
+.content table {
+    border-style: solid;
+    border-width: 1pt;
+    border-color: #999999;
+    border-spacing: 0;
+}
+
+.content table tr th, .content table tr td {
+    border-style: solid;
+    border-width: 1pt;
+    border-color: #999999;
+    padding: 2pt;
+    -webkit-border-horizontal-spacing: 0;
+    -webkit-border-vertical-spacing: 0;
+}
+
 {% include "pagebutton.lisc" %}
 {% include "sectionthemes.lisc" %}

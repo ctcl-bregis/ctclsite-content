@@ -1,9 +1,9 @@
 {
-    "title": "",
-    "theme": "mct2",
+    "title": "Configuration",
+    "theme": "gold",
     "startdate": "",
     "enddate": "",
-    "desc": "",
+    "desc": "About configuration files",
     "icon": "",
     "icontitle": "",
     "keywords": [],
@@ -18,7 +18,7 @@
             "title": "",
             "theme": "",
             "fitscreen": false,
-            "content": "mct2_old.md"
+            "content": "config.md"
         }
     }
 }

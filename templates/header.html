@@ -12,9 +12,8 @@
     </head>
     <body>
         <header>
-            {% if navbar -%}
-            {% include "_navbar.html" -%}
-            {% endif -%}
+            {% if navbar -%}{% include "_navbar.html" -%}{% endif -%}
+            {% if breadcrumbs -%}{% include "_breadcrumbs.html" -%}{% endif -%}
             <h1>{{ title }}</h1>
         </header>
         <hr>

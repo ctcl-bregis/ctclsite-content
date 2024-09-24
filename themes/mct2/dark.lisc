@@ -83,5 +83,15 @@ footer {
     text-align: center;
 }
 
+.breadcrumbs {
+    font-size: {{ fontsizes.breadcrumbs }}pt;
+    margin: 4pt;
+    padding: 4pt;
+    width: max-content;
+    border-style: solid;
+    border-width: 1pt;
+    border-color: #222222;
+}
+
 {% include "pagebutton.lisc" %}
 {% include "sectionthemes.lisc" %}

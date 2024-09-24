@@ -1,9 +1,9 @@
 {
-    "title": "Licensing",
+    "title": "Web Development Guidelines",
     "theme": "gold",
     "startdate": "",
     "enddate": "",
-    "desc": "",
+    "desc": "Guidelines specific to designing browser-based software",
     "icon": "",
     "icontitle": "",
     "keywords": [],
@@ -18,7 +18,7 @@
             "title": "",
             "theme": "",
             "fitscreen": false,
-            "content": "licensing.md"
+            "content": "web.md"
         }
     }
 }

@@ -1,9 +1,9 @@
 {
-    "title": "Licensing",
+    "title": "MicroMemory",
     "theme": "gold",
-    "startdate": "",
-    "enddate": "",
-    "desc": "",
+    "startdate": "2024",
+    "enddate": "Present",
+    "desc": "Memory module format",
     "icon": "",
     "icontitle": "",
     "keywords": [],
@@ -18,7 +18,7 @@
             "title": "",
             "theme": "",
             "fitscreen": false,
-            "content": "licensing.md"
+            "content": "micromemory.md"
         }
     }
 }

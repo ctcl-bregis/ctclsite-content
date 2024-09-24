@@ -8,12 +8,10 @@
     "staticdir": "ctclsite-config/static/",
     "themedir": "ctclsite-config/themes/",
     "templatedir": "ctclsite-config/templates/",
-    "logsqlpath": "ctclsite-config/log/table.sql",
     "cpus": 1,
     "defaulttheme": "gold",
-    "memcache": "memcache://127.0.0.1:11211?timeout=10&tcp_nodelay=true",
-    "enablememcache": true,
     "minimizehtml": false,
+    "minimizecss": false,
     "filetypes": {
         "bin": "binary",
         "bmp": "image",
@@ -116,6 +114,255 @@
             "link": "/projects/"
         }
     ],
+    "log": {
+        "enable": false,
+        "memcache": "memcache://127.0.0.1:11211?timeout=10&tcp_nodelay=true",
+        "clienthints": "sec-ch-ua,ua,sec-ch-ua-platform,ua-platform,sec-ch-ua-mobile,ua-mobile,sec-ch-ua-full-version,ua-full-version,sec-ch-ua-full-version-list,sec-ch-ua-platform-version,ua-platform-version,sec-ch-ua-arch,ua-arch,sec-ch-ua-bitness,ua-bitness,sec-ch-ua-wow64,sec-ch-ua-model,ua-model,sec-ch-lang,lang,sec-ch-save-data,save-data,sec-ch-width,width,sec-ch-viewport-width,viewport-width,sec-ch-viewport-height,viewport-height,sec-ch-dpr,dpr,sec-ch-device-memory,device-memory,sec-ch-rtt,rtt,sec-ch-downlink,downlink,sec-ch-ect,ect,sec-ch-prefers-color-scheme,sec-ch-prefers-reduced-motion,sec-ch-prefers-reduced-transparency,sec-ch-prefers-contrast,sec-ch-forced-colors,sec-ch-ua-form-factor",
+        "serverlog": {
+            "ip": {
+                "type": "ip"
+            },
+            "user_agent": {
+                "type": "header",
+                "header": "user-agent"
+            },
+            "accept": {
+                "type": "header",
+                "header": "accept"    
+            },
+            "accept-encoding": {
+                "type": "header",
+                "header": "accept-encoding"
+            },
+            "connection": {
+                "type": "header",
+                "header": "connection"    
+            },
+            "referer": {
+                "type": "header",
+                "header": "referer"    
+            },
+            "sec_ch_ua": {
+                "type": "header",
+                "header": "sec-ch-ua"
+            },
+            "sec_ch_ua_platform": {
+                "type": "header",
+                "header": "sec-ch-ua-platform"
+            },
+            "sec_ch_ua_mobile": {
+                "type": "header",
+                "header": "sec-ch-ua-mobile"
+            },
+            "sec_ch_ua_full_version": {
+                "type": "header",
+                "header": "sec-ch-ua-full-version"
+            },
+            "sec_ch_ua_full_version_list": {
+                "type": "header",
+                "header": "sec-ch-ua-full-version-list"
+            },
+            "sec_ch_ua_platform_version": {
+                "type": "header",
+                "header": "sec-ch-ua-platform-version"
+            },
+            "sec_ch_ua_arch": {
+                "type": "header",
+                "header": "sec-ch-ua-arch"
+            },
+            "sec_ch_ua_bitness": {
+                "type": "header",
+                "header": "sec-ch-ua-bitness"
+            },
+            "sec_ch_ua_wow64": {
+                "type": "header",
+                "header": "sec-ch-ua-wow64"
+            },
+            "sec_ch_ua_model": {
+                "type": "header",
+                "header": "sec-ch-ua-model"
+            },
+            "sec_ch_ua_form_factor": {
+                "type": "header",
+                "header": "sec-ch-ua-form-factor"
+            },
+            "sec_ch_lang": {
+                "type": "header",
+                "header": "sec-ch-lang"
+            },
+            "sec_ch_save_data": {
+                "type": "header",
+                "header": "sec-ch-save-data"
+            },
+            "sec_ch_width": {
+                "type": "header",
+                "header": "sec-ch-width"
+            },
+            "sec_ch_viewport_width": {
+                "type": "header",
+                "header": "sec-ch-viewport-width"
+            },
+            "viewport_width": {
+                "type": "header",
+                "header": "viewport-width"
+            },
+            "sec_ch_viewport_height": {
+                "type": "header",
+                "header": "sec-ch-viewport-height"
+            },
+            "sec_ch_dpr": {
+                "type": "header",
+                "header": "sec-ch-dpr"
+            },
+            "dpr": {
+                "type": "header",
+                "header": "dpr"
+            },
+            "sec_ch_device_memory": {
+                "type": "header",
+                "header": "sec-ch-device-memory"
+            },
+            "device_memory": {
+                "type": "header",
+                "header": "device-memory"
+            },
+            "rtt": {
+                "type": "header",
+                "header": "rtt"
+            },
+            "downlink": {
+                "type": "header",
+                "header": "downlink"
+            },
+            "ect": {
+                "type": "header",
+                "header": "ect"
+            },
+            "sec_ch_prefers_color_scheme": {
+                "type": "headertmplvar",
+                "header": "sec-ch-prefers-color-scheme"
+            },
+            "sec_ch_prefers_reduced_motion": {
+                "type": "headertmplvar",
+                "header": "sec-ch-prefers-reduced-motion"
+            },
+            "sec_ch_prefers_reduced_transparency": {
+                "type": "headertmplvar",
+                "header": "sec-ch-prefers-reduced-transparency"
+            },
+            "sec_ch_prefers_contrast": {
+                "type": "headertmplvar",
+                "header": "sec-ch-prefers-contrast"
+            },
+            "sec_ch_forced_colors": {
+                "type": "headertmplvar",
+                "header": "sec-ch-forced-colors"
+            }
+        },
+        "clientlog": {
+            "url_path": {
+                "type": "client",
+                "key": "url_path"
+            },
+            "timezone": {
+                "type": "client",
+                "key": "timezone"
+            },
+            "webgl_vendor": {
+                "type": "client",
+                "key": "webgl_vendor"
+            },
+            "webgl_renderer": {
+                "type": "client",
+                "key": "webgl_renderer"
+            },
+            "cpu_cores": {
+                "type": "client",
+                "key": "cpu_cores"
+            },
+            "mem_size": {
+                "type": "client",
+                "key": "mem_size"
+            },
+            "max_tp": {
+                "type": "client",
+                "key": "max_tp"
+            },
+            "oscpu": {
+                "type": "client",
+                "key": "oscpu"
+            },
+            "plat": {
+                "type": "client",
+                "key": "plat"
+            },
+            "screen_x": {
+                "type": "client",
+                "key": "screen_x"
+            },
+            "screen_y": {
+                "type": "client",
+                "key": "screen_y"
+            },
+            "screen_pix_ratio": {
+                "type": "client",
+                "key": "screen_pix_ratio"
+            },
+            "screen_pix_depth": {
+                "type": "client",
+                "key": "screen_pix_depth"
+            },
+            "canvas_fp": {
+                "type": "clienthash",
+                "key": "canvas_fp"
+            },
+            "online": {
+                "type": "client",
+                "key": "online"
+            },
+            "pdf_viewer": {
+                "type": "client",
+                "key": "pdf_viewer"
+            },
+            "cookies_enabled": {
+                "type": "client",
+                "key": "cookies_enabled"
+            },
+            "dnt": {
+                "type": "client",
+                "key": "dnt"
+            },
+            "langs": {
+                "type": "client",
+                "key": "langs"
+            },
+            "prod": {
+                "type": "client",
+                "key": "prod"
+            },
+            "prod_sub": {
+                "type": "client",
+                "key": "prod_sub"
+            },
+            "client_user_agent": {
+                "type": "client",
+                "key": "client_user_agent"
+            },
+            "vend": {
+                "type": "client",
+                "key": "vend"
+            },
+            "inner_height": {
+                "type": "client",
+                "key": "inner_height"
+            },
+            "inner_width": {
+                "type": "client",
+                "key": "inner_width"
+            }
+        }
+
+    },
     "themevars": {
         "sectionshadowlength": 2,
         "sectionshadowresolution": 2,
@@ -128,7 +375,8 @@
             "h6": 14,
             "nav": 14,
             "body": 11,
-            "pagebuttontitle": 16
+            "pagebuttontitle": 16,
+            "breadcrumbs": 11
         },
         "sectionborder": 2,
         "sectionmargin": 6,
@@ -138,6 +386,7 @@
     },
     "uservars": {
         "showfooter": true,
-        "showhr": true
+        "showhr": true,
+        "breadcrumbs": true
     }
 }

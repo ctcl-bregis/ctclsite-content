@@ -25,13 +25,32 @@ However, starting July 31, 2024, I would start using the numbers-only format des
 This date format is used in any instance that it is beneficial. This format would be used in file names, directory names, software builds and anywhere a shorthand date is needed. It replaces the format that I commonly used.
 
 The format used is `YYYYMMDD` where:
-- YYYY - Year, four-number representation
-- MM - Month, two-number representation, single-digit months are to have a leading zero
-- DD - Day, two-number representation, single-digit days are to have a leading zero
+- YYYY - Year, four-number representation, values less than four digits are to have leading zero(es)
+- MM - Month, two-number representation, single-digit values are to have a leading zero
+- DD - Day, two-number representation, single-digit values are to have a leading zero
 
 For example, in file and directory names:
 - backup_20240526
 - photos_20220222
+
+For date formats including the time, this format shall be used:
+
+The format used is `YYYYMMDD_HHMMSSZZZ` where:
+- YYYY - Year, four-number representation
+- MM - Month, two-number representation, single-digit values are to have a leading zero
+- DD - Day, two-number representation, single-digit values are to have a leading zero
+- HH - Hour, two-number representation in 24-hour format, single-digit values are to have a leading zero
+- MM - Minute, two-number representation, single-digit values are to have a leading zero
+- SS - Second, two-number representation, single-digit values are to have a leading zero
+- ZZZZZ - Time zone, in this format:
+  - First character is to determine a negative or positive offset that uses p and n to represent + and - respectively
+  - Second to fifth is the UTC offset. Written as described in ISO 8601.
+
+For example:
+- September 22, 2024, 12:58 PM EDT: 202409221258n0400
+- February 22, 2022, 10:22 PM EST: 202202222222n0500
+- June 7, 2004, 2:47 AM EDT: 200406070247n0400
+- April 1, 2008, 12:00 PM CEST: 200804011200p0200
 
 #### Long form
 In text such as documents, commit messages and general communications, this format is preferred:
@@ -110,4 +129,10 @@ As stated in the [coreboot documentation](https://doc.coreboot.org), coreboot sh
 Technically both "SK Hynix" and "SK hynix" are correct spelling of the name however the latter is preferred. 
 
 #### Innolux vs InnoLux
-Though the company refers to itself by either as seen in datasheets. The spelling "Innolux" would be used. 
+Though the company refers to itself by both as seen in datasheets. The spelling "Innolux" would be used. 
+
+#### ASUS
+ASUS is to be spelled in all caps.
+
+##### Zenfone
+Zenfone should not be spelled with a capital "F".

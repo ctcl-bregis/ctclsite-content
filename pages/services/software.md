@@ -13,7 +13,7 @@ This entire website is designed, developed and maintained by myself.
 For backend, I have experience in the following:
 
 - Rust programming language
-  - [Actix](https://actix.rs/) - [ctclsite-rust](../projects/ctclsite/), [ToDoKiosk](../projects/todokiosk/), [ContactList](../projects/contactlist/)
+  - [Actix-Web](https://actix.rs/) - [ctclsite-rust](../projects/ctclsite/), [ToDoKiosk](../projects/todokiosk/), [ContactList](../projects/contactlist/)
 - Python programming language
   - [Django](https://www.djangoproject.com/) - [ctclsite-python](../projects/ctclsite/) (2023-2024), [ToDoKiosk](../projects/todokiosk/), [ContactList](../projects/contactlist/)
   - [Flask](https://flask.palletsprojects.com/) - [ctclsite-python](../projects/ctclsite/) (2021-2023)
@@ -32,10 +32,10 @@ I have some experience in writing firmware for microcontroller-based devices and
 
 - C
   - Keypad controller for [MediaCow Touch "Nashville"](../projects/mct_1/) - ARMv6-M
-  - Various projects using Arduino hardware - AVR
-  - MediaCow Touch 2 SMEC - ARMv7-A, ARM926, 8051
+  - Various projects using Arduino hardware - AVR8
 - Rust 
   - Some experimentation with the Adafruit PyPortal - ARMv7E-M
+  - MediaCow Touch 2 - x86-64, ARMv7-A, ARM926, 8051
 - Python
   - Some experimentation with the Raspberry Pi Pico - ARMv6-M
 
