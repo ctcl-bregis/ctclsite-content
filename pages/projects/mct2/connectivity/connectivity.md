@@ -10,7 +10,9 @@
 ### Wireless Connectivity
 Like most tablet computers, MediaCow Touch 2 has Wi-Fi and Bluetooth capabilities. 
 
-Wi-Fi and Bluetooth is provided through a M.2 module. This is an important security and privacy feature as wireless connectivity can be disabled altogether by removing the module. A switch to shut off the wireless module is on the keypad.
+Wi-Fi and Bluetooth is provided through a module connected to the M.2 Key E slot. This is an important security and privacy feature as wireless connectivity can be disabled altogether by removing the module. A switch to shut off the wireless module is on the keypad.
+
+A separate M.2 Key B slot is available with a SIM card slot for the option of adding cellular network connectivity support through a WWAN module.
 
 ### Ethernet
 MediaCow Touch 2, like MediaCow Touch 1, has a single gigabit Ethernet port. 
@@ -32,17 +34,19 @@ MediaCow Touch 2, like many other devices using the LattePanda Mu, makes extensi
 | HSIO 1  | USB 3.2    | N/A         | Controller #1        |
 | HSIO 2  | M.2 Key E  | 1           | Controller #1        |
 | HSIO 3  | Ethernet   | 2           | Controller #1        |
-| HSIO 6  | **Unused** | N/A         | Controller #2        |
-| HSIO 8  | M.2 Key M  | 3           | Controller #3        |
-| HSIO 9  | M.2 Key M  | 3           | Controller #3        |
-| HSIO 10 | M.2 Key M  | 3           | Controller #3        |
-| HSIO 11 | M.2 Key M  | 3           | Controller #3        |
+| HSIO 6  | M.2 Key B  | 3           | Controller #2        |
+| HSIO 8  | M.2 Key M  | 4           | Controller #3        |
+| HSIO 9  | M.2 Key M  | 4           | Controller #3        |
+| HSIO 10 | M.2 Key M  | 4           | Controller #3        |
+| HSIO 11 | M.2 Key M  | 4           | Controller #3        |
 
 ### Debug UART Header
-A 2-pin 2.54mm standard pin header connected to UART0 is available on the carrier board. 
+A 2-pin 2.54mm standard pin header connected to the sytem on module (LattePanda Mu) UART0 interface is available on the carrier board. 
+
+Another 2-pin 2.54mm standard pin header is also available for connection to UART0 on SMEC (SP7021).
 
 ### SMBus and SMLink
-Both the SMBus and SMLink interfaces are connected to SMEC. See the page on the [Embedded Controller](../ec/) for details.
+Both the SMBus and SMLink interfaces are connected to SMEC. See the page on the [Embedded Controller](../smec/) for details.
 
 ### USB 2.0
 All of the available USB 2.0 interfaces are used. 
@@ -66,7 +70,7 @@ The FPC connector for MIPI CSI is used for the back-facing camera.
 The MIPI CSI interfaces exposed by the connector, Port C and Port D, may be left unused.
 
 ### Embedded DisplayPort
-The dedicated eDP connector on the LattePanda Mu is used to connect the touchscreen display to the system. A separate I2C connector is used for touch data. 
+The dedicated eDP connector on the LattePanda Mu is used to connect the touchscreen display to the system. A separate FPC connector for I2C provided by the LattePanda Mu is used for touch event data.
 
 ### TCP0/TCP1
 Both TCP0/TCP1 are used for USB Type-C connectivity and have support for DisplayPort alternate mode. The DisplayPort alternate mode and USB 3.0 switching is implemented by the Intel N100 itself.

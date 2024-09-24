@@ -171,23 +171,56 @@ Organizations that provided guides, datasheets and other technical support docum
 MediaCow Touch 2's design and hardware had inspiration from the following products:
 
 - Ainol NOVO7 Paladin
+  - Overall physical design inspiration
 - Apple iPhone 6S
+  - Display selection
 - Apple iPhone XR 
+  - Display selection
+- ASUS Chromebook Flip C100P
+  - Some inspiration for original Rockchip-based MediaCow Touch 2 idea
+  - Display selection
 - ASUS Zenfone 9 AI2202
+  - USB Type-C feature inspiration, specifically USB PD capabilities
 - Banana Pi BPI-F2P
+  - Circuit design reference
 - Flipper Devices Flipper Zero FZ.1
+  - LED controller ideas
 - HP ZBook Studio G3 15
+  - USB Type-C feature inspiration
+  - Display selection
+  - CPU cooling ideas
+- HP(E) ProLiant BL460c G8 and ProLiant DL380 G7
+  - Inlet temperature sensor idea
 - LattePanda Mu Full Carrier
+  - Circuit design reference
 - LattePanda Mu Lite Carrier
+  - Circuit design reference
+- Lenovo 100e Chromebook 2nd Gen (11.6" Intel)
+  - Status LED idea
+  - USB Type-C feature ideas
 - Lenovo ThinkPad T430s
+  - Battery layout ideas
 - Lenovo ThinkPad T450s
+  - Battery layout ideas
 - Matterport Pro2
+  - Battery layout ideas
 - Microsoft Surface series
+  - Overall physical design inspiration
 - Microsoft Zune series
+  - Original inspiration for MediaCow
 - Nintendo Switch (2017)
+  - Display selection
 - Positivo BGH Y210
+  - Camera placement idea
 - Samsung Chromebook XE500C13
+  - Display size comparison
+  - Status LED idea
 - Samsung Galaxy S7 SM-G930F
+  - Status LED idea
 - Samsung Galaxy Tab3 10.1 P5210
+  - Used as an example of an x86-based tablet
 - Supermicro H13SAE-MF
+  - Socketed BIOS SPI flash idea
 - Valve Steam Deck
+  - Overall physical design inspiration
+  - Device usage ideas
