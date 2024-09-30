@@ -56,9 +56,12 @@ section.fitscreen {
     height: 100vh;
 }
 
-section p, section h2, section h3, section h4, section h5, section h6, section figure {
-    margin-left: {{ sectionmargin }}pt;
-    margin-right: {{ sectionmargin }}pt;
+section h1, section h2, section h3, section h4, section h5, section h6, section p, section figure, section ul {
+    margin: {{ sectionmargin }}pt;
+}
+
+section.content {
+    margin: {{ sectionmargin }}pt;
 }
 
 section ul {

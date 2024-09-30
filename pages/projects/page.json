@@ -18,6 +18,14 @@
 			"fitscreen": false,
             "links": [
                 {
+                    "type": "titletext",
+                    "text": "Web Software"
+                },
+                {
+                    "type": "full",
+                    "page": "/projects/ctclsite/"
+                },
+                {
                     "type": "full",
                     "page": "/projects/cams/"
                 },
@@ -27,15 +35,31 @@
                 },
                 {
                     "type": "full",
-                    "page": "/projects/ctclsite/"
+                    "page": "/projects/netwiki/"
+                },
+                {
+                    "type": "full",
+                    "page": "/projects/todokiosk/"
+                },
+                {
+                    "type": "titletext",
+                    "text": "Embedded Device Software"
                 },
                 {
                     "type": "full",
                     "page": "/projects/fz_cfw/"
                 },
                 {
+                    "type": "titletext",
+                    "text": "Other"
+                },
+                {
                     "type": "full",
-                    "page": "/projects/todokiosk/"
+                    "page": "/projects/lysine/"
+                },
+                {
+                    "type": "full",
+                    "page": "/projects/slag/"
                 }
             ]
         },
@@ -46,6 +70,10 @@
 			"theme": "gold",
 			"fitscreen": false,
             "links": [
+                {
+                    "type": "titletext",
+                    "text": "MediaCow"
+                },
                 {
                     "type": "full",
                     "page": "/projects/mct2/"
@@ -67,8 +95,16 @@
                     "page": "/projects/mc/"
                 },
                 {
+                    "type": "titletext",
+                    "text": "Perpherial Devices"
+                },
+                {
                     "type": "full",
                     "page": "/projects/mathpad/"
+                },
+                {
+                    "type": "titletext",
+                    "text": "Modules"
                 },
                 {
                     "type": "full",
@@ -77,6 +113,18 @@
                 {
                     "type": "full",
                     "page": "/projects/micromemory/"
+                },
+                {
+                    "type": "titletext",
+                    "text": "Development Hardware"
+                },
+                {
+                    "type": "full",
+                    "page": "/projects/sp7021/"
+                },
+                {
+                    "type": "full",
+                    "page": "/projects/sp7021_sbc/"
                 }
             ]
         },
@@ -97,7 +145,24 @@
                 },
                 {
                     "type": "full",
+                    "page": "/projects/svcs/"
+                },
+                {
+                    "type": "full",
                     "page": "/projects/srv_misc/"
+                }
+            ]
+        },
+        "automotive": {
+            "type": "linklist",
+            "boxed": true,
+			"title": "Automotive",
+			"theme": "gold",
+			"fitscreen": false,
+            "links": [
+                {
+                    "type": "full",
+                    "page": "/projects/netkart/"
                 }
             ]
         },
@@ -131,7 +196,7 @@
             "links": [
                 {
                     "type": "full",
-                    "page": "/projects/styling/"
+                    "page": "/projects/style/"
                 },
                 {
                     "type": "full",

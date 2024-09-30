@@ -1,6 +1,5 @@
-
-{% for fontname, font in fonts %}
-{% for stylename, style in font.styles %}
+{% for fontname, font in fonts -%}
+{% for stylename, style in font.styles -%}
 @font-face {
     font-family: {{ font.name }};
     src: {% for format, filename in style.formats %}
@@ -8,5 +7,5 @@
     font-weight: {{ style.weight }};
     font-style: {{ style.style }};
 }
-{% endfor %}
-{% endfor %}
+{% endfor -%}
+{% endfor -%}

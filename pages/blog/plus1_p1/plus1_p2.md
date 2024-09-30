@@ -2,7 +2,7 @@ Since 2020, I have been exploring the potential uses for the SP7021 System in Pa
 
 In 2020, I have acquired a Banana Pi F2P Single Board Computer utilizing the SP7021. At first I planned to use the board for data acquistion on the NetKart automotive project but I later decided to use it for development purposes only.
 
-# What is the SP7021
+## What is the SP7021
 The [SP7021](https://www.sunplus.com/products/plus1.asp) is a System in Package device. The package contains two dies, one for the DDR3 DRAM and one for the ARM processor cores. Depending on the version, the SP7021 either ships with a 4 Gbit DDR3 die for 512 MByte of RAM or an 1 Gbit DDR3 die for 128 MByte of RAM.
 
 So far, the SP7021 SIP appears to be the only Linux-capable processor that is in a TQFP package and has integrated DRAM.
@@ -12,7 +12,7 @@ The IC is available from:
 - [DigiKey](https://www.digikey.com/en/products/detail/tibbo/SP7021-IF/13918547)
 - [Tibbo Technology](https://tibbo.com/store/plus1.html)
 
-# Resources
+## Resources
 
 ## What I created
 In May 2021, to teach myself about putting together my own embedded Linux images, I have made a [Debian 10 GNU/Linux image for the Banana Pi F2P board](https://forum.banana-pi.org/t/bpi-f2p-debian-10-armhf-linux-kernel-5-4-35/12286). This is my first ever attempt at making an embedded image so it may not be in the most usable of states.

@@ -10,6 +10,7 @@
     "templatedir": "ctclsite-config/templates/",
     "cpus": 1,
     "defaulttheme": "gold",
+    "loglevel": "info",
     "minimizehtml": false,
     "minimizecss": false,
     "filetypes": {
@@ -361,7 +362,6 @@
                 "key": "inner_width"
             }
         }
-
     },
     "themevars": {
         "sectionshadowlength": 2,
@@ -388,5 +388,14 @@
         "showfooter": true,
         "showhr": true,
         "breadcrumbs": true
+    },
+    "requestvars": {
+        "nojs": {
+            "varname": "nojs",
+            "allowedvalues": [
+                "true",
+                "false"
+            ]
+        }
     }
 }

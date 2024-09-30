@@ -60,14 +60,14 @@ All of the available USB 2.0 interfaces are used.
 | 5    | USB Type C port 1          |
 | 6    | USB Type C port 2          |
 | 7    | M.2 Key E Slot (Bluetooth) |
-| 8    | Front-facing Camera        |
+| 8    | M.2 Key B Slot (WWAN)      |
 
 TCP0 and TCP1 ports must use either USB 2.0 port 1, 2, 5 or 6 as stated in the "Intel® Processor and Intel® Core™ i3 N-Series Datasheet, Volume 1 of 2" (Revision 001, January 2023) document.
 
 ### MIPI CSI
 The FPC connector for MIPI CSI is used for the back-facing camera.
 
-The MIPI CSI interfaces exposed by the connector, Port C and Port D, may be left unused.
+The MIPI CSI interfaces exposed by the module card-edge connector may be used for the front-facing camera. 
 
 ### Embedded DisplayPort
 The dedicated eDP connector on the LattePanda Mu is used to connect the touchscreen display to the system. A separate FPC connector for I2C provided by the LattePanda Mu is used for touch event data.
@@ -81,3 +81,4 @@ Notably the LattePanda Mu Full Evaluation Carrier Board uses one of the TCP inte
 The TPM header shares the same SPI bus as the external SPI flash for BIOS. 
 
 The pinout of TPM headers seem to not follow any standard and the pinout varies by motherboard vendor. On MediaCow Touch 2, the pinout is identical to the TPM header pinout of the Supermicro H13SAE-MF motherboard.
+

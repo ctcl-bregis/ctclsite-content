@@ -1,0 +1,29 @@
+{
+    "title": "Documentation",
+    "theme": "gold",
+    "startdate": "",
+    "enddate": "",
+    "desc": "Documentation for ctclsite",
+    "icon": "",
+    "icontitle": "",
+    "keywords": [],
+    "cat": "",
+    "favicon": "",
+    "headerids": true,
+    "shownavbar": true,
+    "content": {
+        "content": {
+            "type": "linklist",
+            "boxed": false,
+            "title": "",
+            "theme": "",
+            "fitscreen": false,
+            "links": [
+                {
+                    "type": "full",
+                    "page": "/projects/mct2/config/"
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,24 @@
+{
+    "title": "Power Supply Subsystem",
+    "theme": "red",
+    "startdate": "",
+    "enddate": "",
+    "desc": "",
+    "icon": "",
+    "icontitle": "",
+    "keywords": [],
+    "cat": "",
+    "favicon": "",
+    "headerids": true,
+    "shownavbar": true,
+    "content": {
+        "content": {
+            "type": "content",
+            "boxed": false,
+            "title": "",
+            "theme": "",
+            "fitscreen": false,
+            "content": "sp7021_sbc.md"
+        }
+    }
+}

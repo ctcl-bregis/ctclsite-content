@@ -1,6 +1,6 @@
 "Polybutylene Terephthalate" (shorthand "PBT") is the codename given to the desktop computer system that currently serves as WBPC1 for general purpose workloads. The system is considered to be the "main PC" and almost all at-home work and entertainment (gaming) is done on it. It is normally used from eight (8) to fourteen (14) hours a day.
 
-Unlike former systems which used Intel Xeon CPUs from 2010-2013, this build made use of modern computer components. It makes use of the ECC memory support of certain AMD Ryzen desktop CPUs and motherboards that support it. In the past I avoided using Ryzen processors due to the uncertainty of ECC memory support. This time I was able to find a motherboard that I could ensure that ECC memory is supported. Others online were able to help me find out that the CPU's memory controller was configured for it with a feature within CPU-Z on Windows.
+Unlike former systems which used Intel Xeon CPUs from 2010-2013, this build made use of modern components. It makes use of the ECC memory support of certain AMD Ryzen desktop CPUs and motherboards. In the past I avoided using Ryzen processors due to the uncertainty of ECC memory support. However, this time I was able to find a motherboard that I could ensure that ECC memory is supported. Others online were able to help me find out that the CPU's memory controller was configured for it with a feature within CPU-Z on Windows.
 
 The "rebuild" of the system with the Cooler Master N200 case was mostly to make the system more portable while the motherboard was already in a microATX format. The idea to have the system more portable is from how there is the possibility of going on another long business trip or vacation. Though, bringing the desktop on trips may only be possible if traveling by road as it would be too difficult to transport the system on aircraft due to its weight and fragility.
 
@@ -57,12 +57,10 @@ The Corsair RM850x was used out of the [Polyethylene](../pc_pe/) build. It may n
 #### CPU Cooler
 At first, an included AMD Wraith Stealth cooler was used. Due to noise and cooling concerns, a Cooler Master Hyper 212 EVO V2 was later installed with one of the extra case fans taking place of the included fan.
 
-As of May 23, 2024, CPU temperatures often reach 50-55 celsius on heavy workloads such as compiling large amounts of Rust crates (ctclsite-rust uses 395 as of 1.7.0). It is likely that not enough thermal paste was used.
+As of September 27, CPU temperatures often reach 50-55 celsius on heavy workloads using all CPU threads such as compiling code.
 
 #### Case Fans
 Four 120mm Protechnic Magic MGT12012ZB-W25 fans were found on eBay. Three were installed on the case while one was used for the CPU cooler.
-
-These fans are highly effective but are loud. If I decide to, I may switch the fans for ones that are more quiet and use the fans in servers or other projects.
 
 #### Case
 As described in the first section, the case was chosen for its small size, low cost and lack of a side window.

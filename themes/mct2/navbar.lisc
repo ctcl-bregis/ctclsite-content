@@ -1,6 +1,3 @@
-nav {
-
-}
 
 nav ul {
     background-color: {{ theme.color }};
@@ -21,7 +18,11 @@ nav ul li a {
     border-color: {{ theme.color }};
     background-color: {{ theme.color }};
     color: {{ theme.fgcolor }};
-    padding: 4pt;
+    padding-right: 4pt;
+    padding-left: 4pt;
+    /* Once again, compensate for Heuristica's descent and ascent values */
+    padding-top: 5pt;
+    padding-bottom: 3pt;
     font-weight: bold;
     font-size: {{ fontsizes.nav }};
     text-decoration: none;

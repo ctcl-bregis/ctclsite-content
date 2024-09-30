@@ -48,7 +48,11 @@ section.fitscreen {
     height: 100vh;
 }
 
-section p, section h2, section h3, section h4, section h5, section h6, section figure, section code, section ul {
+section h1, section h2, section h3, section h4, section h5, section h6, section p, section figure, section ul {
+    margin: {{ sectionmargin }}pt;
+}
+
+section.content {
     margin: {{ sectionmargin }}pt;
 }
 
@@ -99,3 +103,4 @@ footer {
 
 {% include "pagebutton.lisc" %}
 {% include "sectionthemes.lisc" %}
+{% include "scrollbar.lisc" %}

@@ -1,0 +1,24 @@
+{
+    "title": "Week 39, 2024",
+    "theme": "gold",
+    "startdate": "September 30, 2024",
+    "enddate": "",
+    "desc": "Weeks 39 of 2024",
+    "icon": "/static/pages/blog/wk39_2024/wk392024_icon.webp",
+    "icontitle": "",
+    "keywords": [],
+    "cat": "update",
+    "favicon": "",
+    "headerids": true,
+    "shownavbar": true,
+    "content": {
+        "content": {
+            "type": "content",
+            "boxed": false,
+            "title": "",
+            "theme": "",
+            "fitscreen": false,
+            "content": "week_39_2024.md"
+        }
+    }
+}

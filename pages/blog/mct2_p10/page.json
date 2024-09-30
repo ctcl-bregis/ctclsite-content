@@ -1,0 +1,24 @@
+{
+    "title": "MediaCow Touch 2 - Part 10",
+    "theme": "mct2",
+    "startdate": "September 28, 2024",
+    "enddate": "",
+    "desc": "Last update for now",
+    "icon": "/static/pages/blog/mct2_p10/mct2_p10_icon.webp",
+    "icontitle": "Don't have a cow, dad.",
+    "keywords": [],
+    "cat": "hardware",
+    "favicon": "",
+    "headerids": true,
+    "shownavbar": true,
+    "content": {
+        "content": {
+            "type": "content",
+            "boxed": false,
+            "title": "",
+            "theme": "",
+            "fitscreen": false,
+            "content": "mct2_p10.md"
+        }
+    }
+}

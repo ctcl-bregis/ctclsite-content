@@ -1,9 +1,9 @@
 {
-    "title": "Side Display",
-    "theme": "mct2",
-    "startdate": "",
-    "enddate": "",
-    "desc": "",
+    "title": "NetWiki",
+    "theme": "gold",
+    "startdate": "2024",
+    "enddate": "Present",
+    "desc": "Browser-based wiki software",
     "icon": "",
     "icontitle": "",
     "keywords": [],
@@ -18,7 +18,7 @@
             "title": "",
             "theme": "",
             "fitscreen": false,
-            "content": "oled.md"
+            "content": "netwiki.md"
         }
     }
 }

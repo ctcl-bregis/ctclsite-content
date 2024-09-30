@@ -10,11 +10,11 @@ The theming and codename is inspired by a certain online friend that I met in la
 For an in-depth history on MediaCow, see the [MediaCow page](../mediacow/).
 
 #### 2021-2022
-In March 2021, I came up with ideas to develop another tablet device after the success with MediaCow Touch "Nashville" in November 2020. At first, I had some overcomplicated, unrealstic ideas at the beginning. The initial idea at the time surrounded the use of a soldered-down Rockchip RK3588 SoC with ten DDR4 DRAM ICs, specifically Nanya NT5AD1024M8A3, for 8GB of memory with ECC. This would have been extremely difficult if not impossible for me to design at the time so I later decided to use a System on Module, a format of computers I just heard of recently at that time.
+In March 2021, I came up with ideas to develop another tablet device after the success with MediaCow Touch "Nashville" in November 2020. At first, I had some overcomplicated, unrealstic ideas at the beginning. The initial idea at the time surrounded the use of a soldered-down Rockchip RK3588 SoC with ten DDR4 DRAM ICs, specifically Nanya NT5AD1024M8A3, for 8GB of memory with ECC. This would have been extremely difficult if not impossible for me to design at the time so I later decided to use a System on Module, a format of computers I just heard of recently at the time.
 
 Block diagrams and physical layout diagrams have been attempted throughout the rest of 2021.
 
-In late 2021 to early 2022, I decided to use the Graperain GR3399 System on Module with the Rockchip RK3399. In February 2022, I ordered the GR3399 Gold-Finger development kit from Graperain. The module was quite large and had 2GB of DDR3 RAM (4x Samsung K4B4G1649E-BCMA). I preferred to use the MXM3.0 ("Gold Finger") format of the System on Module over the "Stamp hole" G3399 so during the assembly stage, I could just remove a couple screws to remove the module from the development kit and install the module into the prototype without having to desolder and risk damaging the module and/or development board.
+In late 2021 to early 2022, I decided to use the Graperain GR3399 System on Module with the Rockchip RK3399. In February 2022, I ordered the GR3399 Gold-Finger development kit from Graperain. The module was quite large and had 2GB of DDR3 RAM (4x Samsung K4B4G1649E-BCMA). I preferred to use the MXM3.0 ("Gold Finger") format of the System on Module over the "Stamp hole" G3399 so during the assembly stage, I could just remove a couple mounting screws to remove the module from the development kit and install the module into the prototype carrier board without having to desolder and risk damaging the module and/or development board.
 
 I attempted to start working on the device's design in late 2021 to early 2022. The global chip shortage at the time made the project much more difficult to plan and develop. Along with difficulties with component sourcing, the project mainly suffered from my overestimation of my skills. Basically, when I tried to start working on the project, I had no idea what I was doing then I gave up shortly after since there was no push for me to complete the project.
 
@@ -55,4 +55,4 @@ This is the process in how I plan to design the device:
    5. Final software testing
 4. Completion
 
-It is cruical that I complete steps 1 through 2.6 by September 1, 2024, preferably by August 26, 2024.
+## Subpages

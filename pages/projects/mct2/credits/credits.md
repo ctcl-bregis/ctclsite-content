@@ -62,10 +62,12 @@ Hardware used for development since May 2024:
   - Circuit and device design
   - Documentation
   - Software development
+  - Research
 - "Polymethylmethacrylate" - HP ZBook Studio G3 15 (Xeon)
   - Circuit and device design
   - Documentation
   - Software development
+  - Research
 - "Chlorofluoroethane" ("R151") - Lenovo ThinkPad T450s
   - Device design
   - Documentation
@@ -79,6 +81,7 @@ Hardware used for development since May 2024:
 - "Tetrahydrocannabinol" - ASUS Zenfone 9
   - Documentation
   - Communications
+  - Research
   - Remote internet access
 
 ### Servers
@@ -97,6 +100,8 @@ Hardware used for development since May 2024:
 
 - [No Codename] - Texas Instruments TI-Nspire CX
   - Formula calculation
+- "Dimethylheptylpyran" - Flipper Zero FZ.1
+  - Device debugging
 
 ## Locations
 
@@ -111,6 +116,7 @@ MediaCow Touch 2 was developed in the following locations:
 - Orlando, Florida, United States
 - Pocahontas, West Virginia, United States
 - Richmond, Virginia, United States
+  - The Pace Center (at VCU)
 
 90+% of development was done in Midlothian, Virginia. 
 
@@ -130,6 +136,7 @@ These organizations and individuals have provided hardware for me to use for dev
 ### Technical Support
 Organizations that provided guides, datasheets and other technical support documents that were used in development:
 
+- Adafruit
 - Advantech
 - Altium
 - Analog Devices (including Linear Technology Corporation and Maxim Integrated)
@@ -139,10 +146,13 @@ Organizations that provided guides, datasheets and other technical support docum
 - Delta Electronics
 - Diodes Incorporated
 - ECS
+- Flipper Devices
 - Foxconn
+- Fuzhou Rockchip
 - Infineon Technologies (including Cypress Technology and Qimonda)
 - Innolux Display
 - Intel
+- ISSI
 - JST
 - LOTES
 - Lumissil
@@ -155,13 +165,17 @@ Organizations that provided guides, datasheets and other technical support docum
 - Onsemi
 - Richtek
 - Samsung Electro-Mechanics
+- Samsung Electronics
 - Silergy
+- SINOVOIP Banana Pi
 - SiTime
 - STMicroelectronics
+- Sunplus Technology
 - Tempo Semiconductor (including IDT and SigmaTel)
 - Texas Instruments
+- Tibbo Technology
 - Toradex
-- Toshiba
+- Toshiba/KIOXIA
 - Vishay (including Siliconix and General Semiconductor)
 - Winbond Electronics
 - Xi'an Aerosemi Technology
@@ -181,7 +195,7 @@ MediaCow Touch 2's design and hardware had inspiration from the following produc
   - Display selection
 - ASUS Zenfone 9 AI2202
   - USB Type-C feature inspiration, specifically USB PD capabilities
-- Banana Pi BPI-F2P
+- Banana Pi BPI-F2P/BPI-F2S
   - Circuit design reference
 - Flipper Devices Flipper Zero FZ.1
   - LED controller ideas
@@ -221,6 +235,7 @@ MediaCow Touch 2's design and hardware had inspiration from the following produc
   - Used as an example of an x86-based tablet
 - Supermicro H13SAE-MF
   - Socketed BIOS SPI flash idea
+  - TPM module pinout
 - Valve Steam Deck
   - Overall physical design inspiration
   - Device usage ideas

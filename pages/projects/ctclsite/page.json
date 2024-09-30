@@ -22,14 +22,18 @@
         },
         "subpages": {
             "type": "linklist",
-            "boxed": false,
-            "title": "",
-            "theme": "",
+            "boxed": true,
+            "title": "Subpages",
+            "theme": "gold",
             "fitscreen": false,
             "links": [
                 {
                     "type": "full",
-                    "page": "/projects/ctclsite/config/"
+                    "page": "/projects/ctclsite/history"
+                },
+                {
+                    "type": "full",
+                    "page": "/projects/ctclsite/docs/"
                 }
             ]
         }

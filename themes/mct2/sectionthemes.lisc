@@ -39,12 +39,4 @@
     color: {{ data.fgcolor }};
     background-color: {{ data.color }};
 }
-{# Category box -#}
-.category-{{ name }} {
-    padding: 2pt;
-    padding-left: 4pt;
-    padding-right: 4pt;
-    color: {{ data.fgcolor }};
-    background-color: {{ data.color }};
-}
 {% endfor -%}

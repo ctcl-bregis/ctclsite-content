@@ -1,0 +1,24 @@
+{
+    "title": "NetWiki",
+    "theme": "gold",
+    "startdate": "",
+    "enddate": "",
+    "desc": "Documentation for NetWiki",
+    "icon": "",
+    "icontitle": "",
+    "keywords": [],
+    "cat": "",
+    "favicon": "",
+    "headerids": true,
+    "shownavbar": true,
+    "content": {
+        "content": {
+            "type": "content",
+            "boxed": false,
+            "title": "",
+            "theme": "",
+            "fitscreen": false,
+            "content": "docs_root.md"
+        }
+    }
+}

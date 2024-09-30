@@ -2,7 +2,7 @@ For me, personally, 2023 was quite a challenging period of time. Some of these c
 
 I plan to significantly improve my life throughout 2024 from learning from the events in my life during 2023.
 
-# Projects
+## Projects
 In 2023, I released a less than anticipated amount of projects.
 
 During 2023, I released just software projects due to the challenges faced with the assembly of hardware projects. Most of these were just revisions of [the website](../../projects/ctclsite/).
@@ -28,7 +28,7 @@ Not much of the "backend" code was changed and instead this update had its focus
 
 RAMList is no longer part of the website. Originally with the v4 update, I planned to have RAMList a written guide instead of a list of memory modules due to the misleading nature of the lists. For the time being, RAMList will not be added back to the website unless there is some interest for it.
 
-# Employment
+## Employment
 For the most of 2023, I was unemployed and instead turned to personal projects.
 
 I decided to cease employment at 2nd Life Inc. due to multiple factors on April 7, 2023. However, there may be a chance I might consider coming back.

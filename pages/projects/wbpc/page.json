@@ -12,6 +12,14 @@
     "headerids": true,
     "shownavbar": true,
     "content": {
+        "intro": {
+            "type": "content",
+            "boxed": false,
+            "title": "",
+            "theme": "",
+            "fitscreen": false,
+            "content": "intro.md"
+        },
         "pc_pbt": {
             "type": "content",
             "boxed": true,

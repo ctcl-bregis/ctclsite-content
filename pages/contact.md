@@ -8,12 +8,12 @@ There are multiple ways to contact me:
 Other services:
 
 - Instagram: [@ctcl.bregis](https://instagram.com/ctcl.bregis/)
-- Snapchat: @ctcl-bregis
+- Snapchat: [@ctcl-bregis](https://www.snapchat.com/add/ctcl-bregis)
 - Reddit: [u/ctcl-tech](https://www.reddit.com/user/ctcl-tech/)
 - Wikipedia: [User:Ctcl-tech](https://en.wikipedia.org/wiki/User%3ACtcl-tech)
 - Steam: [Alucard](https://steamcommunity.com/id/crazyblocks2004/)
 
-These are available upon legitimate request:
+These are available upon request, usually in person.
 
 - Cash App
 - Phone Number

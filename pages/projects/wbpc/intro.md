@@ -1,0 +1,1 @@
+Since January 2021, I have been putting together my own workstation-class computer systems. Prior to this, the desktops I used consisted of upgraded pre-built systems, "gaming PCs" and converted laptops. Also since then, all systems under "WBPC" are to have ECC memory.

@@ -18,5 +18,5 @@ The case may be made from white PET(G) like MediaCow Touch 2.
 Instead of having the complex task of designing another PCB for use in the monitor, an off-the-shelf controller board may be used.
 
 ### Display
-The inital prototype may use the Innolux N156KME-GNA, the specific display was chosen due to its very close DPI value to the 11.6" display being used in MediaCow Touch 2 itself while having 2K resolution (2560x1440). An interesting feature is that the panel supports refresh rates up to 165Hz while having a 4-lane eDP1.3 connector.
+The inital prototype may use the Innolux N156KME-GNA, the specific display was chosen due to its very close DPI value to the 11.6" display being used in MediaCow Touch 2 itself while having a 2K resolution (2560x1440). An interesting feature is that the panel supports refresh rates up to 165Hz while having a 4-lane eDP1.3 connector.
 

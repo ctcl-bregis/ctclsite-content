@@ -1,4 +1,1 @@
-<p class="breadcrumbs">
-{% for dir, link in path -%}
-/<a href="{{ link }}">{{ dir }}</a>{% endfor -%}/
-</p>
+<p class="breadcrumbs">{% for dir, link in path -%}/<a href="{{ link }}">{{ dir }}</a>{% endfor -%}/</p>

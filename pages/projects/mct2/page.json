@@ -57,11 +57,7 @@
                 },
                 {
                     "type": "full",
-                    "page": "/projects/mct2/ec/"
-                },
-                {
-                    "type": "full",
-                    "page": "/projects/mct2/firmware/"
+                    "page": "/projects/mct2/keypad/"
                 },
                 {
                     "type": "full",
@@ -73,11 +69,15 @@
                 },
                 {
                     "type": "full",
+                    "page": "/projects/mct2/os/"
+                },
+                {
+                    "type": "full",
                     "page": "/projects/mct2/power/"
                 },
                 {
                     "type": "full",
-                    "page": "/projects/mct2/sensors/"
+                    "page": "/projects/mct2/smec/"
                 },
                 {
                     "type": "full",
