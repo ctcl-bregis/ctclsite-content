@@ -1,7 +1,7 @@
 ## Timeline
 
 ### 2004-2017
-2004-2017, I did not really do much with my life as I was just 0-13 years old.
+2004-2017, I did not really do much with my life as I was 0-13 years old.
 
 #### June 2004
 I was born on June 7, 2004. Not much to say here about it. I likely started to use computers at four years old; around 2008-2009.
@@ -127,5 +127,6 @@ The deadline I stated was September 1, 2024 which gives me just two months to de
 #### July-August 2024
 MediaCow Touch 2 gave constant pressure during this time period.
 
-#### September 2024
 On August 26, 2024, I started my *third* attempt at community college.
+
+#### September-October 2024
