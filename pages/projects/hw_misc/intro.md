@@ -1,0 +1,1 @@
+This page is about any hardware design project ideas I had in the past. Projects here were either put on hold or dropped due to the lack of time, lack of funds, lack of knowledge, the project being unrealistic or the project idea becoming obsolete.

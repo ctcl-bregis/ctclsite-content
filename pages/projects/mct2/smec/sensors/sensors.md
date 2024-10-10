@@ -1,3 +1,4 @@
+All sensors on the carrier board are read from and controlled by SMEC.
 
 ## Temperature
 

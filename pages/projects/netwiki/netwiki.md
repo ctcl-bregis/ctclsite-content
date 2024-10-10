@@ -5,4 +5,5 @@ Since 2021, I have been making use of MediaWiki for personal notetaking. It has 
 
 I have decided to make my own wiki software that is intended for single-user usage. 
 
+## Code
 

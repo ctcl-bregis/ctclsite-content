@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en-US">
     <head>
-        {% include "_meta.html" %}
+        {% include "_meta.lish" %}
         <link rel="stylesheet" href="{{ theme.rendered|safe }}">
         {# <link rel="stylesheet" media="print" href="/static/print.css"> #}
         <link rel="icon" href="{{ favicon|safe }}" type="image/x-icon" sizes="any">
@@ -12,8 +12,8 @@
     </head>
     <body>
         <header>
-            {% if navbar -%}{% include "_navbar.html" -%}{% endif -%}
-            {% if breadcrumbs -%}{% include "_breadcrumbs.html" -%}{% endif -%}
+            {% if navbar -%}{% include "_navbar.lish" -%}{% endif -%}
+            {% if breadcrumbs -%}{% include "_breadcrumbs.lish" -%}{% endif -%}
             <h1>{{ title }}</h1>
         </header>
         <hr>

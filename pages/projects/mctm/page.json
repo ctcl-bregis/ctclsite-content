@@ -12,13 +12,26 @@
     "headerids": true,
     "shownavbar": true,
     "content": {
-        "content": {
+        "intro": {
             "type": "content",
             "boxed": false,
             "title": "",
             "theme": "",
             "fitscreen": false,
             "content": "mctm.md"
+        },
+        "subpages": {
+            "type": "linklist",
+            "boxed": true,
+            "title": "Subpages",
+            "theme": "gold",
+            "fitscreen": false,
+            "links": [
+                {
+                    "type": "full",
+                    "page": "/projects/mctm/sp7021/"
+                }
+            ]
         }
     }
 }

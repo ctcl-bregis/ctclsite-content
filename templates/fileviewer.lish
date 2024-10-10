@@ -1,6 +1,5 @@
 {# This is unfinished #}
-{% include "header.html" %}
-
+{% include "header.lish" %}
 {% if filetype == "plaintext" %}
 <pre class="fileviewer">
 {{ content }}
@@ -10,4 +9,4 @@
 {% else %}
 {{ filepath }}: {{ filesize }}
 {% endif %}
-{% include "footer.html" %}
+{% include "footer.lish" %}

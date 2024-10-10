@@ -52,6 +52,8 @@ AABCCDDEEFGHH-IIIJKKKKLLMN
 
 - AA - Always "MM" for MicroMemory
 - B - Memory type
+  - E - EDO DRAM
+  - F - FPM DRAM
   - H - HyperRAM
   - S - SPI PSRAM
   - 0 - SDRAM
@@ -118,6 +120,7 @@ AABCCDDEEFGHH-IIIJKKKKLLMN
   - IM - Intelligent Memory
   - IS - ISSI
   - IT - Intel
+  - IQ - Qimonda
   - IX - Infineon
   - LG - LG/GoldStar
   - MI - Mitsubishi
@@ -125,7 +128,6 @@ AABCCDDEEFGHH-IIIJKKKKLLMN
   - MT - Micron Technology
   - NT - Nanya Technology
   - PS - Powerchip
-  - QI - Qimonda
   - SE - Samsung
   - WB - Winbond
 - M - Vendor DRAM die revision
@@ -138,10 +140,11 @@ AABCCDDEEFGHH-IIIJKKKKLLMN
 
 -IIIJKKKKLLMN is assigned to specific units. It is omitted in PCB design.
 
-As MicroMemory covers legacy memory formats and may reuse parts, former DRAM vendors are included. 
+As MicroMemory covers legacy memory formats and may reuse parts from existing hardware, former DRAM vendors are included. 
 
 Example PCB design file names:
 - micromemory_mm01616011sm - SDRAM Single-rank single-IC 16-bit M.2
 
 Example part number:
-- MM01616011SM-008M0200WBKX - 8MiB 200MHz SDRAM Single-rank single-IC 16-bit M.2 using one Winbond W9864G6KH-5 
+- MM01616011SM-008M0200WBKX - Single-rank 16-bit M.2 SDRAM 8MiB 200MHz using one Winbond W9864G6KH-5 
+- MM44008051DS-004G1600NTBX - Single-rank 32-bit + 8-bit ECC SODIMM DDR4-3200 4GiB using five Nanya Technology NT5AD1024M8B3

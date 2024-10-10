@@ -1,13 +1,13 @@
 {
-    "title": "Project Naming",
+    "title": "Week 40, 2024",
     "theme": "gold",
-    "startdate": "",
+    "startdate": "October 7, 2024",
     "enddate": "",
-    "desc": "How names are chosen for projects",
-    "icon": "",
-    "icontitle": "",
+    "desc": "Weeks 40 of 2024",
+    "icon": "/static/pages/blog/wk40_2024/wk402024_icon.webp",
+    "icontitle": "The Azimuthal Anchoring Switch",
     "keywords": [],
-    "cat": "",
+    "cat": "update",
     "favicon": "",
     "headerids": true,
     "shownavbar": true,
@@ -18,7 +18,7 @@
             "title": "",
             "theme": "",
             "fitscreen": false,
-            "content": "naming.md"
+            "content": "week_40_2024.md"
         }
     }
 }

@@ -1,5 +1,4 @@
 ## Introduction
-
 Codenames are used to differentiate between projects and computer hardware.
 
 The current codename system is used more or less as an inventory system until proper inventory management is set up with either [CAMS](../cams/) or something else. Codenames for specific devices may be retired or significantly less relied on once an inventory management system is put into place. Hardware design and software projects will continue to have codenames.
@@ -7,17 +6,14 @@ The current codename system is used more or less as an inventory system until pr
 Throughout lists below, any codename that has a link and/or is in **bold** is currently in use or is assigned to a future device.
 
 ## Rules for codenames
-
 - As of February 22, 2022, codenames shall no longer be *directly* related to real persons. Though the codename "Paris" will continue to be used by MediaCow Touch 2.
 - Codenames should not be longer than 30 characters but with some exceptions when seen fit such as "polyoxybenzylmethylenglycolanhydride"
 
 ### Specific to embedded device project codenames
-
 - Codenames for embedded device projects must have codenames of real places and not fictional ones. (e.g. Lakewood Plaza Turbo)
 
 ### Specific to workstation device codenames
-
-- Codenames must not have symbols and numbers except for commas, dashes and numbers when they are needed to differeniate between codenames. An example of such exception is 3,7-Dimethylxanthine.
+- Codenames must not have symbols and numbers except for commas, dashes and numbers when they are needed to differeniate between codenames. An example of such exception is 4-Hydroxyamphetamine.
 - Codenames are unique and are not reused, they are bound to the PCB (circuit board) that contains the main processor(s), such as a motherboard.
 - Codenames stay linked to the motherboard even if the device's application changes such as the reuse of parts from a workstation in a server. An example of this is [Polyethylene](../pc_pe/).
 
@@ -42,7 +38,6 @@ For example, with Serdexmethylphenidate, the IUPAC name `(2S)-3-hydroxy-2-[[1-[[
 Another example, with lisdexamfetamine, the INN name is used over L-lysine-dextroamphetamine or lisdexamphetamine because the lisdexamfetamine name is more common.
 
 ### Chlorofluorocarbons and Hydrochlorofluorocarbon
-
 Starting June 2, 2023, Chlorofluorocarbon and Hydrochlorofluorocarbon codenames are reserved for Intel systems without ECC memory support. This excludes devices originally classified as a Chromebook or Chromebox, as they may get a chromium compound codename. Intel systems with ECC memory support may get a plastics-related codename instead.
 
 This scheme was originally started to poke fun at the potential environmental effects of Windows 11.
@@ -50,7 +45,6 @@ This scheme was originally started to poke fun at the potential environmental ef
 On January 19, 2024, the categories for Chlorofluorocarbons and Hydrochlorofluorocarbons were extended to include Chlorofluoroolefins and Hydrochlorofluoroolefins respectively.
 
 #### Chlorofluorocarbons/Chlorofluoroolefins
-
 Chlorofluorocarbon/Chlorofluoroolefin codenames are used for desktops
 
 - Trichlorofluoromethane - R11
@@ -65,7 +59,6 @@ Chlorofluorocarbon/Chlorofluoroolefin codenames are used for desktops
 - Chloroheptafluorocyclobutane - C317
 
 #### Hydrochlorofluorocarbons/Hydrochlorofluoroolefins
-
 Hydrochlorofluorocarbon/Hydrochlorofluoroolefin codenames are used for laptops
 
 - **Dichlorofluoromethane** - R21
@@ -84,7 +77,6 @@ Hydrochlorofluorocarbon/Hydrochlorofluoroolefin codenames are used for laptops
 - **Chlorofluoroethane** - R151
 
 ### Polymers
-
 Polymer-related codenames, specifically plastics, are reserved for workstations with ECC memory support. This along with started with **Polyethylene Terephthalate** in 2021 with inspiration by the plastic's use in textiles.
 
 Uncategorized polymer codenames are for general use at the moment.
@@ -93,7 +85,6 @@ Uncategorized polymer codenames are for general use at the moment.
 - **Polyoxybenzylmethyleneglycolanhydride** - Bakelite
 
 #### Polyolefins and Polystyrene
-
 Polyolefin codenames historically have been used with dual-socket systems and systems with high core count CPUs.
 
 Currently, this includes any dual-socket AMD Opteron, dual-socket Intel Xeon and single-socket AMD EPYC systems. Dual-socket AMD EPYC systems may be assigned a polyvinyl codename instead.
@@ -105,7 +96,6 @@ Currently, this includes any dual-socket AMD Opteron, dual-socket Intel Xeon and
 - **Polystyrene** - PS
 
 #### Acrylics
-
 Codenames of acrylic-family polymers are used for laptops that have support for ECC memory.
 
 - Polyacrylic acid - PAA
@@ -128,40 +118,34 @@ Codenames of acrylic-family polymers are used for laptops that have support for 
 - Polytert-butylacrylate - PTBA
 
 #### Polyesters
-
 Polyester-family polymers are used for general-purpose workstation systems designated as WBPC1.
 
 - [Polybutylene Terephthalate](../pc_pbt/) - PBT
 - Polyethylene Naphthalate - PEN
 - [Polyethylene Terephthalate](../pc_pet/) and [Polyethylene Terephthalate v2](../pc_pet2/) - PET and PETv2 respectively
 - Polylatic Acid - PLA
-- **Polytrimethylene Terephthalate** - PTT
+- Polytrimethylene Terephthalate - PTT
 
 #### Polyvinyls
-
 Codenames of polymers made of monomers with a vinyl group are for future use with systems with multiple AMD EPYC processors.
 
 - Polyvinyl Chloride - PVC
 
 #### Vinyl Monomers
-
 Though unrelated to the hardware in the "Polyvinyls" section above, codenames of monomers with a vinyl group are used for systems using VIA x86/x86-64 processors with or without ECC memory support regardless of application.
 
 - [Vinyl Chloride](../srv_vc/) - VC
 
 ### Psychoactives
-
 Codenames of psychoactive substances are generally used for server systems starting early 2023. All of these systems have ECC memory unless otherwise specififed. The use of names of psychoactive substances started with stimulants for the reason specified in the Stimulants section below.
 
 #### Stimulants
+Stimulant drug-related codenames are generally for use with virtualization and compute servers. The use of stimulants for codenames of compute servers is inspired by the use of stimulants for the treatment of ADHD (Attention Deficit Hyperactivity Disorder)/
 
-Stimulant drug-related codenames are generally for use with virtualization and compute servers. The use of stimulants for codenames of compute servers is inspired by the use of stimulants for the treatment of ADHD (Attention Deficit Hyperactivity Disorder), the choice of codenames relate to this.
+Starting October 3, 2024, amphetamine-related codenames are to be used with Intel systems while methylphenidate-related codenames are to be used with AMD systems. Prior to this, amphetamine-related codenames were to be used with specifically the HP ProLiant BladeSystem-compatible hardware that I received on May 5, 2023 and methylphenidate-based codenames were to be used specifically with Supermicro AMD EPYC hardware. 
 
 ##### Amphetamines
-
-HP ProLiant blade servers that were given to me on May 5, 2023 use the names of amphetamines or related prodrugs.
-
-Starting September 5, 2023, codenames derived from amphetamine-based stimulant and related prodrug chemical compounds are now to be used with any HP BladeSystem-compatible device.
+Codenames of methylphenidates are to be used with virtualization/compute servers with Intel CPUs.
 
 - [Dextroamphetamine](../srv_amp/) - "DXA"
 - [Levoamphetamine](../srv_amp/) - "LVA"
@@ -171,21 +155,18 @@ Starting September 5, 2023, codenames derived from amphetamine-based stimulant a
 - Dextromethamphetamine - "DXMA"
 
 ##### Methylphenidates
-
-Stimulant codenames and related prodrugs in the methylphenidate family are reserved for future use with Supermicro AMD EPYC hardware. The codename "Serdexmethylphenidate" is expected to be the first one used due to personal importance. 
+Codenames of methylphenidates and related analogs are to be used with virtualization/compute servers with AMD CPUs. Currently, no systems are assigned these codenames. **"Serdexmethylphenidate"** is planned to be the first codename used in this series.
 
 - Dexmethylphenidate - DMP
 - Levomethylphenidate - LMP
-- **Serdexmethylphenidate** - SDX
+- Serdexmethylphenidate - SDX
 
 #### Hallucinogens
-
-Codenames of hallucinogenic compounds are generally for use with non-embedded network router/gateway devices. This specific theme started with some server codenemaes being based off the 2010 Far East Movement single, "Like a G6".
+Codenames of hallucinogenic compounds are generally for use with non-embedded network router/gateway devices. This specific theme, along with "Sedatives" listed below, are based off the 2010 Far East Movement single, "Like a G6".
 
 - [Dextromethorphan](../srv_dxm/) - DXM
 
 #### Sedatives
-
 Sedative drug-related compounds are generally for use with non-embedded storage servers.
 
 - Alprazolam - AZM
@@ -193,7 +174,6 @@ Sedative drug-related compounds are generally for use with non-embedded storage 
 - Diphenhydramine - DPH
 
 #### Cannabinoids
-
 Cannabinoids, due to their unique effect, are used for critical mobile devices instead of servers. Formerly, codenames derived from methylxanthines were used for mobile devices but that theme was later discontinued for multiple reasons, one of them being that methylxanthines are considered stimulants.
 
 ##### Phytocannabinoids
@@ -235,8 +215,7 @@ Unlike the HCFC/CFC theme for Intel-based devices, codenames for these devices a
 - Undecanethiol - UDTH
 
 ### Chromium-based Compounds
-
-Chromium-based compound codenames are for use with systems originally designed for Chrome OS such as Chromebooks or Chromeboxes but had the firmware replaced with Coreboot or similar, allowing them to be designated a codename. The source of this codename scheme is fairly obvious. 
+Chromium-based compound codenames are for use with systems originally designed for Chrome OS such as Chromebooks or Chromeboxes but had the firmware replaced with Coreboot or similar, allowing them to be designated a codename.
 
 - Chromium Acetate - CrA
 - **Chromium Chloride** - CrC
@@ -253,8 +232,6 @@ Chromium-based compound codenames are for use with systems originally designed f
 - Lead Chromate - CrL
 - Strontium Chromate - CrR
 
-This codename scheme applies to both x86-64 and ARM systems that have had their firmware/BIOS replaced with Coreboot or similar.
-
 ### Development Hardware
 Development hardware are systems used in the development of other hardware such as system on modules, single-board computers and evaluation kits. This codename scheme makes use of the names of hydrocarbons in relation to how they are used to "build" other chemical compounds. 
 
@@ -263,22 +240,22 @@ Codename schemes for development systems are chosen in relation to what CPU arch
 #### ARM Development Hardware
 For ARM-based development systems using ARM applications processors currently use codenames of alkanes.
 
-* Methane 
-* Ethane
-* Propane
-* Butane
-* Pentane
-* Hexane
-* Heptane
-* Octane
-* Nonane
-* Decane
+- Methane 
+- Ethane
+- Propane
+- Butane
+- Pentane
+- Hexane
+- Heptane
+- Octane
+- Nonane
+- Decane
 
 #### x86 Development Hardware
 x86-based systems currently use the codenames of cycloalkanes. This would start with "Cyclobutane" for the LattePanda Mu used for MediaCow Touch 2.
 
 - Cyclopropane
-- **Cyclobutane**
+- [Cyclobutane](/projects/mct2/som/)
 - Cyclopentane
 - Cyclohexane
 - Cycloheptane
@@ -299,31 +276,10 @@ RISC-V development hardware uses codenames of polycycloalkanes.
 ### Special
 Special chemical compound names are reserved for rare hardware platforms.
 
-Devices that would have a "special" codename include but is obviously not limited to:
-
-- Branded under:
-  - Positivo, Positivo BGH (common in Latin America, especially Brazil, but rare in the US)
-  - Micron Technology
-- Contains a SoC from the following vendors:
-  - Ingenic (only Jz series)
-  - DM&P (e.g. Vortex86)
-  - MagicEyes
-  - Chips&Technologies
-  - C-Cube Microsystems
-  - Sunplus Technology/Generalplus Technology excluding development hardware (e.g. BPI-F2P/S, CTCL-designed hardware) and DVD video decoders
-  - MCST (МЦСТ)
-
-#### Antimatter
-Antimatter codenames are for use with Positivo-branded hardware. This scheme started in late 2021 with the introduction of a Positivo Y210 tablet.
-
 - **Positronium Hydride**
-
-#### Ions
-
 - Helium Hydride
 
 ## Embedded Project Codenames
-
 Embedded circuit design projects are codenamed after specific locations such as cities, towns and villages. The design idea is what receives the codename, unlike the workstation codenames that are linked to a single unique motherboard.
 
 Specific hardware units used in embedded hardware projects may receive a codename specific to it. For example, the LattePanda Mu received for the MediaCow Touch 2 "Paris" project was given the codename "Cyclobutane". CTCL-designed hardware can receive codenames such as if a mobile device not using an SoM; has the SoC on a custom PCB, it can receive a Cannabinoid codename as described in the sections above.
@@ -331,8 +287,8 @@ Specific hardware units used in embedded hardware projects may receive a codenam
 For a hardware project to receive a codename, the circuit design must have at least one microcontroller, microprocessor, System on Module or SoC on the PCB.
 
 Exceptions to the requirement of the design requiring a processor of some sort are:
-* MediaCow "Syracuse" (2019)
-* MediaCow Touch "Nashville" (2020)
+- MediaCow "Syracuse" (2019)
+- MediaCow Touch "Nashville" (2020)
 
 Codenames must contain just the name of the city, town, village or CDP. Codenames that are of different places with the same name cannot be used, for example: If a project codenamed "Richmond" after Richmond, Virginia already exists, another project cannot use a codename named after Richmond, California as both would be "Richmond". 
 
@@ -345,6 +301,7 @@ These codenames are reserved for special purposes due to the personal value
 - Clay, New York, US
   - Likely would be used with something DRAM related
 - Curitiba, Paraná, Brazil
+- Doswell, Virginia, US
 - Dresden, Saxony, Germany
   - Likely would be used with something DRAM related
 - Fort Myers Beach, Florida
@@ -352,12 +309,14 @@ These codenames are reserved for special purposes due to the personal value
 - Graz, Austria
 - Jacksonville, Florida, US
   - Residence from 2011 to 2012
+- Jamesville, Virginia, US
 - Knoxville, Tennessee, US
   - May be used with a device similar to MediaCow Touch (1)
   - Some inspiration from the band Whitechapel
 - Midlothian, Virginia, US
   - Residence from 2012 to present
   - Was almost used for a school project in 2022 though currently remains unused.
+- Ocean City, Maryland, US
 - Old Forge, New York, US
 - Oneida, New York, US
   - Residence from 2004 to 2011
@@ -374,11 +333,15 @@ These codenames are reserved for special purposes due to the personal value
 - Whitelaw, New York, US
 
 ### Assigned
-
 - Floyds Knobs - MediaCow Touch Mini SP7021
   - Dedicated to Jason "Leinfors" Parker (1986-2023)
+  - Floyds Knobs, Indiana, US
 - Nashville - MediaCow Touch 1
+  - Nashville, Tenneesee, US
 - Paris - MediaCow Touch 2
+  - Paris, France
+- Bear Creek Lake - SP7021-Block
+  - Bear Creek Lake, Virginia, US
 
 ## Software
 Standalone software projects use the names of animals. Embedded software written for hardware projects do not receive their own codename as such software is considered to be part of the hardware project. 

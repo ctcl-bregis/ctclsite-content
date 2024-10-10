@@ -1,0 +1,48 @@
+{
+    "title": "Misc. Hardware Projects",
+    "theme": "gold",
+    "startdate": "",
+    "enddate": "",
+    "desc": "Hardware project ideas that didn't take off",
+    "icon": "",
+    "icontitle": "",
+    "keywords": [],
+    "cat": "",
+    "favicon": "",
+    "headerids": true,
+    "shownavbar": true,
+    "content": {
+        "intro": {
+            "type": "content",
+            "boxed": false,
+            "title": "",
+            "theme": "",
+            "fitscreen": false,
+            "content": "intro.md"
+        },
+        "noteio": {
+            "type": "content",
+            "boxed": true,
+            "title": "NoteIO",
+            "theme": "gold",
+            "fitscreen": false,
+            "content": "noteio.md"
+        },
+        "powcard": {
+            "type": "content",
+            "boxed": true,
+            "title": "POW Card Replica",
+            "theme": "portal2",
+            "fitscreen": false,
+            "content": "powcard.md"
+        },
+        "superkey": {
+            "type": "content",
+            "boxed": true,
+            "title": "SuperKey",
+            "theme": "mediacow",
+            "fitscreen": false,
+            "content": "superkey.md"
+        }
+    }
+}

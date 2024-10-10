@@ -1,9 +1,9 @@
 {
-    "title": "Project Naming",
+    "title": "Time Format Guidelines",
     "theme": "gold",
     "startdate": "",
     "enddate": "",
-    "desc": "How names are chosen for projects",
+    "desc": "How time and dates are styled",
     "icon": "",
     "icontitle": "",
     "keywords": [],
@@ -18,7 +18,7 @@
             "title": "",
             "theme": "",
             "fitscreen": false,
-            "content": "naming.md"
+            "content": "time.md"
         }
     }
 }

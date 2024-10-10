@@ -12,13 +12,26 @@
     "headerids": true,
     "shownavbar": true,
     "content": {
-        "content": {
+        "intro": {
             "type": "content",
             "boxed": false,
             "title": "",
             "theme": "",
             "fitscreen": false,
             "content": "docs_root.md"
+        },
+        "subpages": {
+            "type": "linklist",
+            "boxed": true,
+            "title": "Subpages",
+            "theme": "",
+            "fitscreen": false,
+            "links": [
+                {
+                    "type": "full",
+                    "page": "/projects/netwiki/db/"
+                }
+            ]
         }
     }
 }
