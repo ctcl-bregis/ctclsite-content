@@ -1,5 +1,7 @@
 {
+    "dispname": "Green",
     "color": "#00ff00",
     "fgcolor": "#000000",
+    "usedefaults": true,
     "defaultfont": "play"
 }

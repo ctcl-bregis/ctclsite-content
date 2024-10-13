@@ -1,6 +1,8 @@
 {
+    "dispname": "DDR4",
     "color": "#009999",
     "fgcolor": "#000000",
+    "usedefaults": true,
     "defaultfont": "play",
     "enabled": false
 }

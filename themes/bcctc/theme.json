@@ -1,6 +1,7 @@
 {
+    "dispname": "Brightpoint Tech Club",
     "color": "#d900ff",
     "fgcolor": "#ffffff",
-    "css": "dark.lisc",
+    "usedefaults": false,
     "defaultfont": "bebasneue"
 }

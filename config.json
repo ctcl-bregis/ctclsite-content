@@ -388,14 +388,5 @@
         "showfooter": true,
         "showhr": true,
         "breadcrumbs": true
-    },
-    "requestvars": {
-        "nojs": {
-            "varname": "nojs",
-            "allowedvalues": [
-                "true",
-                "false"
-            ]
-        }
     }
 }

@@ -1,5 +1,7 @@
 {
+    "dispname": "Apple Gray",
     "color": "#a2aaad",
     "fgcolor": "#ffffff",
+    "usedefaults": true,
     "defaultfont": "play"
 }

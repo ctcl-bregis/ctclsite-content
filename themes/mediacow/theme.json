@@ -1,5 +1,7 @@
 {
+    "dispname": "MediaCow",
     "color": "#996633",
     "fgcolor": "#000000",
+    "usedefaults": true,
     "defaultfont": "play"
 }

@@ -1,6 +1,7 @@
 {
+    "dispname": "MediaCow Touch 2",
     "color": "#ffffff",
     "fgcolor": "#000000",
-    "css": "dark.lisc",
+    "usedefaults": false,
     "defaultfont": "heuristica"
 }

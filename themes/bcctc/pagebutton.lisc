@@ -20,6 +20,9 @@
 }
 
 .pagebutton {
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
     height: {{ pagebuttonheight }}px;
     max-height: {{ pagebuttonheight }}px;
     border-style: solid;
@@ -34,11 +37,13 @@
       'image desc '
       'image date ';
     overflow: hidden;
+    display: grid;
+    align-items: center;
 }
 
 .pagebutton-desc {
     color: #ffffff;
-    margin: {{ sectionmargin }}px;
+    margin: {{ sectionmargin }}pt;
     grid-area: desc;
     background-clip: text;
     -webkit-background-clip: text;
@@ -62,15 +67,22 @@
 }
 
 .titlebutton {
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: {{ sectionmargin }}pt;
+    margin-top: {{ sectionmargin }}pt;
     height: {{ titlebuttonheight }}pt;
     max-height: {{ titlebuttonheight }}pt;
-    align-items: center;
-}
-
-.titlebutton {
     display: grid;
     font-size: {{ fontsizes.pagebuttontitle }}pt;
     text-align: center;
     font-family: {{ theme.defaultfont }};
     text-decoration: none;
+    display: grid;
+    align-items: center;
+}
+
+.titletext {
+    text-align: center;
 }

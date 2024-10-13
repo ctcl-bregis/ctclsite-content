@@ -1,0 +1,37 @@
+{
+    "title": "ContactList Documentation",
+    "theme": "blue",
+    "startdate": "2023",
+    "enddate": "Present",
+    "desc": "Documentation for ContactList",
+    "icon": "",
+    "icontitle": "",
+    "keywords": [],
+    "cat": "",
+    "favicon": "",
+    "headerids": true,
+    "shownavbar": true,
+    "content": {
+        "intro": {
+            "type": "content",
+            "boxed": false,
+            "title": "",
+            "theme": "",
+            "fitscreen": false,
+            "content": "docs.md"
+        },
+        "subpages": {
+            "type": "linklist",
+            "boxed": false,
+            "title": "",
+            "theme": "",
+            "fitscreen": false,
+            "links": [
+                {
+                    "type": "full",
+                    "page": "/projects/contactlist/config/"
+                }
+            ]
+        }
+    }
+}

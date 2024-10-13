@@ -1,5 +1,7 @@
 {
+    "dispname": "Qimonda",
     "color": "#520c82",
     "fgcolor": "#ffffff",
+    "usedefaults": true,
     "defaultfont": "play"
 }

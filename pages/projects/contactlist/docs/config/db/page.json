@@ -1,0 +1,24 @@
+{
+    "title": "Database Configuration - ContactList",
+    "theme": "blue",
+    "startdate": "2023",
+    "enddate": "Present",
+    "desc": "Database configuration for ContactList",
+    "icon": "",
+    "icontitle": "",
+    "keywords": [],
+    "cat": "",
+    "favicon": "",
+    "headerids": true,
+    "shownavbar": true,
+    "content": {
+        "content": {
+            "type": "content",
+            "boxed": false,
+            "title": "",
+            "theme": "",
+            "fitscreen": false,
+            "content": "db.md"
+        }
+    }
+}

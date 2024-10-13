@@ -18,16 +18,37 @@
 			"fitscreen": true,
             "links": [
                 {
+                    "type": "titletext",
+                    "text": "Club Links"
+                },
+                {
                     "type": "titleonlycustom",
                     "title": "Discord",
                     "theme": "discord",
                     "link": "https://discord.com/invite/YWPtsMGCn4"
+                },
+                {
+                    "type": "titleonlycustom",
+                    "title": "Zoom Meeting Link",
+                    "theme": "blue",
+                    "link": "https://vccs.zoom.us/j/84916724881"
+                },
+                {
+                    "type": "titletext",
+                    "text": "Other Links"
+                },
+                {
+                    "type": "titleonlycustom",
+                    "title": "Brightpoint Website",
+                    "theme": "red",
+                    "link": "https://brightpoint.edu/"
                 }
             ]
         }
     },
     "uservars": {
         "navbar": false,
-        "showfooter": false
+        "showfooter": true,
+        "breadcrumbs": false
     }
 }

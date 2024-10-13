@@ -46,3 +46,6 @@ ASUS is to be spelled in all caps.
 
 ##### Zenfone
 Zenfone should not be spelled with a capital "F".
+
+#### Sunplus
+Though common, the P in Sunplus shall not be capital. This also applies to the spin-offs SunplusIT (Sunplus Innovation Technology) and Generalplus.

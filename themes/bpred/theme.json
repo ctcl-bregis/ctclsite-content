@@ -1,7 +1,8 @@
 {
-    "dispname": "NetKart",
-    "color": "#006633",
+    "dispname": "BPCC Red",
+    "color": "#9f2140",
     "fgcolor": "#ffffff",
+    "favicon": "",
     "usedefaults": true,
     "defaultfont": "play"
 }

@@ -1,5 +1,7 @@
 {
+    "dispname": "Nanya Blue",
     "color": "#00b7d5",
     "fgcolor": "#000000",
+    "usedefaults": true,
     "defaultfont": "play"
 }

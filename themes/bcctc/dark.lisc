@@ -1,4 +1,5 @@
 {% include "fonts.lisc" -%}
+
 body {
     margin: 0;
     background-color: #000000;
@@ -14,6 +15,14 @@ h{{ i }} {
 }
 {% endfor -%}
 
+header {
+    margin-right: 0;
+    margin-left: 0;
+    {# compensate for Bebas Neue's descent value #}
+    margin-top: 10pt;
+    margin-bottom: 0;
+}
+
 a {
     color: {{ theme.color }}
 }
@@ -21,6 +30,7 @@ a {
 h1 {
     text-align: center;
     margin: 0;
+    margin-
 }
 
 hr {
@@ -33,12 +43,8 @@ hr {
 }
 
 section {
-    display: grid;
-    {# default values #}
-    margin-right: {{ sectionmargin }}pt;
-    margin-left: {{ sectionshadowlength }}pt;
-    margin-bottom: {{ sectionshadowlength }}pt;
-    margin-top: {{ sectionshadowlength }}pt;
+    display: block;
+    margin: 8pt;
 }
 
 section.fitscreen {
