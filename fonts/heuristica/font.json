@@ -1,6 +1,7 @@
 { 
     "name": "heuristica",
     "dispname": "Heuristica",
+    "fallback": "sans-serif",
     "styles": {
         "regular": {
             "style": "normal",

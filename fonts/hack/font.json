@@ -1,6 +1,7 @@
 { 
     "name": "hack",
     "dispname": "Hack",
+    "fallback": "monospace",
     "styles": {
         "regular": {
             "style": "normal",

@@ -1,7 +1,6 @@
 <title>{{ title }}</title>
 <meta content="text/html;charset=utf-8" http-equiv="Content-Type">
 <meta charset="utf-8">
-<meta content="utf-8" http-equiv="encoding">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="msapplication-TileColor" content="{{ theme.color }}">
 <meta name="theme-color" content="{{ theme.color }}">
@@ -15,8 +14,8 @@
 {% if icon -%}
 <meta name="og:image" content="{{ icon }}">
 {% endif %}
+<meta name="og:site_name" content="{{ sitedomain|safe }}">
+<meta name="og:locale" content="en_US">
 {% if keywords -%}
 <meta name="keywords" content={{ keywords }}>
 {% endif -%}
-<meta name="og:site_name" content="{{ sitedomain|safe }}">
-<meta name="og:locale" content="en_US">

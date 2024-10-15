@@ -1,11 +1,11 @@
 {
-    "title": "Week 40, 2024",
+    "title": "Week 42, 2024",
     "theme": "gold",
-    "startdate": "October 7, 2024",
+    "startdate": "October 21, 2024",
     "enddate": "",
-    "desc": "Week 40 of 2024",
-    "icon": "/static/pages/blog/wk40_2024/wk402024_icon.webp",
-    "icontitle": "The Azimuthal Anchoring Switch",
+    "desc": "Week 42 of 2024",
+    "icon": "/static/pages/blog/wk42_2024/wk422024_icon.webp",
+    "icontitle": "Flurries of furries",
     "keywords": [],
     "cat": "update",
     "favicon": "",
@@ -18,7 +18,7 @@
             "title": "",
             "theme": "",
             "fitscreen": false,
-            "content": "week_40_2024.md"
+            "content": "week_42_2024.md"
         }
     }
 }

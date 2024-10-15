@@ -11,8 +11,219 @@
     "cpus": 1,
     "defaulttheme": "gold",
     "debugloglevel": "info",
-    "minimizehtml": false,
-    "minimizecss": false,
+    "minimizehtml": true,
+    "minimizecss": true,
+    "themes": {
+        "99gray": {
+            "dispname": "99 Gray",
+            "color": "#999999",
+            "fgcolor": "#000000",
+            "defaults": true,
+            "defaultfont": "play"
+        },
+        "99green": {
+            "dispname": "99 Green",
+            "color": "#009900",
+            "fgcolor": "#000000",
+            "defaults": true,
+            "defaultfont": "play"
+        },
+        "99red": {
+            "dispname": "99 Red",
+            "color": "#990000",
+            "fgcolor": "#ffffff",
+            "defaults": true,
+            "defaultfont": "play"
+        },
+        "apple": {
+            "dispname": "Apple Gray",
+            "color": "#a2aaad",
+            "fgcolor": "#ffffff",
+            "defaults": true,
+            "defaultfont": "play"
+        },
+        "bcctc": {
+            "dispname": "Brightpoint Tech Club",
+            "color": "#d900ff",
+            "fgcolor": "#ffffff",
+            "defaults": false,
+            "defaultfont": "bebasneue"
+        },
+        "blue": {
+            "dispname": "Blue",
+            "color": "#0000ff",
+            "fgcolor": "#ffffff",
+            "defaults": true,
+            "defaultfont": "play"
+        },
+        "bpred": {
+            "dispname": "BPCC Red",
+            "color": "#9f2140",
+            "fgcolor": "#ffffff",
+            "favicon": "",
+            "defaults": true,
+            "defaultfont": "play"
+        },
+        "ddr": {
+            "dispname": "DDR",
+            "color": "#000099",
+            "fgcolor": "#000000",
+            "defaults": true,
+            "defaultfont": "play",
+            "enabled": false
+        },
+        "ddr2": {
+            "dispname": "DDR2",
+            "color": "#999900",
+            "fgcolor": "#000000",
+            "defaults": true,
+            "defaultfont": "play",
+            "enabled": false
+        },
+        "ddr3": {
+            "dispname": "DDR3",
+            "color": "#990000",
+            "fgcolor": "#000000",
+            "defaults": true,
+            "defaultfont": "play",
+            "enabled": false
+        },
+        "ddr4": {
+            "dispname": "DDR4",
+            "color": "#009999",
+            "fgcolor": "#000000",
+            "defaults": true,
+            "defaultfont": "play",
+            "enabled": false
+        },
+        "ddr5": {
+            "dispname": "DDR5",
+            "color": "#990099",
+            "fgcolor": "#000000",
+            "defaults": true,
+            "defaultfont": "play",
+            "enabled": false
+        },
+        "discord": {
+            "dispname": "Discord",
+            "color": "#707bf4",
+            "fgcolor": "#ffffff",
+            "defaults": true,
+            "defaultfont": "play"
+        },
+        "flipper": {
+            "dispname": "Flipper",
+            "color": "#ff8200",
+            "fgcolor": "#000000",
+            "defaults": true,
+            "defaultfont": "play"
+        },
+        "gold": {
+            "dispname": "CTCL Gold",
+            "color": "#f0d000",
+            "fgcolor": "#000000",
+            "defaults": true,
+            "defaultfont": "play"
+        },
+        "green": {
+            "dispname": "Green",
+            "color": "#00ff00",
+            "fgcolor": "#000000",
+            "defaults": true,
+            "defaultfont": "play"
+        },
+        "insta": {
+            "dispname": "Instagram",
+            "color": "#f400a7",
+            "fgcolor": "#ffffff",
+            "defaults": true,
+            "defaultfont": "play"
+        },
+        "lysine": {
+            "dispname": "Lysine",
+            "color": "#ff6600",
+            "fgcolor": "#000000",
+            "defaults": true,
+            "defaultfont": "play"
+        },
+        "mct2": {
+            "dispname": "MediaCow Touch 2",
+            "color": "#ffffff",
+            "fgcolor": "#000000",
+            "defaults": false,
+            "defaultfont": "heuristica"
+        },
+        "mediacow": {
+            "dispname": "MediaCow",
+            "color": "#996633",
+            "fgcolor": "#000000",
+            "defaults": true,
+            "defaultfont": "play"
+        },
+        "nanblue": {
+            "dispname": "Nanya Blue",
+            "color": "#00b7d5",
+            "fgcolor": "#000000",
+            "defaults": true,
+            "defaultfont": "play"
+        },
+        "netkart": {
+            "dispname": "NetKart",
+            "color": "#006633",
+            "fgcolor": "#ffffff",
+            "defaults": true,
+            "defaultfont": "play"
+        },
+        "orange": {
+            "dispname": "Orange",
+            "color": "#ff6600",
+            "fgcolor": "#000000",
+            "defaults": true,
+            "defaultfont": "play"
+        },
+        "portal2": {
+            "dispname": "Portal 2",
+            "color": "#2db2e6",
+            "fgcolor": "#000000",
+            "defaults": true,
+            "defaultfont": "play"
+        },
+        "qipurple": {
+            "dispname": "Qimonda",
+            "color": "#520c82",
+            "fgcolor": "#ffffff",
+            "defaults": true,
+            "defaultfont": "play"
+        },
+        "red": {
+            "dispname": "Red",
+            "color": "#ff0000",
+            "fgcolor": "#000000",
+            "defaults": true,
+            "defaultfont": "play"
+        },
+        "sdram": {
+            "dispname": "SDRAM",
+            "color": "#996600",
+            "fgcolor": "#000000",
+            "defaults": true,
+            "defaultfont": "play"
+        },
+        "smyellow": {
+            "dispname": "Swordsmachine Yellow",
+            "color": "#e29e1c",
+            "fgcolor": "#000000",
+            "defaults": true,
+            "defaultfont": "play"
+        },
+        "white": {
+            "dispname": "White",
+            "color": "#ffffff",
+            "fgcolor": "#000000",
+            "defaults": true,
+            "defaultfont": "play"
+        }
+    },
     "filetypes": {
         "bin": "binary",
         "bmp": "image",

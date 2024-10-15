@@ -1,6 +1,7 @@
 { 
     "name": "bebasneue",
     "dispname": "Bebas Neue",
+    "fallback": "sans-serif",
     "styles": {
         "regular": {
             "style": "normal",

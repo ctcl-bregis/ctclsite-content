@@ -16,7 +16,7 @@
 
 .pagebutton-desc, .pagebutton-date, footer p {
     font-weight: normal;
-    font-size: {{ fontsizes.body }};
+    font-size: {{ fontsizes.body }}pt;
 }
 
 .pagebutton {
@@ -34,15 +34,15 @@
       'image desc '
       'image date ';
     overflow: hidden;
-    margin-right: {{ sectionmargin }}px;
-    margin-left: {{ sectionmargin + sectionshadowlength }}px;
-    margin-bottom: {{ sectionmargin }}px;
+    margin-right: {{ sectionmargin }}pt;
+    margin-left: {{ sectionmargin }}pt;
+    margin-bottom: {{ sectionmargin }}pt;
     margin-top: 0;
 }
 
 .pagebutton-desc {
     color: #ffffff;
-    margin: {{ sectionmargin }}px;
+    margin: {{ sectionmargin }}pt;
     grid-area: desc;
     background-clip: text;
     -webkit-background-clip: text;
@@ -60,7 +60,7 @@
 
 .pagebutton-date {
     color: #ffffff;
-    margin: {{ sectionmargin }}px;
+    margin: {{ sectionmargin }}pt;
     grid-area: date;
     margin-top: auto;
 }

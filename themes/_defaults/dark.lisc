@@ -14,7 +14,6 @@ body {
 {% set hsize = h ~ i -%}
 h{{ i }} {
     font-size: {{ fontsizes[hsize] }}pt;
-    font-weight: normal;
 }
 {% endfor -%}
 
@@ -39,10 +38,7 @@ hr {
 section {
     display: grid;
     {# default values #}
-    margin-right: {{ sectionmargin }}pt;
-    margin-left: {{ sectionshadowlength }}pt;
-    margin-bottom: {{ sectionshadowlength }}pt;
-    margin-top: {{ sectionshadowlength }}pt;
+    margin: {{ sectionmargin }};
 }
 
 section.fitscreen {

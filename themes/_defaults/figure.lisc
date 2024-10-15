@@ -25,5 +25,5 @@ figure video {
 
 figure figcaption {
     font-weight: normal;
-    font-size: {{ fontsizes["body"] }}
+    font-size: {{ fontsizes.body }}pt;
 }

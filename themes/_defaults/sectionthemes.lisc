@@ -1,67 +1,59 @@
-{% for name, data in themes -%}
-{% set sectionshadowcount = sectionshadowlength * sectionshadowresolution -%}
+{% for name, theme in themes -%}
 .section-{{ name }}, .pagebutton.section-{{name}}, .section-{{name}}.titlebutton {
     border-style: solid;
     border-width: 2pt;
-    border-color: {{ data.color }};
-    box-shadow: {% for i in range(start = 1, end = sectionshadowcount + 1) %}{{ i * 0.5 }}px {{ i * 0.5 }}px rgb({{ data.colorrgb.0 * 0.6 | round(method="floor") }}, {{ data.colorrgb.1 * 0.6 | round(method="floor") }}, {{ data.colorrgb[2] * 0.6 | round(method="floor") }}){% if i < sectionshadowcount %},{% else %};{% endif %}
-    {% endfor -%}
-    transform: translate(-{{ sectionshadowlength }}px, -{{ sectionshadowlength }}px);
+    border-color: {{ theme.color }};
     margin-right: {{ sectionmargin }}pt;
-    margin-left: {{ sectionmargin + sectionshadowlength }}pt;
-    margin-bottom: {{ sectionmargin + sectionshadowlength }}pt;
+    margin-left: {{ sectionmargin }}pt;
+    margin-bottom: {{ sectionmargin }}pt;
     margin-top: 0;
-}
-.pagebutton:hover, .pagebutton:focus, .pagebutton:active, .titlebutton:hover, .titlebutton:focus, .titlebutton:active {
-    box-shadow: none;
-    transform: translate(0px, 0px);
 }
 {# Text -#}
 .section-{{ name }} .sectiontitle {
-    color: {{ data.fgcolor }};
-    background-color: {{ data.color }};
-    font-family: {{ data.defaultfont }};
+    color: {{ theme.fgcolor }};
+    background-color: {{ theme.color }};
+    font-family: {{ theme.defaultfont }};
 }
 .pagebutton.section-{{ name }} .pagebutton-title {
-    color: {{ data.fgcolor }};
-    background-color: {{ data.color }};
-    font-family: {{ data.defaultfont }};
+    color: {{ theme.fgcolor }};
+    background-color: {{ theme.color }};
+    font-family: {{ theme.defaultfont }};
 }
 .pagebutton.section-{{ name }} .pagebutton-desc, .pagebutton.section-{{ name }} .pagebutton-date {
     color: #ffffff;
     background: none;
-    font-family: {{ data.defaultfont }};
+    font-family: {{ theme.defaultfont }};
 }
 .pagebutton.section-{{ name }} .pagebutton-img {
-    border-color: {{ data.color }}
+    border-color: {{ theme.color }};
 }
 {# Link color -#}
 .section-{{ name }} a {
-    color: {{ data.color }};
+    color: {{ theme.color }};
 }
 {# Selection colors -#}
 .section-{{ name }} ::selection {
-    color: {{ data.fgcolor }};
-    background-color: {{ data.color }};
+    color: {{ theme.fgcolor }};
+    background-color: {{ theme.color }};
 }
 .section-{{ name }} ::-moz-selection {
-    color: {{ data.fgcolor }};
-    background-color: {{ data.color }};
+    color: {{ theme.fgcolor }};
+    background-color: {{ theme.color }};
 }
 .pagebutton.section-{{ name }} ::selection {
-    color: {{ data.fgcolor }};
-    background-color: {{ data.color }};
+    color: {{ theme.fgcolor }};
+    background-color: {{ theme.color }};
 }
 .pagebutton.section-{{ name }} ::-moz-selection {
-    color: {{ data.fgcolor }};
-    background-color: {{ data.color }};
+    color: {{ theme.fgcolor }};
+    background-color: {{ theme.color }};
 }
 {# Category box -#}
 .category-{{ name }} {
     padding: 2pt;
     padding-left: 4pt;
     padding-right: 4pt;
-    color: {{ data.fgcolor }};
-    background-color: {{ data.color }};
+    color: {{ theme.fgcolor }};
+    background-color: {{ theme.color }};
 }
 {% endfor -%}
