@@ -1,0 +1,35 @@
+{ 
+    "name": "barlow",
+    "dispname": "Barlow",
+    "fallback": "sans-serif",
+    "styles": {
+        "regular": {
+            "style": "normal",
+            "weight": "normal",
+            "formats": {
+                "truetype": "Barlow-Regular.ttf"
+            }
+        },
+        "bold": {
+            "style": "normal",
+            "weight": "bold",
+            "formats": {
+                "truetype": "Barlow-Bold.ttf"
+            }
+        },
+        "italic": {
+            "style": "italic",
+            "weight": "normal",
+            "formats": {
+                "truetype": "Barlow-Italic.ttf"
+            }
+        },
+        "bolditalic": {
+            "style": "italic",
+            "weight": "bold",
+            "formats": {
+                "truetype": "Barlow-BoldItalic.ttf"
+            }
+        }
+    }
+}

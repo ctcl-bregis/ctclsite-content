@@ -29,23 +29,23 @@
             "links": [
                 {
                     "type": "full",
-                    "page": "/projects/styleguide/ai/"
+                    "page": "/projects/style/ai/"
                 },
                 {
                     "type": "full",
-                    "page": "/projects/styleguide/ee/"
+                    "page": "/projects/style/ee/"
                 },
                 {
                     "type": "full",
-                    "page": "/projects/styleguide/naming/"
+                    "page": "/projects/style/naming/"
                 },
                 {
                     "type": "full",
-                    "page": "/projects/styleguide/py/"
+                    "page": "/projects/style/py/"
                 },
                 {
                     "type": "full",
-                    "page": "/projects/styleguide/rs/"
+                    "page": "/projects/style/rs/"
                 }
             ]
         }

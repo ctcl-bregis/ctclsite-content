@@ -19,6 +19,19 @@
             "theme": "",
             "fitscreen": false,
             "content": "netwiki.md"
+        },
+        "subpages": {
+            "type": "linklist",
+            "boxed": false,
+            "title": "",
+            "theme": "",
+            "fitscreen": false,
+            "links": [
+                {
+                    "type": "full",
+                    "page": "/projects/netwiki/docs/"
+                }
+            ]
         }
     }
 }

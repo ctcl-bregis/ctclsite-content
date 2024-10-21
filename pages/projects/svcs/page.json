@@ -1,6 +1,6 @@
 {
     "title": "SVCS",
-    "theme": "gold",
+    "theme": "smyellow",
     "startdate": "",
     "enddate": "",
     "desc": "Server hardware used for hosting various services",
@@ -23,26 +23,34 @@
         "svcs_lva": {
             "type": "content",
             "boxed": true,
-            "title": "",
-            "theme": "",
+            "title": "\"Levoamphetamine\"",
+            "theme": "smyellow",
             "fitscreen": false,
             "content": "svcs_lva.md"
         },
         "svcs_ldx": {
             "type": "content",
             "boxed": true,
-            "title": "",
-            "theme": "",
+            "title": "\"Lisdexamfetamine\"",
+            "theme": "smyellow",
             "fitscreen": false,
             "content": "svcs_ldx.md"
         },
         "svcs_dxa": {
             "type": "content",
             "boxed": true,
-            "title": "",
-            "theme": "",
+            "title": "\"Dextroamphetamine\"",
+            "theme": "smyellow",
             "fitscreen": false,
             "content": "svcs_dxa.md"
+        },
+        "svcs_sdx": {
+            "type": "content",
+            "boxed": true,
+            "title": "\"Serdexmethylphenidate\"",
+            "theme": "sdxgreen",
+            "fitscreen": false,
+            "content": "svcs_sdx.md"
         }
     }
 }

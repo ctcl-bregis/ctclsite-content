@@ -76,19 +76,27 @@ AABCCDDEEFGHH-IIIJKKKKLLMN
   - 04 - 4-bit
   - 08 - 8-bit 
   - 16 - 16-bit
-- EE - Device count
-- F - Rank count
-- G - Signaling
+- E - Rank count
+- FFFF - Device package type
+  - BGAX - BGA
+  - NSOC - SOIC (0.150 Inch)
+  - SSON - SON
+  - TSSP - TSSOP
+  - TTSP - TSOP
+  - USON - USON
+  - WSOC - SOIC-Wide (0.300 Inch)
+- GG - Device package pin count
+- H - Signaling
   - S - Single Data Rate (SDR)
   - D - Double Data Rate (DDR)
   - Q - Quadruple Data Rate (QDR)
   - 4 - PAM4
-- HH - Module format
+- I - Module format
   - C - Mezzanine connector
   - M - M.2
   - S - Standard SODIMM 
 - Separator
-- III - Total Capacity 
+- JJJ - Total Capacity 
   - 001
   - 002
   - 004
@@ -103,15 +111,15 @@ AABCCDDEEFGHH-IIIJKKKKLLMN
   - 256
   - 384
   - 512
-- J - Total Capacity Multiplier
+- K - Total Capacity Multiplier
   - B - Byte (1)
   - K - Kilobyte (1024)
   - M - Megabyte (1048576)
   - G - Gigabyte (1073741824)
-- KKKK - Maximum frequency, in MHz
+- LLLL - Maximum frequency, in MHz
   - 0001 - 1 MHz
   - 1600 - 1600 MHz (for example: DDR4-3200)
-- LL - Device Vendor
+- MM - Device Vendor
   - AM - AMD
   - CY - Cypress
   - CX - CXMT
@@ -130,21 +138,14 @@ AABCCDDEEFGHH-IIIJKKKKLLMN
   - PS - Powerchip
   - SE - Samsung
   - WB - Winbond
-- M - Vendor DRAM die revision
+- N - Vendor DRAM die revision
   - A - A-die/Rev. A
   - ...
   - Z - Z-die/Rev. Z
-- N - Special feature
+- O - Special feature
   - X - None
   - E - On-die ECC
 
--IIIJKKKKLLMN is assigned to specific units. It is omitted in PCB design.
+-JJJKLLLLMMNO is assigned to specific units. It is omitted in PCB design.
 
 As MicroMemory covers legacy memory formats and may reuse parts from existing hardware, former DRAM vendors are included. 
-
-Example PCB design file names:
-- micromemory_mm01616011sm - SDRAM Single-rank single-IC 16-bit M.2
-
-Example part number:
-- MM01616011SM-008M0200WBKX - Single-rank 16-bit M.2 SDRAM 8MiB 200MHz using one Winbond W9864G6KH-5 
-- MM44008051DS-004G1600NTBX - Single-rank 32-bit + 8-bit ECC SODIMM DDR4-3200 4GiB using five Nanya Technology NT5AD1024M8B3

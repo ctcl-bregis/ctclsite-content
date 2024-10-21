@@ -1,8 +1,15 @@
 
 
-## root
-The root page, at "/" has multiple functions.
+## /
+The root page redirects to the page "Main Page"
 
-If the user is not logged in, the page redirects to the login page. 
+### /page/
+NetWiki uses the concept of namespaces.
 
-If the user is logged in, the page redirects to "Main Page".
+The first subpage under /page/ defines the namespace.
+
+#### /page/wiki/ - "wiki" namespace
+Pages under the "wiki" namespace are general content pages. 
+
+#### /page/special/ - "special" namespace
+Pages under the "special" namespace are hardcoded pages that have certain functions.

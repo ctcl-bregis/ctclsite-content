@@ -11,7 +11,7 @@
     "cpus": 1,
     "defaulttheme": "gold",
     "debugloglevel": "info",
-    "minimizehtml": true,
+    "minimizehtml": false,
     "minimizecss": true,
     "themes": {
         "99gray": {
@@ -19,28 +19,28 @@
             "color": "#999999",
             "fgcolor": "#000000",
             "defaults": true,
-            "defaultfont": "play"
+            "defaultfont": "barlow"
         },
         "99green": {
             "dispname": "99 Green",
             "color": "#009900",
             "fgcolor": "#000000",
             "defaults": true,
-            "defaultfont": "play"
+            "defaultfont": "barlow"
         },
         "99red": {
             "dispname": "99 Red",
             "color": "#990000",
             "fgcolor": "#ffffff",
             "defaults": true,
-            "defaultfont": "play"
+            "defaultfont": "barlow"
         },
         "apple": {
             "dispname": "Apple Gray",
             "color": "#a2aaad",
             "fgcolor": "#ffffff",
             "defaults": true,
-            "defaultfont": "play"
+            "defaultfont": "barlow"
         },
         "bcctc": {
             "dispname": "Brightpoint Tech Club",
@@ -54,7 +54,7 @@
             "color": "#0000ff",
             "fgcolor": "#ffffff",
             "defaults": true,
-            "defaultfont": "play"
+            "defaultfont": "barlow"
         },
         "bpred": {
             "dispname": "BPCC Red",
@@ -62,14 +62,14 @@
             "fgcolor": "#ffffff",
             "favicon": "",
             "defaults": true,
-            "defaultfont": "play"
+            "defaultfont": "barlow"
         },
         "ddr": {
             "dispname": "DDR",
             "color": "#000099",
             "fgcolor": "#000000",
             "defaults": true,
-            "defaultfont": "play",
+            "defaultfont": "barlow",
             "enabled": false
         },
         "ddr2": {
@@ -77,7 +77,7 @@
             "color": "#999900",
             "fgcolor": "#000000",
             "defaults": true,
-            "defaultfont": "play",
+            "defaultfont": "barlow",
             "enabled": false
         },
         "ddr3": {
@@ -85,7 +85,7 @@
             "color": "#990000",
             "fgcolor": "#000000",
             "defaults": true,
-            "defaultfont": "play",
+            "defaultfont": "barlow",
             "enabled": false
         },
         "ddr4": {
@@ -93,7 +93,7 @@
             "color": "#009999",
             "fgcolor": "#000000",
             "defaults": true,
-            "defaultfont": "play",
+            "defaultfont": "barlow",
             "enabled": false
         },
         "ddr5": {
@@ -101,7 +101,7 @@
             "color": "#990099",
             "fgcolor": "#000000",
             "defaults": true,
-            "defaultfont": "play",
+            "defaultfont": "barlow",
             "enabled": false
         },
         "discord": {
@@ -109,42 +109,42 @@
             "color": "#707bf4",
             "fgcolor": "#ffffff",
             "defaults": true,
-            "defaultfont": "play"
+            "defaultfont": "barlow"
         },
         "flipper": {
             "dispname": "Flipper",
             "color": "#ff8200",
             "fgcolor": "#000000",
             "defaults": true,
-            "defaultfont": "play"
+            "defaultfont": "barlow"
         },
         "gold": {
             "dispname": "CTCL Gold",
             "color": "#f0d000",
             "fgcolor": "#000000",
             "defaults": true,
-            "defaultfont": "play"
+            "defaultfont": "barlow"
         },
         "green": {
             "dispname": "Green",
             "color": "#00ff00",
             "fgcolor": "#000000",
             "defaults": true,
-            "defaultfont": "play"
+            "defaultfont": "barlow"
         },
         "insta": {
             "dispname": "Instagram",
             "color": "#f400a7",
             "fgcolor": "#ffffff",
             "defaults": true,
-            "defaultfont": "play"
+            "defaultfont": "barlow"
         },
         "lysine": {
             "dispname": "Lysine",
             "color": "#ff6600",
             "fgcolor": "#000000",
             "defaults": true,
-            "defaultfont": "play"
+            "defaultfont": "barlow"
         },
         "mct2": {
             "dispname": "MediaCow Touch 2",
@@ -158,70 +158,77 @@
             "color": "#996633",
             "fgcolor": "#000000",
             "defaults": true,
-            "defaultfont": "play"
+            "defaultfont": "barlow"
         },
         "nanblue": {
             "dispname": "Nanya Blue",
             "color": "#00b7d5",
             "fgcolor": "#000000",
             "defaults": true,
-            "defaultfont": "play"
+            "defaultfont": "barlow"
         },
         "netkart": {
             "dispname": "NetKart",
             "color": "#006633",
             "fgcolor": "#ffffff",
             "defaults": true,
-            "defaultfont": "play"
+            "defaultfont": "barlow"
         },
         "orange": {
             "dispname": "Orange",
             "color": "#ff6600",
             "fgcolor": "#000000",
             "defaults": true,
-            "defaultfont": "play"
+            "defaultfont": "barlow"
         },
         "portal2": {
             "dispname": "Portal 2",
             "color": "#2db2e6",
             "fgcolor": "#000000",
             "defaults": true,
-            "defaultfont": "play"
+            "defaultfont": "barlow"
         },
         "qipurple": {
             "dispname": "Qimonda",
             "color": "#520c82",
             "fgcolor": "#ffffff",
             "defaults": true,
-            "defaultfont": "play"
+            "defaultfont": "barlow"
         },
         "red": {
             "dispname": "Red",
             "color": "#ff0000",
             "fgcolor": "#000000",
             "defaults": true,
-            "defaultfont": "play"
+            "defaultfont": "barlow"
         },
         "sdram": {
             "dispname": "SDRAM",
             "color": "#996600",
             "fgcolor": "#000000",
             "defaults": true,
-            "defaultfont": "play"
+            "defaultfont": "barlow"
+        },
+        "sdxgreen": {
+            "dispname": "Serdexmethylphenidate Green",
+            "color": "#66bf6b",
+            "fgcolor": "#000000",
+            "defaults": true,
+            "defaultfont": "barlow"
         },
         "smyellow": {
             "dispname": "Swordsmachine Yellow",
             "color": "#e29e1c",
             "fgcolor": "#000000",
             "defaults": true,
-            "defaultfont": "play"
+            "defaultfont": "barlow"
         },
         "white": {
             "dispname": "White",
             "color": "#ffffff",
             "fgcolor": "#000000",
             "defaults": true,
-            "defaultfont": "play"
+            "defaultfont": "barlow"
         }
     },
     "filetypes": {

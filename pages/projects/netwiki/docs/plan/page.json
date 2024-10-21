@@ -1,13 +1,13 @@
 {
-    "title": "Week 42, 2024",
+    "title": "Plans",
     "theme": "gold",
-    "startdate": "October 21, 2024",
+    "startdate": "",
     "enddate": "",
-    "desc": "Week 42 of 2024",
-    "icon": "/static/pages/blog/wk42_2024/wk422024_icon.webp",
-    "icontitle": "GEL FUMP",
+    "desc": "Development plan",
+    "icon": "",
+    "icontitle": "",
     "keywords": [],
-    "cat": "update",
+    "cat": "",
     "favicon": "",
     "headerids": true,
     "shownavbar": true,
@@ -18,7 +18,7 @@
             "title": "",
             "theme": "",
             "fitscreen": false,
-            "content": "week_42_2024.md"
+            "content": "plan.md"
         }
     }
 }
