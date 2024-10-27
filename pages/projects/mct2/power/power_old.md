@@ -10,7 +10,7 @@ One of the goals for MediaCow Touch 2's design is to feel safe about traveling w
 ### Battery Pack
 After the extensive search for an off-the-shelf battery pack that would be suitable for this project, I eventually decided to use a replacement battery meant for a specific laptop. Making use of a laptop battery usually means that a critical part, the fuel gauge IC, is integrated in the battery pack along with protection and cell balancing circuitry. As result, the only IC needed to make use of the battery pack is the charger.
 
-Currently, the plan is to use an HP FM08-compatible battery pack.  The FM08 uses either a 12-pin or 16-pin connector, MediaCow Touch 2 is designed for use with the 16-pin version.
+Currently, the plan is to use an HP FM08-compatible battery pack. The FM08 uses either a 12-pin or 16-pin connector, MediaCow Touch 2 is designed for use with the 16-pin version.
 
 The layout is 4S2P; 4-serial, 2-parallel that yields a voltage range of 12v to 16.8v. 
 

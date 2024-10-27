@@ -1,13 +1,13 @@
 {
-    "title": "Linux Kernel",
-    "theme": "mct2",
-    "startdate": "",
+    "title": "Week 43, 2024",
+    "theme": "gold",
+    "startdate": "October 28, 2024",
     "enddate": "",
-    "desc": "About the OS used on SMEC",
-    "icon": "",
-    "icontitle": "",
+    "desc": "Week 43 of 2024",
+    "icon": "/static/pages/blog/wk43_2024/wk432024_icon.webp",
+    "icontitle": "CPSC 357 and glibc 2.5 or later",
     "keywords": [],
-    "cat": "",
+    "cat": "update",
     "favicon": "",
     "headerids": true,
     "shownavbar": true,
@@ -18,7 +18,7 @@
             "title": "",
             "theme": "",
             "fitscreen": false,
-            "content": "os.md"
+            "content": "week_43_2024.md"
         }
     }
 }

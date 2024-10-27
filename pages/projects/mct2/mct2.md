@@ -1,10 +1,7 @@
-## Disclaimer
 The following is preliminary data and may change at any time during development. This document is used both to showcase my ideas for the device along being used as the plan.
 
 ## Introduction
-MediaCow Touch 2, codenamed "Paris", is a project idea about designing and building a tablet computer device.
-
-The theming and codename is inspired by a certain online friend that I met in late 2020.
+MediaCow Touch 2, codenamed "Paris", is a project about designing and building a tablet computer device.
 
 ### Brief History
 For an in-depth history on MediaCow, see the [MediaCow page](../mediacow/).

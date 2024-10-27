@@ -20,9 +20,7 @@ DisplayPort and USB 3.0 signal multiplex is already handled by the Intel N100 So
 The PD controller chosen for the device design is the Texas Instruments TPS65988. The IC allows for dual-port sink and source capabilities. 
 
 ### HV Source Voltage
-Two buck-boost converters are on the PPHV supplies of the PD controller. This allows for PD source capabilities with voltages up to 20v while plugged in and on battery.
-
-Originally, two Monolithic Power Systems MP8859 Buck-Boost converters were used up to September 25, 2024, when the two MP8859 were switched out for two Texas Instruments TPS55189-Q1 due to similar cost while supporting a higher output current.
+Two buck-boost converters are on the PPHV supplies of the PD controller. This allows for PD source capabilities with voltages up to 20v while plugged in and on battery. 
 
 An option to have USB PD sources available while the system is powered off may be available. This is inspired by a similar function found on the HP ZBook Studio G3 that I currently make use of where 5V power over the USB Type-C ports is available while the system is offline with a configurable minimum required battery percentage.
 

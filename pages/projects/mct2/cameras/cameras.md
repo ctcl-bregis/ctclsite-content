@@ -7,8 +7,6 @@ The front-facing camera along with the microphone would be useful in cases such 
 The back-facing camera would be in the form of a camera module with a MIPI CSI interface. I discovered that the pinout on the LattePanda Mu is the same as the 22-pin camera connector found on some Raspberry Pi single-board computers. As result, I would most likely use a camera module intended for such model of Raspberry Pi.
 
 ### Front-Facing Camera
-A front-facing camera, also known as the "selfie camera", is present on the device. 
-
 Like the back-facing camera, a MIPI CSI interface is used to connect the camera sensor to the system. 
 
 Separate PDM MEMS microphone modules are used for recording audio.

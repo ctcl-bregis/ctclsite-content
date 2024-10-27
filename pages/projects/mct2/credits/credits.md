@@ -4,7 +4,7 @@ Open Source software has been used whenever possible.
 ### CAD and EDA
 
 #### KiCAD
-KiCAD played a crucial role in the circuit design phase; the hardest and most complex task in the project.
+KiCAD is used to draw electrical schematics and design the carrier board PCB.
 
 #### LibreCAD
 LibreCAD was used for the first time on August 6 to record measurements of the battery pack that is used in the device.
@@ -30,7 +30,7 @@ Using a chat service in as a way to dump ideas into categories has returned from
 A self-hosted MediaWiki instance is used for personal documentation. It's role in MediaCow Touch 2, however, is very limited. 
 
 #### STM32CubeMX
-STM32CubeMX was used to select the microcontroller used as the embedded controller (SMEC) and plan its pinout.
+STM32CubeMX was used to select the microcontroller used as the embedded controller (SMEC) and plan its pinout until the switch to the SP7021 as the embedded controller.
 
 #### CircuitJS
 [CircuitJS](https://falstad.com/circuit/) has been used to test ideas such as using Schottky diodes on the power inputs of SPI flash memory and connecting the IS pin of the Infineon BTS7006 to a microcontroller.
@@ -63,11 +63,13 @@ Hardware used for development since May 2024:
   - Documentation
   - Software development
   - Research
+  - Communications
 - "Polymethylmethacrylate" - HP ZBook Studio G3 15 (Xeon)
   - Circuit and device design
   - Documentation
   - Software development
   - Research
+  - Communications
 - "Chlorofluoroethane" ("R151") - Lenovo ThinkPad T450s
   - Device design
   - Documentation
@@ -91,10 +93,10 @@ Hardware used for development since May 2024:
   - Planning (MediaWiki)
   - DNS server
 - "Promethazine" - Supermicro X8SIE
-  - File storage backend
+  - File storage
 - "Dextromethorphan" - Supermicro X8SIE
   - Router
-  - Allows remote access to the local network
+  - Remote access host
 
 ### Other
 
@@ -116,7 +118,7 @@ MediaCow Touch 2 was developed in the following locations:
 - Orlando, Florida, United States
 - Pocahontas, West Virginia, United States
 - Richmond, Virginia, United States
-  - The Pace Center (at VCU)
+  - The Pace Center (VCU)
 
 90+% of development was done in Midlothian, Virginia. 
 
@@ -203,7 +205,7 @@ MediaCow Touch 2's design and hardware had inspiration from the following produc
   - USB Type-C feature inspiration
   - Display selection
   - CPU cooling ideas
-- HP(E) ProLiant BL460c G8 and ProLiant DL380 G7
+- HP(E) ProLiant BL460c G8, BladeSystem C3000 chassis, ProLiant DL380 G7
   - Inlet temperature sensor idea
 - LattePanda Mu Full Carrier
   - Circuit design reference
@@ -224,6 +226,7 @@ MediaCow Touch 2's design and hardware had inspiration from the following produc
   - Original inspiration for MediaCow
 - Nintendo Switch (2017)
   - Display selection
+  - USB Type-C Power Delivery ideas
 - Positivo BGH Y210
   - Camera placement idea
 - Samsung Chromebook XE500C13

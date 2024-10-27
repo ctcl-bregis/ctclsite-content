@@ -29,6 +29,22 @@
             "links": [
                 {
                     "type": "full",
+                    "page": "/projects/mct2/som/"
+                },
+                {
+                    "type": "full",
+                    "page": "/projects/mct2/smec/"
+                },
+                {
+                    "type": "full",
+                    "page": "/projects/mct2/power/"
+                },
+                {
+                    "type": "full",
+                    "page": "/projects/mct2/display/"
+                },
+                {
+                    "type": "full",
                     "page": "/projects/mct2/audio/"
                 },
                 {
@@ -49,43 +65,15 @@
                 },
                 {
                     "type": "full",
-                    "page": "/projects/mct2/credits/"
-                },
-                {
-                    "type": "full",
-                    "page": "/projects/mct2/display/"
-                },
-                {
-                    "type": "full",
-                    "page": "/projects/mct2/keypad/"
-                },
-                {
-                    "type": "full",
-                    "page": "/projects/mct2/monitor/"
-                },
-                {
-                    "type": "full",
                     "page": "/projects/mct2/os/"
-                },
-                {
-                    "type": "full",
-                    "page": "/projects/mct2/os/"
-                },
-                {
-                    "type": "full",
-                    "page": "/projects/mct2/power/"
-                },
-                {
-                    "type": "full",
-                    "page": "/projects/mct2/smec/"
-                },
-                {
-                    "type": "full",
-                    "page": "/projects/mct2/som/"
                 },
                 {
                     "type": "full",
                     "page": "/projects/mct2/storage/"
+                },
+                {
+                    "type": "full",
+                    "page": "/projects/mct2/credits/"
                 }
             ]
         }

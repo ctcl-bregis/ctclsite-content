@@ -29,7 +29,19 @@
             "links": [
                 {
                     "type": "full",
+                    "page": "/projects/mct2/smec/keypad/"
+                },
+                {
+                    "type": "full",
+                    "page": "/projects/mct2/smec/os/"
+                },
+                {
+                    "type": "full",
                     "page": "/projects/mct2/smec/power/"
+                },
+                {
+                    "type": "full",
+                    "page": "/projects/mct2/smec/sensors/"
                 }
             ]
         }
