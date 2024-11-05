@@ -1,8 +1,9 @@
 {
     "title": "Projects",
     "theme": "gold",
-    "startdate": "",
-    "enddate": "",
+    "startdate": null,
+    "enddate": null,
+    "dateprecision": "year",
     "desc": "Services that I offer",
     "icon": "",
     "icontitle": "",

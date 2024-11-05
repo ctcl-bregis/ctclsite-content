@@ -1,8 +1,9 @@
 {
     "title": "MathPad",
     "theme": "gold",
-    "startdate": "2022",
-    "enddate": "",
+    "startdate": "2022-11-01T00:00:00Z",
+    "enddate": null,
+    "dateprecision": "year",
     "desc": "Calcuator keypad peripheral device project",
     "icon": "",
     "icontitle": "",

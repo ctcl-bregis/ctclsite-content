@@ -1,8 +1,9 @@
 {
     "title": "SVCS",
     "theme": "smyellow",
-    "startdate": "",
-    "enddate": "",
+    "startdate": null,
+    "enddate": null,
+    "dateprecision": "year",
     "desc": "Server hardware used for hosting various services",
     "icon": "",
     "icontitle": "",

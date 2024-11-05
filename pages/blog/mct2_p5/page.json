@@ -1,8 +1,9 @@
 {
     "title": "MediaCow Touch 2 - Part 5",
     "theme": "mct2",
-    "startdate": "August 5, 2024",
-    "enddate": "",
+    "startdate": "2024-08-05T00:00:00Z",
+    "enddate": "2024-08-05T00:00:00Z",
+    "dateprecision": "day",
     "desc": "You know the drill",
     "icon": "/static/pages/blog/mct2_p5/mct2_p5_icon.webp",
     "icontitle": "Push Every Button",

@@ -1,8 +1,9 @@
 {
     "title": "Week 21, 2024",
     "theme": "gold",
-    "startdate": "May 27, 2024",
-    "enddate": "",
+    "startdate": "2024-05-27T00:00:00Z",
+    "enddate": "2024-05-27T00:00:00Z",
+    "dateprecision": "day",
     "desc": "The twenty-first week of 2024",
     "icon": "/static/pages/blog/wk21_2024/blog24_icon.webp",
     "icontitle": "Wild goose chase",

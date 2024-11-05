@@ -1,8 +1,9 @@
 {
     "title": "Week 41, 2024",
     "theme": "gold",
-    "startdate": "October 14, 2024",
-    "enddate": "",
+    "startdate": "2024-10-14T00:00:00Z",
+    "enddate": "2024-10-14T00:00:00Z",
+    "dateprecision": "day",
     "desc": "Week 41 of 2024",
     "icon": "/static/pages/blog/wk41_2024/wk412024_icon.webp",
     "icontitle": "Flurries of furries",

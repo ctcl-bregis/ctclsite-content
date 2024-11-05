@@ -1,8 +1,9 @@
 {
     "title": "MediaCow",
     "theme": "gold",
-    "startdate": "2018",
-    "enddate": "Present",
+    "startdate": "2018-09-11T00:00:00Z",
+    "enddate": null,
+    "dateprecision": "year",
     "desc": "About the device series",
     "icon": "",
     "icontitle": "",

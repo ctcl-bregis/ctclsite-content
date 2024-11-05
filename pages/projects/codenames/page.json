@@ -1,8 +1,9 @@
 {
     "title": "Codename Guide",
     "theme": "gold",
-    "startdate": "",
-    "enddate": "",
+    "startdate": null,
+    "enddate": null,
+    "dateprecision": "year",
     "desc": "How codenames are chosen for projects",
     "icon": "",
     "icontitle": "",

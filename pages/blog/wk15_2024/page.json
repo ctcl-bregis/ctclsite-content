@@ -1,8 +1,9 @@
 {
     "title": "Week 15, 2024",
     "theme": "gold",
-    "startdate": "April 15, 2024",
-    "enddate": "",
+    "startdate": "2024-04-15T00:00:00Z",
+    "enddate": "2024-04-15T00:00:00Z",
+    "dateprecision": "day",
     "desc": "The fifteenth week of 2024",
     "icon": "/static/pages/blog/wk15_2024/blog18_icon.webp",
     "icontitle": "Set in stone",

@@ -1,8 +1,9 @@
 {
     "title": "MediaCow Touch 2 - Part 1",
     "theme": "mct2",
-    "startdate": "July 14, 2024",
-    "enddate": "",
+    "startdate": "2024-07-14T00:00:00Z",
+    "enddate": "2024-07-14T00:00:00Z",
+    "dateprecision": "day",
     "desc": "What has been done so far",
     "icon": "/static/pages/blog/mct2_p1/mct2_p1_icon.webp",
     "icontitle": "All coming together",

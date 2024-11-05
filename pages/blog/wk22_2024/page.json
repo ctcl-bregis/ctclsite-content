@@ -1,8 +1,9 @@
 {
     "title": "Week 22, 2024",
     "theme": "gold",
-    "startdate": "June 3, 2024",
-    "enddate": "",
+    "startdate": "2024-06-03T00:00:00Z",
+    "enddate": "2024-06-03T00:00:00Z",
+    "dateprecision": "day",
     "desc": "The twenty-second week of 2024",
     "icon": "/static/pages/blog/wk22_2024/blog25_icon.webp",
     "icontitle": "gm_lake",

@@ -1,8 +1,9 @@
 {
     "title": "ContactList",
     "theme": "blue",
-    "startdate": "2023",
-    "enddate": "Present",
+    "startdate": null,
+    "enddate": null,
+    "dateprecision": "year",
     "desc": "Browser-based contact manager",
     "icon": "",
     "icontitle": "",

@@ -1,8 +1,9 @@
 {
     "title": "Linux Kernel",
     "theme": "mct2",
-    "startdate": "",
-    "enddate": "",
+    "startdate": null,
+    "enddate": null,
+    "dateprecision": "year",
     "desc": "SMEC power management",
     "icon": "",
     "icontitle": "",

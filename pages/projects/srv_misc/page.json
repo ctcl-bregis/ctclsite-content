@@ -1,8 +1,9 @@
 {
     "title": "Misc. Servers",
     "theme": "gold",
-    "startdate": "",
-    "enddate": "",
+    "startdate": null,
+    "enddate": null,
+    "dateprecision": "year",
     "desc": "Other servers used for various purposes",
     "icon": "",
     "icontitle": "",

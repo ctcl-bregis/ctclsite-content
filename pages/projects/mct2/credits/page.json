@@ -1,8 +1,9 @@
 {
     "title": "Credits",
     "theme": "mct2",
-    "startdate": "",
-    "enddate": "",
+    "startdate": null,
+    "enddate": null,
+    "dateprecision": "year",
     "desc": "Who and what made MediaCow Touch 2 Possible",
     "icon": "",
     "icontitle": "",

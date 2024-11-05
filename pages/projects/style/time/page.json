@@ -1,8 +1,9 @@
 {
     "title": "Time Format Guidelines",
     "theme": "gold",
-    "startdate": "",
-    "enddate": "",
+    "startdate": null,
+    "enddate": null,
+    "dateprecision": "year",
     "desc": "How time and dates are styled",
     "icon": "",
     "icontitle": "",

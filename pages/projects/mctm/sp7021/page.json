@@ -1,8 +1,9 @@
 {
     "title": "MediaCow Touch Mini SP7021",
     "theme": "gold",
-    "startdate": "2021",
-    "enddate": "TBD",
+    "startdate": null,
+    "enddate": null,
+    "dateprecision": "year",
     "desc": "",
     "icon": "",
     "icontitle": "",

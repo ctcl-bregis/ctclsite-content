@@ -1,8 +1,9 @@
 {
     "title": "Week 40, 2024",
     "theme": "gold",
-    "startdate": "October 7, 2024",
-    "enddate": "",
+    "startdate": "2024-10-07T00:00:00Z",
+    "enddate": "2024-10-07T00:00:00Z",
+    "dateprecision": "day",
     "desc": "Week 40 of 2024",
     "icon": "/static/pages/blog/wk40_2024/wk402024_icon.webp",
     "icontitle": "The Azimuthal Anchoring Switch",

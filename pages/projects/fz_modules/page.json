@@ -1,8 +1,9 @@
 {
     "title": "Flipper Zero Modules",
     "theme": "flipper",
-    "startdate": "2024",
-    "enddate": "",
+    "startdate": "2024-04-15T00:00:00Z",
+    "enddate": null,
+    "dateprecision": "year",
     "desc": "Custom expansion modules for the Flipper Zero device",
     "icon": "",
     "icontitle": "",

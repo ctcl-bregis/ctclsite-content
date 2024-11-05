@@ -1,8 +1,9 @@
 {
     "title": "Power",
     "theme": "mct2",
-    "startdate": "",
-    "enddate": "",
+    "startdate": null,
+    "enddate": null,
+    "dateprecision": "year",
     "desc": "Battery and power management",
     "icon": "",
     "icontitle": "",

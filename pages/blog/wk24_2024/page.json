@@ -1,8 +1,9 @@
 {
     "title": "Week 24, 2024",
     "theme": "gold",
-    "startdate": "June 17, 2024",
-    "enddate": "",
+    "startdate": "2024-06-17T00:00:00Z",
+    "enddate": "2024-06-17T00:00:00Z",
+    "dateprecision": "day",
     "desc": "The twenty-fourth week of 2024",
     "icon": "/static/pages/blog/wk24_2024/blog27_icon.webp",
     "icontitle": "Bl\u00e5haj",

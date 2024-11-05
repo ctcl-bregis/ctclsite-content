@@ -1,8 +1,9 @@
 {
     "title": "nonmonolithic",
     "theme": "99gray",
-    "startdate": "2023",
-    "enddate": "2024",
+    "startdate": "2023-01-01T00:00:00Z",
+    "enddate": "2023-01-01T00:00:00Z",
+    "dateprecision": "year",
     "desc": "",
     "icon": "",
     "icontitle": "",

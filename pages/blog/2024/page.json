@@ -1,0 +1,26 @@
+{
+    "enable": false,
+    "title": "2024 In Review",
+    "theme": "gold",
+    "startdate": null,
+    "enddate": null,
+    "dateprecision": "day",
+    "desc": "Overview of my experience during 2024",
+    "icon": "",
+    "icontitle": "",
+    "keywords": [],
+    "cat": "update",
+    "favicon": "",
+    "headerids": true,
+    "shownavbar": true,
+    "content": {
+        "content": {
+            "type": "content",
+            "boxed": false,
+            "title": "",
+            "theme": "",
+            "fitscreen": false,
+            "content": "2024review.md"
+        }
+    }
+}

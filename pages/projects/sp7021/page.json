@@ -1,8 +1,9 @@
 {
     "title": "SP7021 Overview",
     "theme": "red",
-    "startdate": "2020",
-    "enddate": "Present",
+    "startdate": "2020-01-01T00:00:00Z",
+    "enddate": null,
+    "dateprecision": "year",
     "desc": "About any work that I do with the Sunplus/Tibbo SP7021 SiP",
     "icon": "/static/pages/projects/sp7021/icon.webp",
     "icontitle": "",

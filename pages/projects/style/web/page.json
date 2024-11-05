@@ -1,8 +1,9 @@
 {
     "title": "Web Development Guidelines",
     "theme": "gold",
-    "startdate": "",
-    "enddate": "",
+    "startdate": null,
+    "enddate": null,
+    "dateprecision": "year",
     "desc": "Guidelines specific to designing browser-based software",
     "icon": "",
     "icontitle": "",

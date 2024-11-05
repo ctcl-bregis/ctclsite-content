@@ -1,8 +1,9 @@
 {
     "title": "Page Layout",
     "theme": "gold",
-    "startdate": "",
-    "enddate": "",
+    "startdate": null,
+    "enddate": null,
+    "dateprecision": "year",
     "desc": "Structure of the application",
     "icon": "",
     "icontitle": "",

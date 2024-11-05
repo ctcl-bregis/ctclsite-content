@@ -1,8 +1,9 @@
 {
     "title": "SP7021 Part 1",
     "theme": "gold",
-    "startdate": "July 11, 2023",
-    "enddate": "",
+    "startdate": "2023-07-11T00:00:00Z",
+    "enddate": "2023-07-11T00:00:00Z",
+    "dateprecision": "day",
     "desc": "My work with the SP7021 SIP",
     "icon": "",
     "icontitle": "",

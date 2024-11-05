@@ -1,8 +1,9 @@
 {
     "title": "Week 31, 2024",
     "theme": "gold",
-    "startdate": "August 5, 2024",
-    "enddate": "",
+    "startdate": "2024-08-05T00:00:00Z",
+    "enddate": "2024-08-05T00:00:00Z",
+    "dateprecision": "day",
     "desc": "The thirty-first week of 2024",
     "icon": "/static/pages/blog/wk31_2024/wk312024_icon.webp",
     "icontitle": "Cybertruckery",

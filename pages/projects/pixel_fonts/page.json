@@ -1,8 +1,9 @@
 {
     "title": "Pixel Fonts",
     "theme": "gold",
-    "startdate": "2024",
-    "enddate": "",
+    "startdate": "2024-01-01T00:00:00Z",
+    "enddate": null,
+    "dateprecision": "year",
     "desc": "Series of low-resolution bitmap fonts",
     "icon": "",
     "icontitle": "",

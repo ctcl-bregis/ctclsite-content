@@ -1,8 +1,9 @@
 {
     "title": "AI Usage Policy",
     "theme": "gold",
-    "startdate": "",
-    "enddate": "",
+    "startdate": null,
+    "enddate": null,
+    "dateprecision": "year",
     "desc": "How generative AI is used in development",
     "icon": "",
     "icontitle": "",

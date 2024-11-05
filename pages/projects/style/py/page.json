@@ -1,8 +1,9 @@
 {
     "title": "Python-specific Code Style",
     "theme": "gold",
-    "startdate": "",
-    "enddate": "",
+    "startdate": null,
+    "enddate": null,
+    "dateprecision": "year",
     "desc": "Code styling specific to Python",
     "icon": "",
     "icontitle": "",

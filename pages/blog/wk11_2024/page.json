@@ -1,8 +1,9 @@
 {
     "title": "Week 11, 2024",
     "theme": "gold",
-    "startdate": "March 17, 2024",
-    "enddate": "",
+    "startdate": "2024-03-17T00:00:00Z",
+    "enddate": "2024-03-17T00:00:00Z",
+    "dateprecision": "day",
     "desc": "The eleventh week of 2024",
     "icon": "/static/pages/blog/wk11_2024/blog14_icon.webp",
     "icontitle": "What can I do for you, my effeminate fellow",

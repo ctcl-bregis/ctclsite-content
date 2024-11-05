@@ -1,8 +1,9 @@
 {
     "title": "Week 5, 2024",
     "theme": "gold",
-    "startdate": "February 4, 2024",
-    "enddate": "",
+    "startdate": "2024-02-04T00:00:00Z",
+    "enddate": "2024-02-04T00:00:00Z",
+    "dateprecision": "day",
     "desc": "The fifth week of 2024",
     "icon": "/static/pages/blog/wk05_2024/blog7_icon.webp",
     "icontitle": "MediaCow Touch in 2024",

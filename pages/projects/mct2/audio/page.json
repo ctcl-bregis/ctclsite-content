@@ -1,8 +1,9 @@
 {
     "title": "Audio",
     "theme": "mct2",
-    "startdate": "",
-    "enddate": "",
+    "startdate": null,
+    "enddate": null,
+    "dateprecision": "year",
     "desc": "About audio inputs and outputs",
     "icon": "",
     "icontitle": "",

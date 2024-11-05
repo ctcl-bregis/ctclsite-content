@@ -1,8 +1,9 @@
 {
     "title": "MediaCow Touch 2 - Part 3",
     "theme": "mct2",
-    "startdate": "July 25, 2024",
-    "enddate": "",
+    "startdate": "2024-07-25T00:00:00Z",
+    "enddate": "2024-07-25T00:00:00Z",
+    "dateprecision": "day",
     "desc": "What I have been trying to get done so far...",
     "icon": "/static/pages/blog/mct2_p3/mct2_p3_icon.webp",
     "icontitle": "Infinite Eon",

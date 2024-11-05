@@ -1,8 +1,9 @@
 {
     "title": "ToDoKiosk",
     "theme": "white",
-    "startdate": "2023",
-    "enddate": "Present",
+    "startdate": "2023-10-31T00:00:00Z",
+    "enddate": null,
+    "dateprecision": "year",
     "desc": "CalDAV tasks frontend",
     "icon": "",
     "icontitle": "",

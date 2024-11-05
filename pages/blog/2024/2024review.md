@@ -1,1 +1,3 @@
-Personally, 2024 was as challenging as 2023 though I was much more productive this year.
+We made it through the fourth year of the 2020s, a decade where humanity has shown its worst. It certainly showed its worst in 2024.
+
+I was not nearly as productive as I wanted to be this year. 

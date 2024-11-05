@@ -1,8 +1,9 @@
 {
     "title": "Week 18, 2024",
     "theme": "gold",
-    "startdate": "May 6, 2024",
-    "enddate": "",
+    "startdate": "2024-05-06T00:00:00Z",
+    "enddate": "2024-05-06T00:00:00Z",
+    "dateprecision": "day",
     "desc": "The eighteenth week of 2024",
     "icon": "/static/pages/blog/wk18_2024/blog21_icon.webp",
     "icontitle": ":put_litter_in_its_place:",

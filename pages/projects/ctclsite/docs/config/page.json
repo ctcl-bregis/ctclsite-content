@@ -1,8 +1,9 @@
 {
     "title": "Configuration",
     "theme": "gold",
-    "startdate": "",
-    "enddate": "",
+    "startdate": null,
+    "enddate": null,
+    "dateprecision": "year",
     "desc": "About configuration files",
     "icon": "",
     "icontitle": "",

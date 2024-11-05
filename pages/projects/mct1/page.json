@@ -1,8 +1,9 @@
 {
     "title": "MediaCow Touch",
     "theme": "gold",
-    "startdate": "2020",
-    "enddate": "",
+    "startdate": "2024-10-01T00:00:00Z",
+    "enddate": null,
+    "dateprecision": "year",
     "desc": "The original MediaCow Touch built in 2020",
     "icon": "",
     "icontitle": "",

@@ -1,8 +1,9 @@
 {
     "title": "Misc. Hardware Projects",
     "theme": "gold",
-    "startdate": "",
-    "enddate": "",
+    "startdate": null,
+    "enddate": null,
+    "dateprecision": "year",
     "desc": "Hardware project ideas that didn't take off",
     "icon": "",
     "icontitle": "",

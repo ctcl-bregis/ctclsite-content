@@ -1,8 +1,9 @@
 {
     "title": "MediaCow Touch 2",
     "theme": "mct2",
-    "startdate": "2021",
-    "enddate": "Present",
+    "startdate": "2021-03-01T00:00:00Z",
+    "enddate": null,
+    "dateprecision": "year",
     "desc": "MediaCow Touch 2 - Ongoing custom tablet circuit design project",
     "icon": "",
     "icontitle": "",

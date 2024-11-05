@@ -1,8 +1,9 @@
 {
     "title": "2023 In Review",
     "theme": "gold",
-    "startdate": "December 22, 2023",
-    "enddate": "",
+    "startdate": "2023-12-22T00:00:00Z",
+    "enddate": "2023-12-22T00:00:00Z",
+    "dateprecision": "day",
     "desc": "Overview of my experience during 2023 and yet another new version of the website",
     "icon": "",
     "icontitle": "",

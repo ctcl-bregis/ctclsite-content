@@ -1,8 +1,9 @@
 {
     "title": "ContactList Documentation",
     "theme": "blue",
-    "startdate": "2023",
-    "enddate": "Present",
+    "startdate": null,
+    "enddate": null,
+    "dateprecision": "year",
     "desc": "Documentation for ContactList",
     "icon": "",
     "icontitle": "",

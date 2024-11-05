@@ -1,8 +1,9 @@
 {
     "title": "SP7021-Block",
     "theme": "red",
-    "startdate": "2024",
-    "enddate": "",
+    "startdate": "2024-01-01T00:00:00Z",
+    "enddate": null,
+    "dateprecision": "year",
     "desc": "Small, lower-cost single board computer using the SP7021",
     "icon": "",
     "icontitle": "",

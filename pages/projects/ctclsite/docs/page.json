@@ -1,8 +1,9 @@
 {
     "title": "Documentation",
     "theme": "gold",
-    "startdate": "",
-    "enddate": "",
+    "startdate": null,
+    "enddate": null,
+    "dateprecision": "year",
     "desc": "Documentation for ctclsite",
     "icon": "",
     "icontitle": "",

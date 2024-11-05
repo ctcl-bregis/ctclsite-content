@@ -1,8 +1,9 @@
 {
     "title": "Week 33, 2024",
     "theme": "gold",
-    "startdate": "August 19, 2024",
-    "enddate": "",
+    "startdate": "2024-08-19T00:00:00Z",
+    "enddate": "2024-08-19T00:00:00Z",
+    "dateprecision": "day",
     "desc": "The thirty-third week of 2024",
     "icon": "/static/pages/blog/wk33_2024/wk332024_icon.webp",
     "icontitle": "Beached",

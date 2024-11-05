@@ -1,8 +1,9 @@
 {
     "title": "Connectivity",
     "theme": "mct2",
-    "startdate": "",
-    "enddate": "",
+    "startdate": null,
+    "enddate": null,
+    "dateprecision": "year",
     "desc": "About device external connectivity",
     "icon": "",
     "icontitle": "",

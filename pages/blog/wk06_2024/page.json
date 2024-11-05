@@ -1,8 +1,9 @@
 {
     "title": "Week 6, 2024",
     "theme": "gold",
-    "startdate": "February 11, 2024",
-    "enddate": "",
+    "startdate": "2024-02-11T00:00:00Z",
+    "enddate": "2024-02-11T00:00:00Z",
+    "dateprecision": "day",
     "desc": "The sixth week of 2024",
     "icon": "/static/pages/blog/wk06_2024/blog8_icon.webp",
     "icontitle": "i forgor \ud83d\udc80",

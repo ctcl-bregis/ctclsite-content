@@ -1,8 +1,9 @@
 {
     "title": "Week 2, 2024",
     "theme": "gold",
-    "startdate": "January 14, 2024",
-    "enddate": "",
+    "startdate": "2024-01-14T00:00:00Z",
+    "enddate": "2024-01-14T00:00:00Z",
+    "dateprecision": "day",
     "desc": "The second week of 2024",
     "icon": "/static/pages/blog/wk02_2024/blog4_icon.webp",
     "icontitle": "Backrooms vacation",

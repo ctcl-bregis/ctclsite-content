@@ -1,8 +1,9 @@
 {
     "title": "NetKart",
     "theme": "netkart",
-    "startdate": "2019",
-    "enddate": "Present",
+    "startdate": "2019-06-01T00:00:00Z",
+    "enddate": null,
+    "dateprecision": "year",
     "desc": "Go-kart modfication project",
     "icon": "",
     "icontitle": "",

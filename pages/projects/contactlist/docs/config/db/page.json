@@ -1,8 +1,9 @@
 {
     "title": "Database Configuration - ContactList",
     "theme": "blue",
-    "startdate": "2023",
-    "enddate": "Present",
+    "startdate": null,
+    "enddate": null,
+    "dateprecision": "year",
     "desc": "Database configuration for ContactList",
     "icon": "",
     "icontitle": "",

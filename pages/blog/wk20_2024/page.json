@@ -1,8 +1,9 @@
 {
     "title": "Week 20, 2024",
     "theme": "gold",
-    "startdate": "May 20, 2024",
-    "enddate": "",
+    "startdate": "2024-05-20T00:00:00Z",
+    "enddate": "2024-05-20T00:00:00Z",
+    "dateprecision": "day",
     "desc": "The twentieth week of 2024",
     "icon": "/static/pages/blog/wk20_2024/blog23_icon.webp",
     "icontitle": "Southern",

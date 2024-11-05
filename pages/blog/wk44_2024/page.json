@@ -1,0 +1,25 @@
+{
+    "title": "Week 44, 2024",
+    "theme": "gold",
+    "startdate": "2024-11-04T00:00:00Z",
+    "enddate": "2024-11-04T00:00:00Z",
+    "dateprecision": "day",
+    "desc": "Week 44 of 2024",
+    "icon": "/static/pages/blog/wk44_2024/wk442024_icon_alt.webp",
+    "icontitle": "Micron Apple-ification",
+    "keywords": [],
+    "cat": "update",
+    "favicon": "",
+    "headerids": true,
+    "shownavbar": true,
+    "content": {
+        "content": {
+            "type": "content",
+            "boxed": false,
+            "title": "",
+            "theme": "",
+            "fitscreen": false,
+            "content": "week_44_2024.md"
+        }
+    }
+}

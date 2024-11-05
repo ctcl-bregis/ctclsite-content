@@ -1,8 +1,9 @@
 {
     "title": "Week 13, 2024",
     "theme": "gold",
-    "startdate": "March 31, 2024",
-    "enddate": "",
+    "startdate": "2024-03-31T00:00:00Z",
+    "enddate": "2024-03-31T00:00:00Z",
+    "dateprecision": "day",
     "desc": "The thirteenth week of 2024",
     "icon": "/static/pages/blog/wk13_2024/blog16_icon.webp",
     "icontitle": "Trust me, I'm an engineer",

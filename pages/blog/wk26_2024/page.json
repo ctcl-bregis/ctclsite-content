@@ -1,8 +1,9 @@
 {
     "title": "Week 26, 2024",
     "theme": "gold",
-    "startdate": "July 1, 2024",
-    "enddate": "",
+    "startdate": "2024-07-01T00:00:00Z",
+    "enddate": "2024-07-01T00:00:00Z",
+    "dateprecision": "day",
     "desc": "The twenty-sixth week of 2024",
     "icon": "/static/pages/blog/wk26_2024/wk262024_icon.webp",
     "icontitle": "RINSE OUT",

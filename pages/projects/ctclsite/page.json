@@ -1,8 +1,9 @@
 {
     "title": "The Website",
     "theme": "gold",
-    "startdate": "2019",
-    "enddate": "Present",
+    "startdate": "2019-12-30T00:00:00Z",
+    "enddate": null,
+    "dateprecision": "year",
     "desc": "About the website itself",
     "icon": "",
     "icontitle": "",

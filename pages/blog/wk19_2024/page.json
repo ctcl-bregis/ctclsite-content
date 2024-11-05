@@ -1,8 +1,9 @@
 {
     "title": "Week 19, 2024",
     "theme": "gold",
-    "startdate": "May 13, 2024",
-    "enddate": "",
+    "startdate": "2024-05-13T00:00:00Z",
+    "enddate": "2024-05-13T00:00:00Z",
+    "dateprecision": "day",
     "desc": "The nineteenth week of 2024",
     "icon": "/static/pages/blog/wk19_2024/blog22_icon.webp",
     "icontitle": "Flip the World!",

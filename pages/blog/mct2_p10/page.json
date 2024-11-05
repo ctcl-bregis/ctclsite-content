@@ -1,8 +1,9 @@
 {
     "title": "MediaCow Touch 2 - Part 10",
     "theme": "mct2",
-    "startdate": "September 28, 2024",
-    "enddate": "",
+    "startdate": "2024-09-28T00:00:00Z",
+    "enddate": "2024-09-28T00:00:00Z",
+    "dateprecision": "day",
     "desc": "Last update for now",
     "icon": "/static/pages/blog/mct2_p10/mct2_p10_icon.webp",
     "icontitle": "Don't have a cow, dad.",

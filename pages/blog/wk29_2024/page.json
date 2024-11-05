@@ -1,8 +1,9 @@
 {
     "title": "Week 29, 2024",
     "theme": "gold",
-    "startdate": "July 22, 2024",
-    "enddate": "",
+    "startdate": "2024-07-22T00:00:00Z",
+    "enddate": "2024-07-22T00:00:00Z",
+    "dateprecision": "day",
     "desc": "The twenty-ninth week of 2024",
     "icon": "/static/pages/blog/wk29_2024/wk292024_icon.webp",
     "icontitle": "'To keep those luscious locks as gorgeous as ever'",

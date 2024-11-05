@@ -1,8 +1,9 @@
 {
     "title": "Circuit Design Style",
     "theme": "gold",
-    "startdate": "",
-    "enddate": "",
+    "startdate": null,
+    "enddate": null,
+    "dateprecision": "year",
     "desc": "How circuit design schematics and PCB designs are styled",
     "icon": "",
     "icontitle": "",

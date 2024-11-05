@@ -1,8 +1,9 @@
 {
     "title": "Database",
     "theme": "gold",
-    "startdate": "",
-    "enddate": "",
+    "startdate": null,
+    "enddate": null,
+    "dateprecision": "year",
     "desc": "Setup and management of the database",
     "icon": "",
     "icontitle": "",

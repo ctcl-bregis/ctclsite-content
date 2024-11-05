@@ -1,8 +1,9 @@
 {
     "title": "Plans",
     "theme": "gold",
-    "startdate": "",
-    "enddate": "",
+    "startdate": null,
+    "enddate": null,
+    "dateprecision": "year",
     "desc": "Development plan",
     "icon": "",
     "icontitle": "",

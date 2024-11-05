@@ -49,7 +49,8 @@
         "icontitle": "",
         "cat": "software",
         "startdate": "2020",
-        "enddate": "Present",
+        "enddate": null,
+    "dateprecision": "year",
         "content": "config/projects/content/ctclsite.md"
     },
     "cams": {
@@ -62,7 +63,8 @@
         "icontitle": "",
         "cat": "software",
         "startdate": "2021",
-        "enddate": "Present",
+        "enddate": null,
+    "dateprecision": "year",
         "content": "config/projects/content/cams.md"
     },
     "contactlist": {
@@ -75,7 +77,8 @@
         "icontitle": "",
         "cat": "software",
         "startdate": "2023",
-        "enddate": "Present",
+        "enddate": null,
+    "dateprecision": "year",
         "content": "config/projects/content/contactlist.md"
     },
     "todokiosk": {
@@ -88,7 +91,8 @@
         "icontitle": "",
         "cat": "software",
         "startdate": "2023",
-        "enddate": "Present",
+        "enddate": null,
+    "dateprecision": "year",
         "content": "config/projects/content/todokiosk.md"
     },
     "slag": {
@@ -101,7 +105,8 @@
         "icontitle": "",
         "cat": "software",
         "startdate": "2024",
-        "enddate": "Present",
+        "enddate": null,
+    "dateprecision": "year",
         "content": "config/projects/content/slag/slag.md",
         "pages": {
 
@@ -117,7 +122,8 @@
         "icontitle": "",
         "cat": "hardware",
         "startdate": "2018",
-        "enddate": "Present",
+        "enddate": null,
+    "dateprecision": "year",
         "content": "config/projects/content/mediacow.md"
     },
     "mct1": {
@@ -142,7 +148,8 @@
         "icontitle": "",
         "cat": "hardware",
         "startdate": "2021",
-        "enddate": "Present",
+        "enddate": null,
+    "dateprecision": "year",
         "content": "config/projects/content/mct2/mct2.md",
         "pages": {
             "som": {
@@ -227,7 +234,8 @@
         "icontitle": "",
         "cat": "hardware",
         "startdate": "2021",
-        "enddate": "Present",
+        "enddate": null,
+    "dateprecision": "year",
         "content": "config/projects/content/mcm.md"
     },
     "mathpad": {
@@ -252,7 +260,8 @@
         "icontitle": "",
         "cat": "hardware",
         "startdate": "2024",
-        "enddate": "Present",
+        "enddate": null,
+    "dateprecision": "year",
         "sections": {
             "fz_intro": {
                 "content": "config/projects/content/fz/fz_intro.md",
@@ -343,8 +352,9 @@
         "title": "SVCS", 
         "desc": "Series of server systems for use with service hosting",
         "cat": "pchardware",
-        "startdate": "",
-        "enddate": "",
+        "startdate": null,
+        "enddate": null,
+    "dateprecision": "year",
         "sections": {
             "svcs_intro": {
                 "content": "config/projects/content/svcs/svcs_intro.md",
@@ -379,8 +389,9 @@
         "title": "Other Servers",
         "desc": "Other servers with various purposes",
         "cat": "pchardware",
-        "startdate": "",
-        "enddate": "",
+        "startdate": null,
+        "enddate": null,
+    "dateprecision": "year",
         "sections": {
             "srv_prm": {
                 "content": "config/projects/content/srv_prm.md", 
@@ -403,7 +414,8 @@
         "desc": "Upgrades and potential computerization of a Go Kart",
         "cat": "automotive",
         "startdate": "2019",
-        "enddate": "Present",
+        "enddate": null,
+    "dateprecision": "year",
         "content": "config/projects/content/netkart.md"
     },
     "p2maps": {
@@ -414,7 +426,8 @@
         "desc": "Custom community maps made for the 2011 puzzle game Portal 2", 
         "cat": "creative",
         "startdate": "2022",
-        "enddate": "Present",
+        "enddate": null,
+    "dateprecision": "year",
         "icon": "/static/projects/icons/the_hall_preview.webp"
     },
     "nonmono": {
@@ -424,7 +437,8 @@
         "cat": "creative",
         "desc": "Creative photography and video project",
         "startdate": "2023",
-        "enddate": "Present",
+        "enddate": null,
+    "dateprecision": "year",
         "content": "config/projects/content/nonmono.md"
     },
     "styling": {
@@ -436,8 +450,9 @@
         "icon": "", 
         "icontitle": "",
         "cat": "misc",
-        "startdate": "",
-        "enddate": "",
+        "startdate": null,
+        "enddate": null,
+    "dateprecision": "year",
         "content": "config/projects/content/styling/intro.md",
         "pages": {
             "python": {

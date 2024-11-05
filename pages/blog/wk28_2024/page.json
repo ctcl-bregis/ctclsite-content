@@ -1,8 +1,9 @@
 {
     "title": "Week 28, 2024",
     "theme": "gold",
-    "startdate": "July 15, 2024",
-    "enddate": "",
+    "startdate": "2024-07-15T00:00:00Z",
+    "enddate": "2024-07-15T00:00:00Z",
+    "dateprecision": "day",
     "desc": "The twenty-eighth week of 2024",
     "icon": "/static/pages/blog/wk28_2024/wk282024_icon.webp",
     "icontitle": "Going to have to redraw most of this at some point...",

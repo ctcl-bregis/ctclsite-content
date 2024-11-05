@@ -1,8 +1,9 @@
 {
     "title": "CAMS",
     "theme": "99green",
-    "startdate": "2021",
-    "enddate": "Present",
+    "startdate": "2021-10-01T00:00:00Z",
+    "enddate": null,
+    "dateprecision": "year",
     "desc": "CAMS Asset Management System - Highly configurable asset management system",
     "icon": "",
     "icontitle": "",

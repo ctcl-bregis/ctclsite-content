@@ -1,8 +1,9 @@
 {
     "title": "Week 16, 2024",
     "theme": "gold",
-    "startdate": "April 22, 2024",
-    "enddate": "",
+    "startdate": "2024-04-22T00:00:00Z",
+    "enddate": "2024-04-22T00:00:00Z",
+    "dateprecision": "day",
     "desc": "The sixteenth week of 2024",
     "icon": "/static/pages/blog/wk16_2024/blog19_icon.webp",
     "icontitle": "Eclipsed",

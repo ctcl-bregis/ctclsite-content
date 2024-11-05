@@ -1,8 +1,9 @@
 {
     "title": "Week 27, 2024",
     "theme": "gold",
-    "startdate": "July 8, 2024",
-    "enddate": "",
+    "startdate": "2024-07-08T00:00:00Z",
+    "enddate": "2024-07-08T00:00:00Z",
+    "dateprecision": "day",
     "desc": "The twenty-seventh week of 2024",
     "icon": "/static/pages/blog/wk27_2024/wk272024_icon.webp",
     "icontitle": "Small but Powerful",

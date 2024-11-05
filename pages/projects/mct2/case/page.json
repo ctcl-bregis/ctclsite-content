@@ -1,8 +1,9 @@
 {
     "title": "Case",
     "theme": "mct2",
-    "startdate": "",
-    "enddate": "",
+    "startdate": null,
+    "enddate": null,
+    "dateprecision": "year",
     "desc": "About the case design",
     "icon": "",
     "icontitle": "",

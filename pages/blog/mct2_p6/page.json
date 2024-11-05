@@ -1,8 +1,9 @@
 {
     "title": "MediaCow Touch 2 - Part 6",
     "theme": "mct2",
-    "startdate": "August 14, 2024",
-    "enddate": "",
+    "startdate": "2024-08-14T00:00:00Z",
+    "enddate": "2024-08-14T00:00:00Z",
+    "dateprecision": "day",
     "desc": "Must not give up",
     "icon": "/static/pages/blog/mct2_p6/mct2_p6_icon.webp",
     "icontitle": "In the air",

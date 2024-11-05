@@ -1,8 +1,9 @@
 {
     "title": "Power Supply Subsystem",
     "theme": "red",
-    "startdate": "",
-    "enddate": "",
+    "startdate": null,
+    "enddate": null,
+    "dateprecision": "year",
     "desc": "",
     "icon": "",
     "icontitle": "",

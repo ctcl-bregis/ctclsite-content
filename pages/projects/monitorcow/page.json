@@ -1,8 +1,9 @@
 {
     "title": "MonitorCow",
     "theme": "mct2",
-    "startdate": "2017",
-    "enddate": "Present",
+    "startdate": "2024-08-28T00:00:00Z",
+    "enddate": null,
+    "dateprecision": "year",
     "desc": "Custom monitor series. Originally part of MediaCow Touch 2.",
     "icon": "",
     "icontitle": "",

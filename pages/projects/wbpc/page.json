@@ -1,8 +1,9 @@
 {
     "title": "WBPC",
     "theme": "gold",
-    "startdate": "",
-    "enddate": "",
+    "startdate": null,
+    "enddate": null,
+    "dateprecision": "year",
     "desc": "Various workstation desktop computer systems that I use",
     "icon": "",
     "icontitle": "",

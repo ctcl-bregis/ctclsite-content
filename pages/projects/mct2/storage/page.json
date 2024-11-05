@@ -1,8 +1,9 @@
 {
     "title": "Storage Devices",
     "theme": "mct2",
-    "startdate": "",
-    "enddate": "",
+    "startdate": null,
+    "enddate": null,
+    "dateprecision": "year",
     "desc": "Data storage devices",
     "icon": "",
     "icontitle": "",

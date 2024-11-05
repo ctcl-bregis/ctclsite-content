@@ -1,8 +1,9 @@
 {
     "title": "Week 9, 2024",
     "theme": "gold",
-    "startdate": "March 3, 2024",
-    "enddate": "",
+    "startdate": "2024-03-03T00:00:00Z",
+    "enddate": "2024-03-03T00:00:00Z",
+    "dateprecision": "day",
     "desc": "The ninth week of 2024",
     "icon": "/static/pages/blog/wk09_2024/blog12_icon.webp",
     "icontitle": "Yet another website backend rewrite",

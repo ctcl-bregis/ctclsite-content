@@ -1,8 +1,9 @@
 {
     "title": "MediaCow Touch Mini series",
     "theme": "gold",
-    "startdate": "2021",
-    "enddate": "Present",
+    "startdate": "2021-01-01T00:00:00Z",
+    "enddate": null,
+    "dateprecision": "year",
     "desc": "Mostly experimental small tablet-like device series",
     "icon": "",
     "icontitle": "",

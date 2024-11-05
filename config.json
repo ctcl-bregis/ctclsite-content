@@ -13,6 +13,10 @@
     "debugloglevel": "info",
     "minimizehtml": false,
     "minimizecss": true,
+    "dateformats": {
+        "year": "%Y",
+        "day": "%B %d, %Y"
+    },
     "themes": {
         "99gray": {
             "dispname": "99 Gray",

@@ -1,8 +1,9 @@
 {
     "title": "Privacy Policy",
     "theme": "gold",
-    "startdate": "",
-    "enddate": "",
+    "startdate": null,
+    "enddate": null,
+    "dateprecision": "year",
     "desc": "",
     "icon": "",
     "icontitle": "",

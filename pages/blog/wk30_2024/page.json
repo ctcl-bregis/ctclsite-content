@@ -1,8 +1,9 @@
 {
     "title": "Week 30, 2024",
     "theme": "gold",
-    "startdate": "July 29, 2024",
-    "enddate": "",
+    "startdate": "2024-07-29T00:00:00Z",
+    "enddate": "2024-07-29T00:00:00Z",
+    "dateprecision": "day",
     "desc": "The thirtieth week of 2024",
     "icon": "/static/pages/blog/wk30_2024/wk302024_icon.webp",
     "icontitle": "Instance.AddBehaviour<ExplosiveBehaviour>();",

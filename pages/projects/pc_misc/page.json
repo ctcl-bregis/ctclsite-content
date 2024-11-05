@@ -1,8 +1,9 @@
 {
     "title": "Misc. PCs",
     "theme": "gold",
-    "startdate": "",
-    "enddate": "",
+    "startdate": null,
+    "enddate": null,
+    "dateprecision": "year",
     "desc": "Other systems used for various purposes",
     "icon": "/static/pages/projects/pc_misc/thc_apr242023.webp",
     "icontitle": "",
@@ -19,14 +20,6 @@
             "theme": "99red",
             "fitscreen": false,
             "content": "pc_thc.md"
-        },
-        "pc_iph2": {
-            "type": "content",
-            "boxed": true,
-            "title": "Apple iPhone XR",
-            "theme": "apple",
-            "fitscreen": false,
-            "content": "pc_iph2.md"
         },
         "pc_r12": {
             "type": "content",

@@ -1,8 +1,9 @@
 {
     "title": "Flipper Zero Custom Firmware Fork",
     "theme": "flipper",
-    "startdate": "2024",
-    "enddate": "",
+    "startdate": "2024-05-07T00:00:00Z",
+    "enddate": null,
+    "dateprecision": "year",
     "desc": "Custom firmware for the Flipper Zero",
     "icon": "",
     "icontitle": "",

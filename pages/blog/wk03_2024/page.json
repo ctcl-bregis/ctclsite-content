@@ -1,8 +1,9 @@
 {
     "title": "Week 3, 2024",
     "theme": "gold",
-    "startdate": "January 21, 2024",
-    "enddate": "",
+    "startdate": "2024-01-21T00:00:00Z",
+    "enddate": "2024-01-21T00:00:00Z",
+    "dateprecision": "day",
     "desc": "The third week of 2024",
     "icon": "/static/pages/blog/wk03_2024/blog5_icon.webp",
     "icontitle": "A familiar hallway",

@@ -1,8 +1,9 @@
 {
     "title": "Week 36, 2024",
     "theme": "gold",
-    "startdate": "September 9, 2024",
-    "enddate": "",
+    "startdate": "2024-09-09T00:00:00Z",
+    "enddate": "2024-09-09T00:00:00Z",
+    "dateprecision": "day",
     "desc": "The thirty-sixth week of 2024",
     "icon": "/static/pages/blog/wk36_2024/wk362024_icon.webp",
     "icontitle": "Here comes the sun",

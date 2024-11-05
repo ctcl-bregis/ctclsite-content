@@ -1,8 +1,9 @@
 {
     "title": "Week 43, 2024",
     "theme": "gold",
-    "startdate": "October 28, 2024",
-    "enddate": "",
+    "startdate": "2024-10-28T00:00:00Z",
+    "enddate": "2024-10-28T00:00:00Z",
+    "dateprecision": "day",
     "desc": "Week 43 of 2024",
     "icon": "/static/pages/blog/wk43_2024/wk432024_icon.webp",
     "icontitle": "",

@@ -1,8 +1,9 @@
 {
     "title": "Rust-specific Code Style",
     "theme": "gold",
-    "startdate": "",
-    "enddate": "",
+    "startdate": null,
+    "enddate": null,
+    "dateprecision": "year",
     "desc": "Code styling specific to Rust",
     "icon": "",
     "icontitle": "",

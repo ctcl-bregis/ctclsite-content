@@ -1,8 +1,9 @@
 {
     "title": "Linux Kernel",
     "theme": "mct2",
-    "startdate": "",
-    "enddate": "",
+    "startdate": null,
+    "enddate": null,
+    "dateprecision": "year",
     "desc": "About the OS used on SMEC",
     "icon": "",
     "icontitle": "",

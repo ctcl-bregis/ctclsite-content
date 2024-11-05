@@ -1,8 +1,9 @@
 {
     "title": "Sensors",
     "theme": "mct2",
-    "startdate": "",
-    "enddate": "",
+    "startdate": null,
+    "enddate": null,
+    "dateprecision": "year",
     "desc": "Environment and temperature sensor subsystem",
     "icon": "",
     "icontitle": "",

@@ -1,8 +1,9 @@
 {
     "title": "Operating System",
     "theme": "mct2",
-    "startdate": "",
-    "enddate": "",
+    "startdate": null,
+    "enddate": null,
+    "dateprecision": "year",
     "desc": "Operating System to be used on the device",
     "icon": "",
     "icontitle": "",

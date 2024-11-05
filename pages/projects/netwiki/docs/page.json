@@ -1,8 +1,9 @@
 {
     "title": "NetWiki",
     "theme": "gold",
-    "startdate": "",
-    "enddate": "",
+    "startdate": null,
+    "enddate": null,
+    "dateprecision": "year",
     "desc": "Documentation for NetWiki",
     "icon": "",
     "icontitle": "",

@@ -1,8 +1,9 @@
 {
     "title": "Week 39, 2024",
     "theme": "gold",
-    "startdate": "September 30, 2024",
-    "enddate": "",
+    "startdate": "2024-09-30T00:00:00Z",
+    "enddate": "2024-09-30T00:00:00Z",
+    "dateprecision": "day",
     "desc": "Week 39 of 2024",
     "icon": "/static/pages/blog/wk39_2024/wk392024_icon.webp",
     "icontitle": "Sniff",

@@ -1,8 +1,9 @@
 {
     "title": "Week 4, 2024",
     "theme": "gold",
-    "startdate": "January 27, 2024",
-    "enddate": "",
+    "startdate": "2024-01-27T00:00:00Z",
+    "enddate": "2024-01-27T00:00:00Z",
+    "dateprecision": "day",
     "desc": "The fourth week of 2024",
     "icon": "/static/pages/blog/wk04_2024/blog6_icon.webp",
     "icontitle": "Lisdexamfetamine shortage",

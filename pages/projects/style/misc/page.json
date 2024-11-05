@@ -1,8 +1,9 @@
 {
     "title": "Misc. Style Guidelines",
     "theme": "gold",
-    "startdate": "",
-    "enddate": "",
+    "startdate": null,
+    "enddate": null,
+    "dateprecision": "year",
     "desc": "Guidelines for miscellaneous things",
     "icon": "",
     "icontitle": "",

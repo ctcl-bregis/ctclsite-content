@@ -4,7 +4,7 @@
 <a class="pagebutton {% if pageentry.theme %}section-{{ pageentry.theme }}{% endif %}" href="{{ entry.page }}">
     <span class="pagebutton-title">{{ pageentry.title }}</span>
     <span class="pagebutton-desc">{{ pageentry.desc|safe }}</span>
-    <span class="pagebutton-date">{% if pageentry.startdate %}{{ pageentry.startdate }}{% if pageentry.enddate %} - {{ pageentry.enddate }}{% endif %}{% endif %}</span>
+    <span class="pagebutton-date">{% if pageentry.daterange %}{{ pageentry.daterange }}{% endif %}</span>
     {% if pageentry.icon %}
     <img class="pagebutton-img" src="{{ pageentry.icon }}" {% if pageentry.icontitle %} title="{{ pageentry.icontitle }}"{% endif %}>
     {% endif %}
@@ -13,7 +13,7 @@
 <a class="pagebutton {% if entry.theme %}section-{{ entry.theme }}{% endif %}" href="{{ entry.link }}">
     <span class="pagebutton-title">{{ entry.title }}</span>
     <span class="pagebutton-desc">{{ entry.desc|safe }}</span>
-    <span class="pagebutton-date">{% if entry.startdate %}{{ entry.startdate }}{% if entry.enddate %} - {{ entry.enddate }}{% endif %}{% endif %}</span>
+    <span class="pagebutton-date">{% if entry.daterange %}{{ entry.daterange }}{% endif %}</span>
     {% if entry.icon %}
     <img class="pagebutton-img" src="{{ entry.icon }}" {% if entry.icontitle %} title="{{ entry.icontitle }}"{% endif %}>
     {% endif %}

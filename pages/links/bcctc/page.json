@@ -1,8 +1,9 @@
 {
     "title": "Brightpoint Community College Technology Club",
     "theme": "bcctc",
-    "startdate": "",
-    "enddate": "",
+    "startdate": null,
+    "enddate": null,
+    "dateprecision": "year",
     "desc": "Links to club information and more",
     "icon": "",
     "icontitle": "",

@@ -1,8 +1,9 @@
 {
     "title": "Project Naming",
     "theme": "gold",
-    "startdate": "",
-    "enddate": "",
+    "startdate": null,
+    "enddate": null,
+    "dateprecision": "year",
     "desc": "How names are chosen for projects",
     "icon": "",
     "icontitle": "",

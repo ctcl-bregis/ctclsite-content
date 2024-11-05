@@ -1,8 +1,9 @@
 {
     "title": "Keypad and Side Display",
     "theme": "mct2",
-    "startdate": "",
-    "enddate": "",
+    "startdate": null,
+    "enddate": null,
+    "dateprecision": "year",
     "desc": "About the keypad and display on the side of the case",
     "icon": "",
     "icontitle": "",

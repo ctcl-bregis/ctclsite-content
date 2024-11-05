@@ -1,8 +1,9 @@
 {
 	"title": "Blog Posts",
 	"theme": "gold",
-	"startdate": "",
-	"enddate": "",
+	"startdate": null,
+	"enddate": null,
+    "dateprecision": "day",
 	"desc": "Current blog posts",
 	"icon": "",
 	"icontitle": "",
@@ -19,6 +20,10 @@
 			"theme": "",
 			"fitscreen": false,
 			"links": [
+				{
+					"type": "full",
+					"page": "/blog/wk44_2024/"
+				},
 				{
 					"type": "full",
 					"page": "/blog/wk43_2024/"
