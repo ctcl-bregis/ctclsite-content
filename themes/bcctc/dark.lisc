@@ -1,4 +1,4 @@
-{% include "fonts.lisc" -%}
+{% include "fonts.lisc" %}
 
 body {
     margin: 0;
@@ -7,13 +7,13 @@ body {
     font-family: {{ theme.defaultfont }};
 }
 
-{% for i in range(start = 1, end = 6) -%}
-{% set h = "h" -%}
-{% set hsize = h ~ i -%}
+{% for i in range(start = 1, end = 6) %}
+{% set h = "h" %}
+{% set hsize = h ~ i %}
 h{{ i }} {
     font-size: {{ fontsizes[hsize] }}pt;
 }
-{% endfor -%}
+{% endfor %}
 
 header {
     margin-right: 0;

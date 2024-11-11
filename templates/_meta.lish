@@ -6,16 +6,16 @@
 <meta name="theme-color" content="{{ theme.color }}">
 <meta name="og:title" content="{{ title }}">
 <meta name="og:type" content="website">
-{% if desc -%}
+{% if desc %}
 <meta name="description" content="{{ desc }}">
 <meta name="og:description" content="{{ desc }}">
-{% endif -%}
+{% endif %}
 <meta name="og:url" content="https://{{ sitedomain|safe }}/">
-{% if icon -%}
+{% if icon %}
 <meta name="og:image" content="{{ icon }}">
 {% endif %}
 <meta name="og:site_name" content="{{ sitedomain|safe }}">
 <meta name="og:locale" content="en_US">
-{% if keywords -%}
+{% if keywords %}
 <meta name="keywords" content={{ keywords }}>
-{% endif -%}
+{% endif %}

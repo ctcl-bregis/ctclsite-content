@@ -15,13 +15,13 @@ Note: The term "system" refers to the System on Module and the operating system 
 
 A quick overview of the functions of SMEC:
 
-- Read battery state and report State of Charge and other data to the system
+- Read battery state and report State of Charge to the system
+- Collect data from on-board telemetry; power monitors, PMICs, etc.
 - Read button presses and switch states from the side-mounted keypad
 - Read and process sensor data
 - Drive side-mounted LCD display
 - Audio subsystem
   - Processing of audio data from microphones
   - Processing of audio data from the system
-  - Audio playback independent of the system
-- System-independent media player
-
+  - Audio effects control
+  - Audio playback independent of the system; System-independent media player

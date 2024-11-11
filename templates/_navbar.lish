@@ -1,7 +1,7 @@
 <nav>
     <ul>
-        {% for entry in navbar -%}
+        {% for entry in navbar %}
         <li><a href={{ entry.link }}>{{ entry.title }}</a></li>
-        {% endfor -%}
+        {% endfor %}
     </ul>
 </nav>

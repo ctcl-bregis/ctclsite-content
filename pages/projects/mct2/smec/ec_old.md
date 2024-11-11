@@ -1,3 +1,5 @@
+NOTE: This page is unused and contains outdated information. It is kept for reference.
+
 ## Introduction
 The embedded controller manages various subsystems on MediaCow Touch 2 and runs independently of the LattePanda Mu and the operating system.
 

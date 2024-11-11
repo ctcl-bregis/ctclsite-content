@@ -16,6 +16,7 @@ I eventually decided to have the power and reset buttons part of the keypad scan
 
 ## OLED Display
 MediaCow Touch 2 would include a small OLED display on the side of the device next to the button panel. The idea to add an OLED display to MediaCow Touch 2 appeared on July 27, 2024 and I reluctantly decided to include it in the design.
+NOTE: This page is unused and contains outdated information. It is kept for reference.
 
 Next to the button panel, there is an OLED display for showing various data about the device. 
 

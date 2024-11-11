@@ -15,7 +15,7 @@
     "minimizecss": true,
     "dateformats": {
         "year": "%Y",
-        "day": "%B %d, %Y"
+        "day": "%B %-d, %Y"
     },
     "themes": {
         "99gray": {

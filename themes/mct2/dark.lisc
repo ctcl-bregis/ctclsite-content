@@ -1,6 +1,6 @@
-{% include "fonts.lisc" -%}
-{% include "navbar.lisc" -%}
-{% include "figure.lisc" -%}
+{% include "fonts.lisc" %}
+{% include "navbar.lisc" %}
+{% include "figure.lisc" %}
 
 body {
     margin: 0;
@@ -9,16 +9,16 @@ body {
     font-family: {{ theme.defaultfont }};
 }
 
-{% for i in range(start = 1, end = 6) -%}
-{% set h = "h" -%}
-{% set hsize = h ~ i -%}
+{% for i in range(start = 1, end = 6) %}
+{% set h = "h" %}
+{% set hsize = h ~ i %}
 h{{ i }} {
     font-size: {{ fontsizes[hsize] }}pt;
     margin: 0;
     {# Compensate for the descent value of Heuristica #}
     margin-top: {{ fontsizes[hsize] / 6 }}pt;
 }
-{% endfor -%}
+{% endfor %}
 
 p {
     font-size: {{ fontsizes["body"] }}pt;

@@ -1,5 +1,5 @@
 {% for entry in links %}
-{% if entry.type == "full" and pages | get(key=entry.page | trim_start_matches(pat="/")) %}
+{% if entry.type == "full" && pages | get(key=entry.page | trim_start_matches(pat="/")) %}
 {% set pageentry = pages | get(key=entry.page | trim_start_matches(pat="/")) %}
 <a class="pagebutton {% if pageentry.theme %}section-{{ pageentry.theme }}{% endif %}" href="{{ entry.page }}">
     <span class="pagebutton-title">{{ pageentry.title }}</span>
@@ -18,7 +18,7 @@
     <img class="pagebutton-img" src="{{ entry.icon }}" {% if entry.icontitle %} title="{{ entry.icontitle }}"{% endif %}>
     {% endif %}
 </a>
-{% elif entry.type == "titleonly" and pages | get(key=entry.page | trim_start_matches(pat="\\")) %}
+{% elif entry.type == "titleonly" &&  pages | get(key=entry.page | trim_start_matches(pat="\\")) %}
 {% set pageentry = pages | get(key=entry.page | trim_start_matches(pat="/")) %}
 <a class="titlebutton {% if pageentry.theme %}section-{{ pageentry.theme }}{% endif %}" href="{{ pageentry.page }}">{{ pageentry.title }}</a>
 {% elif entry.type == "titleonlycustom" %}

@@ -11,7 +11,8 @@ Other services:
 - Snapchat: [@ctcl-bregis](https://www.snapchat.com/add/ctcl-bregis)
 - Reddit: [u/ctcl-tech](https://www.reddit.com/user/ctcl-tech/)
 - Wikipedia: [User:Ctcl-tech](https://en.wikipedia.org/wiki/User%3ACtcl-tech)
-- Steam: [Alucard](https://steamcommunity.com/id/crazyblocks2004/)
+- ~~Steam: [Alucard](https://steamcommunity.com/id/crazyblocks2004/)~~ Currently unavailable
+- LeetCode: [ctcl-bregis](https://leetcode.com/u/ctcl-bregis/)
 
 These are available upon request, usually in person.
 

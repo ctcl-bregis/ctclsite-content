@@ -1,4 +1,4 @@
-{% for name, theme in themes -%}
+{% for name, theme in themes %}
 .section-{{ name }}, .pagebutton.section-{{name}}, .section-{{name}}.titlebutton {
     border-style: solid;
     border-width: 2pt;
@@ -56,4 +56,4 @@
     color: {{ theme.fgcolor }};
     background-color: {{ theme.color }};
 }
-{% endfor -%}
+{% endfor %}
