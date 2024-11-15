@@ -805,3 +805,12 @@ Rotated and cropped with GIMP for Windows"
 The caption was chosen in relation to the gray skies in both photos. The caption is a reference to a line from the In Flames song 'Your Bedtime Story is Scaring Everyone'.
 
 - Authored: ["Polybutylene Terephthalate"](../pc_pbt/) (ASRock B550M Pro4, AMD x86-64)
+
+### Post 84 - June 28, 2024
+"Into darkness
+
+June 24, 2024 - ASUS Zenfone 9"
+
+The caption was chosen in relation to the photos being at night. These photos were from the time that I started MediaCow Touch 2's development in June 2024.
+
+- Authored: Possibly IPHONE2 (Apple iPhone XR A1984, Apple ARM64)

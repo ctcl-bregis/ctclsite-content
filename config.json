@@ -11,7 +11,7 @@
     "cpus": 1,
     "defaulttheme": "gold",
     "debugloglevel": "info",
-    "minimizehtml": false,
+    "minimizehtml": true,
     "minimizecss": true,
     "dateformats": {
         "year": "%Y",

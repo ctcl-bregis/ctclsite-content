@@ -1,10 +1,10 @@
 {
-    "title": "MediaCow Micro series",
+    "title": "MediaCow Micro Q",
     "theme": "gold",
     "startdate": "2021-07-18T00:00:00Z",
     "enddate": null,
     "dateprecision": "year",
-    "desc": "Small portable media player series",
+    "desc": "MediaCow Micro Q portable media player device",
     "icon": "",
     "icontitle": "",
     "keywords": [],
@@ -19,7 +19,7 @@
             "title": "",
             "theme": "",
             "fitscreen": false,
-            "content": "mcm.md"
+            "content": "mcm_q.md"
         }
     }
 }
