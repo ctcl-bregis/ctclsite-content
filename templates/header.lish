@@ -1,7 +1,9 @@
 <!DOCTYPE html>
-<html lang="en-US">
+<html>
     <head>
-        {% include "_meta.lish" %}
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>{{ title }}</title>
+        <meta name="theme-color" content="{{ theme.color }}">
         <link rel="stylesheet" href="{{ theme.rendered|safe }}">
         {# <link rel="stylesheet" media="print" href="/static/print.css"> #}
         <link rel="icon" href="{{ favicon|safe }}" type="image/x-icon" sizes="any">
