@@ -3,10 +3,10 @@ Like many laptop and Chromebook devices, MediaCow Touch 2 includes an embedded c
 
 Originally, there was two microcontrollers named "IOEC" and "PMEC" up to some time in late July 2024 where the functionality of the two were merged into a single microcontroller, named "SMEC". Up to September 11, 2024, the microcontroller used was the STMicroelectronics STM32L496. Starting September 11, 2024, the [Sunplus Technology/Tibbo Technology SP7021](https://www.sunplus.com/products/plus1.asp) is now used for the embedded controller.
 
-I was initially hesitant to switch to the SP7021 as it is immensely more complex to implement than the STM32L496 as I was already nearing the deadline.
+I was initially hesitant to switch to the SP7021 as it is immensely more complex to implement than the STM32L496 as I was already nearing the deadline. The idea came up when finding an LCD or OLED display to use for the side-mounted display where the display chosen uses an 18-bit parallel interface.
 
 ### Hardware Introduction
-MediaCow Touch 2 is unique in its device class in which it uses a dedicated System on Chip for its embedded controller.
+MediaCow Touch 2 is unique in its device class in which it uses a dedicated System on Chip for its embedded controller alongside an applications processor; the Intel N100.
 
 As mentioned before, MediaCow Touch 2 makes use of the SP7021 System in Package. I have had interest in the SP7021 since 2020 and I saw MediaCow Touch 2 as a possible application for it.
 

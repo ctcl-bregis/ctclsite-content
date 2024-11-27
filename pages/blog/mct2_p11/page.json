@@ -1,0 +1,25 @@
+{
+    "title": "MediaCow Touch 2 - Part 11",
+    "theme": "mct2",
+    "startdate": null,
+    "enddate": null,
+    "dateprecision": "day",
+    "desc": "Future of the project",
+    "icon": "/static/pages/blog/mct2_p11/mct2_p11_icon.webp",
+    "icontitle": "Moo",
+    "keywords": [],
+    "cat": "hardware",
+    "favicon": "",
+    "headerids": true,
+    "shownavbar": true,
+    "content": {
+        "content": {
+            "type": "content",
+            "boxed": false,
+            "title": "",
+            "theme": "",
+            "fitscreen": false,
+            "content": "mct2_p11.md"
+        }
+    }
+}

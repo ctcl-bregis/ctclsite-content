@@ -1,0 +1,25 @@
+{
+    "title": "Weeks 46-47, 2024",
+    "theme": "gold",
+    "startdate": "2024-11-25T00:00:00Z",
+    "enddate": "2024-11-25T00:00:00Z",
+    "dateprecision": "day",
+    "desc": "Weeks 46-47 of 2024",
+    "icon": "/static/pages/blog/wk46-47_2024/wk462024_icon.webp",
+    "icontitle": "Carved memory",
+    "keywords": [],
+    "cat": "update",
+    "favicon": "",
+    "headerids": true,
+    "shownavbar": true,
+    "content": {
+        "content": {
+            "type": "content",
+            "boxed": false,
+            "title": "",
+            "theme": "",
+            "fitscreen": false,
+            "content": "week_47_2024.md"
+        }
+    }
+}

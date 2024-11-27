@@ -9,6 +9,6 @@ I have decided to make my own wiki software that is intended for single-user usa
 NetWiki is designed for hierarchical page organization.
 
 ## Development
-NetWiki is to be written in Rust, using the Actix Web framework. 
+Python is used for backend code. 
 
 Templating and styling is to be defined with [Lysine](/projects/lysine/).

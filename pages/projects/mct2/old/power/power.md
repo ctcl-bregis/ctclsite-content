@@ -30,7 +30,7 @@ An option to have USB PD sources available while the system is powered off may b
 See page [SMEC Power Management](../smec/power/)
 
 ### System on Module
-The System on Module, the LattePanda Mu, is powered from VSYS through a load switch. 
+The System on Module, the LattePanda Mu, is powered from VSYS through a load switch. The System on Module has a wide voltage input with a range of 9 to 20 volts.
 
 The load switch used for switching power to the system on module is the Infineon BTS7006-1EPP. The BTS7006-1EPP has a sense pin that is used for power monitoring. This is an analog output that is read by SMEC through a resistor and protection circuit.
 

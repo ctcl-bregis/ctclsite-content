@@ -4,3 +4,4 @@ Since I have started considering this project in May 2024, I have been aware of 
 I do not plan on starting development of a Coreboot port for the LattePanda Mu and project-specific configurations until I have an assembled prototype of the device. The Lite Carrier that I was provided does not have any way to access the SPI interface for an external SPI flash IC for storing the BIOS. 
 
 MediaCow Touch 2 will have an SOIC-8 socket on-board connected to the external BIOS SPI interface. This would allow the SPI flash memory to be removed and flashed with an external programmer. 
+

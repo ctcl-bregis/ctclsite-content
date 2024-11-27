@@ -16,4 +16,5 @@ Though the N100 is intended as a low-power mobile solution for devices such as C
 After testing the System on Module with a [couple games in early July 2024 on provided Windows 11](/blog/mct2_p1/), I determined that the N100's performance is more than enough for what I expected to use the device for. 
 
 ### Memory
-On the product page, it is mentioned that the module has optional "in-band ECC". This means that a part of the memory would be reserved for storing error correction data. This is different from ECC memory where there are dedicated DRAM ICs and extra memory bus bits for storing error correcting codes. I do not consider this feature to be "true" ECC memory and it may be disabled if it has too much of an impact over performance.
+On the product page, it is mentioned that the module has optional "in-band ECC". This means that a part of the memory would be reserved for storing error correction data. This is different from ECC memory where there are dedicated DRAM ICs and extra memory bus bits for storing error correcting codes. I do not consider this feature to be "true ECC" memory and it may be disabled if it has too much of an impact over performance.
+

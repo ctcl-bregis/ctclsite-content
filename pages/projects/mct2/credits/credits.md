@@ -119,6 +119,8 @@ MediaCow Touch 2 was developed in the following locations:
 - Pocahontas, West Virginia, United States
 - Richmond, Virginia, United States
   - The Pace Center (VCU)
+  - Qimonda Atrium in VCU Engineering Hall
+- Sylvan Beach, New York, United States
 
 90+% of development was done in Midlothian, Virginia. 
 
