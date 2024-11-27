@@ -1,0 +1,25 @@
+{
+    "title": "Connectivity",
+    "theme": "mct2",
+    "startdate": null,
+    "enddate": null,
+    "dateprecision": "year",
+    "desc": "About device external connectivity",
+    "icon": "",
+    "icontitle": "",
+    "keywords": [],
+    "cat": "",
+    "favicon": "",
+    "headerids": true,
+    "shownavbar": true,
+    "content": {
+        "content": {
+            "type": "content",
+            "boxed": false,
+            "title": "",
+            "theme": "",
+            "fitscreen": false,
+            "content": "connectivity.md"
+        }
+    }
+}

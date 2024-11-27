@@ -1,0 +1,25 @@
+{
+    "title": "Network",
+    "theme": "mct2",
+    "startdate": null,
+    "enddate": null,
+    "dateprecision": "year",
+    "desc": "About device network connectivity",
+    "icon": "",
+    "icontitle": "",
+    "keywords": [],
+    "cat": "",
+    "favicon": "",
+    "headerids": true,
+    "shownavbar": true,
+    "content": {
+        "content": {
+            "type": "content",
+            "boxed": false,
+            "title": "",
+            "theme": "",
+            "fitscreen": false,
+            "content": "network.md"
+        }
+    }
+}
