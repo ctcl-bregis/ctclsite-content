@@ -1,10 +1,10 @@
 {
-    "title": "Documentation",
+    "title": "Static Files",
     "theme": "gold",
     "startdate": null,
     "enddate": null,
     "dateprecision": "year",
-    "desc": "Documentation for ctclsite",
+    "desc": "How static files are stored and served",
     "icon": "",
     "icontitle": "",
     "keywords": [],
@@ -14,17 +14,12 @@
     "shownavbar": true,
     "content": {
         "content": {
-            "type": "linklist",
+            "type": "content",
             "boxed": false,
             "title": "",
             "theme": "",
             "fitscreen": false,
-            "links": [
-                {
-                    "type": "full",
-                    "page": "/projects/ctclsite/config/"
-                }
-            ]
+            "content": "static.md"
         }
     }
 }

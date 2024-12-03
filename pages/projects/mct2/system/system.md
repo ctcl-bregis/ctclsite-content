@@ -1,0 +1,1 @@
+MediaCow Touch 2 makes use of the LattePanda Mu System on Module.

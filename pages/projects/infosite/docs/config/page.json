@@ -1,0 +1,38 @@
+{
+    "title": "Configuration",
+    "theme": "gold",
+    "startdate": null,
+    "enddate": null,
+    "dateprecision": "year",
+    "desc": "About configuration files",
+    "icon": "",
+    "icontitle": "",
+    "keywords": [],
+    "cat": "",
+    "favicon": "",
+    "headerids": true,
+    "shownavbar": true,
+    "content": {
+        "content": {
+            "type": "content",
+            "boxed": false,
+            "title": "",
+            "theme": "",
+            "fitscreen": false,
+            "content": "config.md"
+        },
+        "subpages": {
+            "type": "linklist",
+            "boxed": false,
+            "title": "",
+            "theme": "",
+            "fitscreen": false,
+            "links": [
+                {
+                    "type": "full",
+                    "page": "/projects/ctclsite/docs/config/themes/"
+                }
+            ]
+        }
+    }
+}

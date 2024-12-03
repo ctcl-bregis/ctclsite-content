@@ -14,3 +14,25 @@ The following connectors are to be present:
 Note: The use of a full-size HDMI connector is subject to change
 
 ## USB
+
+
+## HSIO
+The carrier board is to make use of all of the High-Speed IO (HSIO) provided by the N100.
+
+| Port    | Purpose    | PCIe Device | N100 PCIe Controller |
+| ------- | ---------- | ----------- | -------------------- |
+| HSIO 0  | USB 3.2    | N/A         | Controller #1        |
+| HSIO 1  | USB 3.2    | N/A         | Controller #1        |
+| HSIO 2  | M.2 Key E  | 1           | Controller #1        |
+| HSIO 3  | M.2 Key B  | 2           | Controller #1        |
+| HSIO 6  | Ethernet   | 3           | Controller #2        |
+| HSIO 8  | M.2 Key M  | 4           | Controller #3        |
+| HSIO 9  | M.2 Key M  | 4           | Controller #3        |
+| HSIO 10 | M.2 Key M  | 4           | Controller #3        |
+| HSIO 11 | M.2 Key M  | 4           | Controller #3        |
+
+The first two HSIO lanes are used as USB 3.2 connected to the two USB Type-C ports. 
+
+
+
+

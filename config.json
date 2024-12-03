@@ -18,6 +18,13 @@
         "day": "%B %-d, %Y"
     },
     "themes": {
+        "66green": {
+            "dispname": "66 Green",
+            "color": "#006600",
+            "fgcolor": "#000000",
+            "defaults": true,
+            "defaultfont": "barlow"
+        },
         "99gray": {
             "dispname": "99 Gray",
             "color": "#999999",

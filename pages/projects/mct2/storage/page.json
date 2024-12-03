@@ -1,11 +1,11 @@
 {
-    "title": "Lysine",
-    "theme": "lysine",
-    "startdate": "2024-07-06T00:00:00Z",
+    "title": "Storage",
+    "theme": "mct2",
+    "startdate": null,
     "enddate": null,
     "dateprecision": "year",
-    "desc": "Templating language",
-    "icon": "/static/pages/projects/lysine/lysine_512.png",
+    "desc": "Data storage options",
+    "icon": "",
     "icontitle": "",
     "keywords": [],
     "cat": "",
@@ -19,7 +19,7 @@
             "title": "",
             "theme": "",
             "fitscreen": false,
-            "content": "lysine.md"
+            "content": "storage.md"
         }
     }
 }

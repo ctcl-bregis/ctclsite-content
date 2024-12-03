@@ -120,9 +120,11 @@ MediaCow Touch 2 was developed in the following locations:
 - Richmond, Virginia, United States
   - The Pace Center (VCU)
   - Qimonda Atrium in VCU Engineering Hall
-- Sylvan Beach, New York, United States
+- Verona Beach, New York, United States
+- Canastota, New York, United States
+- Cazenovia, New York, United States
 
-90+% of development was done in Midlothian, Virginia. 
+Most development was done in Midlothian, Virginia. 
 
 This list excludes any work done from aircraft, which was an Airbus A320 for both the departing and return flights from Orlando, Florida during the August 2024 trip to the Fort Myers Beach area.
 

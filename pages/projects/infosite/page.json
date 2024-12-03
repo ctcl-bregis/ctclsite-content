@@ -4,8 +4,8 @@
     "startdate": "2019-12-30T00:00:00Z",
     "enddate": null,
     "dateprecision": "year",
-    "desc": "About the website itself",
-    "icon": "/static/pages/projects/ctclsite/blog12_icon.webp",
+    "desc": "InfoSite configurable website backend",
+    "icon": "",
     "icontitle": "",
     "keywords": [],
     "cat": "",
@@ -19,7 +19,7 @@
             "title": "",
             "theme": "",
             "fitscreen": false,
-            "content": "ctclsite.md"
+            "content": "infosite.md"
         },
         "subpages": {
             "type": "linklist",
@@ -30,11 +30,11 @@
             "links": [
                 {
                     "type": "full",
-                    "page": "/projects/ctclsite/history"
+                    "page": "/projects/infosite/history"
                 },
                 {
                     "type": "full",
-                    "page": "/projects/ctclsite/docs/"
+                    "page": "/projects/infosite/docs/"
                 }
             ]
         }

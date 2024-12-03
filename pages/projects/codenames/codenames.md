@@ -56,7 +56,9 @@ Chlorofluorocarbon/Chlorofluoroolefin codenames are used for desktops
 - Chloropentafluoroethane - R115
 - Hexachlorodifluoropropane - R212
 - Dichlorohexafluorocyclobutane - C316
+  - Note: May be used with Intel Processor N hardware due to containing cyclobutane
 - Chloroheptafluorocyclobutane - C317
+  - Note: May be used with Intel Processor N hardware due to containing cyclobutane
 
 #### Hydrochlorofluorocarbons/Hydrochlorofluoroolefins
 Hydrochlorofluorocarbon/Hydrochlorofluoroolefin codenames are used for laptops
@@ -140,19 +142,18 @@ Though unrelated to the hardware in the "Polyvinyls" section above, codenames of
 Codenames of psychoactive substances are generally used for server systems starting early 2023. All of these systems have ECC memory unless otherwise specififed. The use of names of psychoactive substances started with stimulants for the reason specified in the Stimulants section below.
 
 #### Stimulants
-Stimulant drug-related codenames are generally for use with virtualization and compute servers. The use of stimulants for codenames of compute servers is inspired by the use of stimulants for the treatment of ADHD (Attention Deficit Hyperactivity Disorder)/
+Stimulant drug-related codenames are generally for use with virtualization and compute servers. The use of stimulants for codenames of compute servers is inspired by the use of stimulants for the treatment of ADHD (Attention Deficit Hyperactivity Disorder).
 
 Starting October 3, 2024, amphetamine-related codenames are to be used with Intel systems while methylphenidate-related codenames are to be used with AMD systems. Prior to this, amphetamine-related codenames were to be used with specifically the HP ProLiant BladeSystem-compatible hardware that I received on May 5, 2023 and methylphenidate-based codenames were to be used specifically with Supermicro AMD EPYC hardware. 
 
-##### Amphetamines
-Codenames of methylphenidates are to be used with virtualization/compute servers with Intel CPUs.
+Starting December 3, 2024, the codename scheme for Intel-based compute servers have been extended from amphetamine to any substituted phenethylamine, including Solriamfetol, Bupropion and others.
+
+##### Substituted Phenethylamine
+Codenames of substituted phenethylamines are to be used with virtualization/compute servers with Intel CPUs. 
 
 - [Dextroamphetamine](../srv_amp/) - "DXA"
 - [Levoamphetamine](../srv_amp/) - "LVA"
 - [Lisdexamfetamine](../srv_amp/) - "LDX"
-- 4-Hydroxyamphetamine - "HXA"
-- Levomethamphetamine - "LVMA"
-- Dextromethamphetamine - "DXMA"
 
 ##### Methylphenidates
 Codenames of methylphenidates and related analogs are to be used with virtualization/compute servers with AMD CPUs. Currently, no systems are assigned these codenames. **"Serdexmethylphenidate"** is planned to be the first codename used in this series.
@@ -171,19 +172,14 @@ Sedative drug-related compounds are generally for use with non-embedded storage 
 
 - Alprazolam - AZM
 - [Promethazine](../srv_pm/) - PM or PRM
-- Diphenhydramine - DPH
 
 #### Cannabinoids
 Cannabinoids, due to their unique effect, are used for critical mobile devices instead of servers. Formerly, codenames derived from methylxanthines were used for mobile devices but that theme was later discontinued for multiple reasons, one of them being that methylxanthines are considered stimulants.
 
 ##### Phytocannabinoids
-Codenames derived from phytocannabinoids, or naturally-occuring cannabinoids, are to be used with mobile devices that use SoCs or microprocessors.
+Codenames derived from phytocannabinoids, or naturally-occuring cannabinoids, are to be used with mobile devices that use SoCs or microprocessors. I rarely ever refer to the one device under this classification by its codename so I plan to discontinue this part of the codename scheme.
 
 - [Tetrahydrocannabinol](../pc_thc/) - THC
-- Hexahydrocannabinol - HHC
-- Tetrahydrocannabiphorol - THPC
-- Hexahydrocannabiphorol - HHPC
-- **Cannabidiol** - CBD 
 
 ##### Synthetic cannabinoids
 Codenames derived from synthetic cannabinoids; cannabinoids that are not naturally-occuring, are to be used with mobile devices that use microcontrollers. This specific theme was defined for deciding a codename for a Flipper Zero device. 
@@ -255,7 +251,7 @@ For ARM-based development systems using ARM applications processors currently us
 x86-based systems currently use the codenames of cycloalkanes. This would start with "Cyclobutane" for the LattePanda Mu used for MediaCow Touch 2.
 
 - Cyclopropane
-- [Cyclobutane](/projects/mct2/som/)
+- [Cyclobutane](/projects/mct2/)
 - Cyclopentane
 - Cyclohexane
 - Cycloheptane
@@ -284,123 +280,98 @@ Embedded circuit design projects are codenamed after specific locations such as 
 
 Specific hardware units used in embedded hardware projects may receive a codename specific to it. For example, the LattePanda Mu received for the MediaCow Touch 2 "Paris" project was given the codename "Cyclobutane". CTCL-designed hardware can receive codenames such as if a mobile device not using an SoM; has the SoC on a custom PCB, it can receive a Cannabinoid codename as described in the sections above.
 
-For a hardware project to receive a codename, the circuit design must have at least one microcontroller, microprocessor, System on Module or SoC on the PCB.
-
-Exceptions to the requirement of the design requiring a processor of some sort are:
-- MediaCow "Syracuse" (2019)
-- MediaCow Touch "Nashville" (2020)
+For hardware projects starting after 2020, to receive a codename, the circuit design must have at least one microcontroller, microprocessor, System on Module or SoC on the PCB. 
 
 Codenames must contain just the name of the city, town, village or CDP. Codenames that are of different places with the same name cannot be used, for example: If a project codenamed "Richmond" after Richmond, Virginia already exists, another project cannot use a codename named after Richmond, California as both would be "Richmond". 
 
-Starting August 4, 2024, codenames for hardware design projects will no longer have themes and projects would receive any codename seen fit. This is due to multiple reasons: for one, categorization has limited creativity in codename assignment. Categorization can overcomplicate assignemt of codenames (just look at how long this document is). Codenames for individual computer systems is planned to be phased out in favor for inventory IDs with the introduction of CAMS. However, software codenames will continue to have categorization.
+Starting August 4, 2024, codenames for hardware design projects will no longer have themes and projects would receive any codename seen fit. This is due to multiple reasons: for one, categorization has limited creativity in codename assignment. Categorization can overcomplicate assignemt of codenames (just look at how long this document is). Codenames for individual computer systems is planned to be phased out in favor for inventory IDs with the introduction of CAMS. 
 
 ### Generally Reserved Codenames
 These codenames are reserved for special purposes due to the personal value
 
+Due to this list becoming too long, it has been split by location of what the codename represents
+
+#### New York, US
+
 - Canastota, New York, US
 - Clay, New York, US
-  - Likely would be used with something DRAM related
-- Curitiba, Paraná, Brazil
-- Doswell, Virginia, US
-- Dresden, Saxony, Germany
-  - Likely would be used with something DRAM related
+  - May be used for something DRAM related
+- Old Forge, New York, US
+- Oneida, New York, US
+- Solvay, New York, US
+- Verona, New York, US
+- Whitelaw, New York, US
+
+#### Florida, US
+
 - Fort Myers Beach, Florida
   - Any device, regardless to whatever series it belongs to, that is the first project that require designing with DDR2 or later memory generations receives the codename "Fort Myers Beach". This is due to how such project would be seen as a significant turning point like the 2022 business trip to Fort Myers Beach, Florida.
-- Graz, Austria
 - Jacksonville, Florida, US
   - Residence from 2011 to 2012
-- Jamesville, Virginia, US
+
+#### Maryland, US
+
+- Ocean City, Maryland, US
+
+#### North Carolina, US
+
+- Asheville, North Carolina, US
+- Bryson City, North Carolina, US
+- Sylva, North Carolina, US
+
+#### Tennessee, US
+
 - Knoxville, Tennessee, US
   - May be used with a device similar to MediaCow Touch (1)
   - Some inspiration from the band Whitechapel
+
+#### Virginia, US
+
+- Elko, Virginia, US
+  - May be used for something DRAM related
+- Jamesville, Virginia, US
 - Midlothian, Virginia, US
-  - Residence from 2012 to present
-  - Was almost used for a school project in 2022 though currently remains unused.
-- Ocean City, Maryland, US
-- Old Forge, New York, US
-- Oneida, New York, US
-  - Residence from 2004 to 2011
 - Richmond, Virginia, US
-- Salisbury, Maryland, US
-  - Importance during early 2023 with an initial business trip in mid-January 2023.
 - Sandston, Virginia, US
-  - Likely would be used with something DRAM related
-  - Former location of White Oak Semiconductor; Infineon Technologies Richmond; Qimonda North America
-- São Paulo (city), Brazil
-- Solvay, New York, US
-- Sylva, North Carolina, US
+  - May be used for something DRAM related
 - Virginia Beach, Virginia, US
-- Whitelaw, New York, US
+- Doswell, Virginia, US
+  - May be used for something using the SP7021 or SP7350 SoC
+- Smith Mountain Lake, Virginia, US
+- White Oak Lake, Virginia, US
+
+#### Austria
+
+- Graz, Austria
+
+#### Brazil
+
+- Curitiba, Paraná, Brazil
+- São Paulo (city), Brazil
+
+#### Germany
+
+- Dresden, Saxony, Germany
+  - May be used for something DRAM related
 
 ### Assigned
+
 - Floyds Knobs - MediaCow Touch Mini SP7021
   - Dedicated to Jason "Leinfors" Parker (1986-2023)
   - Floyds Knobs, Indiana, US
+- Fort Myers - MathPad
+  - Fort Myers, Florida, US
 - Nashville - MediaCow Touch 1
   - Nashville, Tenneesee, US
 - Paris - MediaCow Touch 2
   - Paris, France
-- Bear Creek Lake - SP7021-Block
+- Bear Creek Lake - Block-SP7021
   - Bear Creek Lake, Virginia, US
+- Salisbury - MediaCow Micro R
+  - Salisbury, Maryland, US
 
 ## Software
 Standalone software projects use the names of animals. Embedded software written for hardware projects do not receive their own codename as such software is considered to be part of the hardware project. 
 
-### Rust
-Rust projects use the names of various types of species
+Starting November 29, 2024, codenames for software projects are no longer chosen in relation to their implementation language. Instead, codenames are to be chosen based on the software's purpose. 
 
-#### Web Software
-Codenames using the names of crustaceans under the infraorder **Brachyura**, commonly known as **crabs**, are used for web software projects that utilize the Rust programming language. The inspiration of using crustaceans for Rust-based projects is from the term "Rustacean" and the unofficial mascot of Rust named Ferris.
-
-- [Atlantic Blue Crab - CTCL Website (ctclsite-rust)](../ctclsite/)
-- Atlantic Red Crab
-- Atlantic Rock Crab
-- [Blue Crab - ContactList (contactlist-rust)](../contactlist/)
-- Dungeness Crab
-- Asian Blue Crab
-- [Red Rock Crab - CAMS (cams-rust)](../cams/)
-- Golden Crab
-- Gulf Stone Crab
-- Jonah Crab
-- Horsehair Crab
-- Pie Crust Crab
-- [Brown Crab - ToDoKiosk (todokiosk-rust)](../todokiosk/)
-- Florida Stone Crab
-- Dwarf Crab
-- Tiger Crab
-
-#### Chat Bots
-On February 23, 2024, I have decided to have software projects of chat bots, currently for Discord, be codenamed after the common names of animals under the **Mustela** genus, also known as weasels, polecats, ferrets and stoats. Specifically, the names of **ferrets** are used. This was inspired by [Aurorans Solis](https://auroranssolis.github.io/), who I met on Discord in February 2024 and was the main inspiration for me to start using Rust again during this time.
-
-- [Black-footed Ferret - SLAG (slag-rust)](../slag/)
-
-### Python
-Starting January 30, 2024, codenames of fish would be used for any Python-based project as started with the trout theme for web applications.
-
-#### Web Software
-Projects using the codenames of **trout** are used for projects using the Django or Flask web framework and the Python programming language. The idea of using the names of trout for codenames started with CAMS in which was inspired by excursions to fish farms during summer camp in 2018 and 2019.
-
-- Adriatic Trout
-- [Apache Trout - CTCL Website (ctclsite-python)](../ctclsite/)
-- Biwa Trout
-- Brook Trout
-- [Brown Trout - ContactList (contactlist-python)](../contactlist/)
-- Bull Trout
-- Cutthroat Trout
-- Flathead Trout
-- Gila Trout
-- Golden Trout
-- Lake Trout
-- Marble Trout
-- Ohrid Trout
-- [Rainbow Trout - CAMS (cams-python)](../cams/)
-- Sevan Trout
-- Silver Trout
-- Tiger Trout
-
-#### Chat bots
-Starting January 30, 2024, projects using the codenames of **catfish** (Siluriformes/Nematognathi) are used for Python-based projects that are chat bots. The use of catfish for such codenames is a reference to the built-in user "Rocket.Cat" from the Rocket.Chat software and is a play on the term "catfishing".
-
-The Python version of SLAG was the first and likely the last of Python chat bot software that I develop (under CTCL).
-
-- [Channel Catfish - SLAG](../slag/) (Python version)

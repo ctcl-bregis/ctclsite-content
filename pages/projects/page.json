@@ -24,7 +24,7 @@
                 },
                 {
                     "type": "full",
-                    "page": "/projects/ctclsite/"
+                    "page": "/projects/infosite/"
                 },
                 {
                     "type": "full",
@@ -57,6 +57,10 @@
                 {
                     "type": "full",
                     "page": "/projects/lysine/"
+                },
+                {
+                    "type": "full",
+                    "page": "/projects/serine/"
                 },
                 {
                     "type": "full",
