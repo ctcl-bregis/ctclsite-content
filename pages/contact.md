@@ -1,17 +1,11 @@
 There are multiple ways to contact me:
 
 - Email: [crazyblocks.technologies@gmail.com](mailto:crazyblocks.technologies@gmail.com)
-- Discord: [@ctcl_bregis](https://discord.com/users/410599005735878667)
 - GitHub: [@ctcl-bregis](https://github.com/ctcl-bregis/)
 - [LinkedIn](https://www.linkedin.com/in/brayden-regis-2537b3311/)
 
 Other services:
 
-- Instagram: [@ctcl.bregis](https://instagram.com/ctcl.bregis/)
-- Snapchat: [@ctcl-bregis](https://www.snapchat.com/add/ctcl-bregis)
-- Reddit: [u/ctcl-tech](https://www.reddit.com/user/ctcl-tech/)
-- Wikipedia: [User:Ctcl-tech](https://en.wikipedia.org/wiki/User%3ACtcl-tech)
-- ~~Steam: [Alucard](https://steamcommunity.com/id/crazyblocks2004/)~~ Currently unavailable
 - LeetCode: [ctcl-bregis](https://leetcode.com/u/ctcl-bregis/)
 
 These are available upon request, usually in person.
