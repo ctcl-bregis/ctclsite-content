@@ -18,10 +18,19 @@ As mentioned before, I basically started fresh, with the existing progress avail
 
 Some parts may be copied from the former design, such as the USB Type-C controller.
 
-### SMEC Video on Main Display 
+### Case
+The OpenSCAD file for the case is currently a giant mess that I may end up rewriting. 
+
+Currently, the device is 52mm thick without the display bezel. The inside of the case is 38mm thick which should be enough for the carrier board with the LattePanda Mu and its heatsink. This, unfortunately, has the device thicker than the original MediaCow Touch which was something I wanted to avoid.
+
+### SMEC Video on Main Display
 I put down some ideas for a PCB that switches video from the LattePanda Mu and the HDMI display interface of SMEC; the SP7021.
 
 It turns out that video bridge ICs are quite difficult to source, especially those for DisplayPort and MIPI DSI. This feature is likely not going to be needed or practical as configuration can be done from the side-mounted display. For debugging purposes, I may leave the HDMI interface exposed through an FPC connector.
 
 ### SMEC Side Display
-I recently came across the [Tailorpixels TTH318BVE-01C 288x960 LCD](https://tailorpixels.com/product/3-18-inch-ips-tft-bar-lcd-mipi-288x960/). It is larger while having a capacitive touchscreen. The catch is that it has a MIPI DSI interface. The only RGB-MIPI bridge that I could find that is currently in stock appears to be the Toshiba TC358778XBG. Publicly available information for this IC is limited, sourcing has historically been difficult and it uses a BGA package though it may be possible to make use of it in this project. 
+I recently came across the [Tailorpixels TTH318BVE-01C 288x960 LCD](https://tailorpixels.com/product/3-18-inch-ips-tft-bar-lcd-mipi-288x960/). It is larger while having a capacitive touchscreen. However, the display uses a MIPI DSI interface which would require an RGB-MIPI bridge for it to be used with the SP7021. The only RGB-MIPI bridge that I could find that is currently in stock appears to be the Toshiba TC358778XBG. Publicly available information for this IC is limited, sourcing has historically been difficult and it uses a BGA package though it may be possible to make use of it in this project.
+
+### SMEC Embedded OS
+As mentioned in the [Week 50 2024 blog post](/blog/wk50_2024), I plan to work on adding Debian as a rootfs option for building images for the SP7021.
+

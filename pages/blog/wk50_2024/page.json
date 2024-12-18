@@ -1,0 +1,25 @@
+{
+    "title": "Week 50, 2024",
+    "theme": "gold",
+    "startdate": "2024-12-16T00:00:00Z",
+    "enddate": "2024-12-16T00:00:00Z",
+    "dateprecision": "day",
+    "desc": "Week 50 of 2024",
+    "icon": "/static/pages/blog/wk50_2024/wk502024_icon.webp",
+    "icontitle": "",
+    "keywords": [],
+    "cat": "update",
+    "favicon": "",
+    "headerids": true,
+    "shownavbar": true,
+    "content": {
+        "content": {
+            "type": "content",
+            "boxed": false,
+            "title": "",
+            "theme": "",
+            "fitscreen": false,
+            "content": "week_50_2024.md"
+        }
+    }
+}
