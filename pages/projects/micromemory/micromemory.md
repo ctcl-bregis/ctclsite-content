@@ -76,11 +76,13 @@ AABCCDDEEFGHH-IIIJKKKKLLMN
   - 04 - 4-bit
   - 08 - 8-bit 
   - 16 - 16-bit
+  - 32 - 32-bit
 - E - Rank count
 - FFFF - Device package type
   - BGAX - BGA
   - NSOC - SOIC (0.150 Inch)
   - SSON - SON
+  - SSOP - SOP (0.150 Inch)
   - TSSP - TSSOP
   - TTSP - TSOP
   - USON - USON
@@ -135,7 +137,7 @@ AABCCDDEEFGHH-IIIJKKKKLLMN
   - MP - Mosel Vitelic/ProMOS
   - MT - Micron Technology
   - NT - Nanya Technology
-  - PS - Powerchip
+  - PC - Powerchip
   - SE - Samsung
   - WB - Winbond
 - N - Vendor DRAM die revision

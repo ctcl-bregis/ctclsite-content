@@ -19,10 +19,10 @@ Current specifications as of May 2, 2024:
 - Case: Cooler Master N200
 
 ### Monitors
-Though not associated with the system as anything else can be connected, these are the monitors that I currently use with "Polybutylene Terephthalate":
+Though not associated with the system as anything else can be connected, these are the monitors that I currently use with "Polybutylene Terephthalate"
 
-- Monitor 1: Dell P2214H 1920x1080 60Hz Samsung PLS
-- Monitor 2: Dell P2214H 1920x1080 60Hz Samsung PLS
+- Monitor 1: Dell P2214H 1920x1080 60Hz Samsung PLS LTM230HL08(?)
+- Monitor 2: Dell P2214H 1920x1080 60Hz Samsung PLS LTM230HL08
 - Monitor 3: Dell 1704FP 1280x1024 60Hz Samsung IPS
 
 

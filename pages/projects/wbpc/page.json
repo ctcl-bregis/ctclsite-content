@@ -53,14 +53,6 @@
             "fitscreen": false,
             "content": "pc_pet.md"
         },
-        "pc_pet2": {
-            "type": "content",
-            "boxed": true,
-            "title": "Polyethylene Terephthalate v2",
-            "theme": "qipurple",
-            "fitscreen": false,
-            "content": "pc_pet2.md"
-        },
         "pc_pmma": {
             "type": "content",
             "boxed": true,
@@ -76,14 +68,6 @@
             "theme": "99red",
             "fitscreen": false,
             "content": "pc_pp.md"
-        },
-        "pc_pp2": {
-            "type": "content",
-            "boxed": true,
-            "title": "Polypropylene v2",
-            "theme": "99red",
-            "fitscreen": false,
-            "content": "pc_pp2.md"
         }
     }
 }
