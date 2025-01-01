@@ -1,270 +1,223 @@
 {
-    "bindip": "0.0.0.0",
-    "bindport": 8000,
     "sitedomain": "ctcl.lgbt",
-    "fontdir": "ctclsite-config/fonts/",
-    "jsdir": "ctclsite-config/js/",
-    "pagedir": "ctclsite-config/pages/",
-    "staticdir": "ctclsite-config/static/",
-    "themedir": "ctclsite-config/themes/",
-    "templatedir": "ctclsite-config/templates/",
-    "cpus": 1,
-    "defaulttheme": "gold",
-    "debugloglevel": "info",
-    "minimizehtml": false,
-    "minimizecss": true,
+    "minifyhtml": true,
+    "minifycss": true,
     "dateformats": {
         "year": "%Y",
         "day": "%B %-d, %Y"
     },
+    "loglevel": "debug",
+    "thumbnails": true,
+    "thumbsize": 720,
+    "skiperrors": true,
+    "staticexts": {
+        ".png": "image",
+        ".jpg": "image",
+        ".jpeg": "image",
+        ".webp": "image",
+        ".gif": "image",
+        ".svg": "svg",
+        ".pdf": "pdf",
+        ".txt": "plaintext",
+        ".mp4": "video",
+        ".webm": "video",
+        ".mov": "video",
+        ".avi": "video",
+        ".mkv": "video"
+    },
     "themes": {
-        "66green": {
+        "green66": {
             "dispname": "66 Green",
             "color": "#006600",
             "fgcolor": "#000000",
-            "defaults": true,
-            "defaultfont": "barlow"
+            "templates": "default"
         },
-        "99gray": {
+        "gray99": {
             "dispname": "99 Gray",
             "color": "#999999",
             "fgcolor": "#000000",
-            "defaults": true,
-            "defaultfont": "barlow"
+            "templates": "default"
         },
-        "99green": {
+        "green99": {
             "dispname": "99 Green",
             "color": "#009900",
             "fgcolor": "#000000",
-            "defaults": true,
-            "defaultfont": "barlow"
+            "templates": "default"
         },
-        "99red": {
+        "red99": {
             "dispname": "99 Red",
             "color": "#990000",
             "fgcolor": "#ffffff",
-            "defaults": true,
-            "defaultfont": "barlow"
+            "templates": "default"
         },
         "apple": {
             "dispname": "Apple Gray",
             "color": "#a2aaad",
             "fgcolor": "#ffffff",
-            "defaults": true,
-            "defaultfont": "barlow"
+            "templates": "default"
         },
         "bcctc": {
             "dispname": "Brightpoint Tech Club",
             "color": "#d900ff",
             "fgcolor": "#ffffff",
-            "defaults": false,
-            "defaultfont": "bebasneue"
+            "templates": "default"
         },
         "blue": {
             "dispname": "Blue",
             "color": "#0000ff",
             "fgcolor": "#ffffff",
-            "defaults": true,
-            "defaultfont": "barlow"
+            "templates": "default"
         },
         "bpred": {
             "dispname": "BPCC Red",
             "color": "#9f2140",
             "fgcolor": "#ffffff",
             "favicon": "",
-            "defaults": true,
-            "defaultfont": "barlow"
+            "templates": "default"
         },
         "ddr": {
             "dispname": "DDR",
             "color": "#000099",
             "fgcolor": "#000000",
-            "defaults": true,
-            "defaultfont": "barlow",
+            "templates": "default",
             "enabled": false
         },
         "ddr2": {
             "dispname": "DDR2",
             "color": "#999900",
             "fgcolor": "#000000",
-            "defaults": true,
-            "defaultfont": "barlow",
+            "templates": "default",
             "enabled": false
         },
         "ddr3": {
             "dispname": "DDR3",
             "color": "#990000",
             "fgcolor": "#000000",
-            "defaults": true,
-            "defaultfont": "barlow",
+            "templates": "default",
             "enabled": false
         },
         "ddr4": {
             "dispname": "DDR4",
             "color": "#009999",
             "fgcolor": "#000000",
-            "defaults": true,
-            "defaultfont": "barlow",
+            "templates": "default",
             "enabled": false
         },
         "ddr5": {
             "dispname": "DDR5",
             "color": "#990099",
             "fgcolor": "#000000",
-            "defaults": true,
-            "defaultfont": "barlow",
+            "templates": "default",
             "enabled": false
         },
         "discord": {
             "dispname": "Discord",
             "color": "#707bf4",
             "fgcolor": "#ffffff",
-            "defaults": true,
-            "defaultfont": "barlow"
+            "templates": "default"
         },
         "flipper": {
             "dispname": "Flipper",
             "color": "#ff8200",
             "fgcolor": "#000000",
-            "defaults": true,
-            "defaultfont": "barlow"
+            "templates": "default"
         },
         "gold": {
             "dispname": "CTCL Gold",
             "color": "#f0d000",
             "fgcolor": "#000000",
-            "defaults": true,
-            "defaultfont": "barlow"
+            "templates": "default"
         },
         "green": {
             "dispname": "Green",
             "color": "#00ff00",
             "fgcolor": "#000000",
-            "defaults": true,
-            "defaultfont": "barlow"
+            "templates": "default"
         },
         "insta": {
             "dispname": "Instagram",
             "color": "#f400a7",
             "fgcolor": "#ffffff",
-            "defaults": true,
-            "defaultfont": "barlow"
+            "templates": "default"
         },
         "lysine": {
             "dispname": "Lysine",
             "color": "#ff6600",
             "fgcolor": "#000000",
-            "defaults": true,
-            "defaultfont": "barlow"
+            "templates": "default"
         },
         "mct2": {
             "dispname": "MediaCow Touch 2",
             "color": "#ffffff",
             "fgcolor": "#000000",
-            "defaults": false,
-            "defaultfont": "heuristica"
+            "templates": "mct2"
         },
         "mediacow": {
             "dispname": "MediaCow",
             "color": "#996633",
             "fgcolor": "#000000",
-            "defaults": true,
-            "defaultfont": "barlow"
+            "templates": "default"
         },
         "nanblue": {
             "dispname": "Nanya Blue",
             "color": "#00b7d5",
             "fgcolor": "#000000",
-            "defaults": true,
-            "defaultfont": "barlow"
+            "templates": "default"
         },
         "netkart": {
             "dispname": "NetKart",
             "color": "#006633",
             "fgcolor": "#ffffff",
-            "defaults": true,
-            "defaultfont": "barlow"
+            "templates": "default"
         },
         "orange": {
             "dispname": "Orange",
             "color": "#ff6600",
             "fgcolor": "#000000",
-            "defaults": true,
-            "defaultfont": "barlow"
+            "templates": "default"
         },
         "portal2": {
             "dispname": "Portal 2",
             "color": "#2db2e6",
             "fgcolor": "#000000",
-            "defaults": true,
-            "defaultfont": "barlow"
+            "templates": "default"
         },
         "qipurple": {
             "dispname": "Qimonda",
             "color": "#520c82",
             "fgcolor": "#ffffff",
-            "defaults": true,
-            "defaultfont": "barlow"
+            "templates": "default"
         },
         "red": {
             "dispname": "Red",
             "color": "#ff0000",
             "fgcolor": "#000000",
-            "defaults": true,
-            "defaultfont": "barlow"
+            "templates": "default"
         },
         "sdram": {
             "dispname": "SDRAM",
             "color": "#996600",
             "fgcolor": "#000000",
-            "defaults": true,
-            "defaultfont": "barlow"
+            "templates": "default"
         },
         "sdxgreen": {
             "dispname": "Serdexmethylphenidate Green",
             "color": "#66bf6b",
             "fgcolor": "#000000",
-            "defaults": true,
-            "defaultfont": "barlow"
+            "templates": "default"
         },
         "smyellow": {
             "dispname": "Swordsmachine Yellow",
             "color": "#e29e1c",
             "fgcolor": "#000000",
-            "defaults": true,
-            "defaultfont": "barlow"
+            "templates": "default"
         },
         "white": {
             "dispname": "White",
             "color": "#ffffff",
             "fgcolor": "#000000",
-            "defaults": true,
-            "defaultfont": "barlow"
+            "templates": "default"
         }
-    },
-    "filetypes": {
-        "bin": "binary",
-        "bmp": "image",
-        "c": "text",
-        "esx": "binary",
-        "exe": "binary",
-        "h": "text",
-        "heic": "image",
-        "ico": "image",
-        "img": "binary",
-        "iso": "binary",
-        "jpg": "image",
-        "lisc": "config",
-        "css": "config",
-        "json": "config",
-        "pdf": "pdf",
-        "png": "image",
-        "rs": "text",
-        "s": "text",
-        "sh": "text",
-        "txt": "text",
-        "webm": "video",
-        "webp": "image"
     },
     "redirects": {
         "/projects/nonmonolithic/": "/projects/nonmono/",
@@ -325,297 +278,5 @@
         "/blog/3/": "/blog/wk01_2024/",
         "/blog/2/": "/blog/2023_review/",
         "/blog/1/": "/blog/sp7021_p1/"
-    },
-    "navbar": [
-        {
-            "title": "About",
-            "link": "/"
-        },
-        {
-            "title": "Services",
-            "link": "/services/"
-        },
-        {
-            "title": "Blog",
-            "link": "/blog/"
-        },
-        {
-            "title": "Projects",
-            "link": "/projects/"
-        }
-    ],
-    "logger": {
-        "enable": false,
-        "memcache": "memcache://127.0.0.1:11211?timeout=10&tcp_nodelay=true",
-        "clienthints": "sec-ch-ua,ua,sec-ch-ua-platform,ua-platform,sec-ch-ua-mobile,ua-mobile,sec-ch-ua-full-version,ua-full-version,sec-ch-ua-full-version-list,sec-ch-ua-platform-version,ua-platform-version,sec-ch-ua-arch,ua-arch,sec-ch-ua-bitness,ua-bitness,sec-ch-ua-wow64,sec-ch-ua-model,ua-model,sec-ch-lang,lang,sec-ch-save-data,save-data,sec-ch-width,width,sec-ch-viewport-width,viewport-width,sec-ch-viewport-height,viewport-height,sec-ch-dpr,dpr,sec-ch-device-memory,device-memory,sec-ch-rtt,rtt,sec-ch-downlink,downlink,sec-ch-ect,ect,sec-ch-prefers-color-scheme,sec-ch-prefers-reduced-motion,sec-ch-prefers-reduced-transparency,sec-ch-prefers-contrast,sec-ch-forced-colors,sec-ch-ua-form-factor",
-        "serverlog": {
-            "ip": {
-                "type": "ip"
-            },
-            "user_agent": {
-                "type": "header",
-                "header": "user-agent"
-            },
-            "accept": {
-                "type": "header",
-                "header": "accept"    
-            },
-            "accept-encoding": {
-                "type": "header",
-                "header": "accept-encoding"
-            },
-            "connection": {
-                "type": "header",
-                "header": "connection"    
-            },
-            "referer": {
-                "type": "header",
-                "header": "referer"    
-            },
-            "sec_ch_ua": {
-                "type": "header",
-                "header": "sec-ch-ua"
-            },
-            "sec_ch_ua_platform": {
-                "type": "header",
-                "header": "sec-ch-ua-platform"
-            },
-            "sec_ch_ua_mobile": {
-                "type": "header",
-                "header": "sec-ch-ua-mobile"
-            },
-            "sec_ch_ua_full_version": {
-                "type": "header",
-                "header": "sec-ch-ua-full-version"
-            },
-            "sec_ch_ua_full_version_list": {
-                "type": "header",
-                "header": "sec-ch-ua-full-version-list"
-            },
-            "sec_ch_ua_platform_version": {
-                "type": "header",
-                "header": "sec-ch-ua-platform-version"
-            },
-            "sec_ch_ua_arch": {
-                "type": "header",
-                "header": "sec-ch-ua-arch"
-            },
-            "sec_ch_ua_bitness": {
-                "type": "header",
-                "header": "sec-ch-ua-bitness"
-            },
-            "sec_ch_ua_wow64": {
-                "type": "header",
-                "header": "sec-ch-ua-wow64"
-            },
-            "sec_ch_ua_model": {
-                "type": "header",
-                "header": "sec-ch-ua-model"
-            },
-            "sec_ch_ua_form_factor": {
-                "type": "header",
-                "header": "sec-ch-ua-form-factor"
-            },
-            "sec_ch_lang": {
-                "type": "header",
-                "header": "sec-ch-lang"
-            },
-            "sec_ch_save_data": {
-                "type": "header",
-                "header": "sec-ch-save-data"
-            },
-            "sec_ch_width": {
-                "type": "header",
-                "header": "sec-ch-width"
-            },
-            "sec_ch_viewport_width": {
-                "type": "header",
-                "header": "sec-ch-viewport-width"
-            },
-            "viewport_width": {
-                "type": "header",
-                "header": "viewport-width"
-            },
-            "sec_ch_viewport_height": {
-                "type": "header",
-                "header": "sec-ch-viewport-height"
-            },
-            "sec_ch_dpr": {
-                "type": "header",
-                "header": "sec-ch-dpr"
-            },
-            "dpr": {
-                "type": "header",
-                "header": "dpr"
-            },
-            "sec_ch_device_memory": {
-                "type": "header",
-                "header": "sec-ch-device-memory"
-            },
-            "device_memory": {
-                "type": "header",
-                "header": "device-memory"
-            },
-            "rtt": {
-                "type": "header",
-                "header": "rtt"
-            },
-            "downlink": {
-                "type": "header",
-                "header": "downlink"
-            },
-            "ect": {
-                "type": "header",
-                "header": "ect"
-            },
-            "sec_ch_prefers_color_scheme": {
-                "type": "headertmplvar",
-                "header": "sec-ch-prefers-color-scheme"
-            },
-            "sec_ch_prefers_reduced_motion": {
-                "type": "headertmplvar",
-                "header": "sec-ch-prefers-reduced-motion"
-            },
-            "sec_ch_prefers_reduced_transparency": {
-                "type": "headertmplvar",
-                "header": "sec-ch-prefers-reduced-transparency"
-            },
-            "sec_ch_prefers_contrast": {
-                "type": "headertmplvar",
-                "header": "sec-ch-prefers-contrast"
-            },
-            "sec_ch_forced_colors": {
-                "type": "headertmplvar",
-                "header": "sec-ch-forced-colors"
-            }
-        },
-        "clientlog": {
-            "url_path": {
-                "type": "client",
-                "key": "url_path"
-            },
-            "timezone": {
-                "type": "client",
-                "key": "timezone"
-            },
-            "webgl_vendor": {
-                "type": "client",
-                "key": "webgl_vendor"
-            },
-            "webgl_renderer": {
-                "type": "client",
-                "key": "webgl_renderer"
-            },
-            "cpu_cores": {
-                "type": "client",
-                "key": "cpu_cores"
-            },
-            "mem_size": {
-                "type": "client",
-                "key": "mem_size"
-            },
-            "max_tp": {
-                "type": "client",
-                "key": "max_tp"
-            },
-            "oscpu": {
-                "type": "client",
-                "key": "oscpu"
-            },
-            "plat": {
-                "type": "client",
-                "key": "plat"
-            },
-            "screen_x": {
-                "type": "client",
-                "key": "screen_x"
-            },
-            "screen_y": {
-                "type": "client",
-                "key": "screen_y"
-            },
-            "screen_pix_ratio": {
-                "type": "client",
-                "key": "screen_pix_ratio"
-            },
-            "screen_pix_depth": {
-                "type": "client",
-                "key": "screen_pix_depth"
-            },
-            "canvas_fp": {
-                "type": "clienthash",
-                "key": "canvas_fp"
-            },
-            "online": {
-                "type": "client",
-                "key": "online"
-            },
-            "pdf_viewer": {
-                "type": "client",
-                "key": "pdf_viewer"
-            },
-            "cookies_enabled": {
-                "type": "client",
-                "key": "cookies_enabled"
-            },
-            "dnt": {
-                "type": "client",
-                "key": "dnt"
-            },
-            "langs": {
-                "type": "client",
-                "key": "langs"
-            },
-            "prod": {
-                "type": "client",
-                "key": "prod"
-            },
-            "prod_sub": {
-                "type": "client",
-                "key": "prod_sub"
-            },
-            "client_user_agent": {
-                "type": "client",
-                "key": "client_user_agent"
-            },
-            "vend": {
-                "type": "client",
-                "key": "vend"
-            },
-            "inner_height": {
-                "type": "client",
-                "key": "inner_height"
-            },
-            "inner_width": {
-                "type": "client",
-                "key": "inner_width"
-            }
-        }
-    },
-    "themevars": {
-        "sectionshadowlength": 2,
-        "sectionshadowresolution": 2,
-        "fontsizes": {
-            "h1": 36,
-            "h2": 24,
-            "h3": 20,
-            "h4": 18,
-            "h5": 16,
-            "h6": 14,
-            "nav": 14,
-            "body": 11,
-            "pagebuttontitle": 16,
-            "breadcrumbs": 11
-        },
-        "sectionborder": 2,
-        "sectionmargin": 6,
-        "pagebuttonheight": 128,
-        "titlebuttonheight": 32,
-        "paragraphmargin": "4pt"
-    },
-    "uservars": {
-        "showfooter": true,
-        "showhr": true,
-        "breadcrumbs": true
     }
 }

@@ -18,24 +18,21 @@ On July 2, 2024, I have assembled the carrier board with its acrylic plate and t
 
 When I booted up the LattePanda Mu, it was much more powerful than i expected it to be. It came with Windows 11 which I kept briefly to test gaming performance. This was the first time I ever used Windows 11 on my hardware and the first time I have used it for more than 5 minutes at a time.
 
-<figure>
-    <img src="/static/pages/blog/mct2_p1/mu_win11.webp">
-    <figcaption>Windows 11 - July 2, 2024</figcaption>
-</figure>
+
+<img src="/static/pages/blog/mct2_p1/mu_win11_thumb.webp" title="Windows 11 - July 2, 2024"/>
+
 
 During this short period of time, I tested two games: ULTRAKILL and OneShot, which are realitively lightweight. Both games ran flawlessly at 60 FPS, ULTRAKILL ran better on the Intel N100 than the dual Intel Xeon X5670 and AMD Radeon RX 580 in ["Polyethylene"](../../projects/pc_pe/). OneShot's performance was not surprising since it is a top-down 2D game made with RPG Maker XP. This is great as all I originally expected out of MediaCow Touch 2 is a custom Android tablet that would just be used for messaging and web browsing. This is as a massive upgrade to the Rockchip RK3399 hardware I planned on using before.
 
-<figure>
-    <img src="/static/pages/blog/mct2_p1/mu_ultrakill.webp">
-    <figcaption>Sufficient Firepower - July 2, 2024</figcaption>
-</figure>
+
+<img src="/static/pages/blog/mct2_p1/mu_ultrakill_thumb.webp" title="Sufficient Firepower - July 2, 2024"/>
+
 
 After some gaming, I decided to install Linux Mint 21.3 on the system to test its functionality under a Linux environment. In the live USB environment, the display resolution on HDMI was limited to 800x600, this is likely due to an older Linux kernel version on the live USB image. I presume it updated packages including the Linux kernel during the installation process since after rebooting, I could use a display resolution of 1920x1080. 
 
-<figure>
-    <img src="/static/pages/blog/mct2_p1/mu_mint_nodrivers.webp">
-    <figcaption>Kernel update needed - July 2, 2024</figcaption>
-</figure>
+
+<img src="/static/pages/blog/mct2_p1/mu_mint_nodrivers_thumb.webp" title="Kernel update needed - July 2, 2024"/>
+
 
 ## Challenges and Subsystems
 MediaCow Touch 2 is a highly ambitious project for someone with no formal education in the field and [minimal experience with circuit design](../../projects/mathpad/). 
@@ -53,23 +50,20 @@ As a size comparison, I looked at my Samsung XE500C13 Chromebook ("Chromium Sulf
 
 On July 5, 2024, I received the 11.6" display, this allowed me to be able to get the measurement of the distance between the eDP connector and the horizontal edge of the display. When I received the display, I found out that it came with an non-FPC (flat cable) eDP cable that had it so that the location of the connector on the display is not critical for the layout of the carrier PCB. However, this measurement was still required to be able to add a cutout in the LCD holder part for the eDP and touchscreen connector.
 
-<figure>
-    <img src="/static/pages/blog/mct2_p1/lcd_cable.webp">
-    <figcaption>More convienent cable type - July 9, 2024</figcaption>
-</figure>
 
-<figure>
-    <img src="/static/pages/blog/mct2_p1/lcd_cable_2.webp">
-    <figcaption>Connection to the carrier board - July 9, 2024</figcaption>
-</figure>
+<img src="/static/pages/blog/mct2_p1/lcd_cable_thumb.webp" title="More convienent cable type - July 9, 2024"/>
+
+
+
+<img src="/static/pages/blog/mct2_p1/lcd_cable_2_thumb.webp" title="Connection to the carrier board - July 9, 2024"/>
+
 
 
 On July 9, 2024, I have tested the display for the first time. Under Linux Mint 21.3, the display was functional though there was no touch support though the addition of a kernel driver can fix that. Another thing I noticed is that the physical size of the display was not being reported. The size of the display not being reported had the system default to 96 DPI which is almost half of the display's actual DPI (~189.91 DPI), resulting in elements on screen being small. 
 
-<figure>
-    <img src="/static/pages/blog/mct2_p1/mu_mint_lcd.webp">
-    <figcaption>Successful test of the LCD under Linux Mint - July 9, 2024</figcaption>
-</figure>
+
+<img src="/static/pages/blog/mct2_p1/mu_mint_lcd_thumb.webp" title="Successful test of the LCD under Linux Mint - July 9, 2024"/>
+
 
 The display looked better than I expected though colors are as not as good as on many of the LCDs that I have used before. It is similar to the Apple iPhone XR that I use exclusively for social media and research. Overall, the display is better than the one used in the former MediaCow Touch. 
 

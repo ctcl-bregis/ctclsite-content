@@ -191,7 +191,7 @@ Thiol-related codenames are reserved for AMD Ryzen systems without motherboard E
 
 Unlike the HCFC/CFC theme for Intel-based devices, codenames for these devices are chosen regardless to their form factor.
 
-- Butanethiol - BTH
+- **Butanethiol** - BTH
 - Decanethiol - DTH
 - Dodecanethiol - DDTH
 - **Ethanethiol** - ETH
@@ -204,7 +204,7 @@ Unlike the HCFC/CFC theme for Intel-based devices, codenames for these devices a
 - Pentadecanethiol - PDTH
 - Pentanethiol - PETH
 - Propanethiol - PTH
-- [tert-Butylthiol](../pc_tbm/) - TBM, TBTH
+- **tert-Butylthiol**
 - tert-Dodecanethiol - TDDTH
 - tert-Nonanethiol - TNTH
 - Tetradecanethiol - TDTH

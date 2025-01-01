@@ -1,7 +1,6 @@
-<figure>
-    <img src="/static/projects/slag_logo_600.png">
-    <figcaption>SLAG logo - February 22, 2024</figcaption>
-</figure>
+
+<img src="/static/projects/slag_logo_600.png" title="SLAG logo - February 22, 2024"/>
+
 
 ## Introduction
 SLAG is a bot for the management of Discord guilds. SLAG is an initialism of "Security, Logging, Analytics and General Purpose". The logo is based off from this, with the goal of the bot to be "solid as steel". The project was started on January 24, 2024 in response to myself becoming president of a school club.

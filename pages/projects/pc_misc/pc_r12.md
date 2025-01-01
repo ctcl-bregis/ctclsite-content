@@ -6,10 +6,9 @@ On May 14, 2024, I have started to plan to have an ARM single-board computer tak
 
 On May 16, 2024, a Raspberry Pi 4B single board computer took place of this desktop for ToDoKiosk. The parts from this desktop are planned to be used in other systems, 
 
-<figure>
-    <img src="/static/projects/r12_todokiosk.webp">
-    <figcaption>"Dichlorodifluoromethane" running ToDoKiosk 0.3.2 - January 6, 2024</figcaption>
-</figure>
+
+<img src="/static/projects/r12_todokiosk.webp" title=""Dichlorodifluoromethane" running ToDoKiosk 0.3.2 - January 6, 2024"/>
+
 
 ## Configuration
 Current specifications as of January 6, 2024 up to May 16, 2024:

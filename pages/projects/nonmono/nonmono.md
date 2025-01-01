@@ -3,7 +3,7 @@ nonmonolithic is a project to showcase photos either taken by me or my father.
 ## History and Inspiration
 Almost all photos are a result of insurance-related work where documentating building damage is a crucial part of the work. This documentation of damage throughout buildings ends up leaving thousands and thousands of photos, many of them fit the classic "The Backrooms" and liminal spaces aesthetic.
 
-My original idea to share these photos started in May 2020 under the Instagram account named @weird__hole__. I later discontinued the project in November 2020 for unknown reasons.
+My original idea to share these photos started in May 2020 under the Instagram account named @weird\_\_hole\_\_. I later discontinued the project in November 2020 for unknown reasons.
 
 I picked the project back up in late July 2023 starting with a video relating to the game Half-Life 2, attempting to start an ARG (Alternate Reality Game). Not too long after, I switched back to the original idea of using photos of real places to gain interest as these videos took a lot of effort to make.
 
@@ -404,7 +404,7 @@ The caption is a reference to the 'Cloudy with a Chance of Meatballs' series
 
 Canon PowerShot SX260 HS - October 16, 2016 - Rotated and cropped with GIMP on Linux Mint"
 
-The caption was chosen arbitarily. The first image in the slide was chosen to be first to reference the former @weird__hole__ account.
+The caption was chosen arbitarily. The first image in the slide was chosen to be first to reference the former @weird\_\_hole\_\_ account.
 
 - Authored: ["Polybutylene Terephthalate"](../pc_pbt/) (ASRock B550M Pro4, AMD x86-64)
 
@@ -413,7 +413,7 @@ The caption was chosen arbitarily. The first image in the slide was chosen to be
 
 Canon PowerShot SX260 HS - October 20, 2016 - Rotated and cropped with GIMP on Linux Mint"
 
-The caption was chosen arbitarily.
+The caption was chosen arbitarily though is likely named after the movie "Spare Parts".
 
 - Authored: ["Polybutylene Terephthalate"](../pc_pbt/) (ASRock B550M Pro4, AMD x86-64)
 
@@ -456,7 +456,7 @@ The caption plays on the term "Basement Dweller", inferring that some sort of cr
 
 Canon PowerShot SX260 HS - July 13, 2016 - Rotated and cropped with GIMP on Linux Mint"
 
-The caption references the item "Experiment 115" from the Minecraft mod The Twilight Forest.
+The caption references the item "Experiment 115" from the Minecraft mod, The Twilight Forest.
 
 - Authored: ["Polybutylene Terephthalate"](../pc_pbt/) (ASRock B550M Pro4, AMD x86-64)
 

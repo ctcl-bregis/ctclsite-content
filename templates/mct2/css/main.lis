@@ -1,0 +1,123 @@
+@font-face {
+    font-family: 'heuristica';
+    src: url("/static/fonts/heuristica/Heuristica-Regular.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'heuristica';
+    src: url("/static/fonts/heuristica/Heuristica-Bold.ttf") format("truetype");
+    font-weight: bold;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'terminus';
+    src: url("/static/fonts/terminus/TerminusTTF-Bold-4.49.3.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+body {
+    font-family: "terminus";
+    background-color: #000000;
+    color: #ffffff;
+    margin: 0;
+    font-size: 16px;
+}
+
+a {
+    color: {{ theme.color }};
+}
+
+hr {
+    border: 1px solid {{ theme.color }};
+}
+
+{% for h in range(1,7) %}
+h{{ h }} {
+    font-family: "heuristica";
+    font-size: {{ (0.33 * 8) - (h * 0.33) }}rem;
+    margin: 0;
+}
+{% endfor %}
+
+.header h1 {
+    margin-top: 8pt;
+    text-align: center;
+}
+
+.footer p {
+    text-align: center;
+}
+
+.content {
+    min-height: 100%;
+}
+
+.content .section {
+    margin: 8pt;
+    margin-bottom: 0;
+}
+
+.content .section.boxed {
+    padding: 8pt;
+    border: 2px solid {{ theme.color }};
+}
+
+.menu {
+    clear: both;
+    color: #000000;
+    overflow: hidden;
+    background-color: {{ theme.color }};
+    border: 2pt solid {{ theme.color }};
+    padding-top: 8pt;
+    padding-bottom: 8pt;
+}
+
+.menu a {
+    font-weight: bold;
+    padding: 8pt;
+    color: #000000;
+    text-decoration: none;
+}
+
+.menu a:hover {
+    background-color: #000000;
+    color: {{ theme.color }};
+}
+
+li {
+    list-style: square;
+}
+
+ul {
+    padding-inline-start: 20px;
+}
+
+.linklistlink {
+    display: block;
+    border-width: 2pt;
+    border-style: solid;
+    margin-top: 8pt;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+    padding: 4pt;
+    text-decoration: none;
+    min-height: 64pt;
+}
+
+{% for themename, themedata in themes.items() %}
+.linklistlink.{{ themename }} {
+    border-color: {{ themedata.color }};
+    color: {{ themedata.color }};
+}
+{% endfor %}
+
+.linklistlink.mct2 {
+    font-family: 'heuristica';
+}

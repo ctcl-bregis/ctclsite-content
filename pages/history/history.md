@@ -9,6 +9,8 @@ I was born on June 7, 2004. Not much to say here about it. I likely started to u
 #### May 2011
 In May 2011, I used the "crazyblocks" name in the form of "crazyblocks18" for the first time for Roblox. Roblox was much different back then.
 
+This name later became the default for referring to myself on the internet.
+
 #### Up to 2017
 Up to 2017, I always had some interest in computers though I mostly did not do much with them other than to play games. I started using Scratch in May 2015 where it introduced me to some programming concepts.
 
@@ -22,7 +24,7 @@ In August 2017, I first heard of Jerobeam Fenderson and his work. He later ended
 In 2018, I started to make great progress in personal development. 
 
 #### January-March 2018
-By February 2018, I mainly had interest in digital signage and semiconductors. In presumably February 2018, I have used the name "Crazyblocks Technologies" for the first time to put something on a notebook for an engineering class. The name was chosen as part of a class assignment to come up with some sort of logo to print and stick to the notebook cover. The initial logo had the "Mechanic Pig" from the Rovio Angry Birds/Bad Piggies game series.
+By February 2018, I mainly had interest in digital signage and semiconductors. In presumably February 2018, I have used the name "Crazyblocks Technologies" for the first time to put something on a notebook for an engineering class. The name was chosen as part of a class assignment to come up with some sort of logo to print and stick to the notebook cover. The initial logo had the "Mechanic Pig" from the Rovio Angry Birds/Bad Piggies game series that in subequent revisions, the pig became red instead of green.
 
 The name "Crazyblocks Technologies" was inspired by Infineon Technologies as I had great interest in Infineon due to the Qimonda Richmond plant. At an unknown time later in 2018, I have switched to just "CrazyblocksTechnologies".
 
@@ -92,9 +94,9 @@ Later in November 2022, I started to use the Rust programming language for the f
 2023 was a dark period of time for myself though I made some strides in PC hardware and software development.
 
 #### April 2023
-In April 2023, I have stopped using the full name "CrazyblocksTechnologies Computer Laboratories" and instead "CTCL" is used almost exclusively. This was done to separate "CTCL" from "Crazyblocks" which is a name that was *literally* made up by a six year old child. At that point, I have also associated the name with things I have done prior to 2023 that I am not proud of. Among those things were the game Roblox, which at that point, I really did not want to be associated with it especially in its state.
+In April 2023, I have stopped using the full name "CrazyblocksTechnologies Computer Laboratories" and instead "CTCL" is used almost exclusively. This was done to separate "CTCL" from "Crazyblocks" which is a name that was *literally* made up by a six year old child. At that point, I have also associated the name with things I have done prior to 2023 that I am not proud of. Among those things were the game Roblox, which at that point, I really did not want to be associated with it especially in its current state.
 
-At the same time I have retired the "elf" theming that I was using since 2020 and instead I started to associate myself with Alucard from Castlevania as I looked much more like him than fictional elves. The theming was also greatly inspired by the Terraria developer, Leinfors.
+At the same time I have retired the "elf" theming that I was using since 2020 and instead I started to associate myself with Alucard from Castlevania as I looked much more like him than fictional elves. The theming was also greatly inspired by the Terraria developer, Leinfors. The name "Alucard" was started to be used as an online nickname, exclusive to Discord, as CTCL or CTCL-Tech would sound too much like a business name.
 
 In late April 2023, a friend's father (the same one who supplied the ThinkPad laptops) gave me an HP BladeSystem C3000 chassis along with blade servers compatible with it among other server equipment such as UPS systems and cables. I did not set up the equipment until late May where it took place of the [Supermicro X8DAi that I was using temporarily](../projects/pc_pe/).
 
@@ -102,20 +104,20 @@ In late April 2023, a friend's father (the same one who supplied the ThinkPad la
 In June 2023, I returned to Fort Myers Beach, Florida to look over a property I helped work on. I released the first version of [ContactList](../projects/contactlist/) while I was there.
 
 #### August 2023
-From July 31 to August 4, 2024, I started the "nonmonolithic" photography project.
+From July 31 to August 4, 2024, I started the "nonmonolithic" photography project that I regularly updated until November 9, 2023.
 
 ### 2024
-I turned around the dark trend from 2023 in 2024.
+2024 continued to be a dark period of time for myself.
 
 #### February 2024
 In February 2024, I started to use the Rust programming language again for server software projects.
 
 Instead of making the attempt to start a project that uses the Rust programming language, I made use of the [Rustlings](https://github.com/rust-lang/rustlings) course to properly teach myself how to use Rust.
 
-In early February, 2024, I have became active in a club Discord server for VCU LUG (Linux Users Group). Later, on February 24, 2024, I have went to the VCU Harris Hall for the first time to help move and service server hardware. 
+In early February, 2024, I have became active in a club Discord for VCU LUG (Linux Users Group). Later, on February 24, 2024, I have went to the VCU Harris Hall for the first time to help move and service server hardware. 
 
 #### March 2024
-In March 2024, I registered the domain "ctcl.lgbt" originally as a joke though as result I have became more open about being LGBT (bisexual, though I made it obvious at this point) and the domain, unintentionally, became the main domain name for the website. With my discontinuation of the use of Namecheap, I would no longer have the ctcl-tech.com domain. I have noticed with analytics data (logging feature part of the website itself), I have gotten more website activity ever since I started using the ctcl.lgbt domain name.
+In March 2024, I registered the domain "ctcl.lgbt" originally as a joke though as result I have became more open about being LGBT (bisexual, though I made it obvious at this point) and the domain, unintentionally, became the main domain name for the website. With my discontinuation of using Namecheap, I would no longer have the ctcl-tech.com domain. I have noticed with analytics data (logging feature part of the website itself), I have gotten more website activity ever since I started using the ctcl.lgbt domain name.
 
 As of September 2, 2024, this website is within the 3500-4000 registered domains that have the .lgbt TLD.
 
@@ -124,9 +126,16 @@ In June 2024, I have been approved for receiving a LattePanda Mu and its "Lite" 
 
 The deadline I stated was September 1, 2024 which gives me just two months to design the device. Though, by then, I would have been four days into the Fall 2024 semester. My personal deadline for the hardware design of MediaCow Touch 2 is August 26, 2024 which is when classes actually start.
 
-#### July-August 2024
+#### July-October 2024
 MediaCow Touch 2 gave constant pressure during this time period.
 
 On August 26, 2024, I started my *third* attempt at community college.
 
-#### September-October 2024
+#### November 2024
+In November 2024, following the 2024 US Presidential Election, I have started to be more careful about LGBT expression with the laws that could be possibly passed in the United States in the following years.
+
+On November 26, 2024, I saw signage for the future Micron Technology DRAM plant in Clay, New York that was not there in previous years.
+
+#### December 2024
+With a terrible experience of trying to discontinue the use of the antidepressant, fluoxetine, I have started to work on distancing myself from drug use altogether. This includes the phasing out of codenames relating to such substances, like "Lisdexamfetamine" and "Tetrahydrocannabinol". I have already removed mentions of the medications serdexmethylphenidate and lisdexamfetamine from descriptions of the project Serine and Lysine, respectively.
+

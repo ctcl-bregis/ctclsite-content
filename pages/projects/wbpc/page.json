@@ -41,7 +41,7 @@
             "type": "content",
             "boxed": true,
             "title": "Polyethylene",
-            "theme": "99green",
+            "theme": "green99",
             "fitscreen": false,
             "content": "pc_pe.md"
         },
@@ -65,7 +65,7 @@
             "type": "content",
             "boxed": true,
             "title": "Polypropylene",
-            "theme": "99red",
+            "theme": "red99",
             "fitscreen": false,
             "content": "pc_pp.md"
         }

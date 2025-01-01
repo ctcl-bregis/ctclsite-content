@@ -64,7 +64,7 @@ Hardware used for development since May 2024:
   - Software development
   - Research
   - Communications
-- "Polymethylmethacrylate" - HP ZBook Studio G3 15 (Xeon)
+- "Polymethylmethacrylate" - HP ZBook Studio G3 15
   - Circuit and device design
   - Documentation
   - Software development
@@ -100,7 +100,7 @@ Hardware used for development since May 2024:
 
 ### Other
 
-- [No Codename] - Texas Instruments TI-Nspire CX
+- Texas Instruments TI-Nspire CX
   - Formula calculation
 - "Dimethylheptylpyran" - Flipper Zero FZ.1
   - Device debugging
@@ -118,17 +118,19 @@ MediaCow Touch 2 was developed in the following locations:
 - Orlando, Florida, United States
 - Pocahontas, West Virginia, United States
 - Richmond, Virginia, United States
-  - The Pace Center (VCU)
+  - Build, RVA
+  - Maymont Estate
   - Qimonda Atrium in VCU Engineering Hall
+  - The Pace Center (VCU)
 - Verona Beach, New York, United States
 - Canastota, New York, United States
 - Cazenovia, New York, United States
 
-Most development was done in Midlothian, Virginia. 
+Most development was done in Midlothian, Virginia.
 
 This list excludes any work done from aircraft, which was an Airbus A320 for both the departing and return flights from Orlando, Florida during the August 2024 trip to the Fort Myers Beach area.
 
-## Individuals and Organizations 
+## Individuals and Organizations
 The project's codename and a major part of the theme is based off from L'Hommeblanc of Paris, France who I knew online since October 2020. He had this role in the project since its original planning stages in early 2021.
 
 This project was made possible by LattePanda where hardware and documentation was provided.
@@ -136,8 +138,10 @@ This project was made possible by LattePanda where hardware and documentation wa
 ### Hardware
 These organizations and individuals have provided hardware for me to use for development.
 
+- Banana Pi
 - LattePanda
 - CrashSys
+- Chesterfield Auto Parts
 
 ### Technical Support
 Organizations that provided guides, datasheets and other technical support documents that were used in development:
@@ -154,24 +158,30 @@ Organizations that provided guides, datasheets and other technical support docum
 - ECS
 - Flipper Devices
 - Foxconn
+- Framework Computer
 - Fuzhou Rockchip
+- Hirose
 - Infineon Technologies (including Cypress Technology and Qimonda)
 - Innolux Display
 - Intel
 - ISSI
 - JST
+- KIOXIA
 - LOTES
 - Lumissil
 - MediaTek
 - Micron Technology
 - Molex
 - Monolithic Power Systems
+- Nanya Technology
 - Nexperia
 - NXP
 - Onsemi
 - Richtek
+- Rohm
 - Samsung Electro-Mechanics
 - Samsung Electronics
+- Samsung Semiconductor
 - Silergy
 - SINOVOIP Banana Pi
 - SiTime
@@ -181,7 +191,7 @@ Organizations that provided guides, datasheets and other technical support docum
 - Texas Instruments
 - Tibbo Technology
 - Toradex
-- Toshiba/KIOXIA
+- Toshiba
 - Vishay (including Siliconix and General Semiconductor)
 - Winbond Electronics
 - Xi'an Aerosemi Technology
@@ -194,7 +204,7 @@ MediaCow Touch 2's design and hardware had inspiration from the following produc
   - Overall physical design inspiration
 - Apple iPhone 6S
   - Display selection
-- Apple iPhone XR 
+- Apple iPhone XR
   - Display selection
 - ASUS Chromebook Flip C100P
   - Some inspiration for original Rockchip-based MediaCow Touch 2 idea
@@ -205,12 +215,17 @@ MediaCow Touch 2's design and hardware had inspiration from the following produc
   - Circuit design reference
 - Flipper Devices Flipper Zero FZ.1
   - LED controller ideas
+  - Original inspiration for SMEC's side-mounted display
+- Framework Laptop 13 (11th Gen Intel)
+  - USB Type-C feature and IC selection
 - HP ZBook Studio G3 15
   - USB Type-C feature inspiration
   - Display selection
   - CPU cooling ideas
 - HP(E) ProLiant BL460c G8, BladeSystem C3000 chassis, ProLiant DL380 G7
   - Inlet temperature sensor idea
+- HP(E) BladeSytem C3000 chassis
+  - Possible inspiration for SMEC
 - LattePanda Mu Full Carrier
   - Circuit design reference
 - LattePanda Mu Lite Carrier

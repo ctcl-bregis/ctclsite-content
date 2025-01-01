@@ -1,0 +1,25 @@
+{
+    "title": "Week 1, 2025",
+    "theme": "gold",
+    "startdate": "2025-01-06T00:00:00Z",
+    "enddate": "2025-01-06T00:00:00Z",
+    "dateprecision": "day",
+    "desc": "The first week of 2025",
+    "icon": "/static/pages/blog/wk01_2025/wk012025.webp",
+    "icontitle": "Professional Minecraft player",
+    "keywords": [],
+    "cat": "update",
+    "favicon": "",
+    "headerids": true,
+    "shownavbar": true,
+    "content": {
+        "content": {
+            "type": "content",
+            "boxed": false,
+            "title": "",
+            "theme": "",
+            "fitscreen": false,
+            "content": "week_1_2025.md"
+        }
+    }
+}

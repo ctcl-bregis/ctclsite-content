@@ -1,0 +1,136 @@
+@font-face {
+    font-family: 'heuristica';
+    src: url("/static/fonts/heuristica/Heuristica-Regular.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'heuristica';
+    src: url("/static/fonts/heuristica/Heuristica-Bold.ttf") format("truetype");
+    font-weight: bold;
+    font-style: normal;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #000000;
+    color: #ffffff;
+    margin: 0;
+    font-size: 16px;
+}
+
+a {
+    color: {{ theme.color }};
+}
+
+hr {
+    border: 1px solid {{ theme.color }};
+}
+
+{% for h in range(1,7) %}
+h{{ h }} {
+    font-size: {{ 36 - h * 4 }}px; 
+    margin: 0;
+}
+{% endfor %}
+
+img {
+    width: 100%;
+}
+
+.header h1 {
+    margin: 0;
+    margin-top: 6px;
+    text-align: center;
+}
+
+.footer p {
+    text-align: center;
+}
+
+.content {
+    min-height: 100%;
+}
+
+.content .section {
+    margin: 12px;
+    margin-bottom: 0;
+}
+
+.content .section.boxed {
+    padding: 12px;
+    border: 2px solid {{ theme.color }};
+}
+
+.menu {
+    clear: both;
+    color: #000000;
+    overflow: hidden;
+    background-color: {{ theme.color }};
+    border: 2pt solid {{ theme.color }};
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+
+.menu a {
+    font-weight: bold;
+    padding: 12px;
+    color: #000000;
+    text-decoration: none;
+}
+
+.menu a:hover {
+    background-color: #000000;
+    color: {{ theme.color }};
+}
+
+.linklistlink {
+    display: block;
+    border-width: 2px;
+    border-style: solid;
+    margin-top: 12px;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+    padding: 0;
+    text-decoration: none;
+    height: 128px;
+}
+
+.linklistlink h3 {
+    padding: 6px;
+}
+
+.linklistlink p {
+    margin: 6px;
+}
+
+.linklistlink img {
+    margin-right: 6px;
+    float: left;
+    width: 128px;
+    height: 128px;
+}
+
+{% for themename, themedata in themes.items() %}
+.{{ themename }} {
+    border-color: {{ themedata.color }};
+}
+.linklistlink.{{ themename }} h3 {
+    color: {{ themedata.fgcolor }};
+    background-color: {{ themedata.color }};
+}
+.linklistlink.{{ themename }} img {
+    border-right: 2pt solid {{ themedata.color }};
+}
+.{{ themename }} p {
+    color: #ffffff;
+}
+
+{% endfor %}
+
+{# Hack to avoid having to define fonts in theme configuration #}
+.linklistlink.mct2 {
+    font-family: 'heuristica';
+}

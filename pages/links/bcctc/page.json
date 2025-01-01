@@ -13,10 +13,10 @@
     "content": {
         "links": {
             "type": "linklist",
-			"boxed": false,
-			"title": "",
-			"theme": "",
-			"fitscreen": true,
+            "boxed": false,
+            "title": "",
+            "theme": "",
+            "fitscreen": true,
             "links": [
                 {
                     "type": "titletext",

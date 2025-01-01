@@ -1,266 +1,270 @@
 {
-	"title": "Blog Posts",
-	"theme": "gold",
-	"startdate": null,
-	"enddate": null,
+    "title": "Blog Posts",
+    "theme": "gold",
+    "startdate": null,
+    "enddate": null,
     "dateprecision": "day",
-	"desc": "Current blog posts",
-	"icon": "",
-	"icontitle": "",
-	"keywords": [],
-	"cat": "",
-	"favicon": "",
-	"headerids": true,
-	"shownavbar": true,
-	"content": {
-		"blog": {
-			"type": "linklist",
-			"boxed": false,
-			"title": "",
-			"theme": "",
-			"fitscreen": false,
-			"links": [
-				{
-					"type": "full",
-					"page": "/blog/wk50_2024/"
-				},
-				{
-					"type": "full",
-					"page": "/blog/wk49_2024/"
-				},
-				{
-					"type": "full",
-					"page": "/blog/wk48_2024/"
-				},
-				{
-					"type": "full",
-					"page": "/blog/wk46-47_2024/"
-				},
-				{
-					"type": "full",
-					"page": "/blog/wk45_2024/"
-				},
-				{
-					"type": "full",
-					"page": "/blog/wk44_2024/"
-				},
-				{
-					"type": "full",
-					"page": "/blog/wk43_2024/"
-				},
-				{
-					"type": "full",
-					"page": "/blog/wk42_2024/"
-				},
-				{
-					"type": "full",
-					"page": "/blog/wk41_2024/"
-				},
-				{
-					"type": "full",
-					"page": "/blog/wk40_2024/"
-				},
-				{
-					"type": "full",
-					"page": "/blog/wk39_2024/"
-				},
-				{
-					"type": "full",
-					"page": "/blog/mct2_p10/"
-				},
-				{
-					"type": "full",
-					"page": "/blog/mct2_p9/"
-				},
-				{
-					"type": "full",
-					"page": "/blog/wk36-38_2024/"
-				},
-				{
-					"type": "full",
-					"page": "/blog/wk35_2024/"
-				},
-				{
-					"type": "full",
-					"page": "/blog/wk34_2024/"
-				},
-				{
-					"type": "full",
-					"page": "/blog/mct2_p8/"
-				},
-				{
-					"type": "full",
-					"page": "/blog/mct2_p7/"
-				},
-				{
-					"type": "full",
-					"page": "/blog/wk33_2024/"
-				},
-				{
-					"type": "full",
-					"page": "/blog/mct2_p6/"
-				},
-				{
-					"type": "full",
-					"page": "/blog/wk32_2024/"
-				},
-				{
-					"type": "full",
-					"page": "/blog/mct2_p5/"
-				},
-				{
-					"type": "full",
-					"page": "/blog/wk31_2024/"
-				},
-				{
-					"type": "full",
-					"page": "/blog/mct2_p4/"
-				},
-				{
-					"type": "full",
-					"page": "/blog/wk30_2024/"
-				},
-				{
-					"type": "full",
-					"page": "/blog/mct2_p3/"
-				},
-				{
-					"type": "full",
-					"page": "/blog/wk29_2024/"
-				},
-				{
-					"type": "full",
-					"page": "/blog/mct2_p2/"
-				},
-				{
-					"type": "full",
-					"page": "/blog/wk28_2024/"
-				},
-				{
-					"type": "full",
-					"page": "/blog/mct2_p1/"
-				},
-				{
-					"type": "full",
-					"page": "/blog/wk27_2024/"
-				},
-				{
-					"type": "full",
-					"page": "/blog/wk26_2024/"
-				},
-				{
-					"type": "full",
-					"page": "/blog/wk25_2024/"
-				},
-				{
-					"type": "full",
-					"page": "/blog/wk24_2024/"
-				},
-				{
-					"type": "full",
-					"page": "/blog/wk23_2024/"
-				},
-				{
-					"type": "full",
-					"page": "/blog/wk22_2024/"
-				},
-				{
-					"type": "full",
-					"page": "/blog/wk21_2024/"
-				},
-				{
-					"type": "full",
-					"page": "/blog/wk20_2024/"
-				},
-				{
-					"type": "full",
-					"page": "/blog/wk19_2024/"
-				},
-				{
-					"type": "full",
-					"page": "/blog/wk18_2024/"
-				},
-				{
-					"type": "full",
-					"page": "/blog/wk17_2024/"
-				},
-				{
-					"type": "full",
-					"page": "/blog/wk16_2024/"
-				},
-				{
-					"type": "full",
-					"page": "/blog/wk15_2024/"
-				},
-				{
-					"type": "full",
-					"page": "/blog/wk14_2024/"
-				},
-				{
-					"type": "full",
-					"page": "/blog/wk13_2024/"
-				},
-				{
-					"type": "full",
-					"page": "/blog/wk12_2024/"
-				},
-				{
-					"type": "full",
-					"page": "/blog/wk11_2024/"
-				},
-				{
-					"type": "full",
-					"page": "/blog/wk10_2024/"
-				},
-				{
-					"type": "full",
-					"page": "/blog/wk09_2024/"
-				},
-				{
-					"type": "full",
-					"page": "/blog/wk08_2024/"
-				},
-				{
-					"type": "full",
-					"page": "/blog/ramlist2024/"
-				},
-				{
-					"type": "full",
-					"page": "/blog/wk07_2024/"
-				},
-				{
-					"type": "full",
-					"page": "/blog/wk06_2024/"
-				},
-				{
-					"type": "full",
-					"page": "/blog/wk05_2024/"
-				},
-				{
-					"type": "full",
-					"page": "/blog/wk04_2024/"
-				},
-				{
-					"type": "full",
-					"page": "/blog/wk03_2024/"
-				},
-				{
-					"type": "full",
-					"page": "/blog/wk02_2024/"
-				},
-				{
-					"type": "full",
-					"page": "/blog/wk01_2024/"
-				},
-				{
-					"type": "full",
-					"page": "/blog/2023/"
-				},
-				{
-					"type": "full",
-					"page": "/blog/plus1_p1/"
-				}
-			]
-		}
-	}
+    "desc": "Current blog posts",
+    "icon": "",
+    "icontitle": "",
+    "keywords": [],
+    "cat": "",
+    "favicon": "",
+    "headerids": true,
+    "shownavbar": true,
+    "content": {
+        "blog": {
+            "type": "linklist",
+            "boxed": false,
+            "title": "",
+            "theme": "",
+            "fitscreen": false,
+            "links": [
+                {
+                    "type": "full",
+                    "page": "/blog/wk51-52_2024/"
+                },
+                {
+                    "type": "full",
+                    "page": "/blog/wk50_2024/"
+                },
+                {
+                    "type": "full",
+                    "page": "/blog/wk49_2024/"
+                },
+                {
+                    "type": "full",
+                    "page": "/blog/wk48_2024/"
+                },
+                {
+                    "type": "full",
+                    "page": "/blog/wk46-47_2024/"
+                },
+                {
+                    "type": "full",
+                    "page": "/blog/wk45_2024/"
+                },
+                {
+                    "type": "full",
+                    "page": "/blog/wk44_2024/"
+                },
+                {
+                    "type": "full",
+                    "page": "/blog/wk43_2024/"
+                },
+                {
+                    "type": "full",
+                    "page": "/blog/wk42_2024/"
+                },
+                {
+                    "type": "full",
+                    "page": "/blog/wk41_2024/"
+                },
+                {
+                    "type": "full",
+                    "page": "/blog/wk40_2024/"
+                },
+                {
+                    "type": "full",
+                    "page": "/blog/wk39_2024/"
+                },
+                {
+                    "type": "full",
+                    "page": "/blog/mct2_p10/"
+                },
+                {
+                    "type": "full",
+                    "page": "/blog/mct2_p9/"
+                },
+                {
+                    "type": "full",
+                    "page": "/blog/wk36-38_2024/"
+                },
+                {
+                    "type": "full",
+                    "page": "/blog/wk35_2024/"
+                },
+                {
+                    "type": "full",
+                    "page": "/blog/wk34_2024/"
+                },
+                {
+                    "type": "full",
+                    "page": "/blog/mct2_p8/"
+                },
+                {
+                    "type": "full",
+                    "page": "/blog/mct2_p7/"
+                },
+                {
+                    "type": "full",
+                    "page": "/blog/wk33_2024/"
+                },
+                {
+                    "type": "full",
+                    "page": "/blog/mct2_p6/"
+                },
+                {
+                    "type": "full",
+                    "page": "/blog/wk32_2024/"
+                },
+                {
+                    "type": "full",
+                    "page": "/blog/mct2_p5/"
+                },
+                {
+                    "type": "full",
+                    "page": "/blog/wk31_2024/"
+                },
+                {
+                    "type": "full",
+                    "page": "/blog/mct2_p4/"
+                },
+                {
+                    "type": "full",
+                    "page": "/blog/wk30_2024/"
+                },
+                {
+                    "type": "full",
+                    "page": "/blog/mct2_p3/"
+                },
+                {
+                    "type": "full",
+                    "page": "/blog/wk29_2024/"
+                },
+                {
+                    "type": "full",
+                    "page": "/blog/mct2_p2/"
+                },
+                {
+                    "type": "full",
+                    "page": "/blog/wk28_2024/"
+                },
+                {
+                    "type": "full",
+                    "page": "/blog/mct2_p1/"
+                },
+                {
+                    "type": "full",
+                    "page": "/blog/wk27_2024/"
+                },
+                {
+                    "type": "full",
+                    "page": "/blog/wk26_2024/"
+                },
+                {
+                    "type": "full",
+                    "page": "/blog/wk25_2024/"
+                },
+                {
+                    "type": "full",
+                    "page": "/blog/wk24_2024/"
+                },
+                {
+                    "type": "full",
+                    "page": "/blog/wk23_2024/"
+                },
+                {
+                    "type": "full",
+                    "page": "/blog/wk22_2024/"
+                },
+                {
+                    "type": "full",
+                    "page": "/blog/wk21_2024/"
+                },
+                {
+                    "type": "full",
+                    "page": "/blog/wk20_2024/"
+                },
+                {
+                    "type": "full",
+                    "page": "/blog/wk19_2024/"
+                },
+                {
+                    "type": "full",
+                    "page": "/blog/wk18_2024/"
+                },
+                {
+                    "type": "full",
+                    "page": "/blog/wk17_2024/"
+                },
+                {
+                    "type": "full",
+                    "page": "/blog/wk16_2024/"
+                },
+                {
+                    "type": "full",
+                    "page": "/blog/wk15_2024/"
+                },
+                {
+                    "type": "full",
+                    "page": "/blog/wk14_2024/"
+                },
+                {
+                    "type": "full",
+                    "page": "/blog/wk13_2024/"
+                },
+                {
+                    "type": "full",
+                    "page": "/blog/wk12_2024/"
+                },
+                {
+                    "type": "full",
+                    "page": "/blog/wk11_2024/"
+                },
+                {
+                    "type": "full",
+                    "page": "/blog/wk10_2024/"
+                },
+                {
+                    "type": "full",
+                    "page": "/blog/wk09_2024/"
+                },
+                {
+                    "type": "full",
+                    "page": "/blog/wk08_2024/"
+                },
+                {
+                    "type": "full",
+                    "page": "/blog/ramlist2024/"
+                },
+                {
+                    "type": "full",
+                    "page": "/blog/wk07_2024/"
+                },
+                {
+                    "type": "full",
+                    "page": "/blog/wk06_2024/"
+                },
+                {
+                    "type": "full",
+                    "page": "/blog/wk05_2024/"
+                },
+                {
+                    "type": "full",
+                    "page": "/blog/wk04_2024/"
+                },
+                {
+                    "type": "full",
+                    "page": "/blog/wk03_2024/"
+                },
+                {
+                    "type": "full",
+                    "page": "/blog/wk02_2024/"
+                },
+                {
+                    "type": "full",
+                    "page": "/blog/wk01_2024/"
+                },
+                {
+                    "type": "full",
+                    "page": "/blog/2023/"
+                },
+                {
+                    "type": "full",
+                    "page": "/blog/plus1_p1/"
+                }
+            ]
+        }
+    }
 }

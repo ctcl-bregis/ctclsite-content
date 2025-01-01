@@ -13,10 +13,10 @@
     "content": {
         "software": {
             "type": "linklist",
-			"boxed": true,
-			"title": "Software",
-			"theme": "gold",
-			"fitscreen": false,
+            "boxed": true,
+            "title": "Software",
+            "theme": "gold",
+            "fitscreen": false,
             "links": [
                 {
                     "type": "titletext",
@@ -24,7 +24,7 @@
                 },
                 {
                     "type": "full",
-                    "page": "/projects/infosite/"
+                    "page": "/projects/ctclsite/"
                 },
                 {
                     "type": "full",
@@ -36,7 +36,7 @@
                 },
                 {
                     "type": "full",
-                    "page": "/projects/netwiki/"
+                    "page": "/projects/infowiki/"
                 },
                 {
                     "type": "full",
@@ -45,10 +45,6 @@
                 {
                     "type": "titletext",
                     "text": "Embedded Device Software"
-                },
-                {
-                    "type": "full",
-                    "page": "/projects/fz_cfw/"
                 },
                 {
                     "type": "titletext",
@@ -61,19 +57,15 @@
                 {
                     "type": "full",
                     "page": "/projects/serine/"
-                },
-                {
-                    "type": "full",
-                    "page": "/projects/slag/"
                 }
             ]
         },
         "hardware": {
             "type": "linklist",
             "boxed": true,
-			"title": "Hardware Design",
-			"theme": "gold",
-			"fitscreen": false,
+            "title": "Hardware Design",
+            "theme": "gold",
+            "fitscreen": false,
             "links": [
                 {
                     "type": "titletext",
@@ -113,10 +105,6 @@
                 },
                 {
                     "type": "full",
-                    "page": "/projects/fz_modules/"
-                },
-                {
-                    "type": "full",
                     "page": "/projects/micromemory/"
                 },
                 {
@@ -136,9 +124,9 @@
         "pchardware": {
             "type": "linklist",
             "boxed": true,
-			"title": "PC Hardware",
-			"theme": "gold",
-			"fitscreen": false,
+            "title": "PC Hardware",
+            "theme": "gold",
+            "fitscreen": false,
             "links": [
                 {
                     "type": "full",
@@ -161,9 +149,9 @@
         "automotive": {
             "type": "linklist",
             "boxed": true,
-			"title": "Automotive",
-			"theme": "gold",
-			"fitscreen": false,
+            "title": "Automotive",
+            "theme": "gold",
+            "fitscreen": false,
             "links": [
                 {
                     "type": "full",
@@ -174,9 +162,9 @@
         "creative": {
             "type": "linklist",
             "boxed": true,
-			"title": "Creative",
-			"theme": "gold",
-			"fitscreen": false,
+            "title": "Creative",
+            "theme": "gold",
+            "fitscreen": false,
             "links": [
                 {
                     "type": "full",
@@ -195,9 +183,9 @@
         "misc": {
             "type": "linklist",
             "boxed": true,
-			"title": "Misc. Pages",
-			"theme": "gold",
-			"fitscreen": false,
+            "title": "Misc. Pages",
+            "theme": "gold",
+            "fitscreen": false,
             "links": [
                 {
                     "type": "full",

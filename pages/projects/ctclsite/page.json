@@ -1,0 +1,42 @@
+{
+    "title": "The Website",
+    "theme": "gold",
+    "startdate": "2019-12-30T00:00:00Z",
+    "enddate": null,
+    "dateprecision": "year",
+    "desc": "The Website Itself",
+    "icon": "",
+    "icontitle": "",
+    "keywords": [],
+    "cat": "",
+    "favicon": "",
+    "headerids": true,
+    "shownavbar": true,
+    "content": {
+        "content": {
+            "type": "content",
+            "boxed": false,
+            "title": "",
+            "theme": "",
+            "fitscreen": false,
+            "content": "ctclsite.md"
+        },
+        "subpages": {
+            "type": "linklist",
+            "boxed": true,
+            "title": "Subpages",
+            "theme": "gold",
+            "fitscreen": false,
+            "links": [
+                {
+                    "type": "full",
+                    "page": "/projects/ctclsite/history"
+                },
+                {
+                    "type": "full",
+                    "page": "/projects/ctclsite/docs/"
+                }
+            ]
+        }
+    }
+}

@@ -14,10 +14,10 @@ On July 24, 2024, I switched out the TI BQ25700A for the LTC/Analog Devices LTC4
 
 Compared to the BQ25700A, the implementation is much less complex as seen by comparing the evaluation board for the [BQ25700A](https://www.ti.com/lit/ug/sluubg6/sluubg6.pdf) and the [LTC4162](https://www.analog.com/en/resources/evaluation-hardware-and-software/evaluation-boards-kits/dc2038a.html#eb-overview) series. 
 
-<figure>
-    <img src="/static/pages/blog/mct2_p3/mct2_charge_system_preview_20240725.webp">
+
+<img src="/static/pages/blog/mct2_p3/mct2_charge_system_preview_20240725.webp">
     <figurecaption>Battery charge circuit layout. Subject to change. - July 25, 2024</figurecaption>
-</figure>
+
 
 This may be the first time I have actually completed (a draft of, at least) a battery charger circuit as in the past I would just get confused on details like where the battery fuel gauge goes or what transistors to use. As mentioned before, battery and power management has always been the main challenge with these projects, even with much smaller devices that are powered off from a single Lithium-Ion/Polymer cell and use processors that consume less than a watt of power (i.e. MediaCow Micro).
 

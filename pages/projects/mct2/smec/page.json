@@ -1,10 +1,10 @@
 {
-    "title": "Storage",
+    "title": "SMEC",
     "theme": "mct2",
     "startdate": null,
     "enddate": null,
     "dateprecision": "year",
-    "desc": "Data storage options",
+    "desc": "System Management Embedded Controller",
     "icon": "",
     "icontitle": "",
     "keywords": [],

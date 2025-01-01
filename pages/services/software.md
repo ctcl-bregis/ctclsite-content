@@ -8,24 +8,15 @@ I have extensive experience in developing and maintaining web applications and w
 
 This entire website is designed, developed and maintained by myself.
 
-#### Technologies
 
-For backend, I have experience in the following:
 
-- Rust programming language
-  - [Actix-Web](https://actix.rs/) - [ctclsite-rust](../projects/ctclsite/), [ToDoKiosk](../projects/todokiosk/), [ContactList](../projects/contactlist/)
-- Python programming language
-  - [Django](https://www.djangoproject.com/) - [ctclsite-python](../projects/ctclsite/) (2023-2024), [ToDoKiosk](../projects/todokiosk/), [ContactList](../projects/contactlist/)
-  - [Flask](https://flask.palletsprojects.com/) - [ctclsite-python](../projects/ctclsite/) (2021-2023)
+#### Custom Solutions
+These are web-related tools I have developed myself.
 
-For frontend, I have experience in the following:
+- StaticSite - Static site generator
+- Lysine - Templating language
+- Serine - CSS preprocessor
 
-- Jinja2, Tera, Django HTML templating engines - [ctclsite-python and ctclsite-rust](../projects/ctclsite/), [ToDoKiosk](../projects/todokiosk/), [ContactList](../projects/contactlist/)
-- Plain HTML - ctclsite (no backend, 2020-2021)
-- Plain CSS - [ctclsite-python](../projects/ctclsite/) and former versions (2020-2023)
-- Lysine CSS - [ctclsite-rust](../projects/ctclsite/)
-- JavaScript - [ctclsite-python and ctclsite-rust](../projects/ctclsite/)
-- jQuery - [ContactList](../projects/contactlist/)
 
 ### Embedded Software
 I have some experience in writing firmware for microcontroller-based devices and building custom embedded Linux images.

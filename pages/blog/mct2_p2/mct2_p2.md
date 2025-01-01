@@ -27,9 +27,9 @@ I would have to figure out the pinout of the battery pack myself. Finding a comp
 
 On July 24, 2024, I rediscovered the immense complexity of implementing a BQ25700A battery charger IC. In early 2022, I attempted to use this chip for this project while looking at the schematic for its EVM (Evaluation Module). It is one of those things that I would look at and think to myself "just what did I get myself into". There are some more simple options like the LTC4162-L that I may use instead.
 
-<figure>
-    <img src="/static/pages/blog/mct2_p2/bq25700a_evm.webp">
-</figure>
+
+<img src="/static/pages/blog/mct2_p2/bq25700a_evm.webp">
+
 
 ### PCB
 A major concern with designing a PCB with high speed signals such as PCIe is that properly debugging the design requires equipment that is over US$23,000. I came up with a few ideas to overcome this: for one, just do it right the first time by peer reviewing and thoroughly checking the design. Another idea is to get help from a local university with an extensive engineering department that has such equipment; [the same one I do the datacenter stuff at](../wk08_2024/).
