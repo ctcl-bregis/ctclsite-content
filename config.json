@@ -1,15 +1,9 @@
 {
     "sitedomain": "ctcl.lgbt",
-    "minifyhtml": true,
-    "minifycss": true,
     "dateformats": {
         "year": "%Y",
         "day": "%B %-d, %Y"
     },
-    "loglevel": "debug",
-    "thumbnails": true,
-    "thumbsize": 720,
-    "skiperrors": true,
     "staticexts": {
         ".png": "image",
         ".jpg": "image",

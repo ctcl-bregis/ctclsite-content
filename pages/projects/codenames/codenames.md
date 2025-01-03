@@ -294,12 +294,21 @@ Due to this list becoming too long, it has been split by location of what the co
 #### New York, US
 
 - Canastota, New York, US
+- Cazenovia, New York, US
+- Chittenango, New York, US
+- Cicero, New York, US
 - Clay, New York, US
   - May be used for something DRAM related
+- Lenox, New York, US
 - Old Forge, New York, US
 - Oneida, New York, US
+- Sherrill, New York, US
 - Solvay, New York, US
+- Sylvan Beach, New York, US
 - Verona, New York, US
+- Verona Beach, New York, US
+- Utica, New York, US
+- Wampsville, New York, US
 - Whitelaw, New York, US
 
 #### Florida, US
@@ -317,10 +326,14 @@ Due to this list becoming too long, it has been split by location of what the co
 
 - Asheville, North Carolina, US
 - Bryson City, North Carolina, US
+- Fontana Lake, North Carolina, US
 - Sylva, North Carolina, US
 
 #### Tennessee, US
 
+- Hardin Valley, Tennessee, US
+  - May be used with a device similar to MediaCow Touch (1)
+  - Inspiration from the band Whitechapel
 - Knoxville, Tennessee, US
   - May be used with a device similar to MediaCow Touch (1)
   - Some inspiration from the band Whitechapel
@@ -357,17 +370,23 @@ Due to this list becoming too long, it has been split by location of what the co
 ### Assigned
 
 - Floyds Knobs - MediaCow Touch Mini SP7021
+  - Assigned: 2024
   - Dedicated to Jason "Leinfors" Parker (1986-2023)
   - Floyds Knobs, Indiana, US
 - Fort Myers - MathPad
+  - Assigned: 2022
   - Fort Myers, Florida, US
 - Nashville - MediaCow Touch 1
+  - Assigned: 2020
   - Nashville, Tenneesee, US
 - Paris - MediaCow Touch 2
+  - Assigned: 2021
   - Paris, France
 - Bear Creek Lake - Block-SP7021
+  - Assigned: 2024
   - Bear Creek Lake, Virginia, US
 - Salisbury - MediaCow Micro R
+  - Assigned: 2023
   - Salisbury, Maryland, US
 
 ## Software

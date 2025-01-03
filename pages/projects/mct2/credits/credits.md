@@ -9,13 +9,18 @@ KiCAD is used to draw electrical schematics and design the carrier board PCB.
 #### LibreCAD
 LibreCAD was used for the first time on August 6 to record measurements of the battery pack that is used in the device.
 
+Its use, however, was brief and was eventually replaced by QCAD.
+
+#### QCAD
+Starting January 1, 2025, QCAD is used for technical, mechanical drawings, taking place of draw.io for such task.
+
 #### OpenSCAD and FreeCAD
 OpenSCAD was used for the design of the case. The design was going to be done in FreeCAD but soon after I switched to OpenSCAD to complete the case design.
 
 ### Planning and Documentation
 
 #### draw.io/diagrams.net
-The desktop version of draw.io was used extensively for planning the physical layout of the device.
+draw.io is extensively used for rough physical diagrams and electrical block diagrams.
 
 #### Git and GitHub
 The MediaCow Touch 2 hardware design and software files are hosted on GitHub for anyone to see while having the ability to easily sync progress across devices in cases where I have to go somewhere.
@@ -24,13 +29,16 @@ The MediaCow Touch 2 hardware design and software files are hosted on GitHub for
 This website hosts this documentation while being a convenient method to showcase my ideas, progress and thought processes. 
 
 #### Discord
-Using a chat service in as a way to dump ideas into categories has returned from MediaCow Touch 1 where I used a self-hosted Rocket.Chat instance for that purpose. This time I used a private "server" on Discord to dump and brainstorm ideas. At the conclusion of the project, I would make a public release of the channel logs. 
+Using a chat service in as a way to dump ideas into categories has returned from MediaCow Touch 1 where I used a self-hosted Rocket.Chat instance for that purpose. This time I used a private "server" on Discord to brainstorm ideas. At the conclusion of the project, I would make a public release of the channel logs. 
 
 #### MediaWiki
 A self-hosted MediaWiki instance is used for personal documentation. It's role in MediaCow Touch 2, however, is very limited. 
 
 #### STM32CubeMX
 STM32CubeMX was used to select the microcontroller used as the embedded controller (SMEC) and plan its pinout until the switch to the SP7021 as the embedded controller.
+
+#### Sourcegraph Cody
+Sourcegraph Cody has found extensive use in many of my projects, including this one. It is used for sentence completion in documentation and code completion in software and firmware development.
 
 #### CircuitJS
 [CircuitJS](https://falstad.com/circuit/) has been used to test ideas such as using Schottky diodes on the power inputs of SPI flash memory and connecting the IS pin of the Infineon BTS7006 to a microcontroller.
@@ -139,9 +147,10 @@ This project was made possible by LattePanda where hardware and documentation wa
 These organizations and individuals have provided hardware for me to use for development.
 
 - Banana Pi
-- LattePanda
-- CrashSys
 - Chesterfield Auto Parts
+- CrashSys
+- LattePanda
+- Shenzhen Graperain Technology
 
 ### Technical Support
 Organizations that provided guides, datasheets and other technical support documents that were used in development:
@@ -201,7 +210,7 @@ Organizations that provided guides, datasheets and other technical support docum
 MediaCow Touch 2's design and hardware had inspiration from the following products:
 
 - Ainol NOVO7 Paladin
-  - Overall physical design inspiration
+  - Display mount ideas
 - Apple iPhone 6S
   - Display selection
 - Apple iPhone XR
@@ -209,6 +218,7 @@ MediaCow Touch 2's design and hardware had inspiration from the following produc
 - ASUS Chromebook Flip C100P
   - Some inspiration for original Rockchip-based MediaCow Touch 2 idea
   - Display selection
+  - Embedded controller idea
 - ASUS Zenfone 9 AI2202
   - USB Type-C feature inspiration, specifically USB PD capabilities
 - Banana Pi BPI-F2P/BPI-F2S
@@ -218,6 +228,7 @@ MediaCow Touch 2's design and hardware had inspiration from the following produc
   - Original inspiration for SMEC's side-mounted display
 - Framework Laptop 13 (11th Gen Intel)
   - USB Type-C feature and IC selection
+  - Circuit design reference
 - HP ZBook Studio G3 15
   - USB Type-C feature inspiration
   - Display selection

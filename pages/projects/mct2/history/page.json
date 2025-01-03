@@ -1,10 +1,10 @@
 {
-    "title": "Rust-specific Code Style",
-    "theme": "gold",
+    "title": "History",
+    "theme": "mct2",
     "startdate": null,
     "enddate": null,
     "dateprecision": "year",
-    "desc": "Code styling specific to Rust",
+    "desc": "History of the project",
     "icon": "",
     "icontitle": "",
     "keywords": [],
@@ -19,7 +19,7 @@
             "title": "",
             "theme": "",
             "fitscreen": false,
-            "content": "rust.md"
+            "content": "history.md"
         }
     }
 }

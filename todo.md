@@ -1,0 +1,4 @@
+- Clean up About page
+- Link History page
+- Write privacy policy
+- Write licensing info

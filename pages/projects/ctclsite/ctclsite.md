@@ -1,4 +1,3 @@
-InfoSite is a dynamic website backend that is intended for simple, hierarchical websites. It is intended to be a replacement for 'ctclsite' that is used to run this website.
+This page is about the website itself and former dynamic website backends named "ctclsite".
 
-InfoSite's design takes some inspiration from werc and its fork, swerc with one of the main differences is that InfoSite serves dynamically generated content.
-
+For the static site generator currently used for this website, see [StaticSite](/projects/staticsite).

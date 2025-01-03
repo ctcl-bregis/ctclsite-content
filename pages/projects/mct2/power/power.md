@@ -8,6 +8,9 @@ MediaCow Touch 2 would charge off from USB Type-C Power Delivery that is support
 ## LattePanda Mu
 The LattePanda supports a wide voltage input of 9v to 20v, this allows the module to be powered directly off from system power that could be anywhere between 12v (worst case) and 20v.
 
+## Battery
+With difficulties finding battery packs for DIY usage that have the ability to report state-of-charge; have a fuel gauge. I used a battery pack intended as a replacement battery pack for an existing laptop, specifically the HP FM08 used in the HP OMEN 17-an008ca among others. The pinout and connector type is unknown at the moment.
+
 ## Voltage Supplies
 
 ### System Power - VSYS
