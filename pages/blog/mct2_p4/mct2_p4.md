@@ -125,9 +125,7 @@ I rememebered at the last moment that the under-dash BCM on the 2005 Chevy Tahoe
 
 On the first day, I found a 2004 Volvo XC70 with the ECU and TCM still installed. I removed the covers but I was stopped by the need for a specific tool that is required to properly remove the modules. 
 
-<figure style="width: 100%">
 <img src="/static/pages/blog/mct2_p4/volvo_modules_thumb.webp" title="2004 Volvo XC70 ECU and TCM"/>
-
 
 On the second day, I found a 2015 Nissan that had much of the front-end removed already though the ECU was still present. The engine was held up by tire rims. During my attempts to remove the ECU, I must have pushed on the engine a little and it shifted, making me jump back. It would have been likely that the engine may have crushed my leg or scrape it in the way where it would cut my life short in an extremely painful way. The ratcheting part of the wrench I was using literally fell apart and it was getting much too dangerous for me to be around the vehicle. By that time, the place was about to close as signified by the honking of car horns. Right before I left, I made sure to close the hood of the Volvo XC70 to prevent (further) water damage to anything inside.
 
