@@ -1,4 +1,4 @@
-This device is a dedicated server for running 3D printer controller software. The codename for this system is "Vinyl Chloride" (shorthand "VC").
+This device is a dedicated server for running 3D printer controller software.
 
 The device was originally an experiment to test the usability of VIA x86 processors with modern workloads but now serves as my main 3D printer interface.
 

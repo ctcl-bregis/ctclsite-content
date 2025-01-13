@@ -4,7 +4,7 @@ The following is preliminary data and may change at any time during development.
 MediaCow Touch 2, codenamed "Paris", is a project about designing and building a tablet computer device.
 
 ### Brief History
-For an in-depth history on MediaCow, see the [MediaCow page](../mediacow/).
+For an in-depth history on MediaCow, see the [MediaCow page](/mediacow/).
 
 #### 2021-2022
 In March 2021, I came up with ideas to develop another tablet device after the success with MediaCow Touch "Nashville" in November 2020. At first, I had some overcomplicated, unrealstic ideas at the beginning. The initial idea at the time surrounded the use of a soldered-down Rockchip RK3588 SoC with ten DDR4 DRAM ICs, specifically Nanya NT5AD1024M8A3, for 8GB of memory with ECC. This would have been extremely difficult if not impossible for me to design at the time so I later decided to use a System on Module, a format of computers I just heard of recently at the time.

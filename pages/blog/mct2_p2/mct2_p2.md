@@ -32,6 +32,6 @@ On July 24, 2024, I rediscovered the immense complexity of implementing a BQ2570
 
 
 ### PCB
-A major concern with designing a PCB with high speed signals such as PCIe is that properly debugging the design requires equipment that is over US$23,000. I came up with a few ideas to overcome this: for one, just do it right the first time by peer reviewing and thoroughly checking the design. Another idea is to get help from a local university with an extensive engineering department that has such equipment; [the same one I do the datacenter stuff at](../wk08_2024/).
+A major concern with designing a PCB with high speed signals such as PCIe is that properly debugging the design requires equipment that is over US$23,000. I came up with a few ideas to overcome this: for one, just do it right the first time by peer reviewing and thoroughly checking the design. Another idea is to get help from a local university with an extensive engineering department that has such equipment; [the same one I do the datacenter stuff at](/wk08_2024/).
 
 I have not gotten to the step of designing the PCB as I still have so much I need to do on the schematic.

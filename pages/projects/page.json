@@ -134,10 +134,6 @@
                 },
                 {
                     "type": "full",
-                    "page": "/projects/pc_misc/"
-                },
-                {
-                    "type": "full",
                     "page": "/projects/svcs/"
                 },
                 {
@@ -190,10 +186,6 @@
                 {
                     "type": "full",
                     "page": "/projects/style/"
-                },
-                {
-                    "type": "full",
-                    "page": "/projects/codenames/"
                 }
             ]
         }

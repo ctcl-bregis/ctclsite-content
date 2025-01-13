@@ -3,5 +3,5 @@
 # Privacy Policy
 The privacy policy is at a different page. 
 
-[Link to Privacy Policy](../privacy/)
+[Link to Privacy Policy](/privacy/)
 

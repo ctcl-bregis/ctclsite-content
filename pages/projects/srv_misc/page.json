@@ -16,24 +16,24 @@
         "srv_dxm": {
             "type": "content",
             "boxed": true,
-            "title": "ROUTER - Dextromethorphan",
-            "theme": "green",
+            "title": "ROUTER1",
+            "theme": "gold",
             "fitscreen": false,
             "content": "srv_dxm.md"
         },
         "srv_prm": {
             "type": "content",
             "boxed": true,
-            "title": "WBSD - Promethazine",
-            "theme": "green",
+            "title": "WBSD1",
+            "theme": "gold",
             "fitscreen": false,
             "content": "srv_prm.md"
         },
         "srv_vc": {
             "type": "content",
             "boxed": true,
-            "title": "PRSV - Vinyl Chloride",
-            "theme": "nanblue",
+            "title": "PRSV",
+            "theme": "gold",
             "fitscreen": false,
             "content": "srv_vc.md"
         }

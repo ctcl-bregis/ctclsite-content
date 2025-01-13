@@ -1,4 +1,4 @@
-ROUTER is the hostname given to a server dedicated to acting as a firewall and router. The current hardware platform used for ROUTER is codenamed "Dextromethorphan" (shorthand "DXM").
+ROUTER is the hostname given to a server dedicated to acting as a firewall and router.
 
 Specifications as of May 2, 2024:
 

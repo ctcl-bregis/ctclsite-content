@@ -1,0 +1,25 @@
+{
+    "title": "Assembly and Manufacturing",
+    "theme": "mct2",
+    "startdate": null,
+    "enddate": null,
+    "dateprecision": "year",
+    "desc": "About the device is made",
+    "icon": "",
+    "icontitle": "",
+    "keywords": [],
+    "cat": "",
+    "favicon": "",
+    "headerids": true,
+    "shownavbar": true,
+    "content": {
+        "content": {
+            "type": "content",
+            "boxed": false,
+            "title": "",
+            "theme": "",
+            "fitscreen": false,
+            "content": "assembly.md"
+        }
+    }
+}

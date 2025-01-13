@@ -25,8 +25,8 @@ draw.io is extensively used for rough physical diagrams and electrical block dia
 #### Git and GitHub
 The MediaCow Touch 2 hardware design and software files are hosted on GitHub for anyone to see while having the ability to easily sync progress across devices in cases where I have to go somewhere.
 
-#### ctclsite-rust
-This website hosts this documentation while being a convenient method to showcase my ideas, progress and thought processes. 
+#### StaticSite
+StaticSite is used to generate this website. 
 
 #### Discord
 Using a chat service in as a way to dump ideas into categories has returned from MediaCow Touch 1 where I used a self-hosted Rocket.Chat instance for that purpose. This time I used a private "server" on Discord to brainstorm ideas. At the conclusion of the project, I would make a public release of the channel logs. 
@@ -84,25 +84,34 @@ Hardware used for development since May 2024:
   - Research
 - "Chlorodifluoromethane" ("R22") - Lenovo ThinkPad T430s
   - Planning
-- [No Codename] - Apple iPhone XR
+- [No Codename] - Apple iPhone XR (A1984)
   - Social media promotion
   - Research
   - Communications
-- "Tetrahydrocannabinol" - ASUS Zenfone 9
+- ASUS Zenfone 9 (AI2202)
   - Documentation
   - Communications
   - Research
   - Remote internet access
+- "Butanethiol" - Valve Steam Deck OLED (1030)
+  - Communications
+  - Documentation
+  - Research
+  - Planning
+- Samsung Galaxy S7 WW (SM-G930F)
+  - Communications
+  - Research
+  - Planning
 
 ### Servers
 
-- "Levoamphetamine" - HP ProLiant BL460c G8
+- SVCS1 - HP ProLiant BL460c G8
   - File storage host (Nextcloud)
   - Planning (MediaWiki)
   - DNS server
-- "Promethazine" - Supermicro X8SIE
+- WBSD1 - Supermicro X8SIE
   - File storage
-- "Dextromethorphan" - Supermicro X8SIE
+- ROUTER1 - Supermicro X8SIE
   - Router
   - Remote access host
 
@@ -110,7 +119,7 @@ Hardware used for development since May 2024:
 
 - Texas Instruments TI-Nspire CX
   - Formula calculation
-- "Dimethylheptylpyran" - Flipper Zero FZ.1
+- Flipper Zero FZ.1
   - Device debugging
 
 ## Locations
@@ -207,6 +216,8 @@ Organizations that provided guides, datasheets and other technical support docum
 - YAGEO
 
 ## Inspiration
+
+### Device Design
 MediaCow Touch 2's design and hardware had inspiration from the following products:
 
 - Ainol NOVO7 Paladin
@@ -269,6 +280,16 @@ MediaCow Touch 2's design and hardware had inspiration from the following produc
 - Supermicro H13SAE-MF
   - Socketed BIOS SPI flash idea
   - TPM module pinout
-- Valve Steam Deck
+- Valve Steam Deck LCD (1010) and OLED (1030)
   - Overall physical design inspiration
   - Device usage ideas
+  - Component selection
+
+### Aesthetic Inspiration
+
+- OneShot (2016 game), OneShot World Machine Edition (2024 game)
+  - The game had significant influence over aesthetics of the project
+- ULTRAKILL (2018-present game)
+  - ULTRAKILL is one of the two games I have tested on the LattePanda Mu when I received it initially, OneShot being the other game.
+  - VCR OSD Mono being an option of one of the UI fonts that may be used with the SMEC Side-Mounted Display is inspired by the game.
+  - The game was referenced in an example for the Rust embedded-graphics crate on the MCT2-SMEC repository 

@@ -1,5 +1,5 @@
 
-As stated in the [Week 48 2024 blog post](/blog/wk48_2024), I have started to do a major refactoring of MediaCow Touch 2. 
+As stated in the [Week 48, 2024 blog post](/blog/wk48_2024), I have started to do a major refactoring of MediaCow Touch 2. 
 
 ## Refactoring
 On November 27, 2024, I started the refactoring of the project. On both the GitHub repository and on the website, I moved everything into a directory named "old" and started fresh.
@@ -13,24 +13,37 @@ I want to have MediaCow Touch 2 be unique instead of having it yet another DIY t
 
 To make this possible, I must come up with a solid project and task management system, preferably one where I do not have to write any code.
 
-## Current Progress
-As mentioned before, I basically started fresh, with the existing progress available for reference.
+## Current Status
+I have came up with new deadlines for the project. The first deadline is March 27, 2025; GalaxyCon Richmond. The second deadline is June 20, 2025; the summer solstice.
 
-Some parts may be copied from the former design, such as the USB Type-C controller.
+With college starting on January 13, 2025 and other projects, I may not have as much time to work on MediaCow Touch 2.
 
-### Case
-The OpenSCAD file for the case is currently a giant mess that I may end up rewriting. 
+### Process
+I have been coming up with some sort of plan to complete this project successfully.
 
-Currently, the device is 52mm thick without the display bezel. The inside of the case is 38mm thick which should be enough for the carrier board with the LattePanda Mu and its heatsink. This, unfortunately, has the device thicker than the original MediaCow Touch which was something I wanted to avoid.
+An idea I had was to design and 3D print the case before I start circuit design. I would, however, need to determine things like connectors, placement of the side-mounted display and vent placement before I can design and print the case.
 
-### SMEC Video on Main Display
-I put down some ideas for a PCB that switches video from the LattePanda Mu and the HDMI display interface of SMEC; the SP7021.
+### Steam Deck
+The Steam Deck OLED that I have received on January 3, 2025 already has made an impact over the design of MediaCow Touch 2.
 
-It turns out that video bridge ICs are quite difficult to source, especially those for DisplayPort and MIPI DSI. This feature is likely not going to be needed or practical as configuration can be done from the side-mounted display. For debugging purposes, I may leave the HDMI interface exposed through an FPC connector.
+I have decided to have all of the connectors and the side-mounted display on the top side (screen facing POV) as I have realised that the connectors would be in the way if the device was held on the left and right sides. Having the connectors on the bottom would not work as the device would not be able to be stood up if anything is connected. Also, the top side is one of the long sides of the device which give more space for the connectors and display. This, however, would bring fundamental changes to the design of the case and carrier board that would have been needed to be done anyway.
 
-### SMEC Side Display
-I recently came across the [Tailorpixels TTH318BVE-01C 288x960 LCD](https://tailorpixels.com/product/3-18-inch-ips-tft-bar-lcd-mipi-288x960/). It is larger while having a capacitive touchscreen. However, the display uses a MIPI DSI interface which would require an RGB-MIPI bridge for it to be used with the SP7021. The only RGB-MIPI bridge that I could find that is currently in stock appears to be the Toshiba TC358778XBG. Publicly available information for this IC is limited, sourcing has historically been difficult and it uses a BGA package though it may be possible to make use of it in this project.
+I have noticed that the Steam Deck can charge off from USB PD voltages lower than the rated 15 volts though at a slower rate. This is a feature I almost left out of MediaCow Touch 2 as it would have required a couple extra buck-boost power regulators, adding up to US$10 to the BOM. I plan on having this feature available.
 
-### SMEC Embedded OS
-As mentioned in the [Week 50 2024 blog post](/blog/wk50_2024), I plan to work on adding Debian as a rootfs option for building images for the SP7021.
+### Software Usage
+I recently have started to use QCAD for detailed drawings, starting with the case design. It did not take long to figure out how to use it.
 
+### BIOS and firmware
+The option to have BIOS and embedded controller firmware loaded from an external device would remain.
+
+### Type-C Controller
+The TPS65988 continues to leave me hopelessly confused every time I read its datasheet.
+
+When looking through the old version of the schematic, I have noticed that I had the TPS65988DK part, not the TPS65988(DH). I may reference what I had in the schematic and the TI evaluation module schematic for figuring out how to use the IC.
+
+## Resale
+I originally did not plan on building MediaCow Touch 2 units for resale. This is because that I believed that the design was not unique to existing devices. This was prior to the addition of SMEC, wireless and storage devices being on M.2 modules and the loading of device firmware and BIOS from an external flash. I figured that MediaCow Touch 2 could be considered a security-oriented device with features that have not been seen before in tablets and even laptops. Due to the now uniqueness of the device, I have been considering building them for resale when the time comes.
+
+During development in the June-August 2024 period, I have been asked if I would sell MediaCow Touch 2 devices.
+
+If I were to build MediaCow Touch 2 units for resale, I do not expect it to be inexpensive. MediaCow Touch 2 would be relatively difficult to manufacture with its high component count.

@@ -205,12 +205,6 @@
             "color": "#e29e1c",
             "fgcolor": "#000000",
             "templates": "default"
-        },
-        "white": {
-            "dispname": "White",
-            "color": "#ffffff",
-            "fgcolor": "#000000",
-            "templates": "default"
         }
     },
     "redirects": {

@@ -24,7 +24,7 @@ Information that is automatically collected when an user visits any webpage cons
 
 This information may be provided by the web browser or the device and is not collected from any other means.
 
-The website is open source software therefore the [source code is available for review](../projects/ctclsite/).
+The website is open source software therefore the [source code is available for review](/projects/ctclsite/).
 
 ### Outside of the website
 CTCL may retain publicly posted information from other platforms indefinitely, even if the original post was deleted or made unavailable to the public. This includes messages and social media posts.
@@ -48,7 +48,7 @@ Log data and user content from game servers and other public services hosted on 
 Messages in chat groups including Discord "servers" with CTCL-managed chat bots may be recorded and stored indefinitely. As stated before, if these chat services are hosted by CTCL, all data from these chat services may be recorded and stored indefinitely.
 
 #### Discord bots
-Messages and other data in Discord "servers" with CTCL-managed bots such as [SLAG](../projects/slag/) may be recorded and stored indefinitely.
+Messages and other data in Discord "servers" with CTCL-managed bots such as [SLAG](/projects/slag/) may be recorded and stored indefinitely.
 
 This includes but not limited to:
 

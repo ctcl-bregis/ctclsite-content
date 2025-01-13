@@ -132,7 +132,6 @@ img {
     font-family: 'heuristica';
 }
 
-{#
 @media (prefers-color-scheme: light) {
     body {
         background-color: #ffffff;
@@ -147,5 +146,8 @@ img {
     .linklistlink {
         color: #000000;
     }
+    {# Another hack to have white theme links visible on a white background #}
+    .linklistlink.mct2 {
+        border-color: #000000;
+    }
 }
-#}

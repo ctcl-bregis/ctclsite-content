@@ -1,8 +1,8 @@
 {
     "title": "MediaCow Touch 2 - Part 11",
     "theme": "mct2",
-    "startdate": null,
-    "enddate": null,
+    "startdate": "2025-01-06T00:00:00Z",
+    "enddate": "2025-01-06T00:00:00Z",
     "dateprecision": "day",
     "desc": "The Refactoring",
     "icon": "/static/pages/blog/mct2_p11/mct2_p11_icon.webp",

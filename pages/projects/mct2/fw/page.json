@@ -1,0 +1,25 @@
+{
+    "title": "Firmware",
+    "theme": "mct2",
+    "startdate": null,
+    "enddate": null,
+    "dateprecision": "year",
+    "desc": "BIOS and Firmware",
+    "icon": "",
+    "icontitle": "",
+    "keywords": [],
+    "cat": "",
+    "favicon": "",
+    "headerids": true,
+    "shownavbar": true,
+    "content": {
+        "content": {
+            "type": "content",
+            "boxed": false,
+            "title": "",
+            "theme": "",
+            "fitscreen": false,
+            "content": "fw.md"
+        }
+    }
+}

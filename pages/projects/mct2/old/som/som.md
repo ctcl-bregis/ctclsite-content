@@ -3,7 +3,7 @@ MediaCow Touch 2 surrounds the use of the recently-released LattePanda Mu system
 ## Specifications
 As part of the [LattePanda Mu Free Trial Event](https://www.lattepanda.com/blog-323168.html) that I entered in May 2024, I received a LattePanda Mu and a Lite Carrier Board on July 1, 2024 which I am eternally grateful for. 
 
-This specific unit going into the first MediaCow Touch 2 prototype uses the Intel Processor N100 x86-64 SoC with 8GB of LPDDR5 memory. The module itself that is planned to go into the first prototype was given the [codename](../../codenames/) "Cyclobutane" for multiple reasons.
+This specific unit going into the first MediaCow Touch 2 prototype uses the Intel Processor N100 x86-64 SoC with 8GB of LPDDR5 memory. The module itself that is planned to go into the first prototype was given the [codename](/../codenames/) "Cyclobutane" for multiple reasons.
 
 Quick Specs of "Cyclobutane":
 - CPU: [Intel Processor N100](https://ark.intel.com/content/www/us/en/ark/products/231803/intel-processor-n100-6m-cache-up-to-3-40-ghz.html) with four Alder Lake E-cores at 800MHz to 3.4GHz and 6MB of cache

@@ -26,6 +26,6 @@ There was an OLED display I was going to use from Adafruit but it went out of st
 After a while of comparing OLED displays from Crystalfontz, I eventually picked out the CFAL12832A-022W. 
 
 ### Interface
-*See the [Embedded Controller](../ec/) page for details about how the display is interfaced*
+*See the [Embedded Controller](/ec/) page for details about how the display is interfaced*
 
 The display is driven by the Embedded Controller; SMEC.

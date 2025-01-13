@@ -1,6 +1,6 @@
-"Polycarbonate" is the codename given to the system that is currently the lab/workbench desktop with the hostname WBPC2. This system was set up in the need for a small form factor desktop to take place of the much larger ["Polyethylene"](../pc_pe/) while maintaining support for ECC memory. The entire build cost less than US$100 in June 2023. 
+"Polycarbonate" is the codename given to the system that is currently the lab/workbench desktop with the hostname WBPC2. This system was set up in the need for a small form factor desktop to take place of the much larger ["Polyethylene"](/projects/pc_pe/) while maintaining support for ECC memory. The entire build cost less than US$100 in June 2023.
 
-Configuration as of September 24, 2024:
+Configuration as of January 9, 2025:
 
 - Motherboard: HP Z240
 - CPU: Intel Xeon E3-1270 v5
@@ -11,4 +11,4 @@ Configuration as of September 24, 2024:
 - CPU Cooler: HP Z240 cooler
 - Case: HP Z240 case
 
-Currently dual-boots Windows 10 and Linux Mint 21.1 XFCE.
+Currently dual-boots Windows 10 and Linux Mint 21.1 XFCE though this may change soon.

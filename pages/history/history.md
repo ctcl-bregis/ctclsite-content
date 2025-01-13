@@ -6,16 +6,19 @@
 #### June 2004
 I was born on June 7, 2004. Not much to say here about it. I likely started to use computers at four years old; around 2008-2009.
 
+#### 2008
+It is unknown when I started to use computers for the first time, I presume it was in 2008.
+
 #### May 2011
 In May 2011, I used the "crazyblocks" name in the form of "crazyblocks18" for the first time for Roblox. Roblox was much different back then.
 
-This name later became the default for referring to myself on the internet.
+This name later became the default for referring to myself on the internet. I see this as when I have established an online presence. 
 
 #### Up to 2017
 Up to 2017, I always had some interest in computers though I mostly did not do much with them other than to play games. I started using Scratch in May 2015 where it introduced me to some programming concepts.
 
 #### May 2017 - March 2018
-My current interest in computers and electronics likely started in April-May 2017 after I found a few Qimonda SDRAM ICs in a set-top box that was given to me for me to take apart. A day after, I looked into what Qimonda was and found that one of its major semiconductor plants were here in Richmond, Virginia area that was originally part of Siemens-Motorola (White Oak Semiconductor) then Infineon Technologies.
+My current interest in computers and electronics likely started in April-May 2017 after I found a few Qimonda SDRAM ICs in a set-top box that was given to me for me to take apart. A day after, I looked into what Qimonda was and found that one of its major semiconductor plants were here in the Richmond, Virginia area that was originally part of Siemens-Motorola (White Oak Semiconductor) then Infineon Technologies.
 
 #### August 2017
 In August 2017, I first heard of Jerobeam Fenderson and his work. He later ended up being of great importance to myself for many years after. He was the initial inspiration for me to start growing out my hair in March 2018. 
@@ -31,7 +34,7 @@ The name "Crazyblocks Technologies" was inspired by Infineon Technologies as I h
 On February 2, 2018, I had my last haircut and I officially started growing out my hair in March 2018. 
 
 #### June 2018
-In June 2018, I designed some sort of logo that used the "CBTS" acronym for the first time. An acronym I am not really proud of. The logo looked quite awful and the Impact font was replaced with Cooper Black in late 2018, which I had no license for. "CBTS" was used up to January 2022 where it was replaced by the currently used "CTCL".
+In June 2018, I designed some sort of logo that used the "CBTS" acronym for the first time. An acronym I am not really proud of. The logo looked quite awful and the Impact font was replaced with Cooper Black in late 2018, which I had no license for. "CBTS" was used up to January 2022 where it was replaced by the currently used "CTCL", using custom-made "pixel" fonts.
 
 ### 2019
 2019 was a somewhat productive period of time while at the same time I did many things I would not be proud of.
@@ -48,7 +51,7 @@ In February 2020, I started to use Linux on a Toshiba Satellite laptop from 2007
 #### March 2020
 On March 15, 2020, my high school closed down due to pandemic that has just started. Class attendance became optional so, probably like many, I stopped attending classes virtually for that school year. 
 
-Around the same time, I have received a large amount of ThinkPad laptops from my friend's father, who ended up giving me even more laptops in December 2022 and the [server hardware (HP BladeSystem)](../projects/svcs/) that I use now in April 2023. This further allowed me to explore Linux distributions.
+Around the same time, I have received a large amount of ThinkPad laptops from my friend's father, who ended up giving me even more laptops in December 2022 and the [server hardware (HP BladeSystem)](/projects/svcs/) that I use now in April 2023. This further allowed me to explore Linux distributions.
 
 These two events lead to my further introduction to Linux and computers and I owe a lot to them.
 
@@ -70,7 +73,7 @@ In March 2021, while I was still in class at the Tech Center at Byrd High School
 In early September 2021, I did something I really am not proud of. The incident had a significant impact and changed a lot of my views.
 
 #### October 2021
-In October 2021, I have started to learn the Python programming language. Though I have used Python before in classroom environments in 2018, I have started to learn it for use in personal projects. This was done in order to be able to work on [CAMS](../projects/cams/).
+In October 2021, I have started to learn the Python programming language. Though I have used Python before in classroom environments in 2018, I have started to learn it for use in personal projects. This was done in order to be able to work on [CAMS](/projects/cams/).
 
 ### 2022
 
@@ -80,7 +83,7 @@ In January 2022, the first version of my website that uses backend code went liv
 #### September 2022
 In September 2022, I started to go to college for the first time. It was a new experience and I seemed to not be ready for it just yet. I immediately met others there.
 
-On September 16, 2022, I received a Samsung Galaxy S7 SM-G930F phone that I got off from eBay following water damage to the iPod Touch that I used since December 2019. This was my first ever Android smartphone and I used it alongside the iPhone XR I used at the time for music, communication (Discord) and various other things that are difficult or not possible to do on Apple iOS. The S7 ended up being much more important to myself thatn I thought. The phone was used for photography during the November 2022 business trip to Fort Myers Beach, Florida. 
+On September 16, 2022, I received a Samsung Galaxy S7 SM-G930F phone that I got off from eBay following water damage to the iPod Touch that I used since December 2019. This was my first ever Android smartphone and I used it alongside the iPhone XR I used at the time for music, communication (Discord) and various other things that are difficult or not possible to do on Apple iOS. The S7 ended up being much more important to myself than I thought. The phone was used for photography during the November 2022 business trip to Fort Myers Beach, Florida as I have considered it to have a better camera than the iPhone XR while having expandable storage.
 
 #### October 2022
 October 2022 was a somewhat dark period of time for myself. In late October 2022, I had my first ever contraction of the COVID-19 virus which lasted for two weeks, this postponed the business trip to Fort Myers Beach, Florida.
@@ -98,16 +101,16 @@ In April 2023, I have stopped using the full name "CrazyblocksTechnologies Compu
 
 At the same time I have retired the "elf" theming that I was using since 2020 and instead I started to associate myself with Alucard from Castlevania as I looked much more like him than fictional elves. The theming was also greatly inspired by the Terraria developer, Leinfors. The name "Alucard" was started to be used as an online nickname, exclusive to Discord, as CTCL or CTCL-Tech would sound too much like a business name.
 
-In late April 2023, a friend's father (the same one who supplied the ThinkPad laptops) gave me an HP BladeSystem C3000 chassis along with blade servers compatible with it among other server equipment such as UPS systems and cables. I did not set up the equipment until late May where it took place of the [Supermicro X8DAi that I was using temporarily](../projects/pc_pe/).
+In late April 2023, a friend's father (the same one who supplied the ThinkPad laptops) gave me an HP BladeSystem C3000 chassis along with blade servers compatible with it among other server equipment such as UPS systems and cables. I did not set up the equipment until late May where it took place of the [Supermicro X8DAi that I was using temporarily](/projects/pc_pe/).
 
 #### June 2023
-In June 2023, I returned to Fort Myers Beach, Florida to look over a property I helped work on. I released the first version of [ContactList](../projects/contactlist/) while I was there.
+In June 2023, I returned to Fort Myers Beach, Florida to look over a property I helped work on. I released the first version of [ContactList](/projects/contactlist/) while I was there.
 
 #### August 2023
 From July 31 to August 4, 2024, I started the "nonmonolithic" photography project that I regularly updated until November 9, 2023.
 
 ### 2024
-2024 continued to be a dark period of time for myself.
+2024 continued to be a dark period of time for myself but with great personal developments.
 
 #### February 2024
 In February 2024, I started to use the Rust programming language again for server software projects.
@@ -136,6 +139,8 @@ In November 2024, following the 2024 US Presidential Election, I have started to
 
 On November 26, 2024, I saw signage for the future Micron Technology DRAM plant in Clay, New York that was not there in previous years.
 
-#### December 2024
-With a terrible experience of trying to discontinue the use of the antidepressant, fluoxetine, I have started to work on distancing myself from drug use altogether. This includes the phasing out of codenames relating to such substances, like "Lisdexamfetamine" and "Tetrahydrocannabinol". I have already removed mentions of the medications serdexmethylphenidate and lisdexamfetamine from descriptions of the project Serine and Lysine, respectively.
+### 2025
+
+#### January 2025
+
 

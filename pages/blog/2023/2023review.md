@@ -5,19 +5,19 @@ I plan to significantly improve my life throughout 2024 from learning from the e
 ## Projects
 In 2023, I released a less than anticipated amount of projects.
 
-During 2023, I released just software projects due to the challenges faced with the assembly of hardware projects. Most of these were just revisions of [the website](../../projects/ctclsite/).
+During 2023, I released just software projects due to the challenges faced with the assembly of hardware projects. Most of these were just revisions of [the website](/projects/ctclsite/).
 
 In 2023, these projects were released:
 
-- [ContactList](../../projects/contactlist/)
+- [ContactList](/projects/contactlist/)
 - ctclsite-python v3
 - ctclsite-python v4
 - ctclsite-python v5
 - ctclsite-rust v1
-- [ToDoKiosk](../../projects/todokiosk/)
+- [ToDoKiosk](/projects/todokiosk/)
 
 ## Game Design
-In 2023, I made many online friends after gaining more interest in the development of maps for the 2011 puzzle game, Portal 2. [Project Page](../../projects/p2maps/).
+In 2023, I made many online friends after gaining more interest in the development of maps for the 2011 puzzle game, Portal 2. [Project Page](/projects/p2maps/).
 
 ## ctclsite-python v5
 Before the end of the year, I have released the fifth rewrite of the Python version of the website.

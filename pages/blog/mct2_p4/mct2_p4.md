@@ -36,7 +36,7 @@ On July 31, 2024, [KunYi Chen](https://kunyichen.wordpress.com) ([GitHub](https:
 ## Documentation
 On July 28, 2024, the idea to use Sphinx was dropped due to potential difficulties in integrating it into this website along with confusion on the implementation of custom themes. Instead, I came up with "documentation" feature that can be used on most pages. As I deal with exhaustion and the ever growing pressure behind the completion of MediaCow Touch 2's hardware designs, the documentation page type's implementation is really hacky and just supports two page levels for the time being. 
 
-Currently, the only page that makes use of this new documentation feature is the [MediaCow Touch 2 Project Page](../../projects/mct2/). It may find use in other pages I start working on more projects with the same amount of complexity, namely CAMS and MediaCow Touch Mini SP7021. At that point, I may add the feature to have more document levels which is not difficult as Serde JSON appears to easily support recursive strucutres.
+Currently, the only page that makes use of this new documentation feature is the [MediaCow Touch 2 Project Page](/projects/mct2/). It may find use in other pages I start working on more projects with the same amount of complexity, namely CAMS and MediaCow Touch Mini SP7021. At that point, I may add the feature to have more document levels which is not difficult as Serde JSON appears to easily support recursive strucutres.
 
 ## Other Things
 I went out to basically do research by looking at existing devices that make use of the same parts that I plan to use in MediaCow Touch 2.

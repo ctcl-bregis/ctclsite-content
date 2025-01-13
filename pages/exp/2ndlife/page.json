@@ -1,0 +1,25 @@
+{
+    "title": "2nd Life Inc.",
+    "theme": "gold",
+    "startdate": null,
+    "enddate": null,
+    "dateprecision": "year",
+    "desc": "Work experience at 2nd Life Inc.",
+    "icon": "",
+    "icontitle": "",
+    "keywords": [],
+    "cat": "",
+    "favicon": "",
+    "headerids": true,
+    "shownavbar": true,
+    "content": {
+        "content": {
+            "type": "content",
+            "boxed": false,
+            "title": "",
+            "theme": "",
+            "fitscreen": false,
+            "content": "2ndlife.md"
+        }
+    }
+}

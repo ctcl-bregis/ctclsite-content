@@ -33,7 +33,9 @@ a {
 }
 
 hr {
-    border: 1px solid {{ theme.color }};
+    border-width: 1px;
+    border-style: solid 
+    border-color: {{ theme.color }};
 }
 
 {% for h in range(1,7) %}
@@ -69,7 +71,6 @@ h{{ h }} {
 
 .menu {
     clear: both;
-    color: #000000;
     overflow: hidden;
     background-color: {{ theme.color }};
     border: 2pt solid {{ theme.color }};
@@ -119,4 +120,30 @@ ul {
 
 .linklistlink.mct2 {
     font-family: 'heuristica';
+}
+
+@media (prefers-color-scheme: light) {
+    body {
+        background-color: #ffffff;
+        color: #000000;
+    }
+    .menu {
+        background-color: #000000;
+        border: 2pt solid #000000;
+    }
+    .menu a {
+        color: #ffffff;
+        background-color: #000000;
+    }
+    .menu a:hover {
+        color: #000000;
+        background-color: #ffffff;
+    }
+    .linklistlink, .linklistlink.mct2 {
+        color: #000000;
+        border-color: #000000;
+    }
+    hr {
+        border-color: #000000;
+    }
 }

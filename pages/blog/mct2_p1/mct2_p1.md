@@ -1,5 +1,5 @@
 <div style="margin: 8px; border: 2px solid #FFFFFF; padding: 8px;">
-<p style="margin: 16px; font-size: 16pt;">For actual project information, see <a href="../../projects/mct2/">MediaCow Touch 2 project page</a></p>
+<p style="margin: 16px; font-size: 16pt;">For actual project information, see <a href="/projects/mct2/">MediaCow Touch 2 project page</a></p>
 </div>
 
 ## Introduction
@@ -14,7 +14,7 @@ My goal for the project is to have a working, physical prototype by August 26, 2
 ## The LattePanda Mu
 On July 1, 2024, I received the LattePanda Mu System on Module (SoM) along with its Lite Carrier Board. I did not expect the LattePanda Mu to be as small as it is with a surface area smaller than Raspberry Pi format boards.
 
-On July 2, 2024, I have assembled the carrier board with its acrylic plate and the LattePanda Mu. The module itself received the codename "Cyclobutane" which is the first codename I have assigned to development hardware. See [Codename Guide](../../projects/codenames/) for information on how and why I chose codenames for computer hardware. 
+On July 2, 2024, I have assembled the carrier board with its acrylic plate and the LattePanda Mu. The module itself received the codename "Cyclobutane" which is the first codename I have assigned to development hardware. See [Codename Guide](/projects/codenames/) for information on how and why I chose codenames for computer hardware. 
 
 When I booted up the LattePanda Mu, it was much more powerful than i expected it to be. It came with Windows 11 which I kept briefly to test gaming performance. This was the first time I ever used Windows 11 on my hardware and the first time I have used it for more than 5 minutes at a time.
 
@@ -22,7 +22,7 @@ When I booted up the LattePanda Mu, it was much more powerful than i expected it
 <img src="/static/pages/blog/mct2_p1/mu_win11_thumb.webp" title="Windows 11 - July 2, 2024"/>
 
 
-During this short period of time, I tested two games: ULTRAKILL and OneShot, which are realitively lightweight. Both games ran flawlessly at 60 FPS, ULTRAKILL ran better on the Intel N100 than the dual Intel Xeon X5670 and AMD Radeon RX 580 in ["Polyethylene"](../../projects/pc_pe/). OneShot's performance was not surprising since it is a top-down 2D game made with RPG Maker XP. This is great as all I originally expected out of MediaCow Touch 2 is a custom Android tablet that would just be used for messaging and web browsing. This is as a massive upgrade to the Rockchip RK3399 hardware I planned on using before.
+During this short period of time, I tested two games: ULTRAKILL and OneShot, which are realitively lightweight. Both games ran flawlessly at 60 FPS, ULTRAKILL ran better on the Intel N100 than the dual Intel Xeon X5670 and AMD Radeon RX 580 in ["Polyethylene"](/projects/pc_pe/). OneShot's performance was not surprising since it is a top-down 2D game made with RPG Maker XP. This is great as all I originally expected out of MediaCow Touch 2 is a custom Android tablet that would just be used for messaging and web browsing. This is as a massive upgrade to the Rockchip RK3399 hardware I planned on using before.
 
 
 <img src="/static/pages/blog/mct2_p1/mu_ultrakill_thumb.webp" title="Sufficient Firepower - July 2, 2024"/>
@@ -35,9 +35,9 @@ After some gaming, I decided to install Linux Mint 21.3 on the system to test it
 
 
 ## Challenges and Subsystems
-MediaCow Touch 2 is a highly ambitious project for someone with no formal education in the field and [minimal experience with circuit design](../../projects/mathpad/). 
+MediaCow Touch 2 is a highly ambitious project for someone with no formal education in the field and [minimal experience with circuit design](/projects/mathpad/). 
 
-For more about each subsystem, see [the project page for MediaCow Touch 2](../../projects/mct2/).
+For more about each subsystem, see [the project page for MediaCow Touch 2](/projects/mct2/).
 
 ### Circuit Design
 Circuit design will be the most complex part of the design by far and is what is expected to take the most amount of time.

@@ -1,4 +1,4 @@
-This page covers physical connectivity provided by the device. For details on network and wireless, see [Network](../network/).
+This page covers physical connectivity provided by the device. For details on network and wireless, see [Network](/network/).
 
 ## Overview
 The following connectors are to be present:
@@ -19,7 +19,7 @@ Both TCP ports provided by the N100 are to be used for USB Type-C. **DisplayPort
 
 Each TCP port uses a USB 3.2 and USB 2.0 link.
 
-USB Power Delivery is to be controlled by [SMEC](../smec/).
+USB Power Delivery is to be controlled by [SMEC](/smec/).
 
 ## USB
 

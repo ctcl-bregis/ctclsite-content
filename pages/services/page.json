@@ -11,6 +11,14 @@
     "cat": "",
     "favicon": "",
     "content": {
+        "intro": {
+            "type": "content",
+            "title": "",
+            "content": "intro.md",
+            "theme": "gold",
+            "boxed": true,
+            "fitscreen": false
+        },
         "techsupport": {
             "type": "content",
             "title": "Technical Support",

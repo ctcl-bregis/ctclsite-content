@@ -27,7 +27,7 @@ Two buck-boost converters are on the PPHV supplies of the PD controller. This al
 An option to have USB PD sources available while the system is powered off may be available. This is inspired by a similar function found on the HP ZBook Studio G3 that I currently make use of where 5V power over the USB Type-C ports is available while the system is offline with a configurable minimum required battery percentage.
 
 ### SMEC
-See page [SMEC Power Management](../smec/power/)
+See page [SMEC Power Management](/smec/power/)
 
 ### System on Module
 The System on Module, the LattePanda Mu, is powered from VSYS through a load switch. The System on Module has a wide voltage input with a range of 9 to 20 volts.

@@ -20,7 +20,7 @@ The engine has undergone some modification during this phase, namely with the re
 
 The engine also gets an electric start upgrade. Along with the addition of an electric start, lighting would be added throughout including signal lights and a front light bar.
 
-Some sound and vibration dampening methods are going to be used. The plan to use rubber engine mounts was dropped after how it let the engine move way too far during testing on March 30, 2024. More about this was covered in the [blog post for Week 13, 2024](../../blog/16/). Instead, somewhat thin polyurethane spacers on a square steel channel are going to be used to help with sound dampening while keeping the engine from moving too far.
+Some sound and vibration dampening methods are going to be used. The plan to use rubber engine mounts was dropped after how it let the engine move way too far during testing on March 30, 2024. More about this was covered in the [blog post for Week 13, 2024](/../blog/16/). Instead, somewhat thin polyurethane spacers on a square steel channel are going to be used to help with sound dampening while keeping the engine from moving too far.
 
 ### Transmission
 The centrifugal clutch and many of the chain driven parts of the transmission would be replaced with a CVT (continuously variable transmission) kit.

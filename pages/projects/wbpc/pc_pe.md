@@ -1,12 +1,12 @@
 "Polyethylene" is the codename given to the Supermicro X8DAi desktop platform that I built in 2021.
 
-Planning started in December 2020 and assembly started in January 2021. The system was used throughout 2021 up to the building of ["Polyethylene Terephthalate"](../pc_pet/) in December 2021. Throughout 2022, it was used as a lab workbench system for workflows such as virtualisation, emulation, CAD and EDA. Currently, it is used for showcasing computer assembly that I have done.
+Planning started in December 2020 and assembly started in January 2021. The system was used throughout 2021 up to the building of ["Polyethylene Terephthalate"](/projects/wbpc/) in December 2021. Throughout 2022, it was used as a lab workbench system for workflows such as virtualisation, emulation, CAD and EDA. As of January 2025, the system is used to showcase an example of a complex PC build I have completed. It has made an appearance during the Brightpoint Connect event at Brightpoint Community College in October 2024. It is also used to test the ability of software to run in environments without AVX instruction support though this rarely an issue.
 
-In February 2023, the motherboard was installed in a Supermicro CSE-825 2U chassis to use as my main server as I planned to sell off the Dell PowerEdge R710, R610 and HP ProLiant DL380 G7 that I was using at the time. Codenames that I choose for devices are linked to the motherboard and are not changed when the purpose or other parts such as the case or CPU are changed.
+In February 2023, the motherboard was installed in a Supermicro CSE-825 2U chassis to use as my main server as I planned to sell off the Dell PowerEdge R710, R610 and HP ProLiant DL380 G7 that I was using at the time.
 
-In August 2023, the motherboard was installed back in its original case, with the same RAM kit and the same graphics card in order to bring the system back to its original configuration after ["Polycarbonate"](../pc_pc/) and [the HP BladeSystem servers](../srv_amp/) took over the duties of the desktop and servers.
+In August 2023, the motherboard was installed back in its original case, with the same RAM kit and the same graphics card in order to bring the system back to its original configuration after ["Polycarbonate"](/projects/wbpc/) and [the HP BladeSystem servers](/projects/svcs/) took over the duties of the desktop and servers.
 
-The color theme for the PC build was green/lime, teal and black. The green/lime was from the characteristic green PCB of Supermicro motherboards and the distinct green of the heatsinks of the Nanya memory modules.
+The color scheme for the PC build was green/lime, teal and black. The green/lime was from the characteristic green PCB of Supermicro motherboards and the distinct green of the heatsinks of the Nanya memory modules.
 
 Current configuration as of December 19, 2023:
 
@@ -21,3 +21,4 @@ Current configuration as of December 19, 2023:
 - Case fans: 3x 120mm Protechnic Magic MGT12012ZB-W25
 - CPU coolers: 2x Supermicro X8-series 1U heatsinks with one DEEP COOL ICE BLADE 200M fan each
 - Power supply: Corsair RM650x
+

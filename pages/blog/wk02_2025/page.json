@@ -1,0 +1,25 @@
+{
+    "title": "Week 2, 2025",
+    "theme": "gold",
+    "startdate": "2025-01-13T00:00:00Z",
+    "enddate": "2025-01-13T00:00:00Z",
+    "dateprecision": "day",
+    "desc": "The second week of 2025",
+    "icon": "/static/pages/blog/wk02_2025/wk022025_icon_alt.webp",
+    "icontitle": "Vampire at the campfire",
+    "keywords": [],
+    "cat": "update",
+    "favicon": "",
+    "headerids": true,
+    "shownavbar": true,
+    "content": {
+        "content": {
+            "type": "content",
+            "boxed": false,
+            "title": "",
+            "theme": "",
+            "fitscreen": false,
+            "content": "week_2_2025.md"
+        }
+    }
+}

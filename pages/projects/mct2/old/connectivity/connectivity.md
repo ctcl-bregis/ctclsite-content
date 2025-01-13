@@ -46,7 +46,7 @@ A 2-pin 2.54mm standard pin header connected to the sytem on module (LattePanda 
 Another 2-pin 2.54mm standard pin header is also available for connection to UART0 on SMEC (SP7021).
 
 ### SMBus and SMLink
-Both the SMBus and SMLink interfaces are connected to SMEC. See the page on the [Embedded Controller](../smec/) for details.
+Both the SMBus and SMLink interfaces are connected to SMEC. See the page on the [Embedded Controller](/smec/) for details.
 
 ### USB 2.0
 All of the available USB 2.0 interfaces are used. 

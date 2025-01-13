@@ -1,6 +1,4 @@
-WBSD is a server dedicated to being a Network Attached Storage (NAS) device. It is used exclusively by services hosted on [SVCS1](../svcs/).
-
-The current hardware platform used for WBSD is codenamed "Promethazine" (Shorthand "PRM"):
+WBSD is a server dedicated to being a Network Attached Storage (NAS) device. It is used exclusively by services hosted on [SVCS1](/svcs/).
 
 - Motherboard: Supermicro X8SIE-LN4
 - CPU: 1x Intel Xeon X3460

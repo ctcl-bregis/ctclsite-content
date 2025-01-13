@@ -1,0 +1,25 @@
+{
+    "title": "Atlantic Estimating",
+    "theme": "gold",
+    "startdate": null,
+    "enddate": null,
+    "dateprecision": "year",
+    "desc": "Work experience at Atlantic Estimating",
+    "icon": "",
+    "icontitle": "",
+    "keywords": [],
+    "cat": "",
+    "favicon": "",
+    "headerids": true,
+    "shownavbar": true,
+    "content": {
+        "content": {
+            "type": "content",
+            "boxed": false,
+            "title": "",
+            "theme": "",
+            "fitscreen": false,
+            "content": "atlantic.md"
+        }
+    }
+}

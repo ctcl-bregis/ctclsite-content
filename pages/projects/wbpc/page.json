@@ -24,7 +24,7 @@
         "pc_pbt": {
             "type": "content",
             "boxed": true,
-            "title": "Polybutylene Terephthalate",
+            "title": "WBPC1",
             "theme": "red",
             "fitscreen": false,
             "content": "pc_pbt.md"
@@ -32,7 +32,7 @@
         "pc_pc": {
             "type": "content",
             "boxed": true,
-            "title": "Polycarbonate",
+            "title": "WBPC2",
             "theme": "smyellow",
             "fitscreen": false,
             "content": "pc_pc.md"
@@ -48,7 +48,7 @@
         "pc_pet": {
             "type": "content",
             "boxed": true,
-            "title": "Polyethylene Terephthalate",
+            "title": "Former WBPC1 - Polyethylene Terephthalate",
             "theme": "qipurple",
             "fitscreen": false,
             "content": "pc_pet.md"
@@ -56,18 +56,10 @@
         "pc_pmma": {
             "type": "content",
             "boxed": true,
-            "title": "Polymethylmethylacrylate",
+            "title": "MWDL1",
             "theme": "gold",
             "fitscreen": false,
             "content": "pc_pmma.md"
-        },
-        "pc_pp": {
-            "type": "content",
-            "boxed": true,
-            "title": "Polypropylene",
-            "theme": "red99",
-            "fitscreen": false,
-            "content": "pc_pp.md"
         }
     }
 }

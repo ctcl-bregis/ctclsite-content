@@ -41,4 +41,4 @@ Sometime in November 2020, I ended up having to use Allwinner's PheonixSuite sof
 ## Legacy 
 On February 3, 2024, the device was booted for the first time since presumably September 2022 and all functionality continued to be present.
 
-The device may find use in the development of [MediaCow Touch 2 "Paris"](../mct_2/)
+The device may find use in the development of [MediaCow Touch 2 "Paris"](/mct_2/)

@@ -24,7 +24,7 @@
         "svcs_lva": {
             "type": "content",
             "boxed": true,
-            "title": "\"Levoamphetamine\"",
+            "title": "SVCS1",
             "theme": "smyellow",
             "fitscreen": false,
             "content": "svcs_lva.md"
@@ -32,7 +32,7 @@
         "svcs_ldx": {
             "type": "content",
             "boxed": true,
-            "title": "\"Lisdexamfetamine\"",
+            "title": "SVCS2",
             "theme": "smyellow",
             "fitscreen": false,
             "content": "svcs_ldx.md"
@@ -40,18 +40,10 @@
         "svcs_dxa": {
             "type": "content",
             "boxed": true,
-            "title": "\"Dextroamphetamine\"",
+            "title": "SVCS3",
             "theme": "smyellow",
             "fitscreen": false,
             "content": "svcs_dxa.md"
-        },
-        "svcs_sdx": {
-            "type": "content",
-            "boxed": true,
-            "title": "\"Serdexmethylphenidate\"",
-            "theme": "sdxgreen",
-            "fitscreen": false,
-            "content": "svcs_sdx.md"
         }
     }
 }
